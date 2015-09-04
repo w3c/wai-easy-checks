@@ -172,11 +172,12 @@ margin: 0 2% 0 27%;
       Web accessible to people with disabilities</p>
 </div>
 <div id="main">
-   <p class="highlight-version"><strong>This is an internal Editor's Draft. The main page is at <a href="http://www.w3.org/wai/eval/preliminary">www.w3.org/WAI/eval/preliminary</a><br />
-      Please send any suggestions, edits, or comments </strong>to the publicly-archived list: <a href="mailto:wai-eo-editors@w3.org">wai-eo-editors@w3.org</a><br />
-      (Updated $Date: 2015/09/03 15:55:07 $)</p>
-   <h1><a name="startcontent" id="startcontent"><span class="subhead">[Editors' Draft]</span> Easy Checks - A First Review of Web Accessibility<br />
-      <span class="subhead">(previously titled Preliminary Review)</span></a></h1>
+  <p class="highlight-version"><strong>This is an internal Editors' Draft. The main page is at <a href="http://www.w3.org/wai/eval/preliminary">www.w3.org/WAI/eval/preliminary</a><br />
+    Please send any suggestions, edits, or comments </strong>to the publicly-archived list: <a href="mailto:wai-eo-editors@w3.org">wai-eo-editors@w3.org</a><br />
+    (Updated $Date: 2015/09/03 21:42:46 $)</p>
+  <h1><a name="startcontent" id="startcontent"><span class="subhead">[Editors' Draft]</span> Easy Checks - A First Review of Web Accessibility<br />
+    <span class="subhead">(previously titled Preliminary Review)</span></a></h1>
+
    <h2 class="no-display" id="introduction">Introduction</h2>
    <p>This page helps you assess the accessibility  of a web page. With these  simple steps, you can get an idea whether or not accessibility is addressed in even the most basic way.</p>
    <p class="listintro">These  checks cover just a few accessibility issues and are designed to be quick and easy, rather than definitive. A web page could seem to pass these checks, yet still have accessibility barriers. More robust evaluation is needed to evaluate all issues comprehensively. Additional evaluation guidance is available from:</p>
@@ -204,7 +205,9 @@ margin: 0 2% 0 27%;
       </li>
       <li><em>General:</em>
          <ul>
-            <li><a href="#media">Multimedia (video, audio) alternatives</a></li>
+
+<li><a href="#flash">Flashing or Blinking Content</a></li>
+<li><a href="#media">Multimedia (video, audio) alternatives</a></li>
             <li><a href="#structure">Basic Structure Check</a></li>
          </ul>
       </li>
@@ -214,13 +217,13 @@ margin: 0 2% 0 27%;
       <h2><a name="using" id="using"></a>Using these Easy Checks</h2>
       <h3 id="excolbuttomns">Click headings with [+] buttons to get hidden information</h3>
       <p>Some sections of this page might not apply to your situation, for example, they are for a  browser you don't have, or you  only need to read them once. These sections are hidden by default so they don't clutter the page. You can expand them to see the information. The headings of hidden  sections have a plus button [+] before them. Screen readers will say something like: &quot;graphic, expand this section&quot;. To get the hidden information, click the button or click anywhere on the heading.</p>
-      <p>The  sections below all have hidden information under expandable headings. The first time you read this page, <strong>we recommend that you expand the headings of these four sections and  read them.</strong></p>
+      <p>The  sections below all have hidden information under expandable headings. The first time you read this page, <strong>we recommend that you expand the headings of these five sections and  read them.</strong></p>
       <h3 class="f_panelHead" id="tools">Tools: FF Toolbar and IE WAT <em>(optional)</em></h3>
       <div>
          <p><strong>You can do most of these checks with any browser, that is, you do <i>not</i> need to download special tools.</strong></p>
-         <p class="listintro">However, some checks are easier if you can download tools. To keep it simple, we&#39;ve included instructions for just two tools - the Web Developer Toolbar for Firefox (&quot;FF Toolbar&quot;) and the Web Accessibility Toolbar for IE (&quot;IE WAT&quot;). Both are free extensions/add-ons available in different languages.</p>
+         <p class="listintro">However, some checks are easier if you can download tools. To keep it simple, we&#39;ve included instructions for just two tools - the Web Developer Toolbar for Firefox (&quot;FF Toolbar&quot;) and the Web Accessibility Toolbar for Internet Explorer (&quot;IE WAT&quot;). Both are free extensions/add-ons available in different languages.</p>
          <ul class="listafterpul">
-            <li>FF Toolbar - To do the checks that are indicated &quot;with FF Toolbar&quot;, you&#39;ll need the <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox browser</a> and the <a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/">Web Developer extension</a>/add-on.</li>
+            <li>FF Toolbar - To do the checks that are indicated &quot;with the Firefox (FF) Toolbar&quot;, you&#39;ll need the <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox browser</a> and the <a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/">Web Developer extension</a>/add-on.</li>
             <li>IE WAT - To do the checks that are indicated &quot;with IE WAT&quot;, you&#39;ll need the <a href="http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-9/worldwide-languages">Internet Explorer (IE) browser</a> version 9 or later and the <a href="http://paciellogroup.com/resources/wat/ie">Web Accessibility Toolbar</a> version  19 July 2013 or later.</li>
          </ul>
          <p>Note that we&#39;re not endorsing these tools over others. There are many other useful <a href="http://www.w3.org/WAI/eval/selectingtools">tools to help with evaluation</a>.</p>
@@ -234,11 +237,11 @@ margin: 0 2% 0 27%;
       <h3 class="f_panelHead" id="bad">Practicing with BAD, the Before-After Demo</h3>
       <div>
          <p>The <a href="http://www.w3.org/WAI/demos/bad/">Before and After Demonstration (BAD)</a> from W3C WAI shows an inaccessible website and a retrofitted version of this same website with the accessibility barriers fixed. You can use the BAD pages to learn how to do these checks. For example, first, do the check on an accessible version of a page to see what it should look like. Then, do the check on the corresponding inaccessible page to see what it looks like when there are accessibility barriers.</p>
-         <p>The BAD pages have annotations that are notes on what is accessible and not accessible in the demo pages. To turn on annotations, click &quot;Show Annotations&quot; in the yellow box near the top, middle of the page; then click a number and a box title Note... will open with the explanation.</p>
+         <p>The BAD pages have annotations that are notes on what is accessible and not accessible in the demo pages. To turn on annotations, click &quot;Show Annotations&quot; in the yellow box near the top, middle of the page; then click a number and a box titled <em>"Note ##"</em> will open with the explanation.</p>
       </div>
       <h3 class="f_panelHead" id="background">Background</h3>
       <div>
-         <p>These checks are designed for anyone who can use the web. You don&#39;t need much knowledge or skill. To check a couple details, you need to see the visual page or hear audio. However, there are lots of things that anyone can check.</p>
+         <p>These checks are designed for anyone who can use the web. You don&#39;t need much knowledge or skill. To check a couple of details, it may be necessary to see the visual page or hear audio. However, there are many things that anyone can check.</p>
          <p class="listintro">Here are some things to know that will help you understand the brief explanations throughout this page:</p>
          <ul class="listafterpul">
             <li><strong><em><a name="markup" id="markup"></a>markup</em></strong> refers to web page code, called HTML. You can see the markup of a web page in most browsers by selecting from the menu: View &gt; Source. You do not  need to look at the markup to do these checks; however, it does help to understand what  &quot;markup&quot; and &quot;marked up&quot; means.</li>
@@ -365,7 +368,7 @@ margin: 0 2% 0 27%;
       More robust evaluation is needed to evaluate all issues comprehensively. <a href="#moreeval">Encourage thorough accessibility evaluation</a>.</p>
       <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
       <h2 id="images">Image text alternatives (&quot;alt text&quot;)</h2>
-      <p>Text alternatives (&quot;alt text&quot;) convey the purpose of an image, including pictures, illustrations, charts, etc. Text alternatives are used by people who cannot see the image. (For example, people who are blind and use screen readers can hear the alt text read out; and people who have turned off images to speed download or save bandwidth can see the alt text.)</p>
+      <p>Text alternatives (&quot;alt text&quot;) convey the purpose of an image, including pictures, illustrations, charts, etc. Text alternatives are used by people who do not see the image. (For example, people who are blind and use screen readers can hear the alt text read out; and people who have turned off images to speed download or save bandwidth can see the alt text.)</p>
       <p>The text should be functional and provide an equivalent user experience, not necessarily describe the image. (For example,  appropriate text alternative for a search button <img src="/WAI/images/easychecks/search-button.png" alt="" width="36" height="24" /> would be &quot;search&quot;, not &quot;magnifying glass&quot;.)</p>
       <p class="listintro">You don&#39;t usually see the alt text on a web page, it is in the web page <a href="#markup" class="termref">markup</a> (like this:<br />
          <code>&lt;img src=&quot;pointer_to_image.png&quot; alt=&quot;here's where the alternative text goes&quot;&gt;</code>).<br />
@@ -768,7 +771,7 @@ margin: 0 2% 0 27%;
       </ul>
       <p>When pages are not designed properly, they  can be unusable when the text size is changed, especially when it is changed through  text-only zoom or text settings. Sometimes columns and sections overlap, the space between lines disappears,  lines of text become too long, or text disappears.</p>
 
-      <div class="figure multimg" style="width:624px;"> <img src="/WAI/images/easychecks/zoom-100.png" alt="" width="305" height="224"/><img src="/WAI/images/easychecks/zoom-overlap.png" alt="" width="305" height="224" />
+      <div class="figure multimg" style="width:624px;"> <img src="/WAI/images/easychecks/zoom-100.png" alt="" width="305" height="224" /><img src="/WAI/images/easychecks/zoom-overlap.png" alt="" width="305" height="224" />
          <div class="figcaption">Figure: Two screen captures show that when text size is increased, the heading overlaps the main text, the main text overlaps the sidebar text; and the sidebar text is cut off at the bottom.</div>
       </div>
       <!--.figure-->
@@ -836,7 +839,7 @@ margin: 0 2% 0 27%;
       </div>
       <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
       <h2 id="interaction">Keyboard access and visual focus</h2>
-      <p>Many people cannot use a mouse and rely on the keyboard to interact with the Web. People who are blind and some sighted people with mobility impairments  rely on the keyboard or on assistive technologies and strategies that rely on keyboard commands, such as voice input. Websites need to enable people to access all content and functionality &mdash; links, forms, media controls, etc. &mdash; through a keyboard.</p>
+      <p>Many people cannot use a mouse and rely on the keyboard to interact with the Web. People who are blind and some sighted people with mobility impairments  rely on the keyboard or on assistive technologies and strategies that rely on keyboard commands, such as voice input. Accessible websites enable people to access all content and functionality &mdash; links, forms, media controls, etc. &mdash; through a keyboard.</p>
       <p>Keyboard focus should be visible and should follow a logical order through the page elements. Visible keyboard focus could be a  border or highlight, as shown below, that moves as  you tab through the web page.</p>
             <div class="figure" style="width:350px;"> <img src="/WAI/images/easychecks/focus-highlight-border.png" alt="" width="348" height="126" />
          <div class="figcaption">Figure: Dotted border on middle link.</div>
@@ -905,11 +908,11 @@ margin: 0 2% 0 27%;
       </div>
       <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
       <h2 id="forms">Forms, labels, and errors</h2>
-      <p><em>Note: This section is more complex than the others. If it's too complicated, consider skipping it for now and doing the next checks for multimedia and structure</em>.</p>
+      <p><em>Note: This section is more complex than the others. If it's too complicated, consider skipping it for now and proceeding through the remaining checks</em>.</p>
       <p>Labels, keyboard access, clear instructions, and effective error handling are  important for forms accessibility.</p>
       <p>Form fields and other form controls usually have visible labels, such as &quot;E-mail Address:&quot; as the label for a text field.<br />
          <img src="/WAI/images/easychecks/form-label-text.png" width="242" height="29" alt="" class="imgbreathe"/><br />
-         When these labels are <a href="#markup" class="termref">marked up</a> correctly,  people can interact with them using  only the keyboard, using voice input, and using screen readers. Also, the label itself becomes clickable, which enables a person who has difficulty clicking on small radio buttons or checkboxes to click anywhere on the label text.</p>
+         When these labels are <a href="#markup" class="termref">marked up</a> correctly,  people can interact with them using  only the keyboard, using voice input, and using screen readers. Also, the label itself becomes clickable, increasing the target area and making it easier to select small radio buttons or checkboxes.</p>
       <h3 class="whathead">What to do:</h3>
       <p class="whathead">Find  any forms on the page. A form could be a single text box, such as Search, or could be a complex form with text  fields, radio buttons, checkboxes, drop-down lists, and  buttons.</p>
       <h3 class="whathead">What to check for:</h3>
@@ -1049,6 +1052,33 @@ margin: 0 2% 0 27%;
          </ul>
       </div>
       <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+
+
+
+<h2 id="flash">Flashing or Blinking Content</h2>
+<p>People with photosensitive seizure disorders can experience a seizure if web content flashes at them within specific parameters. This will be a problem only if all of the following are true:
+<ol><li>The flashing occurs more than three times in any one second period;</li>
+<li>the flash covers a sufficiently large area of the screen; and</li>
+<li>the flash is bright enough.</li> </ol></p>
+<h3 class="whathead">What to do:</h3>
+<ul><li>Examine the screen display, looking for content that flashes or blinks more than three times in one second. </li>
+<li>If no content blinks or flashes at that rate, the page passes and nothing more is needed. </li>
+<li>If content DOES blink or flash at that rate, set your screen to 1024 x 768 and follow the checks below.</li></ul>
+
+<h3 class="whathead">What to check for:</h3>
+<ul><li>Check that the flashing is smaller than a box that is one third  the height and one fourth the width of the screen.</li>
+<li> If it is smaller than the box, the page passes this requirement and no further testing is needed. </li>
+<li>If the flashing is larger than the box, it may still pass but further testing is beyond the scope of EasyChecks. Use resources below if you wish to proceed further.</li> </ul>
+      <h3 class="f_panelHead">To learn more about flashing content</h3>
+      <div>
+         <ul>
+<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">Three Flashes or Below Threshold</a> Understanding Success Criterion 2.3.1 for WCAG 2.0 (Level A)</li>
+<li>Free, downloadable <a href="http://trace.wisc.edu/peat/">Photosensitive Epilepsy Analysis Tool</a> from the Trace Center at the University of Wisconsin</li>
+         </ul>
+      </div>
+
+
+<p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
       <h2 id="media">Multimedia (video, audio) alternatives</h2>
       <p>Information in podcasts or other audio is not available to people who are deaf or some people who are hard of hearing, unless it is provided in an alternative format such as captions and text  transcripts. Visual information in videos is not available to people who are blind or some people what have low vision, unless it is provided in an alternative format such as audio or  text. (Text can be read  by a screen reader or Braille display, or enlarged and reformatted for people with low vision.)</p>
       <p> (Remember these easy checks  are not comprehensive or definitive.)</p>
@@ -1250,26 +1280,21 @@ margin: 0 2% 0 27%;
 </div>
 <div id="footer">
    <h2>Document Information</h2>
-   <div  class="highlight-version">
-      <h3>Status</h3>
-      <p>This is a Working Draft approved by the Education and Outreach Working Group (<a href="/WAI/EO/">EOWG</a>). Please send any suggestions, edits, or comments to the publicly-archived list: <a href="mailto:wai-eo-editors@w3.org">wai-eo-editors@w3.org</a><br />
-         Status on 20 December 2013: Most of the text  content is complete.
-         We are now working on the illustrations, which we plan to finish in early 2014.<br />
-         The <a href="http://www.w3.org/WAI/EO/wiki/Easy_Checks_changelog">changelog</a> lists edits since June 2013. </p>
-   </div>
-   <p><strong>Status:</strong> <strong>Draft</strong> updated $Date: 2015/09/03 15:55:07 $<br />
-      (Easy Checks - A First Review of Web Accessibility was first published as a draft in June 2013. It replaces Preliminary Review of Web Sites for Accessibility that was first published September 2005 and edited by Shadi Abou-Zahra. It was originally one section of  Evaluating Web Sites for Accessibility that was first published in October 2001 and edited by Judy Brewer and Chuck Letourneau.)<br clear="none" />
-      Editor: Shawn Lawton Henry. Contributors: Sharron Rush, Suzette Keith, Anna Belle Leiserson, Andrew Arch, Wayne Dick, Vicki Menezes Miller, Jennifer Sutton, Ian Pouncey, Denis Boudreau, and other <a href="/WAI/EO/EOWG-members">participants</a> of the Education and Outreach Working Group (<a href="/WAI/EO/">EOWG</a>). </p>
-   <div class="footer-nav">
-      <p>[<a href="http://www.w3.org/WAI/sitemap.html">WAI Site Map</a>] [<a href="http://www.w3.org/WAI/sitehelp.html">Help with WAI Website</a>] [<a href="http://www.w3.org/WAI/search.php">Search</a>] [<a href="/WAI/contacts">Contacting WAI</a>]<br clear="none" />
-         <strong>Feedback welcome to <a href="mailto:wai-eo-editors@w3.org">wai-eo-editors@w3.org</a></strong> (a publicly archived list) or <a href="mailto:wai@w3.org">wai@w3.org</a> (a WAI staff-only list).</p>
-   </div>
-   <div class="copyright">
-      <p><a rel="Copyright" href="/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 1994-2013 <a href="/"><acronym>W3C</acronym></a><sup>®</sup> (<a href="http://www.csail.mit.edu/"><acronym>MIT</acronym></a>, <a href="http://www.ercim.org/"><acronym>ERCIM</acronym></a>, <a href="http://www.keio.ac.jp/">Keio</a>), All Rights Reserved. W3C <a href="/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a>, <a rel="Copyright" href="/Consortium/Legal/copyright-documents">document use</a> and <a rel="Copyright" href="/Consortium/Legal/copyright-software">software
-         licensing</a> rules apply. Your interactions with this site are in
-         accordance with our <a href="/Consortium/Legal/privacy-statement#Public">public</a> and <a href="/Consortium/Legal/privacy-statement#Members">Member</a> privacy
-         statements.</p>
-   </div>
+  <p class="highlight-version"><strong>This is an internal Editors' Draft. The main page is at <a href="http://www.w3.org/wai/eval/preliminary">www.w3.org/WAI/eval/preliminary</a><br />
+    Please send any suggestions, edits, or comments </strong>to the publicly-archived list: <a href="mailto:wai-eo-editors@w3.org">wai-eo-editors@w3.org</a><br />
+    (Updated $Date: 2015/09/03 21:42:46 $)</p>
+   <p><strong>Status:</strong> <strong>Editors' Draft</strong> Updated $Date: 2015/09/03 21:42:46 $ [<a href="http://www.w3.org/WAI/EO/wiki/Easy_Checks_changelog">changelog</a>]<br />
+      Easy Checks - A First Review of Web Accessibility was first published as a draft in June 2013. It replaces Preliminary Review of Web Sites for Accessibility that was first published September 2005 and edited by Shadi Abou-Zahra. It was originally one section of  Evaluating Web Sites for Accessibility that was first published in October 2001 and edited by Judy Brewer and Chuck Letourneau.</p>
+   <p> Editor: Shawn Lawton Henry. Contributors: Sharron Rush, Suzette Keith, Anna Belle Leiserson, Andrew Arch, Wayne Dick, Vicki Menezes Miller, Jennifer Sutton, Ian Pouncey, Denis Boudreau, Tom Jewett, and <a href="/WAI/EO/EOWG-members">participants</a> of the Education and Outreach Working Group (<a href="/WAI/EO/">EOWG</a>). </p>
+      <div class="footer-nav">
+<p>[<a href="http://www.w3.org/WAI/sitemap.html">WAI Site Map</a>] [<a href="http://www.w3.org/WAI/sitehelp.html">Help with WAI Website</a>] [<a href="http://www.w3.org/WAI/search.php">Search</a>] [<a href="/WAI/contacts">Contacting WAI</a>]<br />
+<strong>Feedback welcome to <a href="mailto:wai-eo-editors@w3.org">wai-eo-editors@w3.org</a></strong> (a publicly archived list) or <a href="mailto:wai@w3.org">wai@w3.org</a> (a WAI staff-only list).</p>
+</div> <!-- end footer-nav -->
+
+<div class="copyright">
+<p>Copyright &#xA9; 2015 W3C <sup>&#xAE;</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>,
+<a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>) <a href="/Consortium/Legal/ipr-notice">Usage policies apply</a>.</p>
+</div>
 </div>
 </body>
 </html>
