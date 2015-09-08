@@ -1,0 +1,21 @@
+/**
+ * Visual initialization of the accordion after script initialization
+ * 
+ * @package Excol
+ * @author Mandana Eibegger
+ *          with support from eGovMon Project and 
+ *          W3C/WAI Education and Outreach Working Group (EOWG)
+ *          see http://www.schoener.at/mewidgets/ for more information
+ * @version 1.0 (17 Feb 2012)
+ * 
+ * Content:
+ *  - revert the hiding of panels set in accordionInit (necessary 
+ *    for opera9 - it will otherwise ignore the inline "display:block" settings)
+ *
+ * Loaded by the accordion plugin, set in excol.js
+ */
+ 
+.f_panelHead + * {
+    display: block;
+}
+
