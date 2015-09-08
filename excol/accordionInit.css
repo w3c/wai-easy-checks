@@ -1,0 +1,92 @@
+/**
+ * Visual initialization of the accordion on loading the page
+ * 
+ * @package Excol
+ * @author Mandana Eibegger
+ *          with support from eGovMon Project and 
+ *          W3C/WAI Education and Outreach Working Group (EOWG)
+ *          see http://www.schoener.at/mewidgets/ for more information
+ * @version 1.0 (17 Feb 2012)
+ * 
+ * Content:
+ *  - initialise the visibility of panels to prevent jumping of content
+ *    on script initialization
+ *    ! revert the ""display:none" settings in another style sheet (accordionLoaded.css)
+ *    which is loaded this after the script initialisation is finished (necessary 
+ *    for opera9 - it will otherwise ignore the inline "display:block" settings !
+ *  - styles for tabs and panels that are only needed if scripting is active
+ *
+ * Loaded by excol.js
+ */
+
+/* initialise the visibility of panels */
+
+.f_panelHead + * {
+    display: none;
+}
+
+/* styles for tabs and panels */
+.f_panelHead {
+    margin-bottom: 0;
+    overflow: hidden;
+}
+.f_panelHead + * {
+    margin-left: 0.7em;
+    padding-left: 14px;
+}
+.f_expanderWrapper {
+    float: left;
+    margin: 0em 0.3em 0 0.2em;
+    cursor: pointer;
+}
+.fs_hover .f_expanderWrapper img, .fs_focus .f_expanderWrapper img, .xk_button:focus img, .xk_button:focus {
+    outline: 0.1em solid #993300;
+}
+.f_panelHead.fs_hover, .f_panelHead.fs_focus {
+    border-bottom-style: solid;
+}
+.f_panelHead.fs_selected {
+    border-bottom-style: solid;
+}
+.xk_button {
+    cursor: pointer;
+}
+button.xk_button {
+    background: 0;
+    border: 0;
+    padding: 0;
+    margin: 0.1em 0 0 0;
+}
+.xk_button_all {
+    line-height: 140%;
+}
+.xk_button_all img {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 0.2em;
+    margin-top: -0.2em;
+}
+.xk_button_all {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 0 0 rgba(255, 200, 0, 0.5), 0 1px rgba(255, 255, 255, 0.3) inset, 0 10px rgba(255, 255, 255, 0.2) inset, 0 10px 20px rgba(255, 255, 255, 0.25) inset, 0 -15px 30px rgba(100, 100, 100, 0.3) inset;
+    margin: 2px 7px 5px 2px;
+    padding: 0 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+.xk_button_all:hover {
+    background-color: rgba(100, 100, 220, 0.25);
+}
+.xk_button_all:focus {
+    background-color: rgba(5, 5, 11, 0.95);
+    color: #FFFFFF;
+}
+.xk_button_all:active {
+    background-color: rgba(0, 0, 220, 0.25);
+}
+.xk_button_all[disabled] {
+    opacity: 0.4;
+}
+

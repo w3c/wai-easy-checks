@@ -1,0 +1,22 @@
+/**
+ * Fixes needed for the accordion for IE<=8
+ * 
+ * @package Excol
+ * @author Mandana Eibegger
+ *          with support from eGovMon Project and 
+ *          W3C/WAI Education and Outreach Working Group (EOWG)
+ *          see http://www.schoener.at/mewidgets/ for more information
+ * @version 1.0 (17 Feb 2012)
+ * 
+ */
+ 
+.f_expanderWrapper {
+    margin-top: 0.2em;
+}
+.xk_button_all {
+    width: 13em;
+}
+.xk_button_all:focus {
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E9333333,endColorstr=#E9333333);
+    color: #FFFFFF;
+}

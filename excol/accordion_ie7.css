@@ -1,0 +1,28 @@
+/**
+ * Fixes needed for the accordion for IE<=7
+ * 
+ * @package Excol
+ * @author Mandana Eibegger
+ *          with support from eGovMon Project and 
+ *          W3C/WAI Education and Outreach Working Group (EOWG)
+ *          see http://www.schoener.at/mewidgets/ for more information
+ * @version 1.0 (17 Feb 2012)
+ * 
+ */
+ 
+.f_panelHead {
+    padding-left: 20px;
+    padding-bottom: 0;
+}
+.f_expanderWrapper {
+    margin-top: -1.2em;
+    display: block;
+    margin-left: -18px;
+}
+.f_expanderWrapper button img {
+    max-width: none;
+}
+.f_panelHead a {
+    margin-left: 0.3em;
+    padding: 0;
+}
