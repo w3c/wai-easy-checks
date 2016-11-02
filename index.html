@@ -205,7 +205,7 @@ margin: 0 2% 0 27%;
       <li><em>General:</em>
          <ul>
 
-<li><a href="#flash">Flashing or Blinking Content</a></li>
+<li><a href="#moving">Moving Content</a></li>
 <li><a href="#media">Multimedia (video, audio) alternatives</a></li>
             <li><a href="#structure">Basic Structure Check</a></li>
          </ul>
@@ -236,7 +236,7 @@ margin: 0 2% 0 27%;
       <h3 class="f_panelHead" id="bad">Practicing with BAD, the Before-After Demo</h3>
       <div>
          <p>The <a href="http://www.w3.org/WAI/demos/bad/">Before and After Demonstration (BAD)</a> from W3C WAI shows an inaccessible website and a retrofitted version of this same website with the accessibility barriers fixed. You can use the BAD pages to learn how to do these checks. For example, first, do the check on an accessible version of a page to see what it should look like. Then, do the check on the corresponding inaccessible page to see what it looks like when there are accessibility barriers.</p>
-         <p>The BAD pages have annotations that are notes on what is accessible and not accessible in the demo pages. To turn on annotations, click &quot;Show Annotations&quot; in the yellow box near the top, middle of the page; then click a number and a box titled <em>"Note ##"</em> will open with the explanation.</p>
+         <p>The BAD pages have annotations that are notes on what is accessible and not accessible in the demo pages. To turn on annotations, click &quot;Show Annotations&quot; in the yellow box near the top, middle of the page; then click a number and a box titled <em>&quot;Note ##&quot;</em> will open with the explanation.</p>
       </div>
       <h3 class="f_panelHead" id="background">Background</h3>
       <div>
@@ -1055,29 +1055,35 @@ margin: 0 2% 0 27%;
       <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
 
 
+<h2 id="moving">Moving, Flashing, or Blinking Content</h2>
+<p>Moving content includes carousels (<a href="https://www.w3.org/WAI/tutorials/carousels/animations/#c">example carousel</a>), ads, videos, auto-updating stock tickers, and more. Users need to be able to control moving content, especially some people with attention deficit disorder or visual processing disorders.</p>
 
-<h2 id="flash">Flashing or Blinking Content</h2>
-<p>People with photosensitive seizure disorders can experience a seizure if web content flashes at them within specific parameters. This will be a problem only if all of the following are true:
-<ol><li>The flashing occurs more than three times in any one second period;</li>
-<li>the flash covers a sufficiently large area of the screen; and</li>
-<li>the flash is bright enough.</li> </ol></p>
-<h3 class="whathead">What to do:</h3>
-<ul><li>Examine the screen display, looking for content that flashes or blinks more than three times in one second. </li>
-<li>If no content blinks or flashes at that rate, the page passes and nothing more is needed. </li>
-<li>If content DOES blink or flash at that rate, set your screen to 1024 x 768 and follow the checks below.</li></ul>
+<p>There are two potential accessibility problems with moving content:</p>
+     <ol class="listspaced">
+            <li>Understanding moving information — Some people read and process information slowly. The content may disappear before people have time to read it. Some people have trouble tracking moving objects.</li>
+            <li>Distraction from moving content — Moving content can make focusing and reading elsewhere difficult; that is, people cannot focus on some content because the movement in another area of the web page grabs their attention.</li>
+     </ol>
+<p class="listintro">Some flashing or blinking content can cause seizures in people with photosensitive epilepsy, particularly if it:</p>
+     <ol class="listafterpul">
+            <li>flashes more than three times in one second,</li>
+            <li>covers a large enough area of the screen, and</li>
+            <li>is bright enough.</li>
+     </ol>
 
 <h3 class="whathead">What to check for:</h3>
-<ul><li>Check that the flashing is smaller than a box that is one third  the height and one fourth the width of the screen.</li>
-<li> If it is smaller than the box, the page passes this requirement and no further testing is needed. </li>
-<li>If the flashing is larger than the box, it may still pass but further testing is beyond the scope of EasyChecks. Use resources below if you wish to proceed further.</li> </ul>
-      <h3 class="f_panelHead">Learn more about flashing content</h3>
-      <div>
-         <ul>
-<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">Three Flashes or Below Threshold</a> Understanding Success Criterion 2.3.1 for WCAG 2.0 (Level A)</li>
-<li>Free, downloadable <a href="http://trace.wisc.edu/peat/">Photosensitive Epilepsy Analysis Tool</a> from the Trace Center at the University of Wisconsin</li>
-         </ul>
-      </div>
-
+<ul>
+      <li>Check if there is any moving, blinking, or scrolling information that starts automatically and lasts more than five seconds. If there is, check that there is a way for the user to pause, stop, or hide the movement.</li>
+      <li>Check if there is any auto-updated information (such as stock price). If there is, check that there is a way for the user to pause, stop, or hide the updated information, or for the user to control the frequency of the update.</li>
+      <li>Check that no content flashes or blinks more than three times in one second. If it does, further evaluation is needed as explained in <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">Three Flashes or Below Threshold</a>.</li>
+</ul>
+<h3 class="f_panelHead">To learn more about moving, flashing, or blinking content</h3>
+<div>
+      <ul>
+            <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html">Pause, Stop, Hide</a> – Understanding Success Criterion 2.2.2 for WCAG 2.0 (Level A)</li>
+            <li><a href="https://www.w3.org/WAI/tutorials/carousels/animations/">Carousel Animations</a> – WAI Web Accessibility Tutorial</li>
+            <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">Three Flashes or Below Threshold</a> Understanding Success Criterion 2.3.1 for WCAG 2.0 (Level A)</li>
+      </ul>
+</div>
 
 <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
       <h2 id="media">Multimedia (video, audio) alternatives</h2>
