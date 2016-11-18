@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Easy Checks - A First Review of Web Accessibility</title>
-<link rel="stylesheet" href="//www.w3.org/WAI/wai-main.css" type="text/css" />
+<link rel="stylesheet" href="https://www.w3.org/WAI/wai-main.css" type="text/css" />
 <!--[if IE 7]><link rel="stylesheet" href="//w3.org/WAI/ie-old.css" type="text/css" media="all" /><![endif]-->
-<link rel="stylesheet" href="//www.w3.org/WAI/style/hMenu.css" type="text/css" />
+<link rel="stylesheet" href="https://www.w3.org/WAI/style/hMenu.css" type="text/css" />
 <!--[if lte IE 7]><link href="http://www.w3.org/WAI/style/hMenuIE7.css" rel="stylesheet" type="text/css" /><![endif]-->
-<link href="//www.w3.org/WAI/style/excol.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="//www.w3.org/WAI/scripts/excol/excol.js"></script>
+<!-- <link href="https://www.w3.org/WAI/style/excol.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://www.w3.org/WAI/scripts/excol/excol.js"></script>-->
 <style type="text/css">
 <!--
 .highlight-version {
@@ -82,38 +81,61 @@ code {
    font-weight: bold;
 }
 /* ******************************** illustration CSS ******* */
-/* NOTE: around image: <figure class="figure" style="width:@@@px;"> - with the width being the width of the images + for multiple images within a fgiure, add 11px for each space between.*/
+/* NOTE: around image: <figure> - with the width being the width of the images + for multiple images within a fgiure, add 11px for each space between.*/
 /*
 #main {
 margin: 0 2% 0 27%;
 }
 */
-.figure {
+.multifigs {
+   display: flex;
+   margin: -5px;
+}
+
+.multifigs>* {
+   margin: 5px;
+}
+
+figure * {
    box-sizing: border-box;
-   max-width: 100%; /* so image scales across various widths */
+}
+
+figure {
+   float:left;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
    margin: 10px 0;
-   padding: 10px;
    border: 1px solid #aaa;
    background: #FFFDFA; /* color that shows in padding around image -- half way between #fff and #fffaf5 */
    line-height: 115%;
+   overflow: hidden;
 }
-.figure img {
+figure + * {
+   clear:left;
+}
+figure img {
    max-width: 100%; /* this may be duplicative of above max-width; however this is where height: auto is needed */
    height:auto; /* to prevent height distortion when scaling browser width down */
    margin: 0 0 10px 0;
    border: 1px solid #888;
    vertical-align: top;
 }
-.figure.multimg img {
-   margin: 0 10px 10px 0;
+.figcontent {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 5px;
+   margin: -5px;
+   align-items: flex-start;
+   margin-bottom: 5px;
 }
-.figure.multimg img:last-of-type {
-   margin-right: 0px;
+.figcontent>* {
+   flex:1;
+   flex-basis: 246px;
+   flex-grow: 0;
+   margin: 5px;
 }
-.figure.multimg img.last-of-type {
-   margin-right: 0px;
-} /* to accomodate IE7 & IE8. Cannot combine with , or breaks in IE8 (though not IE7) */
-.figcaption {
+figcaption {
    margin: 0 0 5px 1px; /* 1px left margin is to offset 1px for border used for image*/
    font-size: 85%;
    color: #444;
@@ -280,9 +302,9 @@ margin: 0 2% 0 27%;
       </ul>
       <p>(In the web page <a href="#markup" class="termref">markup</a> they are the &lt;title&gt; within the &lt;head&gt;.)</p>
       <p>The image below shows the page title &quot;Easy Checks - A First Review of Web Accessibility&quot; in the title bar, and the titles of 4 pages in the tabs. Note that in the tabs,  only the first part of the page title is shown.</p>
-      <figure class="figure" style="width:676px;"> <img src="http://w3.org/WAI/images/easychecks/page-title.png" alt="" width="674" height="100"/>
+      <figure> <img src="images/page-title.png" alt="" width="674" height="100"/>
          <figcaption class="figcaption">Figure: Firefox browser with full title  in the title bar and partial titles in the tabs.</figcaption>
-         <!--.figure-->
+         <!--figure-->
       </figure>
       <p>Good page titles are particularly important for  orientation — to help people know where they are and move between pages open in their browser. The first thing screen readers say when the user goes to a different web page is the page title.</p>
       <h3 class="whathead">What to do:</h3>
@@ -334,10 +356,11 @@ margin: 0 2% 0 27%;
             <li>If your browser doesn't have a title bar, you can do try one of these:
                <ul>
                   <li>With your mouse, hover over the browser tab to see the full page title, like this:<br />
-                     <figure class="figure" style="width:676px"> <img src="http://w3.org/WAI/images/easychecks/page-title-tab-popup.png" alt="" width="674" height="110" />
+                     <figure>
+                        <div class="figcontent"><img src="images/page-title-tab-popup.png" alt="" width="674" height="110" /></div>
                         <figcaption class="figcaption">Figure: Page title in popup, displayed with mouse hover over tab.</figcaption>
                      </figure>
-                     <!--.figure-->
+                     <!--figure-->
                   </li>
                   <li>Display the Add Bookmark dialog box, which includes the title. In some Windows browsers, press Ctrl+D. In some Mac browsers, press cmd+D to get the Add Bookmark dialog box.</li>
                </ul>
@@ -368,7 +391,7 @@ margin: 0 2% 0 27%;
       <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
       <h2 id="images">Image text alternatives (&quot;alt text&quot;)</h2>
       <p>Text alternatives (&quot;alt text&quot;) convey the purpose of an image, including pictures, illustrations, charts, etc. Text alternatives are used by people who do not see the image. (For example, people who are blind and use screen readers can hear the alt text read out; and people who have turned off images to speed download or save bandwidth can see the alt text.)</p>
-      <p>The text should be functional and provide an equivalent user experience, not necessarily describe the image. (For example,  appropriate text alternative for a search button <img src="http://w3.org/WAI/images/easychecks/search-button.png" alt="" width="36" height="24" /> would be &quot;search&quot;, not &quot;magnifying glass&quot;.)</p>
+      <p>The text should be functional and provide an equivalent user experience, not necessarily describe the image. (For example,  appropriate text alternative for a search button <img src="images/search-button.png" alt="" width="36" height="24" /> would be &quot;search&quot;, not &quot;magnifying glass&quot;.)</p>
       <p class="listintro">You don&#39;t usually see the alt text on a web page, it is in the web page <a href="#markup" class="termref">markup</a> (like this:<br />
          <code>&lt;img src=&quot;pointer_to_image.png&quot; alt=&quot;here's where the alternative text goes&quot;&gt;</code>).<br />
          Every image should include <code>alt</code> in the markup.</p>
@@ -413,9 +436,10 @@ margin: 0 2% 0 27%;
          <ol>
             <li>Open the web page you are checking.</li>
             <li>In the toolbar, select &quot;Images&quot;, then &quot;Show Images&quot;. Or, with the keyboard: Ctrl/cmd+Alt+4, then arrow down to &quot;Show Images&quot;<br />
-               <figure class="figure" style="width:676px;"> <img src="http://w3.org/WAI/images/easychecks/alt-ie.png" alt="" width="674" height="223" />
+               <figure>
+                  <div class="figcontent"><img src="images/alt-ie.png" alt="" width="674" height="223" /></div>
                   <figcaption class="figcaption">Figure:  IE WAT toolbar with 'Images' drop down and 'Show Images' highlighted.</figcaption>
-                  <!--.figure-->
+                  <!--figure-->
                </figure>
                <em>If there are any images missing alt, a dialog box appears with the number of images without alt attributes.<br/>
                The alt text will be displayed before the images in quotes on a light background.</em></li>
@@ -430,18 +454,20 @@ margin: 0 2% 0 27%;
             <li>Open the web page you are checking.</li>
             <li>In the toolbar, select &quot;Images&quot;, then &quot;Outline Images&quot;, then &quot;Outline Images Without Alt Attributes&quot;. Or, with the keyboard: Alt+T, W (to Web Developer Extension), I, O, A<br />
                            <em>Red boxes appear around any images missing alt.</em>
-               <figure class="figure" style="width:678px;"> <img src="http://w3.org/WAI/images/easychecks/alt-ff-missing.png" width="676" height="278" alt=""/>
+               <figure>
+                  <div class="figcontent"><img src="images/alt-ff-missing.png" width="676" height="278" alt=""/></div>
                   <figcaption class="figcaption">Figure:  FF toolbar menu, and red boxes around images.</figcaption>
-                  <!--.figure-->
+                  <!--figure-->
                </figure>
 </li>
             <li>Note images without any alt text.</li>
             <li>In the toolbar, select &quot;Images&quot;, then &quot;Display Alt Attributes&quot;. Or, with the keyboard: Alt+T, W (to Web Developer Extension), I, A
 <br />
-               <em>The alt text will be displayed before the images as white letters on a red background.</em>                
-               <figure class="figure" style="width:676px;"> <img src="http://w3.org/WAI/images/easychecks/ff-toolbar-display-alt.png" alt="" width="674" height="175" />
+               <em>The alt text will be displayed before the images as white letters on a red background.</em>
+               <figure>
+                  <div class="figcontent"><img src="images/ff-toolbar-display-alt.png" alt="" width="674" height="175" /></div>
                   <figcaption class="figcaption">Figure:  FF toolbar menu, and alt text displayed.</figcaption>
-                  <!--.figure-->
+                  <!--figure-->
                </figure>
 </li>
             <li>For each image, see if the alt text adequately conveys the information in the image it is next to, per the Tips above.</li>
@@ -457,9 +483,10 @@ margin: 0 2% 0 27%;
             <li>To check for missing alt: Look for the red alt icon (<img src="images/alt_missing.png" alt="Red Alt Missing WAVE Tool Icon" />), or search for the alt text &quot;ERROR: Missing alt text&quot;. If you find it, that means the following image is missing alt.</li>
             <li>To check if alt text is appropriate: <br/>
                Look for the green alt icon (<img src="images/alt.png" alt="Green Alt Exists WAVE Tool Icon" />). Next to it is text on a light blue background; the alt text is in between the asterisks (*). See if that text adequately conveys the information in the image it is next to, per the Tips above.
-<figure class="figure" style="width:678px;"> <img src="http://w3.org/WAI/images/easychecks/alt-wave5.png" alt="" width="676" height="314"/>
+<figure>
+   <div class="figcontent"><img src="images/alt-wave5.png" alt="" width="676" height="314"/></div>
    <figcaption class="figcaption">Figure: WAVE showing alt text.</figcaption>
-   <!--.figure-->
+   <!--figure-->
 </figure>
 </li>
          </ol>
@@ -534,15 +561,15 @@ margin: 0 2% 0 27%;
       <p class="listintro">The checks below provide instructions with different browsers for how to get:</p>
       <ul class="listafterpul">
          <li>Headings outline: an outline of the headings that are marked up on page, for example:</li>
-         <figure class="figure" style="width:676px;"> 
-               <img src="http://w3.org/WAI/images/easychecks/headings-outline.png" alt="" width="674" height="263" />
+         <figure>
+               <div class="figcontent"><img src="images/headings-outline.png" alt="" width="674" height="263" /></div>
                   <figcaption class="figcaption">Figure: Outline of headings.</figcaption>
-            <!--.figure-->
+            <!--figure-->
             </figure>
          <li>Headings markup in page: a view of the page with the heading markup shown, for example:
-         <figure class="figure" style="width:676px;"> <img src="http://w3.org/WAI/images/easychecks/headings-in-page.png" alt="" width="674" height="230" />
+         <figure> <div class="figcontent"><img src="images/headings-in-page.png" alt="" width="674" height="230" /></div>
    <figcaption class="figcaption">Figure: Heading markup in page.</figcaption>
-   <!--.figure-->
+   <!--figure-->
 </figure>
 </li>
       </ul>
@@ -665,20 +692,24 @@ margin: 0 2% 0 27%;
       <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
       <h2 id="contrast"> Contrast ratio (&quot;color contrast&quot;)</h2>
       <p>Some people cannot read text if there is not sufficient contrast between the text and background, for example,  light gray text on a light background.</p>
-      <figure class="figure" style="width:303px;"> <img src="http://w3.org/WAI/images/easychecks/contrast-gray-white.png" alt="" width="301" height="127" />
+      <figure> <div class="figcontent"><img src="images/contrast-gray-white.png" alt="" width="301" height="127" /></div>
          <figcaption class="figcaption">Figure: Gray text on light background. </figcaption>
-         <!--.figure-->
+         <!--figure-->
       </figure>
       <p>High contrast (for example, dark text on light background or bright text on dark background) is required by some people with visual impairments, including many older people who lose contrast sensitivity from ageing.</p>
-      <div class="figure multimg" style="width:640px;"> <img src="http://w3.org/WAI/images/easychecks/contrast-b-on-w.png" alt="" width="301" height="127" /><img class="last-of-type" src="http://w3.org/WAI/images/easychecks/contrast-yellow.png" alt="" width="301" height="127"/>
-         <div class="figcaption">Figure: Dark text on light background, and yellow text on black background.</div>
-      </div>
-      <!--.figure-->
+      <figure>
+         <div class="figcontent">
+            <img src="images/contrast-b-on-w.png" alt="" width="301" height="127" />
+            <img class="last-of-type" src="images/contrast-yellow.png" alt="" width="301" height="127"/>
+         </div>
+         <figcaption>Figure: Dark text on light background, and yellow text on black background.</figcaption>
+      </figure>
+      <!--figure-->
       <p>While some people need high contrast, for others &mdash; including some people with  reading disabilities such as dyslexia &mdash;  bright colors (high luminance) are not readable. They need low luminance.</p>
-      <div class="figure multimg" style="width:640px;"> <img src="http://w3.org/WAI/images/easychecks/contrast-lowlum1.png" alt="" width="301" height="127" /><img class="last-of-type" src="http://w3.org/WAI/images/easychecks/contrast-lowlum2.png" alt="" width="301" height="127" />
-         <div class="figcaption">Figure: Brown text on dark background, and dark text on medium brown background.</div>
-      </div>
-      <!--.figure-->
+      <figure> <div class="figcontent"><img src="images/contrast-lowlum1.png" alt="" width="301" height="127" /><img class="last-of-type" src="images/contrast-lowlum2.png" alt="" width="301" height="127" /></div>
+         <figcaption>Figure: Brown text on dark background, and dark text on medium brown background.</figcaption>
+      </figure>
+      <!--figure-->
       <p>Web browsers should allow people to change the color of text and background, and web pages need to work when people change colors.</p>
       <p>(This accessibility requirement is sometimes called sufficient &quot;color contrast&quot;; however,  that is incorrect &mdash; technically it's &quot;luminance contrast&quot;. On this page we use &quot;contrast ratio&quot; as short for &quot;luminance contrast ratio&quot; because it's less jargony.) There is much more to know about contrast; we&#39;ve just introduced the basics here.</p>
       <h3 class="whathead">What to check for:</h3>
@@ -715,7 +746,7 @@ margin: 0 2% 0 27%;
                   <li>In the toolbar, select  Color &gt; Juicy Studio Luminosity Analyser.
                      Or, with the
                      keyboard: Ctrl/cmd+Alt+5, then down arrow to &quot;Juicy Studio   Luminosity Analyser&quot;.<br />
-                     <img src="http://w3.org/WAI/images/easychecks/color-wat-table.png"  alt="" width="700" height="72" class="imgbreathe" /><br />
+                     <img src="images/color-wat-table.png"  alt="" width="700" height="72" class="imgbreathe" /><br />
                      <em>A  new window  opens titled Colour Contrast Analyser with the table of results. The last column is Luminosity Contrast Ratio.</em></li>
                </ul>
             </li>
@@ -772,17 +803,17 @@ margin: 0 2% 0 27%;
       </ul>
       <p>When pages are not designed properly, they  can be unusable when the text size is changed, especially when it is changed through  text-only zoom or text settings. Sometimes columns and sections overlap, the space between lines disappears,  lines of text become too long, or text disappears.</p>
 
-      <div class="figure multimg" style="width:650px;"> <img src="http://w3.org/WAI/images/easychecks/zoom-100.png" alt="" width="305" height="224" /><img src="http://w3.org/WAI/images/easychecks/zoom-overlap.png" alt="" width="305" height="224" />
-         <div class="figcaption">Figure: Two screen captures show that when text size is increased, the heading overlaps the main text, the main text overlaps the sidebar text; and the sidebar text is cut off at the bottom.</div>
-      </div>
-      <!--.figure-->
+      <figure>
+         <div class="figcontent"><img src="images/zoom-100.png" alt="" width="305" height="224" /><img src="images/zoom-overlap.png" alt="" width="305" height="224" /></div>
+         <figcaption>Figure: Two screen captures show that when text size is increased, the heading overlaps the main text, the main text overlaps the sidebar text; and the sidebar text is cut off at the bottom.</figcaption>
+      </figure>
+      <!--figure-->
 
       <p>When text size is increased, sometimes part of the sentences are not visible  and users have to scroll horizontally to read a sentence, as shown in the third example below. Most people cannot effectively read text that requires horizontal scrolling, and some disabilities make this impossible.</p>
-      <div class="figure multimg" style="width:795px;"> <img src="https://www.w3.org/WAI/images/easychecks/resize-normal.png" width="246" height="139" alt="" style="vertical-align:top"/> <img src="https://www.w3.org/WAI/images/easychecks/resize-wrap.png" width="246" height="253" alt="" style="vertical-align:top"/> <img src="https://www.w3.org/WAI/images/easychecks/resize-scroll.png" width="246" height="139" alt="" style="vertical-align:top"/>
-         <div class="figcaption">Figure: The first image shows normal-size text. In the second image, the larger text &quot;wraps&quot; to fit the width. In the third image, some of the larger text is not visible without scrolling horizontally.</div>
-      </div>
-      <!--.figure-->
-      <!--.figure-->
+      <figure> <div class="figcontent"><img src="https://www.w3.org/WAI/images/easychecks/resize-normal.png" width="246" height="139" alt=""> <img src="https://www.w3.org/WAI/images/easychecks/resize-wrap.png" width="246" height="253" alt=""> <img src="https://www.w3.org/WAI/images/easychecks/resize-scroll.png" width="246" height="139" alt=""></div>
+         <figcaption>Figure: The first image shows normal-size text. In the second image, the larger text &quot;wraps&quot; to fit the width. In the third image, some of the larger text is not visible without scrolling horizontally.</figcaption>
+      </figure>
+      <!--figure-->
 <h3 class="whathead">What to do:</h3>
       <ul>
          <li> Increase the text size.</li>
@@ -842,15 +873,14 @@ margin: 0 2% 0 27%;
       <h2 id="interaction">Keyboard access and visual focus</h2>
       <p>Many people cannot use a mouse and rely on the keyboard to interact with the Web. People who are blind and some sighted people with mobility impairments  rely on the keyboard or on assistive technologies and strategies that rely on keyboard commands, such as voice input. Accessible websites enable people to access all content and functionality &mdash; links, forms, media controls, etc. &mdash; through a keyboard.</p>
       <p>Keyboard focus should be visible and should follow a logical order through the page elements. Visible keyboard focus could be a  border or highlight, as shown below, that moves as  you tab through the web page.</p>
-            <figure class="figure" style="width:350px;"> <img src="http://w3.org/WAI/images/easychecks/focus-highlight-border.png" alt="" width="348" height="126" />
+      <div class="multifigs">
+      <figure> <div class="figcontent"><img src="images/focus-highlight-border.png" alt="" width="348" height="126" /></div>
          <figcaption class="figcaption">Figure: Dotted border on middle link.</figcaption>
-         <!--.figure-->
-         <!-- @@ cofe to make these side-by-side if room -->
       </figure>
-            <figure class="figure" style="width:414px;"> <img src="http://w3.org/WAI/images/easychecks/focus-highlight-field.png" alt="" width="412" height="150" />
+      <figure> <div class="figcontent"><img src="images/focus-highlight-field.png" alt="" width="412" height="150" /></div>
          <figcaption class="figcaption">Figure: Name field is highlighted red.</figcaption>
-         <!--.figure-->
       </figure>
+      </div>
 
       <h3 class="whathead">What to do:</h3>
       <p class="listintro">In a browser that supports  keyboard navigation with the Tab key (for example, Firefox, IE, Chrome, and Safari; <em>not</em> Opera): </p>
@@ -912,7 +942,7 @@ margin: 0 2% 0 27%;
       <p><em>Note: This section is more complex than the others. If it's too complicated, consider skipping it for now and proceeding through the remaining checks</em>.</p>
       <p>Labels, keyboard access, clear instructions, and effective error handling are  important for forms accessibility.</p>
       <p>Form fields and other form controls usually have visible labels, such as &quot;E-mail Address:&quot; as the label for a text field.<br />
-         <img src="http://w3.org/WAI/images/easychecks/form-label-text.png" width="242" height="29" alt="" class="imgbreathe"/><br />
+         <img src="images/form-label-text.png" width="242" height="29" alt="" class="imgbreathe"/><br />
          When these labels are <a href="#markup" class="termref">marked up</a> correctly,  people can interact with them using  only the keyboard, using voice input, and using screen readers. Also, the label itself becomes clickable, increasing the target area and making it easier to select small radio buttons or checkboxes.</p>
       <h3 class="whathead">What to do:</h3>
       <p class="whathead">Find  any forms on the page. A form could be a single text box, such as Search, or could be a complex form with text  fields, radio buttons, checkboxes, drop-down lists, and  buttons.</p>
@@ -927,9 +957,9 @@ margin: 0 2% 0 27%;
          <li>Check that the labels are positioned correctly. For left-to-right languages, labels should usually be:
             <ul>
                <li>Left of text boxes and drop-down lists.<br />
-                  <img src="http://w3.org/WAI/images/easychecks/form-label-text.png" width="242" height="29" alt="" class="imgbreathe"/></li>
+                  <img src="images/form-label-text.png" width="242" height="29" alt="" class="imgbreathe"/></li>
                <li>Right of radio buttons and checkboxes. <br/>
-                  <img src="http://w3.org/WAI/images/easychecks/form-label-radio.png" alt="" width="216" height="64" class="imgbreathe"/> </li>
+                  <img src="images/form-label-radio.png" alt="" width="216" height="64" class="imgbreathe"/> </li>
             </ul>
          </li>
       </ul>
@@ -965,22 +995,25 @@ margin: 0 2% 0 27%;
                Or, with the keyboard: Ctrl+Alt+6, then down arrow key to &quot;FieldSet / Labels&quot;, and select.
               <ul>
                   <li><em>A dialog box appears with the number of errors and controls.</em> <!-- <span class="changed">[@@ shall we explain &quot;to check out&quot;?] </span> -->
-                     <figure class="figure" style="width:451px;"> <img src="http://w3.org/WAI/images/easychecks/forms-wat-dialog.png" alt="" width="449" height="209" />
+                     <figure>
+                        <div class="figcontent"><img src="images/forms-wat-dialog.png" alt="" width="449" height="209" /></div>
                         <figcaption class="figcaption">Figure: IE WAT dialog box.</figcaption>
-                        <!--.figure-->
+                        <!--figure-->
                      </figure>
                      <p><strong>The dialog box tells you the number of  identified errors, the total number of form controls, and the number of controls that you need to check manually. For the rest of the steps you need to look at the text around the labels. If this is difficult, you could skip the next steps.</strong></p>
                   </li>
                   <li><em>The form elements (labels and controls) are outlined in a red box, the markup is shown, and potential errors are indicated.<br />
                      Example with no errors:</em><br />
-                     <figure class="figure" style="width:676px;"><img src="http://w3.org/WAI/images/easychecks/forms-wat-good.png" alt="" width="674" height="316" />
+                     <figure>
+                        <div class="figcontent"><img src="images/forms-wat-good.png" alt="" width="674" height="316" /></div>
                         <figcaption class="figcaption">Figure: Form markup shown. Date label includes format.</figcaption>
-                        <!--.figure-->
+                        <!--figure-->
                      </figure>
                      <em>Example with potential errors:</em><br />
-                     <figure class="figure" style="width:676px;"> <img src="http://w3.org/WAI/images/easychecks/forms-wat-bad.png" alt="" width="674" height="305" />
+                     <figure>
+                        <div class="figcontent"><img src="images/forms-wat-bad.png" alt="" width="674" height="305" /></div>
                         <figcaption class="figcaption">Figure: Form markup shown. Date label does not include format. Fieldset missing legend.</figcaption>
-                        <!--.figure-->
+                        <!--figure-->
                      </figure>
                   </li>
                </ul>
@@ -1101,11 +1134,12 @@ margin: 0 2% 0 27%;
       </ul>
       <h4>Captions</h4>
       <p>(Captions are known as &quot;subtitles&quot; in some areas.)</p>
-      <p>Most video on the web that provides captions has &quot;closed captions&quot; that can be turned on and off. (&quot;Open captions&quot; are always shown.) For example, in YouTube, you turn on captions with the CC button <img src="http://w3.org/WAI/images/easychecks/cc-button.png" alt="" width="26" height="21" /> (no known keyboard access). If there is not a CC button, there are no captions available for that video.</p>
+      <p>Most video on the web that provides captions has &quot;closed captions&quot; that can be turned on and off. (&quot;Open captions&quot; are always shown.) For example, in YouTube, you turn on captions with the CC button <img src="images/cc-button.png" alt="" width="26" height="21" /> (no known keyboard access). If there is not a CC button, there are no captions available for that video.</p>
       <p>Automatic captions are not sufficient for accessibility because they are not accurate enough. For example, in YouTube, if only &quot;automatic captions&quot; are listed  (as in the image above), there are no sufficient captions and the video is not accessible. Captions in the specific language need to be listed. <span class="quiet">[@@ say more ?]</span></p>
-      <figure class="figure" style="width:233px;"> <img src="http://w3.org/WAI/images/easychecks/captions-both.png" alt="" width="231" height="173" />
+      <figure>
+         <div class="figcontent"><img src="images/captions-both.png" alt="" width="231" height="173" /></div>
          <figcaption class="figcaption">Figure: Captions listed: French (automatic captions), Norwegian.</figcaption>
-         <!--.figure-->
+         <!--figure-->
       </figure>
 
       <p class="listintro">If there are captions, you can check that:</p>
@@ -1146,30 +1180,35 @@ margin: 0 2% 0 27%;
       <div>
          <p>The images below illustrate how a web page is displayed in 3 columns by default and how it can be changed.</p>
          <p class="listintro">Figure A shows the default display of three columns, with the navigation at the left.</p>
-         <figure class="figure" style="width:365px;"> <img src="http://w3.org/WAI/images/easychecks/lin-start.png" alt="" width="363" height="150"/>
+         <figure>
+         <div class="figcontent"><img src="images/lin-start.png" alt="" width="363" height="150"/></div>
          <figcaption class="figcaption">Figure A.</figcaption>
-         <!--.figure-->
+         <!--figure-->
       </figure>
 
          <p>Figure B shows the page linearized into one column, with the navigation at the top. Figure C shows the page  linearized, with the navigation at the bottom. The order of the sections (e.g., navigation at top or bottom or elsewhere) depends on how the web page is developed &mdash; the user usually cannot control the order.</p>
-         <figure class="figure" style="width:365px;"> <img src="http://w3.org/WAI/images/easychecks/lin-lin.png" alt="" width="359" height="278"/>
-         <figcaption class="figcaption">Figure B.</figcaption>
-         <!--.figure-->
-      </figure>
-         <figure class="figure" style="width:365px;"> <img src="http://w3.org/WAI/images/easychecks/lin-awk.png" alt="" width="359" height="278"/>
-         <figcaption class="figcaption">Figure C.</figcaption>
-         <!--.figure-->
-      </figure>
-<p>Figure D shows the page linearized and with styles turned off. When you follow the <a href="#bschecks">Basic structure checks steps below</a>, your page will look like something like this:</p>
-         <figure class="figure" style="width:365px;"> <img src="http://w3.org/WAI/images/easychecks/lin-plain.png" alt="" width="359" height="266" />
+      <div class="multifigs">
+         <figure>
+            <div class="figcontent"><img src="images/lin-lin.png" alt="" width="359" height="278"/></div>
+            <figcaption class="figcaption">Figure B.</figcaption>
+         </figure>
+         <figure>
+            <div class="figcontent"><img src="images/lin-awk.png" alt="" width="359" height="278"/></div>
+            <figcaption class="figcaption">Figure C.</figcaption>
+         </figure>
+      </div>
+      <p>Figure D shows the page linearized and with styles turned off. When you follow the <a href="#bschecks">Basic structure checks steps below</a>, your page will look like something like this:</p>
+      <figure>
+         <div class="figcontent"><img src="images/lin-plain.png" alt="" width="359" height="266" /></div>
          <figcaption class="figcaption">Figure D.</figcaption>
-         <!--.figure-->
+         <!--figure-->
       </figure>
 
 <p>Figure E shows the page changed by a person with low vision to make it more readable, for example, the main text is big, the footer text is very small, and the headings are a different color.</p>
-         <figure class="figure" style="width:365px;"> <img src="http://w3.org/WAI/images/easychecks/lin-lv.png" alt="" width="359" height="429" />
+      <figure>
+         <div class="figcontent"div class="figcontent"><img src="images/lin-lv.png" alt="" width="359" height="429" /></div>
          <figcaption class="figcaption">Figure E.</figcaption>
-         <!--.figure-->
+         <!--figure-->
       </figure>
 <hr />
       </div>
@@ -1303,5 +1342,17 @@ margin: 0 2% 0 27%;
 <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>) <a href="http://w3.org/Consortium/Legal/ipr-notice">Usage policies apply</a>.</p>
 </div>
 </div>
+<script>
+   var allfigcontents = document.querySelectorAll('.figcontent');
+   Array.prototype.forEach.call(allfigcontents, function(currentfigcont, i){
+      var currentfigcont = allfigcontents[i];
+      var images = currentfigcont.querySelectorAll('img');
+      var width = -10;
+      Array.prototype.forEach.call(images, function(img, i){
+         width = width + img.offsetWidth + 10;
+      });
+      currentfigcont.parentNode.querySelector('figcaption').style.maxWidth = width + 'px';
+   });
+</script>
 </body>
 </html>
