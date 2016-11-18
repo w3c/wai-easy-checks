@@ -1345,13 +1345,16 @@ figcaption {
 <script>
    var allfigcontents = document.querySelectorAll('.figcontent');
    Array.prototype.forEach.call(allfigcontents, function(currentfigcont, i){
-      var currentfigcont = allfigcontents[i];
       var images = currentfigcont.querySelectorAll('img');
       var width = -10;
       Array.prototype.forEach.call(images, function(img, i){
          width = width + img.offsetWidth + 10;
       });
       currentfigcont.parentNode.querySelector('figcaption').style.maxWidth = width + 'px';
+   });
+   var allfigures = document.querySelectorAll('figure');
+   Array.prototype.forEach.call(allfigures, function(f, i){
+      f.insertAdjacentHTML('afterend', '<div></div>');
    });
 </script>
 </body>
