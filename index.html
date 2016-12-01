@@ -1345,19 +1345,57 @@ figcaption {
 </div>
 </div>
 <script>
-   var allfigcontents = document.querySelectorAll('.figcontent');
-   Array.prototype.forEach.call(allfigcontents, function(currentfigcont, i){
+
+  (function() {
+    var throttle = function(type, name, obj) {
+        obj = obj || window;
+        var running = false;
+        var func = function() {
+            if (running) { return; }
+            running = true;
+             requestAnimationFrame(function() {
+                obj.dispatchEvent(new CustomEvent(name));
+                running = false;
+            });
+        };
+        obj.addEventListener(type, func);
+    };
+
+    /* init - you can init any event */
+    throttle("resize", "optimizedResize");
+  })();
+
+  function init() {
+    var allfigcontents = document.querySelectorAll('.figcontent');
+    Array.prototype.forEach.call(allfigcontents, function(currentfigcont, i){
       var images = currentfigcont.querySelectorAll('img');
       var width = -10;
       Array.prototype.forEach.call(images, function(img, i){
          width = width + img.offsetWidth + 10;
       });
       currentfigcont.parentNode.querySelector('figcaption').style.maxWidth = width + 'px';
-   });
-   var allfigures = document.querySelectorAll('figure');
-   Array.prototype.forEach.call(allfigures, function(f, i){
+    });
+    var allfigures = document.querySelectorAll('figure');
+    Array.prototype.forEach.call(allfigures, function(f, i){
       f.insertAdjacentHTML('afterend', '<div></div>');
-   });
+    });
+  }
+
+  function ready(fn) {
+    if (document.readyState != 'loading'){
+      fn();
+    } else {
+      document.addEventListener('DOMContentLoaded', fn);
+    }
+  }
+
+  ready(init);
+
+  // handle event
+  window.addEventListener("optimizedResize", function() {
+      init();
+  });
+
 </script>
 </body>
 </html>
