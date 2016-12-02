@@ -1,7 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
 <title>Easy Checks - A First Review of Web Accessibility</title>
 <link rel="stylesheet" href="https://www.w3.org/WAI/wai-main.css" type="text/css" />
 <!--[if IE 7]><link rel="stylesheet" href="//w3.org/WAI/ie-old.css" type="text/css" media="all" /><![endif]-->
@@ -182,19 +183,20 @@ figcaption {
 <body>
 <div id="controls">
    <ul>
-      <li><a href="#skip" shape="rect"><img src="http://w3.org/Icons/downinpage.png" alt="" /> Skip to Content </a></li>
-      <li><a href="http://w3.org/WAI/changedesign.html" shape="rect"> | Change
+      <li><a href="#skip"  ><img src="http://w3.org/Icons/downinpage.png" alt="" /> Skip to Content </a></li>
+      <li><a href="http://w3.org/WAI/changedesign.html"  > | Change
          text size or colors </a> </li>
    </ul>
 </div>
 <div id="masthead">
-   <p id="logos"><a href="http://www.w3.org/" title="W3C Home" shape="rect"><img alt="W3C logo" src="http://w3.org/Icons/w3c_home" /></a><a href="http://www.w3.org/WAI/" title="WAI Home" shape="rect"><img alt="Web Accessibility initiative" src="http://w3.org/WAI/images/wai-temp" /></a></p>
+   <p id="logos"><a href="http://www.w3.org/" title="W3C Home"  ><img alt="W3C logo" src="http://w3.org/Icons/w3c_home" /></a><a href="http://www.w3.org/WAI/" title="WAI Home"  ><img alt="Web Accessibility initiative" src="http://w3.org/WAI/images/wai-temp" /></a></p>
 </div>
 <div id="tagline">
    <p>WAI: Strategies, guidelines, resources to make the
       Web accessible to people with disabilities</p>
 </div>
 <div id="main">
+  <div id="skipwrapper"><a id="skip">-</a></div>
   <p class="highlight-version"><strong>This is an internal Editors' Draft. The main page is at <a href="http://www.w3.org/wai/eval/preliminary">www.w3.org/WAI/eval/preliminary</a><br />
     Please send any suggestions, edits, or comments </strong>to the publicly-archived list: <a href="mailto:wai-eo-editors@w3.org">wai-eo-editors@w3.org</a><br />
     (Updated $Date: 2015/09/03 21:42:46 $)</p>
@@ -247,7 +249,7 @@ figcaption {
          <p class="listintro">However, some checks are easier if you can download tools. To keep it simple, we&#39;ve included instructions for just two tools - the Web Developer Toolbar for Firefox (&quot;FF Toolbar&quot;) and the Web Accessibility Toolbar for Internet Explorer (&quot;IE WAT&quot;). Both are free extensions/add-ons available in different languages.</p>
          <ul class="listafterpul">
             <li>FF Toolbar - To do the checks that are indicated &quot;with the Firefox (FF) Toolbar&quot;, you&#39;ll need the <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox browser</a> and the <a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/">Web Developer extension</a>/add-on.</li>
-            <li>IE WAT - To do the checks that are indicated &quot;with IE WAT&quot;, you&#39;ll need the <a href="http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-9/worldwide-languages">Internet Explorer (IE) browser</a> version 9 or later and the <a href="http://paciellogroup.com/resources/wat/ie">Web Accessibility Toolbar</a> version  19 July 2013 or later.</li>
+            <li>IE WAT - To do the checks that are indicated &quot;with IE WAT&quot;, you&#39;ll need the <a href="https://support.microsoft.com/internet-explorer">Internet Explorer (IE) browser</a> version 9 or later and the <a href="http://paciellogroup.com/resources/wat/ie">Web Accessibility Toolbar</a> version  19 July 2013 or later.</li>
          </ul>
          <p>Note that we&#39;re not endorsing these tools over others. There are many other useful <a href="http://www.w3.org/WAI/eval/selectingtools">tools to help with evaluation</a>.</p>
          <p><i>(If you can&#39;t download these tools, that&#39;s OK; you can still do the checks indicated &quot;with any browser&quot;.)</i></p>
@@ -292,7 +294,7 @@ figcaption {
          </ul>
          <p>For such instructions, Windows users press the Ctrl key, and Mac users press the cmd key.</p>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      <p class="totop"><a href="#toc"  >back to page contents</a></p>
       <h2 id="title">Page title</h2>
       <p class="listintro">Page titles are:</p>
       <ul class="listafterpul">
@@ -390,7 +392,7 @@ figcaption {
       <p class="domore">These checks are not definitive and they cover only a few accessibility issues.
       A web page could seem to pass these checks, yet still have significant accessibility barriers.
       More robust evaluation is needed to evaluate all issues comprehensively. <a href="#moreeval">Encourage thorough accessibility evaluation</a>.</p>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      <p class="totop"><a href="#toc"  >back to page contents</a></p>
       <h2 id="images">Image text alternatives (&quot;alt text&quot;)</h2>
       <p>Text alternatives (&quot;alt text&quot;) convey the purpose of an image, including pictures, illustrations, charts, etc. Text alternatives are used by people who do not see the image. (For example, people who are blind and use screen readers can hear the alt text read out; and people who have turned off images to speed download or save bandwidth can see the alt text.)</p>
       <p>The text should be functional and provide an equivalent user experience, not necessarily describe the image. (For example,  appropriate text alternative for a search button <img src="images/search-button.png" alt="" width="36" height="24" /> would be &quot;search&quot;, not &quot;magnifying glass&quot;.)</p>
@@ -525,7 +527,7 @@ figcaption {
             <li>[when published, <a href="http://dev.w3.org/html5/alt-techniques/#tree">A simple alt text decision tree</a> ]</li>
          </ul>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      <p class="totop"><a href="#toc"  >back to page contents</a></p>
       <h2 id="headings">Headings</h2>
       <p>Web pages often have sections of information separated by visual headings, for example, heading text is bigger and bold (like &quot;Headings&quot; right above this sentence :-). To make these work for everyone, the headings need to be <a href="#markup" class="termref">marked up</a>. That way people can navigate to the headings — including people who cannot use a mouse and use only the keyboard, and people who use a screen reader.</p>
       <p class="listintro">Heading levels should have a meaningful hierarchy, e.g.: </p>
@@ -561,20 +563,18 @@ figcaption {
       </ul>
       <h3>Headings checks</h3>
       <p class="listintro">The checks below provide instructions with different browsers for how to get:</p>
-      <ul class="listafterpul">
-         <li>Headings outline: an outline of the headings that are marked up on page, for example:</li>
-         <figure>
-               <div class="figcontent"><img src="images/headings-outline.png" alt="" width="674" height="263" /></div>
-                  <figcaption class="figcaption">Figure: Outline of headings.</figcaption>
-            <!--figure-->
-            </figure>
-         <li>Headings markup in page: a view of the page with the heading markup shown, for example:
-         <figure> <div class="figcontent"><img src="images/headings-in-page.png" alt="" width="674" height="230" /></div>
-   <figcaption class="figcaption">Figure: Heading markup in page.</figcaption>
-   <!--figure-->
-</figure>
-</li>
-      </ul>
+      <p>Headings outline: an outline of the headings that are marked up on page, for example:</p>
+      <figure>
+        <div class="figcontent"><img src="images/headings-outline.png" alt="" width="674" height="263" /></div>
+        <figcaption class="figcaption">Figure: Outline of headings.</figcaption>
+      <!--figure-->
+      </figure>
+      <p>Headings markup in page: a view of the page with the heading markup shown, for example:</p>
+      <figure> 
+          <div class="figcontent"><img src="images/headings-in-page.png" alt="" width="674" height="230" /></div>
+          <figcaption class="figcaption">Figure: Heading markup in page.</figcaption>
+        <!--figure-->
+      </figure>
       <h4 class="f_panelHead">To check headings <em>with FF toolbar</em></h4>
       <div class="steps">
          <h5 class="listintro">Headings outline:</h5>
@@ -691,7 +691,7 @@ figcaption {
             <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html">Section Headings</a> - Understanding Success Criterion 2.4.10 for WCAG 2.0 (Level AAA)</li>
          </ul>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      <p class="totop"><a href="#toc"  >back to page contents</a></p>
       <h2 id="contrast"> Contrast ratio (&quot;color contrast&quot;)</h2>
       <p>Some people cannot read text if there is not sufficient contrast between the text and background, for example,  light gray text on a light background.</p>
       <figure> <div class="figcontent"><img src="images/contrast-gray-white.png" alt="" width="301" height="127" /></div>
@@ -788,11 +788,11 @@ figcaption {
       <div>
          <ul>
             <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast">Contrast (Minimum)</a> - Understanding Success Criterion 1.4.3 for WCAG 2.0 (Level AA)</li>
-            <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast7">Contrast (Enhanced)</a> - Understanding Success Criterion 1.4.6 for WCAG 2.0 (Level AAA)<br />
+            <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast">Contrast (Enhanced)</a> - Understanding Success Criterion 1.4.6 for WCAG 2.0 (Level AAA)<br />
             </li>
          </ul>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      <p class="totop"><a href="#toc"  >back to page contents</a></p>
       <a name="zoom" id="zoom"></a>
       <!-- for old links -->
       <h2 id="resize">Resize text</h2>
@@ -871,7 +871,7 @@ figcaption {
             </li>
          </ul>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      <p class="totop"><a href="#toc"  >back to page contents</a></p>
       <h2 id="interaction">Keyboard access and visual focus</h2>
       <p>Many people cannot use a mouse and rely on the keyboard to interact with the Web. People who are blind and some sighted people with mobility impairments  rely on the keyboard or on assistive technologies and strategies that rely on keyboard commands, such as voice input. Accessible websites enable people to access all content and functionality &mdash; links, forms, media controls, etc. &mdash; through a keyboard.</p>
       <p>Keyboard focus should be visible and should follow a logical order through the page elements. Visible keyboard focus could be a  border or highlight, as shown below, that moves as  you tab through the web page.</p>
@@ -879,7 +879,7 @@ figcaption {
       <figure> <div class="figcontent"><img src="images/focus-highlight-border.png" alt="" width="348" height="126" /></div>
          <figcaption class="figcaption">Figure: Dotted border on middle link.</figcaption>
       </figure>
-      <figure> <div class="figcontent"><img src="images/focus-highlight-field.png" alt="" width="412" height="150" /></div>
+      <figure> <div class="figcontent"><img src="images/focus-highlight-field.jpg" alt="" width="412" height="150" /></div>
          <figcaption class="figcaption">Figure: Name field is highlighted red.</figcaption>
       </figure>
       </div>
@@ -939,7 +939,7 @@ figcaption {
             <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html">Focus Visible</a> - Understanding Success Criterion 2.4.7  for WCAG 2.0 (Level AA)</li>
          </ul>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      <p class="totop"><a href="#toc"  >back to page contents</a></p>
       <h2 id="forms">Forms, labels, and errors</h2>
       <p><em>Note: This section is more complex than the others. If it's too complicated, consider skipping it for now and proceeding through the remaining checks</em>.</p>
       <p>Labels, keyboard access, clear instructions, and effective error handling are  important for forms accessibility.</p>
@@ -1087,7 +1087,7 @@ figcaption {
             <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html">Error Prevention (Legal, Financial, Data)</a> - Understanding Success Criterion 3.3.4 for WCAG 2.0 (Level AA) </li>
          </ul>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      <p class="totop"><a href="#toc"  >back to page contents</a></p>
 
 
 <h2 id="moving">Moving, Flashing, or Blinking Content</h2>
@@ -1120,7 +1120,7 @@ figcaption {
       </ul>
 </div>
 
-<p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+<p class="totop"><a href="#toc"  >back to page contents</a></p>
       <h2 id="media">Multimedia (video, audio) alternatives</h2>
       <p>Information in podcasts or other audio is not available to people who are deaf or some people who are hard of hearing, unless it is provided in an alternative format such as captions and text  transcripts. Visual information in videos is not available to people who are blind or some people what have low vision, unless it is provided in an alternative format such as audio or  text. (Text can be read  by a screen reader or Braille display, or enlarged and reformatted for people with low vision.)</p>
       <p> (Remember these easy checks  are not comprehensive or definitive.)</p>
@@ -1171,7 +1171,7 @@ figcaption {
             <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-text-doc.html">Media Alternative</a> - Understanding Success Criterion 1.2.8 for WCAG 2.0 (Level AAA)</li>
          </ul>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      <p class="totop"><a href="#toc"  >back to page contents</a></p>
       <a name="plain" id="plain"></a>
       <!-- anchor for historical purposes - so old links work -->
       <h2 id="structure">Basic structure check</h2>
@@ -1208,7 +1208,7 @@ figcaption {
 
 <p>Figure E shows the page changed by a person with low vision to make it more readable, for example, the main text is big, the footer text is very small, and the headings are a different color.</p>
       <figure>
-         <div class="figcontent"div class="figcontent"><img src="images/lin-lv.png" alt="" width="359" height="429" /></div>
+         <div class="figcontent"><img src="images/lin-lv.png" alt="" width="359" height="429" /></div>
          <figcaption class="figcaption">Figure E.</figcaption>
          <!--figure-->
       </figure>
@@ -1304,7 +1304,7 @@ figcaption {
                Notice that that radio button labels are not with the buttons. (This is because the page uses layout tables incorrectly.)</li>
          </ol>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      <p class="totop"><a href="#toc"  >back to page contents</a></p>
       <h2 id="next">Next steps</h2>
       <p class="listintro">Now that you have an idea of the accessibility issues on a web page, two things you can do:</p>
       <ol class="listafterpul">
@@ -1322,7 +1322,7 @@ figcaption {
          <li><a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a></li>
          <li><a href="http://www.w3.org/WAI/eval/users">Involving Users in Evaluating Web Accessibility</a></li>
       </ul>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      <p class="totop"><a href="#toc"  >back to page contents</a></p>
       <div class="f_controls_accordion f_fileToLoad_accordionControls"></div>
    </div>
 <aside class="side-box contribute" role="complementary">
