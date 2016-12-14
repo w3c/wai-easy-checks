@@ -225,14 +225,20 @@ figcaption {
       <h3 id="excolbuttomns">Click headings with [+] buttons to get hidden information</h3>
       <p>Some sections of this page might not apply to your situation, for example, they are for a  browser you don't have, or you  only need to read them once. These sections are hidden by default so they don't clutter the page. You can expand them to see the information. The headings of hidden  sections have a plus button [+] before them. Screen readers will say something like: &quot;graphic, expand this section&quot;. To get the hidden information, click the button or click anywhere on the heading.</p>
       <p>The  sections below all have hidden information under expandable headings. The first time you read this page, <strong>we recommend that you expand the headings of these five sections and  read them.</strong></p>
-      <h3 class="f_panelHead" id="tools">Tools: FF Toolbar and IE WAT <em>(optional)</em></h3>
+      <h3 class="f_panelHead" id="tools">Tools: WebDev Toolbar and IE WAT <em>(optional)</em></h3>
       <div>
          <p><strong>You can do most of these checks with any browser, that is, you do <i>not</i> need to download special tools.</strong></p>
-         <p class="listintro">However, some checks are easier if you can download tools. To keep it simple, we&#39;ve included instructions for just two tools - the Web Developer Toolbar for Firefox (&quot;FF Toolbar&quot;) and the Web Accessibility Toolbar for Internet Explorer (&quot;IE WAT&quot;). Both are free extensions/add-ons available in different languages.</p>
-         <ul class="listafterpul">
-            <li>FF Toolbar - To do the checks that are indicated &quot;with the Firefox (FF) Toolbar&quot;, you&#39;ll need the <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox browser</a> and the <a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/">Web Developer extension</a>/add-on.</li>
-            <li>IE WAT - To do the checks that are indicated &quot;with IE WAT&quot;, you&#39;ll need the <a href="https://www.microsoft.com/en-us/download/Internet-Explorer-11-for-Windows-7-details.aspx">Internet Explorer (IE) browser</a> version 9 or later and the <a href="https://www.paciellogroup.com/resources/wat/">Web Accessibility Toolbar</a> version  19 July 2013 or later.</li>
-         </ul>
+<p class="listintro">However, some checks are easier if you can download tools. To keep it simple, we&#39;ve included instructions for just two tools: the Web Developer Toolbar for Chrome, Opera, and Firefox (&quot;WebDev Toolbar&quot;) and the Web Accessibility Toolbar for Internet Explorer (&quot;IE WAT&quot;). Both are free extensions/add-ons available in different languages.</p>
+<ul class="listafterpul">
+  <li>WebDev Toolbar - To do the checks that are indicated &quot;with the WebDev Toolbar&quot;, you&#39;ll need <em>either</em>
+    <ul>
+      <li>the <a href="http://www.google.com/chrome/">Chrome browser</a> and the <a href="https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm">Web Developer extention for Chrome</a></li>
+      <li>the <a href="http://www.opera.com/">Opera browser</a> and the <a href="https://addons.opera.com/en/extensions/details/web-developer/?display=en-US">Web Developer extention for Opera</a></li>
+      <li>the <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox browser</a> and the <a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/">Web Developer extension/add-on for Firefox</a></li>
+    </ul>
+  </li>
+  <li>IE WAT - To do the checks that are indicated &quot;with IE WAT&quot;, you&#39;ll need the <a href="https://www.microsoft.com/en-us/download/Internet-Explorer-11-for-Windows-7-details.aspx">Internet Explorer (IE) browser</a> version 9 or later and the <a href="https://www.paciellogroup.com/resources/wat/">Web Accessibility Toolbar</a> version  19 July 2013 or later.</li>
+</ul>
          <p>Note that we&#39;re not endorsing these tools over others. There are many other useful <a href="http://www.w3.org/WAI/eval/selectingtools">tools to help with evaluation</a>.</p>
          <p><i>(If you can&#39;t download these tools, that&#39;s OK; you can still do the checks indicated &quot;with any browser&quot;.)</i></p>
       </div>
@@ -265,14 +271,14 @@ figcaption {
       </div>
       <h3 class="f_panelHead" id="ctrlcmd">Keyboard instructions: Ctrl for Windows, cmd for Mac</h3>
       <div>
-         <p>Some of the  keyboard instructions are different for Windows and Mac; for example, &quot;Ctrl&quot; verses &quot;cmd&quot; in:</p>
+         <p>Some of the  keyboard instructions are different for Windows and Mac; for example, &quot;Ctrl&quot; versus &quot;cmd&quot; in:</p>
          <ul>
             <li>For Windows: With the keyboard: Ctrl+Alt+6, then down arrow key to &quot;Heading structure&quot;.</li>
             <li>For Mac: With the keyboard: cmd+Alt+6, then down arrow key to &quot;Heading structure&quot;.</li>
          </ul>
          <p>To reduce clutter, these are listed as:</p>
          <ul>
-            <li>With the keyboard: Ctrl<span class="ctrlcmd">/cmd</span>+Alt+6, then down arrow key to &quot;Heading structure&quot;.</li>
+            <li>With the keyboard: Ctrl/cmd+Alt+6, then down arrow key to &quot;Heading structure&quot;.</li>
          </ul>
          <p>For such instructions, Windows users press the Ctrl key, and Mac users press the cmd key.</p>
       </div>
@@ -430,7 +436,7 @@ figcaption {
                For each image, see if the alt text adequately conveys the information in the image it is next to, per the Tips above. </li>
          </ol>
       </div>
-      <h4 id="altff" class="f_panelHead">To check alt text <em>with FF toolbar</em></h4>
+      <h4 id="altff" class="f_panelHead">To check alt text <em>with WebDev toolbar</em></h4>
       <div class="steps">
          <ol>
             <li>Open the web page you are checking.</li>
@@ -438,7 +444,7 @@ figcaption {
                            <em>Red boxes appear around any images missing alt.</em>
                <figure>
                   <div class="figcontent"><img src="images/alt-ff-missing.png" width="676" height="278" alt=""/></div>
-                  <figcaption class="figcaption">Figure:  FF toolbar menu, and red boxes around images.</figcaption>
+                  <figcaption class="figcaption">Figure:  WebDev toolbar menu, and red boxes around images.</figcaption>
                   <!--figure-->
                </figure>
 </li>
@@ -448,7 +454,7 @@ figcaption {
                <em>The alt text will be displayed before the images as white letters on a red background.</em>
                <figure>
                   <div class="figcontent"><img src="images/ff-toolbar-display-alt.png" alt="" width="674" height="175" /></div>
-                  <figcaption class="figcaption">Figure:  FF toolbar menu, and alt text displayed.</figcaption>
+                  <figcaption class="figcaption">Figure:  WebDev toolbar menu, and alt text displayed.</figcaption>
                   <!--figure-->
                </figure>
 </li>
@@ -502,10 +508,10 @@ figcaption {
          <ul class="listwithpul">
             <li><a href="http://www.w3.org/WAI/intro/people-use-web/principles#alternatives">Text alternatives for non-text content</a> is an easy introduction with links to more details</li>
             <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">Non-text Content</a> - Understanding Success Criterion 1.1.1 for WCAG 2.0 (Level A)</li>
-            <li>[when published, <a href="https://dev.w3.org/html5/alt-techniques/#tree">A simple alt text decision tree</a> ]</li>
+            <li><a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">An alt text decision tree</a></li>
          </ul>
       </div>
-      
+
       <p class="totop"><a href="#toc">back to page contents</a></p>
       <h2 id="headings">Headings</h2>
       <p>Web pages often have sections of information separated by visual headings, for example, heading text is bigger and bold (like &quot;Headings&quot; right above this sentence :-). To make these work for everyone, the headings need to be <a href="#markup" class="termref">marked up</a>. That way people can navigate to the headings — including people who cannot use a mouse and use only the keyboard, and people who use a screen reader.</p>
@@ -541,7 +547,7 @@ figcaption {
          <li>The heading  hierarchy is meaningful. Ideally the page starts with an &quot;h1&quot; — which is usually similar to the page title — and does not skip levels; however, these are not absolute requirements.</li>
       </ul>
       <h3>Headings checks</h3>
-      <p class="listintro">The checks below provide instructions with different browsers for how to get:</p>
+      <p class="listintro">The checks below provide instructions with different browsers for how to get an outline from headings or headings markup in a page.</p>
       <p>Headings outline: an outline of the headings that are marked up on page, for example:</p>
       <figure>
         <div class="figcontent"><img src="images/headings-outline.png" alt="" width="674" height="263" /></div>
@@ -549,12 +555,12 @@ figcaption {
       <!--figure-->
       </figure>
       <p>Headings markup in page: a view of the page with the heading markup shown, for example:</p>
-      <figure> 
+      <figure>
           <div class="figcontent"><img src="images/headings-in-page.png" alt="" width="674" height="230" /></div>
           <figcaption class="figcaption">Figure: Heading markup in page.</figcaption>
         <!--figure-->
       </figure>
-      <h4 class="f_panelHead">To check headings <em>with FF toolbar</em></h4>
+      <h4 class="f_panelHead">To check headings <em>with WebDev toolbar</em></h4>
       <div class="steps">
          <h5 class="listintro">Headings outline:</h5>
          <ol class="listafterpul">
@@ -752,9 +758,9 @@ figcaption {
             </li>
          </ol>
       </div>
-      <h4 class="f_panelHead">Checking contrast <em>with FF</em></h4>
+      <h4 class="f_panelHead">Checking contrast <em>with other browsers</em></h4>
       <div>
-         <p class="listintro">There is not an easy way to check contrast with the FF toolbar. There is a <a href="https://addons.mozilla.org/en-US/firefox/addon/juicy-studio-accessibility-too/">Juicy Studio Accessibility Toolbar</a> add-on that provides the same information as IE WAT above and works with Firefox.</p>
+         <p class="listintro">There is not an easy way to check contrast with the WebDev toolbar. There is a <a href="https://addons.mozilla.org/en-US/firefox/addon/juicy-studio-accessibility-too/">Juicy Studio Accessibility Toolbar</a> add-on that provides the same information as IE WAT above and works with Firefox.</p>
       </div>
       <h4 class="f_panelHead">To practice checking contrast with BAD</h4>
       <div>
@@ -817,7 +823,7 @@ figcaption {
             <li>From the menubar,
                do one of the following <em>(depending on your browser) </em>
                <ul>
-                  <li> <em>select </em>View &gt; Zoom &gt; Zoom Text Only. Or, with the keyboard in Firefox: Alt+V, Z, T</li>
+                  <li> select View &gt; Zoom &gt; Zoom Text Only. Or, with the keyboard in Firefox: Alt+V, Z, T</li>
                   <li>select View &gt; Zoom Text Only. Or, with the keyboard in Safari: control+F2, V,  return, ZZ</li>
                </ul>
             </li>
@@ -1028,9 +1034,9 @@ figcaption {
             </li>
          </ol>
       </div>
-      <h4 class="f_panelHead">Checking labels <em> with FF</em></h4>
-      <div>
-         <p>There is not an easy way to check form control labels with the FF toolbar. There is a <a href="http://jimthatcher.com/favelets/">Form Labels favelet</a> that provides the same information as <a href="#labelsWAT">IE WAT above</a> and works with Firefox. It requires installation.</p>
+      <h4 class="f_panelHead">Checking labels <em> with other browsers</em>
+      </h4><div>
+         <p>There is not an easy way to check form control labels with the WebDev toolbar. There is a <a href="http://jimthatcher.com/favelets/">Form Labels favelet</a> that provides the same information as <a href="#labelsWAT">IE WAT above</a> and works with Firefox. It requires installation.</p>
       </div>
       <h4 class="f_panelHead" id="labelsmarkup">To check labels if you're comfortable looking at the <a href="#markup" class="termref">HTML markup</a></h4>
       <div class="steps">
@@ -1236,7 +1242,7 @@ figcaption {
            Or, with the keyboard: Ctrl+Alt+7, then arrow down to  &quot;Linearize&quot;.</li>
          </ol>
       </div>
-      <h4 class="f_panelHead">To check  basic structure <em>with FF toolbar</em></h4>
+      <h4 class="f_panelHead">To check  basic structure <em>with WebDev toolbar</em></h4>
       <div class="steps">
          <ol>
             <li> Open the web page you are checking.</li>
@@ -1308,7 +1314,7 @@ figcaption {
       <p class="listintro">This page covers just a few accessibility issues. There are other accessibility issues not covered in these easy checks, for example: links, data table <a href="#markup" class="termref">markup</a>, reliance on color, and much more.</p>
       <p class="listintro">More robust evaluation is needed to evaluate all issues comprehensively. Guidance is available from:</p>
       <ul class="listafterpul">
-         <li><a href="http://www.w3.org/WAI/eval/conformance">WCAG-EM Website Accessibility Conformance Evaluation Methodology</a></li>
+         <li><a href="http://www.w3.org/WAI/eval/conformance">WCAG-EM Website Accessibility Conformance Evaluation Methodology</a><br/> <a href="http://www.w3.org/WAI/eval/report-tool/#/">WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator <img src="https://www.w3.org/Icons/tr.png" alt="different format" /></a></li>
          <li><a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a></li>
          <li><a href="http://www.w3.org/WAI/eval/users">Involving Users in Evaluating Web Accessibility</a></li>
       </ul>
@@ -1341,6 +1347,14 @@ href="https://github.com/w3c/EasyChecks/blob/gh-pages/index.html">Fork &amp; edi
 </div>
 </div>
 <script>
+
+/*!
+ * imagesLoaded PACKAGED v4.1.1
+ * JavaScript is all like "You images are done yet or what?"
+ * MIT License
+ */
+
+!function(t,e){"function"==typeof define&&define.amd?define("ev-emitter/ev-emitter",e):"object"==typeof module&&module.exports?module.exports=e():t.EvEmitter=e()}("undefined"!=typeof window?window:this,function(){function t(){}var e=t.prototype;return e.on=function(t,e){if(t&&e){var i=this._events=this._events||{},n=i[t]=i[t]||[];return-1==n.indexOf(e)&&n.push(e),this}},e.once=function(t,e){if(t&&e){this.on(t,e);var i=this._onceEvents=this._onceEvents||{},n=i[t]=i[t]||{};return n[e]=!0,this}},e.off=function(t,e){var i=this._events&&this._events[t];if(i&&i.length){var n=i.indexOf(e);return-1!=n&&i.splice(n,1),this}},e.emitEvent=function(t,e){var i=this._events&&this._events[t];if(i&&i.length){var n=0,o=i[n];e=e||[];for(var r=this._onceEvents&&this._onceEvents[t];o;){var s=r&&r[o];s&&(this.off(t,o),delete r[o]),o.apply(this,e),n+=s?0:1,o=i[n]}return this}},t}),function(t,e){"use strict";"function"==typeof define&&define.amd?define(["ev-emitter/ev-emitter"],function(i){return e(t,i)}):"object"==typeof module&&module.exports?module.exports=e(t,require("ev-emitter")):t.imagesLoaded=e(t,t.EvEmitter)}(window,function(t,e){function i(t,e){for(var i in e)t[i]=e[i];return t}function n(t){var e=[];if(Array.isArray(t))e=t;else if("number"==typeof t.length)for(var i=0;i<t.length;i++)e.push(t[i]);else e.push(t);return e}function o(t,e,r){return this instanceof o?("string"==typeof t&&(t=document.querySelectorAll(t)),this.elements=n(t),this.options=i({},this.options),"function"==typeof e?r=e:i(this.options,e),r&&this.on("always",r),this.getImages(),h&&(this.jqDeferred=new h.Deferred),void setTimeout(function(){this.check()}.bind(this))):new o(t,e,r)}function r(t){this.img=t}function s(t,e){this.url=t,this.element=e,this.img=new Image}var h=t.jQuery,a=t.console;o.prototype=Object.create(e.prototype),o.prototype.options={},o.prototype.getImages=function(){this.images=[],this.elements.forEach(this.addElementImages,this)},o.prototype.addElementImages=function(t){"IMG"==t.nodeName&&this.addImage(t),this.options.background===!0&&this.addElementBackgroundImages(t);var e=t.nodeType;if(e&&d[e]){for(var i=t.querySelectorAll("img"),n=0;n<i.length;n++){var o=i[n];this.addImage(o)}if("string"==typeof this.options.background){var r=t.querySelectorAll(this.options.background);for(n=0;n<r.length;n++){var s=r[n];this.addElementBackgroundImages(s)}}}};var d={1:!0,9:!0,11:!0};return o.prototype.addElementBackgroundImages=function(t){var e=getComputedStyle(t);if(e)for(var i=/url\((['"])?(.*?)\1\)/gi,n=i.exec(e.backgroundImage);null!==n;){var o=n&&n[2];o&&this.addBackground(o,t),n=i.exec(e.backgroundImage)}},o.prototype.addImage=function(t){var e=new r(t);this.images.push(e)},o.prototype.addBackground=function(t,e){var i=new s(t,e);this.images.push(i)},o.prototype.check=function(){function t(t,i,n){setTimeout(function(){e.progress(t,i,n)})}var e=this;return this.progressedCount=0,this.hasAnyBroken=!1,this.images.length?void this.images.forEach(function(e){e.once("progress",t),e.check()}):void this.complete()},o.prototype.progress=function(t,e,i){this.progressedCount++,this.hasAnyBroken=this.hasAnyBroken||!t.isLoaded,this.emitEvent("progress",[this,t,e]),this.jqDeferred&&this.jqDeferred.notify&&this.jqDeferred.notify(this,t),this.progressedCount==this.images.length&&this.complete(),this.options.debug&&a&&a.log("progress: "+i,t,e)},o.prototype.complete=function(){var t=this.hasAnyBroken?"fail":"done";if(this.isComplete=!0,this.emitEvent(t,[this]),this.emitEvent("always",[this]),this.jqDeferred){var e=this.hasAnyBroken?"reject":"resolve";this.jqDeferred[e](this)}},r.prototype=Object.create(e.prototype),r.prototype.check=function(){var t=this.getIsImageComplete();return t?void this.confirm(0!==this.img.naturalWidth,"naturalWidth"):(this.proxyImage=new Image,this.proxyImage.addEventListener("load",this),this.proxyImage.addEventListener("error",this),this.img.addEventListener("load",this),this.img.addEventListener("error",this),void(this.proxyImage.src=this.img.src))},r.prototype.getIsImageComplete=function(){return this.img.complete&&void 0!==this.img.naturalWidth},r.prototype.confirm=function(t,e){this.isLoaded=t,this.emitEvent("progress",[this,this.img,e])},r.prototype.handleEvent=function(t){var e="on"+t.type;this[e]&&this[e](t)},r.prototype.onload=function(){this.confirm(!0,"onload"),this.unbindEvents()},r.prototype.onerror=function(){this.confirm(!1,"onerror"),this.unbindEvents()},r.prototype.unbindEvents=function(){this.proxyImage.removeEventListener("load",this),this.proxyImage.removeEventListener("error",this),this.img.removeEventListener("load",this),this.img.removeEventListener("error",this)},s.prototype=Object.create(r.prototype),s.prototype.check=function(){this.img.addEventListener("load",this),this.img.addEventListener("error",this),this.img.src=this.url;var t=this.getIsImageComplete();t&&(this.confirm(0!==this.img.naturalWidth,"naturalWidth"),this.unbindEvents())},s.prototype.unbindEvents=function(){this.img.removeEventListener("load",this),this.img.removeEventListener("error",this)},s.prototype.confirm=function(t,e){this.isLoaded=t,this.emitEvent("progress",[this,this.element,e])},o.makeJQueryPlugin=function(e){e=e||t.jQuery,e&&(h=e,h.fn.imagesLoaded=function(t,e){var i=new o(this,t,e);return i.jqDeferred.promise(h(this))})},o.makeJQueryPlugin(),o});
 
   (function() {
     var throttle = function(type, name, obj) {
@@ -1377,15 +1391,9 @@ href="https://github.com/w3c/EasyChecks/blob/gh-pages/index.html">Fork &amp; edi
     });
   }
 
-  function ready(fn) {
-    if (document.readyState != 'loading'){
-      fn();
-    } else {
-      document.addEventListener('DOMContentLoaded', fn);
-    }
-  }
-
-  ready(init);
+  imagesLoaded( document.querySelectorAll('figure'), function( instance ) {
+    init();
+  });
 
   // handle event
   window.addEventListener("optimizedResize", function() {
