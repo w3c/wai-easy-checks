@@ -225,14 +225,20 @@ figcaption {
       <h3 id="excolbuttomns">Click headings with [+] buttons to get hidden information</h3>
       <p>Some sections of this page might not apply to your situation, for example, they are for a  browser you don't have, or you  only need to read them once. These sections are hidden by default so they don't clutter the page. You can expand them to see the information. The headings of hidden  sections have a plus button [+] before them. Screen readers will say something like: &quot;graphic, expand this section&quot;. To get the hidden information, click the button or click anywhere on the heading.</p>
       <p>The  sections below all have hidden information under expandable headings. The first time you read this page, <strong>we recommend that you expand the headings of these five sections and  read them.</strong></p>
-      <h3 class="f_panelHead" id="tools">Tools: FF Toolbar and IE WAT <em>(optional)</em></h3>
+      <h3 class="f_panelHead" id="tools">Tools: WebDev Toolbar and IE WAT <em>(optional)</em></h3>
       <div>
          <p><strong>You can do most of these checks with any browser, that is, you do <i>not</i> need to download special tools.</strong></p>
-         <p class="listintro">However, some checks are easier if you can download tools. To keep it simple, we&#39;ve included instructions for just two tools - the Web Developer Toolbar for Firefox (&quot;FF Toolbar&quot;) and the Web Accessibility Toolbar for Internet Explorer (&quot;IE WAT&quot;). Both are free extensions/add-ons available in different languages.</p>
-         <ul class="listafterpul">
-            <li>FF Toolbar - To do the checks that are indicated &quot;with the Firefox (FF) Toolbar&quot;, you&#39;ll need the <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox browser</a> and the <a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/">Web Developer extension</a>/add-on.</li>
-            <li>IE WAT - To do the checks that are indicated &quot;with IE WAT&quot;, you&#39;ll need the <a href="https://www.microsoft.com/en-us/download/Internet-Explorer-11-for-Windows-7-details.aspx">Internet Explorer (IE) browser</a> version 9 or later and the <a href="https://www.paciellogroup.com/resources/wat/">Web Accessibility Toolbar</a> version  19 July 2013 or later.</li>
-         </ul>
+<p class="listintro">However, some checks are easier if you can download tools. To keep it simple, we&#39;ve included instructions for just two tools: the Web Developer Toolbar for Chrome, Opera, and Firefox (&quot;WebDev Toolbar&quot;) and the Web Accessibility Toolbar for Internet Explorer (&quot;IE WAT&quot;). Both are free extensions/add-ons available in different languages.</p>
+<ul class="listafterpul">
+  <li>WebDev Toolbar - To do the checks that are indicated &quot;with the WebDev Toolbar&quot;, you&#39;ll need <em>either</em>
+    <ul>
+      <li>the <a href="http://www.google.com/chrome/">Chrome browser</a> and the <a href="https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm">Web Developer extention for Chrome</a></li>
+      <li>the <a href="http://www.opera.com/">Opera browser</a> and the <a href="https://addons.opera.com/en/extensions/details/web-developer/?display=en-US">Web Developer extention for Opera</a></li>
+      <li>the <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox browser</a> and the <a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/">Web Developer extension/add-on for Firefox</a></li>
+    </ul>
+  </li>
+  <li>IE WAT - To do the checks that are indicated &quot;with IE WAT&quot;, you&#39;ll need the <a href="https://www.microsoft.com/en-us/download/Internet-Explorer-11-for-Windows-7-details.aspx">Internet Explorer (IE) browser</a> version 9 or later and the <a href="https://www.paciellogroup.com/resources/wat/">Web Accessibility Toolbar</a> version  19 July 2013 or later.</li>
+</ul>
          <p>Note that we&#39;re not endorsing these tools over others. There are many other useful <a href="http://www.w3.org/WAI/eval/selectingtools">tools to help with evaluation</a>.</p>
          <p><i>(If you can&#39;t download these tools, that&#39;s OK; you can still do the checks indicated &quot;with any browser&quot;.)</i></p>
       </div>
@@ -430,7 +436,7 @@ figcaption {
                For each image, see if the alt text adequately conveys the information in the image it is next to, per the Tips above. </li>
          </ol>
       </div>
-      <h4 id="altff" class="f_panelHead">To check alt text <em>with FF toolbar</em></h4>
+      <h4 id="altff" class="f_panelHead">To check alt text <em>with WebDev toolbar</em></h4>
       <div class="steps">
          <ol>
             <li>Open the web page you are checking.</li>
@@ -438,7 +444,7 @@ figcaption {
                            <em>Red boxes appear around any images missing alt.</em>
                <figure>
                   <div class="figcontent"><img src="images/alt-ff-missing.png" width="676" height="278" alt=""/></div>
-                  <figcaption class="figcaption">Figure:  FF toolbar menu, and red boxes around images.</figcaption>
+                  <figcaption class="figcaption">Figure:  WebDev toolbar menu, and red boxes around images.</figcaption>
                   <!--figure-->
                </figure>
 </li>
@@ -448,7 +454,7 @@ figcaption {
                <em>The alt text will be displayed before the images as white letters on a red background.</em>
                <figure>
                   <div class="figcontent"><img src="images/ff-toolbar-display-alt.png" alt="" width="674" height="175" /></div>
-                  <figcaption class="figcaption">Figure:  FF toolbar menu, and alt text displayed.</figcaption>
+                  <figcaption class="figcaption">Figure:  WebDev toolbar menu, and alt text displayed.</figcaption>
                   <!--figure-->
                </figure>
 </li>
@@ -554,7 +560,7 @@ figcaption {
           <figcaption class="figcaption">Figure: Heading markup in page.</figcaption>
         <!--figure-->
       </figure>
-      <h4 class="f_panelHead">To check headings <em>with FF toolbar</em></h4>
+      <h4 class="f_panelHead">To check headings <em>with WebDev toolbar</em></h4>
       <div class="steps">
          <h5 class="listintro">Headings outline:</h5>
          <ol class="listafterpul">
@@ -752,9 +758,9 @@ figcaption {
             </li>
          </ol>
       </div>
-      <h4 class="f_panelHead">Checking contrast <em>with FF</em></h4>
+      <h4 class="f_panelHead">Checking contrast <em>with other browsers</em></h4>
       <div>
-         <p class="listintro">There is not an easy way to check contrast with the FF toolbar. There is a <a href="https://addons.mozilla.org/en-US/firefox/addon/juicy-studio-accessibility-too/">Juicy Studio Accessibility Toolbar</a> add-on that provides the same information as IE WAT above and works with Firefox.</p>
+         <p class="listintro">There is not an easy way to check contrast with the WebDev toolbar. There is a <a href="https://addons.mozilla.org/en-US/firefox/addon/juicy-studio-accessibility-too/">Juicy Studio Accessibility Toolbar</a> add-on that provides the same information as IE WAT above and works with Firefox.</p>
       </div>
       <h4 class="f_panelHead">To practice checking contrast with BAD</h4>
       <div>
@@ -817,7 +823,7 @@ figcaption {
             <li>From the menubar,
                do one of the following <em>(depending on your browser) </em>
                <ul>
-                  <li> <em>select </em>View &gt; Zoom &gt; Zoom Text Only. Or, with the keyboard in Firefox: Alt+V, Z, T</li>
+                  <li> select View &gt; Zoom &gt; Zoom Text Only. Or, with the keyboard in Firefox: Alt+V, Z, T</li>
                   <li>select View &gt; Zoom Text Only. Or, with the keyboard in Safari: control+F2, V,  return, ZZ</li>
                </ul>
             </li>
@@ -1028,9 +1034,9 @@ figcaption {
             </li>
          </ol>
       </div>
-      <h4 class="f_panelHead">Checking labels <em> with FF</em></h4>
-      <div>
-         <p>There is not an easy way to check form control labels with the FF toolbar. There is a <a href="http://jimthatcher.com/favelets/">Form Labels favelet</a> that provides the same information as <a href="#labelsWAT">IE WAT above</a> and works with Firefox. It requires installation.</p>
+      <h4 class="f_panelHead">Checking labels <em> with other browsers</em>
+      </h4><div>
+         <p>There is not an easy way to check form control labels with the WebDev toolbar. There is a <a href="http://jimthatcher.com/favelets/">Form Labels favelet</a> that provides the same information as <a href="#labelsWAT">IE WAT above</a> and works with Firefox. It requires installation.</p>
       </div>
       <h4 class="f_panelHead" id="labelsmarkup">To check labels if you're comfortable looking at the <a href="#markup" class="termref">HTML markup</a></h4>
       <div class="steps">
@@ -1236,7 +1242,7 @@ figcaption {
            Or, with the keyboard: Ctrl+Alt+7, then arrow down to  &quot;Linearize&quot;.</li>
          </ol>
       </div>
-      <h4 class="f_panelHead">To check  basic structure <em>with FF toolbar</em></h4>
+      <h4 class="f_panelHead">To check  basic structure <em>with WebDev toolbar</em></h4>
       <div class="steps">
          <ol>
             <li> Open the web page you are checking.</li>
