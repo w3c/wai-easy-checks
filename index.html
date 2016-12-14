@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
 <title>Easy Checks - A First Review of Web Accessibility</title>
-<link rel="stylesheet" href="//www.w3.org/WAI/wai-main.css" type="text/css" />
+<link rel="stylesheet" href="https://www.w3.org/WAI/wai-main.css" type="text/css" />
 <!--[if IE 7]><link rel="stylesheet" href="//w3.org/WAI/ie-old.css" type="text/css" media="all" /><![endif]-->
-<link rel="stylesheet" href="//www.w3.org/WAI/style/hMenu.css" type="text/css" />
+<link rel="stylesheet" href="https://www.w3.org/WAI/style/hMenu.css" type="text/css" />
 <!--[if lte IE 7]><link href="http://www.w3.org/WAI/style/hMenuIE7.css" rel="stylesheet" type="text/css" /><![endif]-->
-<link href="//www.w3.org/WAI/style/excol.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="//www.w3.org/WAI/scripts/excol/excol.js"></script>
+<!-- <link href="https://www.w3.org/WAI/style/excol.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://www.w3.org/WAI/scripts/excol/excol.js"></script>-->
 <style type="text/css">
 <!--
 .highlight-version {
@@ -82,38 +82,63 @@ code {
    font-weight: bold;
 }
 /* ******************************** illustration CSS ******* */
-/* NOTE: around image: <figure class="figure" style="width:@@@px;"> - with the width being the width of the images + for multiple images within a fgiure, add 11px for each space between.*/
+/* NOTE: around image: <figure> - with the width being the width of the images + for multiple images within a fgiure, add 11px for each space between.*/
 /*
 #main {
 margin: 0 2% 0 27%;
 }
 */
-.figure {
+.multifigs {
+   display: flex;
+   margin: -5px;
+}
+
+.multifigs>* {
+   margin: 5px;
+}
+
+figure * {
    box-sizing: border-box;
-   max-width: 100%; /* so image scales across various widths */
-   margin: 10px 0;
+}
+
+figure {
+   float:left;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin: 0;
    padding: 10px;
    border: 1px solid #aaa;
    background: #FFFDFA; /* color that shows in padding around image -- half way between #fff and #fffaf5 */
    line-height: 115%;
+   overflow: hidden;
 }
-.figure img {
+figure + * {
+   clear:left;
+}
+figure img {
    max-width: 100%; /* this may be duplicative of above max-width; however this is where height: auto is needed */
    height:auto; /* to prevent height distortion when scaling browser width down */
    margin: 0 0 10px 0;
    border: 1px solid #888;
    vertical-align: top;
+   box-sizing: content-box;
 }
-.figure.multimg img {
-   margin: 0 10px 10px 0;
+.figcontent {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 5px;
+   margin: -5px;
+   align-items: flex-start;
+   margin-bottom: 5px;
 }
-.figure.multimg img:last-of-type {
-   margin-right: 0px;
+.figcontent>* {
+   flex:1;
+   flex-basis: 246px;
+   flex-grow: 0;
+   margin: 5px;
 }
-.figure.multimg img.last-of-type {
-   margin-right: 0px;
-} /* to accomodate IE7 & IE8. Cannot combine with , or breaks in IE8 (though not IE7) */
-.figcaption {
+figcaption {
    margin: 0 0 5px 1px; /* 1px left margin is to offset 1px for border used for image*/
    font-size: 85%;
    color: #444;
@@ -136,56 +161,39 @@ margin: 0 2% 0 27%;
 /* /end ex-col jumping with hover/focus temp fix */
 -->
 
-.domore
-{
- background: #FFC;
- border: 1px solid #930 !important;border-radius:.5em;
-   padding:15px;
-   font-size: 95%;
-   line-height: 111%;
-   }
-/*
-   {border:1px solid #666 !important;border-radius:.5em;padding:1em;margin:2em 0}
-   */
-.domore1 { background: #FFC;
- border: 1px solid #930 !important;border-radius:.5em;
-   padding:15px;
-   font-size: 95%;
-   line-height: 111%;
-}
 </style>
 </head>
 <body>
 <div id="controls">
    <ul>
-      <li><a href="#skip" shape="rect"><img src="http://w3.org/Icons/downinpage.png" alt="" /> Skip to Content </a></li>
-      <li><a href="http://w3.org/WAI/changedesign.html" shape="rect"> | Change
+      <li><a href="#skip"><img src="http://www.w3.org/Icons/downinpage.png" alt="" /> Skip to Content </a></li>
+      <li><a href="http://www.w3.org/WAI/changedesign.html"> | Change
          text size or colors </a> </li>
    </ul>
 </div>
 <div id="masthead">
-   <p id="logos"><a href="http://www.w3.org/" title="W3C Home" shape="rect"><img alt="W3C logo" src="http://w3.org/Icons/w3c_home" /></a><a href="http://www.w3.org/WAI/" title="WAI Home" shape="rect"><img alt="Web Accessibility initiative" src="http://w3.org/WAI/images/wai-temp" /></a></p>
+   <p id="logos"><a href="http://www.w3.org/" title="W3C Home"><img alt="W3C logo" src="http://www.w3.org/Icons/w3c_home" /></a><a href="http://www.w3.org/WAI/" title="WAI Home"><img alt="Web Accessibility initiative" src="http://www.w3.org/WAI/images/wai-temp" /></a></p>
 </div>
 <div id="tagline">
    <p>WAI: Strategies, guidelines, resources to make the
       Web accessible to people with disabilities</p>
 </div>
 <div id="main">
-  <p class="highlight-version"><strong>This is an internal Editors' Draft. The main page is at <a href="http://www.w3.org/wai/eval/preliminary">www.w3.org/WAI/eval/preliminary</a><br />
+  <div id="skipwrapper"><a id="skip">-</a></div>
+  <p class="highlight-version"><strong>This is an internal Editors' Draft. The main page is at <a href="http://www.w3.org/WAI/eval/preliminary">www.w3.org/WAI/eval/preliminary</a><br />
     Please send any suggestions, edits, or comments </strong>to the publicly-archived list: <a href="mailto:wai-eo-editors@w3.org">wai-eo-editors@w3.org</a><br />
     (Updated $Date: 2015/09/03 21:42:46 $)</p>
-  <h1><a name="startcontent" id="startcontent"><span class="subhead">[Editors' Draft]</span> Easy Checks - A First Review of Web Accessibility<br />
-    <span class="subhead">(previously titled Preliminary Review)</span></a></h1>
-
+  <h1><a id="startcontent"> [Editors' Draft] Easy Checks - A First Review of Web Accessibility</a></h1>
    <h2 class="no-display" id="introduction">Introduction</h2>
-   <p>This page helps you assess the accessibility  of a web page. With these  simple steps, you can get an idea whether or not accessibility is addressed in even the most basic way.</p>
-   <p class="listintro">These  checks cover just a few accessibility issues and are designed to be quick and easy, rather than definitive. A web page could seem to pass these checks, yet still have accessibility barriers. More robust evaluation is needed to evaluate all issues comprehensively. Additional evaluation guidance is available from:</p>
+   <p><strong>This page helps you assess the accessibility  of a web page. With these  simple steps, you can get an idea whether or not accessibility is addressed in even the most basic way.</strong></p>
+   <h3 id="scope">Scope: What is Covered and Not Covered</h3>
+   <p class="listintro">These checks cover just a few accessibility issues and are designed to be quick and easy, rather than definitive. A web page could seem to pass these checks, yet still have significant accessibility barriers. More robust evaluation is needed to evaluate all issues comprehensively. Additional evaluation guidance is available from:</p>
    <ul class="listafterpul">
       <li><a href="http://www.w3.org/WAI/eval/conformance">WCAG-EM Website Accessibility Conformance Evaluation Methodology</a></li>
       <li><a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a></li>
       <li><a href="http://www.w3.org/WAI/eval/users">Involving Users in Evaluating Web Accessibility</a></li>
    </ul>
-   <p><a name="toc" id="toc"></a>This page provides checks for the following specific aspects of a web page. It also provides guidance on <span class="ptoc"><a href="#next">Next Steps</a></span>.</p>
+   <p><a id="toc"></a>This page provides checks for the following specific aspects of a web page. It also provides guidance on <span class="ptoc"><a href="#next">Next Steps</a></span>.</p>
    <ul class="toc listafterpul listtight">
       <li><a href="#title">Page title</a></li>
       <li><a href="#images">Image text alternatives (&quot;alt text&quot;)</a> (pictures, illustrations, charts, etc.)</li>
@@ -205,7 +213,7 @@ margin: 0 2% 0 27%;
       <li><em>General:</em>
          <ul>
 
-<li><a href="#flash">Flashing or Blinking Content</a></li>
+<li><a href="#moving">Moving, Flashing, or Blinking Content</a></li>
 <li><a href="#media">Multimedia (video, audio) alternatives</a></li>
             <li><a href="#structure">Basic Structure Check</a></li>
          </ul>
@@ -213,7 +221,7 @@ margin: 0 2% 0 27%;
    </ul>
    <div class="f_controls_accordion f_fileToLoad_accordionControls"></div>
    <div id="accordion" class="accordionWrapper">
-      <h2><a name="using" id="using"></a>Using these Easy Checks</h2>
+      <h2><a id="using"></a>Using these Easy Checks</h2>
       <h3 id="excolbuttomns">Click headings with [+] buttons to get hidden information</h3>
       <p>Some sections of this page might not apply to your situation, for example, they are for a  browser you don't have, or you  only need to read them once. These sections are hidden by default so they don't clutter the page. You can expand them to see the information. The headings of hidden  sections have a plus button [+] before them. Screen readers will say something like: &quot;graphic, expand this section&quot;. To get the hidden information, click the button or click anywhere on the heading.</p>
       <p>The  sections below all have hidden information under expandable headings. The first time you read this page, <strong>we recommend that you expand the headings of these five sections and  read them.</strong></p>
@@ -222,8 +230,8 @@ margin: 0 2% 0 27%;
          <p><strong>You can do most of these checks with any browser, that is, you do <i>not</i> need to download special tools.</strong></p>
          <p class="listintro">However, some checks are easier if you can download tools. To keep it simple, we&#39;ve included instructions for just two tools - the Web Developer Toolbar for Firefox (&quot;FF Toolbar&quot;) and the Web Accessibility Toolbar for Internet Explorer (&quot;IE WAT&quot;). Both are free extensions/add-ons available in different languages.</p>
          <ul class="listafterpul">
-            <li>FF Toolbar - To do the checks that are indicated &quot;with the Firefox (FF) Toolbar&quot;, you&#39;ll need the <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox browser</a> and the <a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/">Web Developer extension</a>/add-on.</li>
-            <li>IE WAT - To do the checks that are indicated &quot;with IE WAT&quot;, you&#39;ll need the <a href="http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-9/worldwide-languages">Internet Explorer (IE) browser</a> version 9 or later and the <a href="http://paciellogroup.com/resources/wat/ie">Web Accessibility Toolbar</a> version  19 July 2013 or later.</li>
+            <li>FF Toolbar - To do the checks that are indicated &quot;with the Firefox (FF) Toolbar&quot;, you&#39;ll need the <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox browser</a> and the <a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/">Web Developer extension</a>/add-on.</li>
+            <li>IE WAT - To do the checks that are indicated &quot;with IE WAT&quot;, you&#39;ll need the <a href="https://www.microsoft.com/en-us/download/Internet-Explorer-11-for-Windows-7-details.aspx">Internet Explorer (IE) browser</a> version 9 or later and the <a href="https://www.paciellogroup.com/resources/wat/">Web Accessibility Toolbar</a> version  19 July 2013 or later.</li>
          </ul>
          <p>Note that we&#39;re not endorsing these tools over others. There are many other useful <a href="http://www.w3.org/WAI/eval/selectingtools">tools to help with evaluation</a>.</p>
          <p><i>(If you can&#39;t download these tools, that&#39;s OK; you can still do the checks indicated &quot;with any browser&quot;.)</i></p>
@@ -236,14 +244,14 @@ margin: 0 2% 0 27%;
       <h3 class="f_panelHead" id="bad">Practicing with BAD, the Before-After Demo</h3>
       <div>
          <p>The <a href="http://www.w3.org/WAI/demos/bad/">Before and After Demonstration (BAD)</a> from W3C WAI shows an inaccessible website and a retrofitted version of this same website with the accessibility barriers fixed. You can use the BAD pages to learn how to do these checks. For example, first, do the check on an accessible version of a page to see what it should look like. Then, do the check on the corresponding inaccessible page to see what it looks like when there are accessibility barriers.</p>
-         <p>The BAD pages have annotations that are notes on what is accessible and not accessible in the demo pages. To turn on annotations, click &quot;Show Annotations&quot; in the yellow box near the top, middle of the page; then click a number and a box titled <em>"Note ##"</em> will open with the explanation.</p>
+         <p>The BAD pages have annotations that are notes on what is accessible and not accessible in the demo pages. To turn on annotations, click &quot;Show Annotations&quot; in the yellow box near the top, middle of the page; then click a number and a box titled <em>&quot;Note ##&quot;</em> will open with the explanation.</p>
       </div>
       <h3 class="f_panelHead" id="background">Background</h3>
       <div>
          <p>These checks are designed for anyone who can use the web. You don&#39;t need much knowledge or skill. To check a couple of details, it may be necessary to see the visual page or hear audio. However, there are many things that anyone can check.</p>
          <p class="listintro">Here are some things to know that will help you understand the brief explanations throughout this page:</p>
          <ul class="listafterpul">
-            <li><strong><em><a name="markup" id="markup"></a>markup</em></strong> refers to web page code, called HTML. You can see the markup of a web page in most browsers by selecting from the menu: View &gt; Source. You do not  need to look at the markup to do these checks; however, it does help to understand what  &quot;markup&quot; and &quot;marked up&quot; means.</li>
+            <li><strong><em><a id="markup"></a>markup</em></strong> refers to web page code, called HTML. You can see the markup of a web page in most browsers by selecting from the menu: View &gt; Source. You do not  need to look at the markup to do these checks; however, it does help to understand what  &quot;markup&quot; and &quot;marked up&quot; means.</li>
             <li><i><a href="http://www.w3.org/WAI/intro/people-use-web/browsing#at">assistive technologies</a></i> (AT) are software or hardware that people with disabilities use to improve interaction with the web.</li>
             <li><i><a href="http://www.w3.org/WAI/intro/people-use-web/browsing#sr">screen readers</a></i> are software that reads aloud the information in web pages and enables keyboard navigation. They are used by people who are blind.</li>
             <li><i><a href="http://www.w3.org/WAI/intro/people-use-web/browsing#voice">voice input</a></i> is using speech instead of a keyboard and mouse.</li>
@@ -257,18 +265,18 @@ margin: 0 2% 0 27%;
       </div>
       <h3 class="f_panelHead" id="ctrlcmd">Keyboard instructions: Ctrl for Windows, cmd for Mac</h3>
       <div>
-         <p>Some of the  keyboard instructions are different for Windows and Mac; for example, &quot;Ctrl&quot; verses &quot;cmd&quot; in:</p>
+         <p>Some of the  keyboard instructions are different for Windows and Mac; for example, &quot;Ctrl&quot; versus &quot;cmd&quot; in:</p>
          <ul>
             <li>For Windows: With the keyboard: Ctrl+Alt+6, then down arrow key to &quot;Heading structure&quot;.</li>
             <li>For Mac: With the keyboard: cmd+Alt+6, then down arrow key to &quot;Heading structure&quot;.</li>
          </ul>
          <p>To reduce clutter, these are listed as:</p>
          <ul>
-            <li>With the keyboard: Ctrl<span class="ctrlcmd">/cmd</span>+Alt+6, then down arrow key to &quot;Heading structure&quot;.</li>
+            <li>With the keyboard: Ctrl/cmd+Alt+6, then down arrow key to &quot;Heading structure&quot;.</li>
          </ul>
          <p>For such instructions, Windows users press the Ctrl key, and Mac users press the cmd key.</p>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      <p class="totop"><a href="#toc">back to page contents</a></p>
       <h2 id="title">Page title</h2>
       <p class="listintro">Page titles are:</p>
       <ul class="listafterpul">
@@ -280,9 +288,9 @@ margin: 0 2% 0 27%;
       </ul>
       <p>(In the web page <a href="#markup" class="termref">markup</a> they are the &lt;title&gt; within the &lt;head&gt;.)</p>
       <p>The image below shows the page title &quot;Easy Checks - A First Review of Web Accessibility&quot; in the title bar, and the titles of 4 pages in the tabs. Note that in the tabs,  only the first part of the page title is shown.</p>
-      <figure class="figure" style="width:676px;"> <img src="http://w3.org/WAI/images/easychecks/page-title.png" alt="" width="674" height="100"/>
+      <figure> <img src="images/page-title.png" alt="" width="674" height="100"/>
          <figcaption class="figcaption">Figure: Firefox browser with full title  in the title bar and partial titles in the tabs.</figcaption>
-         <!--.figure-->
+         <!--figure-->
       </figure>
       <p>Good page titles are particularly important for  orientation — to help people know where they are and move between pages open in their browser. The first thing screen readers say when the user goes to a different web page is the page title.</p>
       <h3 class="whathead">What to do:</h3>
@@ -295,7 +303,7 @@ margin: 0 2% 0 27%;
          <li>Check that there is a title that adequately and briefly describes the content of the page.</li>
          <li>Check that the title is different from other pages on the website, and adequately distinguishes the page from other web pages.</li>
       </ul>
-      <h3 class="f_panelHead"><a name="titletips" id="titletips"></a>Tips</h3>
+      <h3 class="f_panelHead"><a id="titletips"></a>Tips</h3>
       <div>
          <ul class="listwithpul listtight">
             <li>There is flexibility on what makes a good page title.</li>
@@ -334,10 +342,11 @@ margin: 0 2% 0 27%;
             <li>If your browser doesn't have a title bar, you can do try one of these:
                <ul>
                   <li>With your mouse, hover over the browser tab to see the full page title, like this:<br />
-                     <figure class="figure" style="width:676px"> <img src="http://w3.org/WAI/images/easychecks/page-title-tab-popup.png" alt="" width="674" height="110" />
+                     <figure>
+                        <div class="figcontent"><img src="images/page-title-tab-popup.png" alt="" width="674" height="110" /></div>
                         <figcaption class="figcaption">Figure: Page title in popup, displayed with mouse hover over tab.</figcaption>
                      </figure>
-                     <!--.figure-->
+                     <!--figure-->
                   </li>
                   <li>Display the Add Bookmark dialog box, which includes the title. In some Windows browsers, press Ctrl+D. In some Mac browsers, press cmd+D to get the Add Bookmark dialog box.</li>
                </ul>
@@ -351,7 +360,7 @@ margin: 0 2% 0 27%;
             <li>Open the web page you are checking.</li>
             <li>In the toolbar, select &quot;Structure&quot;, then &quot;Heading structure&quot;. Or, with the keyboard: Ctrl/cmd+Alt+6, then down arrow key to &quot;Heading structure&quot;.<br/>
                <em>A new page opens.</em><br />
-               The page title is shown after &quot;Title:&quot;.</li>
+           The page title is shown after &quot;Title:&quot;.</li>
          </ol>
       </div>
       <h3 class="f_panelHead">Learn more about page titles</h3>
@@ -361,14 +370,10 @@ margin: 0 2% 0 27%;
          </ul>
       </div>
 
-      <a name="domore" id="domore"></a>
-      <p class="domore">These checks are not definitive and they cover only a few accessibility issues.
-      A web page could seem to pass these checks, yet still have significant accessibility barriers.
-      More robust evaluation is needed to evaluate all issues comprehensively. <a href="#moreeval">Encourage thorough accessibility evaluation</a>.</p>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      <p class="totop"><a href="#toc">back to page contents</a></p>
       <h2 id="images">Image text alternatives (&quot;alt text&quot;)</h2>
       <p>Text alternatives (&quot;alt text&quot;) convey the purpose of an image, including pictures, illustrations, charts, etc. Text alternatives are used by people who do not see the image. (For example, people who are blind and use screen readers can hear the alt text read out; and people who have turned off images to speed download or save bandwidth can see the alt text.)</p>
-      <p>The text should be functional and provide an equivalent user experience, not necessarily describe the image. (For example,  appropriate text alternative for a search button <img src="http://w3.org/WAI/images/easychecks/search-button.png" alt="" width="36" height="24" /> would be &quot;search&quot;, not &quot;magnifying glass&quot;.)</p>
+      <p>The text should be functional and provide an equivalent user experience, not necessarily describe the image. (For example,  appropriate text alternative for a search button <img src="images/search-button.png" alt="" width="36" height="24" /> would be &quot;search&quot;, not &quot;magnifying glass&quot;.)</p>
       <p class="listintro">You don&#39;t usually see the alt text on a web page, it is in the web page <a href="#markup" class="termref">markup</a> (like this:<br />
          <code>&lt;img src=&quot;pointer_to_image.png&quot; alt=&quot;here's where the alternative text goes&quot;&gt;</code>).<br />
          Every image should include <code>alt</code> in the markup.</p>
@@ -413,9 +418,10 @@ margin: 0 2% 0 27%;
          <ol>
             <li>Open the web page you are checking.</li>
             <li>In the toolbar, select &quot;Images&quot;, then &quot;Show Images&quot;. Or, with the keyboard: Ctrl/cmd+Alt+4, then arrow down to &quot;Show Images&quot;<br />
-               <figure class="figure" style="width:676px;"> <img src="http://w3.org/WAI/images/easychecks/alt-ie.png" alt="" width="674" height="223" />
+               <figure>
+                  <div class="figcontent"><img src="images/alt-ie.png" alt="" width="674" height="223" /></div>
                   <figcaption class="figcaption">Figure:  IE WAT toolbar with 'Images' drop down and 'Show Images' highlighted.</figcaption>
-                  <!--.figure-->
+                  <!--figure-->
                </figure>
                <em>If there are any images missing alt, a dialog box appears with the number of images without alt attributes.<br/>
                The alt text will be displayed before the images in quotes on a light background.</em></li>
@@ -430,18 +436,20 @@ margin: 0 2% 0 27%;
             <li>Open the web page you are checking.</li>
             <li>In the toolbar, select &quot;Images&quot;, then &quot;Outline Images&quot;, then &quot;Outline Images Without Alt Attributes&quot;. Or, with the keyboard: Alt+T, W (to Web Developer Extension), I, O, A<br />
                            <em>Red boxes appear around any images missing alt.</em>
-               <figure class="figure" style="width:678px;"> <img src="http://w3.org/WAI/images/easychecks/alt-ff-missing.png" width="676" height="278" alt=""/>
+               <figure>
+                  <div class="figcontent"><img src="images/alt-ff-missing.png" width="676" height="278" alt=""/></div>
                   <figcaption class="figcaption">Figure:  FF toolbar menu, and red boxes around images.</figcaption>
-                  <!--.figure-->
+                  <!--figure-->
                </figure>
 </li>
             <li>Note images without any alt text.</li>
             <li>In the toolbar, select &quot;Images&quot;, then &quot;Display Alt Attributes&quot;. Or, with the keyboard: Alt+T, W (to Web Developer Extension), I, A
 <br />
-               <em>The alt text will be displayed before the images as white letters on a red background.</em>                
-               <figure class="figure" style="width:676px;"> <img src="http://w3.org/WAI/images/easychecks/ff-toolbar-display-alt.png" alt="" width="674" height="175" />
+               <em>The alt text will be displayed before the images as white letters on a red background.</em>
+               <figure>
+                  <div class="figcontent"><img src="images/ff-toolbar-display-alt.png" alt="" width="674" height="175" /></div>
                   <figcaption class="figcaption">Figure:  FF toolbar menu, and alt text displayed.</figcaption>
-                  <!--.figure-->
+                  <!--figure-->
                </figure>
 </li>
             <li>For each image, see if the alt text adequately conveys the information in the image it is next to, per the Tips above.</li>
@@ -457,9 +465,10 @@ margin: 0 2% 0 27%;
             <li>To check for missing alt: Look for the red alt icon (<img src="images/alt_missing.png" alt="Red Alt Missing WAVE Tool Icon" />), or search for the alt text &quot;ERROR: Missing alt text&quot;. If you find it, that means the following image is missing alt.</li>
             <li>To check if alt text is appropriate: <br/>
                Look for the green alt icon (<img src="images/alt.png" alt="Green Alt Exists WAVE Tool Icon" />). Next to it is text on a light blue background; the alt text is in between the asterisks (*). See if that text adequately conveys the information in the image it is next to, per the Tips above.
-<figure class="figure" style="width:678px;"> <img src="http://w3.org/WAI/images/easychecks/alt-wave5.png" alt="" width="676" height="314"/>
+<figure>
+   <div class="figcontent"><img src="images/alt-wave5.png" alt="" width="676" height="314"/></div>
    <figcaption class="figcaption">Figure: WAVE showing alt text.</figcaption>
-   <!--.figure-->
+   <!--figure-->
 </figure>
 </li>
          </ol>
@@ -493,26 +502,27 @@ margin: 0 2% 0 27%;
          <ul class="listwithpul">
             <li><a href="http://www.w3.org/WAI/intro/people-use-web/principles#alternatives">Text alternatives for non-text content</a> is an easy introduction with links to more details</li>
             <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">Non-text Content</a> - Understanding Success Criterion 1.1.1 for WCAG 2.0 (Level A)</li>
-            <li>[when published, <a href="http://dev.w3.org/html5/alt-techniques/#tree">A simple alt text decision tree</a> ]</li>
+            <li>[when published, <a href="https://dev.w3.org/html5/alt-techniques/#tree">A simple alt text decision tree</a> ]</li>
          </ul>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      
+      <p class="totop"><a href="#toc">back to page contents</a></p>
       <h2 id="headings">Headings</h2>
       <p>Web pages often have sections of information separated by visual headings, for example, heading text is bigger and bold (like &quot;Headings&quot; right above this sentence :-). To make these work for everyone, the headings need to be <a href="#markup" class="termref">marked up</a>. That way people can navigate to the headings — including people who cannot use a mouse and use only the keyboard, and people who use a screen reader.</p>
       <p class="listintro">Heading levels should have a meaningful hierarchy, e.g.: </p>
       <ul class="listafterpul listtight">
          <li>Heading Level 1 &lt;h1&gt;
-            <ul>
+           <ul>
                <li>Heading Level 2 &lt;h2&gt;
-                  <ul>
+                 <ul>
                      <li>Heading Level 3 &lt;h3&gt;</li>
                      <li>Heading Level 3 &lt;h3&gt;</li>
                   </ul>
                </li>
                <li>Heading Level 2 &lt;h2&gt;
-                  <ul>
+                 <ul>
                      <li>Heading Level 3 &lt;h3&gt;
-                        <ul>
+                       <ul>
                            <li>Heading Level 4 &lt;h4&gt;</li>
                            <li>Heading Level 4 &lt;h4&gt;</li>
                         </ul>
@@ -531,21 +541,19 @@ margin: 0 2% 0 27%;
          <li>The heading  hierarchy is meaningful. Ideally the page starts with an &quot;h1&quot; — which is usually similar to the page title — and does not skip levels; however, these are not absolute requirements.</li>
       </ul>
       <h3>Headings checks</h3>
-      <p class="listintro">The checks below provide instructions with different browsers for how to get:</p>
-      <ul class="listafterpul">
-         <li>Headings outline: an outline of the headings that are marked up on page, for example:</li>
-         <figure class="figure" style="width:676px;"> 
-               <img src="http://w3.org/WAI/images/easychecks/headings-outline.png" alt="" width="674" height="263" />
-                  <figcaption class="figcaption">Figure: Outline of headings.</figcaption>
-            <!--.figure-->
-            </figure>
-         <li>Headings markup in page: a view of the page with the heading markup shown, for example:
-         <figure class="figure" style="width:676px;"> <img src="http://w3.org/WAI/images/easychecks/headings-in-page.png" alt="" width="674" height="230" />
-   <figcaption class="figcaption">Figure: Heading markup in page.</figcaption>
-   <!--.figure-->
-</figure>
-</li>
-      </ul>
+      <p class="listintro">The checks below provide instructions with different browsers for how to get an outline from headings or headings markup in a page.</p>
+      <p>Headings outline: an outline of the headings that are marked up on page, for example:</p>
+      <figure>
+        <div class="figcontent"><img src="images/headings-outline.png" alt="" width="674" height="263" /></div>
+        <figcaption class="figcaption">Figure: Outline of headings.</figcaption>
+      <!--figure-->
+      </figure>
+      <p>Headings markup in page: a view of the page with the heading markup shown, for example:</p>
+      <figure> 
+          <div class="figcontent"><img src="images/headings-in-page.png" alt="" width="674" height="230" /></div>
+          <figcaption class="figcaption">Figure: Heading markup in page.</figcaption>
+        <!--figure-->
+      </figure>
       <h4 class="f_panelHead">To check headings <em>with FF toolbar</em></h4>
       <div class="steps">
          <h5 class="listintro">Headings outline:</h5>
@@ -662,23 +670,28 @@ margin: 0 2% 0 27%;
             <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html">Section Headings</a> - Understanding Success Criterion 2.4.10 for WCAG 2.0 (Level AAA)</li>
          </ul>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+
+      <p class="totop"><a href="#toc">back to page contents</a></p>
       <h2 id="contrast"> Contrast ratio (&quot;color contrast&quot;)</h2>
       <p>Some people cannot read text if there is not sufficient contrast between the text and background, for example,  light gray text on a light background.</p>
-      <figure class="figure" style="width:303px;"> <img src="http://w3.org/WAI/images/easychecks/contrast-gray-white.png" alt="" width="301" height="127" />
+      <figure> <div class="figcontent"><img src="images/contrast-gray-white.png" alt="" width="301" height="127" /></div>
          <figcaption class="figcaption">Figure: Gray text on light background. </figcaption>
-         <!--.figure-->
+         <!--figure-->
       </figure>
       <p>High contrast (for example, dark text on light background or bright text on dark background) is required by some people with visual impairments, including many older people who lose contrast sensitivity from ageing.</p>
-      <div class="figure multimg" style="width:616px;"> <img src="http://w3.org/WAI/images/easychecks/contrast-b-on-w.png" alt="" width="301" height="127" /><img class="last-of-type" src="http://w3.org/WAI/images/easychecks/contrast-yellow.png" alt="" width="301" height="127"/>
-         <div class="figcaption">Figure: Dark text on light background, and yellow text on black background.</div>
-      </div>
-      <!--.figure-->
+      <figure>
+         <div class="figcontent">
+            <img src="images/contrast-b-on-w.png" alt="" width="301" height="127" />
+            <img class="last-of-type" src="images/contrast-yellow.png" alt="" width="301" height="127"/>
+         </div>
+         <figcaption>Figure: Dark text on light background, and yellow text on black background.</figcaption>
+      </figure>
+      <!--figure-->
       <p>While some people need high contrast, for others &mdash; including some people with  reading disabilities such as dyslexia &mdash;  bright colors (high luminance) are not readable. They need low luminance.</p>
-      <div class="figure multimg" style="width:616px;"> <img src="http://w3.org/WAI/images/easychecks/contrast-lowlum1.png" alt="" width="301" height="127" /><img class="last-of-type" src="http://w3.org/WAI/images/easychecks/contrast-lowlum2.png" alt="" width="301" height="127" />
-         <div class="figcaption">Figure: Brown text on dark background, and dark text on medium brown background.</div>
-      </div>
-      <!--.figure-->
+      <figure> <div class="figcontent"><img src="images/contrast-lowlum1.png" alt="" width="301" height="127" /><img class="last-of-type" src="images/contrast-lowlum2.png" alt="" width="301" height="127" /></div>
+         <figcaption>Figure: Brown text on dark background, and dark text on medium brown background.</figcaption>
+      </figure>
+      <!--figure-->
       <p>Web browsers should allow people to change the color of text and background, and web pages need to work when people change colors.</p>
       <p>(This accessibility requirement is sometimes called sufficient &quot;color contrast&quot;; however,  that is incorrect &mdash; technically it's &quot;luminance contrast&quot;. On this page we use &quot;contrast ratio&quot; as short for &quot;luminance contrast ratio&quot; because it's less jargony.) There is much more to know about contrast; we&#39;ve just introduced the basics here.</p>
       <h3 class="whathead">What to check for:</h3>
@@ -715,7 +728,7 @@ margin: 0 2% 0 27%;
                   <li>In the toolbar, select  Color &gt; Juicy Studio Luminosity Analyser.
                      Or, with the
                      keyboard: Ctrl/cmd+Alt+5, then down arrow to &quot;Juicy Studio   Luminosity Analyser&quot;.<br />
-                     <img src="http://w3.org/WAI/images/easychecks/color-wat-table.png"  alt="" width="700" height="72" class="imgbreathe" /><br />
+                     <img src="images/color-wat-table.png" alt="" width="700" height="72" class="imgbreathe" /><br />
                      <em>A  new window  opens titled Colour Contrast Analyser with the table of results. The last column is Luminosity Contrast Ratio.</em></li>
                </ul>
             </li>
@@ -733,7 +746,7 @@ margin: 0 2% 0 27%;
             <li><strong>Turn off color:</strong>
                <ul>
                   <li>In the toolbar, select  Color &gt; Grey Scale.  Or, with the
-                     keyboard: Ctrl+Alt+5, then down arrow to &quot;Gray Scale&quot;.</li>
+                 keyboard: Ctrl+Alt+5, then down arrow to &quot;Gray Scale&quot;.</li>
                   <li>Check if any information is lost or hard to see when  all colors are converted to grayscale.</li>
                </ul>
             </li>
@@ -755,12 +768,13 @@ margin: 0 2% 0 27%;
       <div>
          <ul>
             <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast">Contrast (Minimum)</a> - Understanding Success Criterion 1.4.3 for WCAG 2.0 (Level AA)</li>
-            <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast7">Contrast (Enhanced)</a> - Understanding Success Criterion 1.4.6 for WCAG 2.0 (Level AAA)<br />
+            <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast">Contrast (Enhanced)</a> - Understanding Success Criterion 1.4.6 for WCAG 2.0 (Level AAA)<br />
             </li>
          </ul>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
-      <a name="zoom" id="zoom"></a>
+
+      <p class="totop"><a href="#toc">back to page contents</a></p>
+      <a id="zoom"></a>
       <!-- for old links -->
       <h2 id="resize">Resize text</h2>
       <p>Some people need to enlarge web content in order to read it. Some  need to change other aspects of text display: font, space between lines, and more.</p>
@@ -772,18 +786,17 @@ margin: 0 2% 0 27%;
       </ul>
       <p>When pages are not designed properly, they  can be unusable when the text size is changed, especially when it is changed through  text-only zoom or text settings. Sometimes columns and sections overlap, the space between lines disappears,  lines of text become too long, or text disappears.</p>
 
-      <div class="figure multimg" style="width:624px;"> <img src="http://w3.org/WAI/images/easychecks/zoom-100.png" alt="" width="305" height="224" /><img src="http://w3.org/WAI/images/easychecks/zoom-overlap.png" alt="" width="305" height="224" />
-         <div class="figcaption">Figure: Two screen captures show that when text size is increased, the heading overlaps the main text, the main text overlaps the sidebar text; and the sidebar text is cut off at the bottom.</div>
-      </div>
-      <!--.figure-->
+      <figure>
+         <div class="figcontent"><img src="images/zoom-100.png" alt="" width="305" height="224" /><img src="images/zoom-overlap.png" alt="" width="305" height="224" /></div>
+         <figcaption>Figure: Two screen captures show that when text size is increased, the heading overlaps the main text, the main text overlaps the sidebar text; and the sidebar text is cut off at the bottom.</figcaption>
+      </figure>
+      <!--figure-->
 
       <p>When text size is increased, sometimes part of the sentences are not visible  and users have to scroll horizontally to read a sentence, as shown in the third example below. Most people cannot effectively read text that requires horizontal scrolling, and some disabilities make this impossible.</p>
-      <div class="figure multimg" style="width:777px;"> <img src="http://w3.org/WAI/images/easychecks/resize-normal.png" width="246" height="139" alt="" style="vertical-align:top"/> <img src="http://w3.org/WAI/images/easychecks/resize-wrap.png" width="246" height="253" alt="" style="vertical-align:top"/> <img src="http://w3.org/WAI/images/easychecks/resize-scroll.png" width="246" height="139" alt="" style="vertical-align:top"/>
-      <div class="figure multimg" style="width:795px;"> <img src="https://www.w3.org/WAI/images/easychecks/resize-normal.png" width="246" height="139" alt="" style="vertical-align:top"/> <img src="https://www.w3.org/WAI/images/easychecks/resize-wrap.png" width="246" height="253" alt="" style="vertical-align:top"/> <img src="https://www.w3.org/WAI/images/easychecks/resize-scroll.png" width="246" height="139" alt="" style="vertical-align:top"/>
-         <div class="figcaption">Figure: The first image shows normal-size text. In the second image, the larger text &quot;wraps&quot; to fit the width. In the third image, some of the larger text is not visible without scrolling horizontally.</div>
-      </div>
-      <!--.figure-->
-      <!--.figure-->
+      <figure> <div class="figcontent"><img src="https://www.w3.org/WAI/images/easychecks/resize-normal.png" width="246" height="139" alt=""> <img src="https://www.w3.org/WAI/images/easychecks/resize-wrap.png" width="246" height="253" alt=""> <img src="https://www.w3.org/WAI/images/easychecks/resize-scroll.png" width="246" height="139" alt=""></div>
+         <figcaption>Figure: The first image shows normal-size text. In the second image, the larger text &quot;wraps&quot; to fit the width. In the third image, some of the larger text is not visible without scrolling horizontally.</figcaption>
+      </figure>
+      <!--figure-->
 <h3 class="whathead">What to do:</h3>
       <ul>
          <li> Increase the text size.</li>
@@ -839,19 +852,19 @@ margin: 0 2% 0 27%;
             </li>
          </ul>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+
+      <p class="totop"><a href="#toc">back to page contents</a></p>
       <h2 id="interaction">Keyboard access and visual focus</h2>
       <p>Many people cannot use a mouse and rely on the keyboard to interact with the Web. People who are blind and some sighted people with mobility impairments  rely on the keyboard or on assistive technologies and strategies that rely on keyboard commands, such as voice input. Accessible websites enable people to access all content and functionality &mdash; links, forms, media controls, etc. &mdash; through a keyboard.</p>
       <p>Keyboard focus should be visible and should follow a logical order through the page elements. Visible keyboard focus could be a  border or highlight, as shown below, that moves as  you tab through the web page.</p>
-            <figure class="figure" style="width:350px;"> <img src="http://w3.org/WAI/images/easychecks/focus-highlight-border.png" alt="" width="348" height="126" />
+      <div class="multifigs">
+      <figure> <div class="figcontent"><img src="images/focus-highlight-border.png" alt="" width="348" height="126" /></div>
          <figcaption class="figcaption">Figure: Dotted border on middle link.</figcaption>
-         <!--.figure-->
-         <!-- @@ cofe to make these side-by-side if room -->
       </figure>
-            <figure class="figure" style="width:414px;"> <img src="http://w3.org/WAI/images/easychecks/focus-highlight-field.png" alt="" width="412" height="150" />
+      <figure> <div class="figcontent"><img src="images/focus-highlight-field.jpg" alt="" width="412" height="150" /></div>
          <figcaption class="figcaption">Figure: Name field is highlighted red.</figcaption>
-         <!--.figure-->
       </figure>
+      </div>
 
       <h3 class="whathead">What to do:</h3>
       <p class="listintro">In a browser that supports  keyboard navigation with the Tab key (for example, Firefox, IE, Chrome, and Safari; <em>not</em> Opera): </p>
@@ -880,7 +893,7 @@ margin: 0 2% 0 27%;
          <li><strong>Tab order: </strong>Check that the  tab order follows the logical reading order (e.g., for left-to-right languages: top to bottom, left to right) in sequence.</li>
          <li><strong>Visual focus: </strong>Check that the focus  is clearly visible as you tab through the elements, that is, you can tell which element has focus, e.g., links have a gray outline around them or are  highlighted.</li>
          <li><strong>All functionality by keyboard: </strong>Check that you can do everything with  the keyboard; that is, you don't need the mouse to activate actions, options, visible changes, and other <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html#functiondef" class="termref">functionality</a>. (A common problem is that some functionality is   available only with mouse hover, and is not available with keyboard focus.)</li>
-         <li><strong><a name="dropdown" id="dropdown"></a>Drop-down lists: </strong>Check that after you  tab into a drop-down list, you can  use the arrow keys to move through all the options without triggering an action. (A common problem for drop-downs used for navigation is that as soon as you arrow down, it automatically selects the first item in the list and goes to a new page &mdash; you cannot get to other items in the list.)</li>
+         <li><strong><a id="dropdown"></a>Drop-down lists: </strong>Check that after you  tab into a drop-down list, you can  use the arrow keys to move through all the options without triggering an action. (A common problem for drop-downs used for navigation is that as soon as you arrow down, it automatically selects the first item in the list and goes to a new page &mdash; you cannot get to other items in the list.)</li>
          <li><strong>Image links: </strong>Check that when images  are links, they have clear visual focus and  can be  activated using the keyboard (usually by pressing the Enter key).</li>
       </ul>
       <h4 id="visualfocusBAD" class="f_panelHead">To see visual focus with BAD</h4>
@@ -908,12 +921,13 @@ margin: 0 2% 0 27%;
             <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html">Focus Visible</a> - Understanding Success Criterion 2.4.7  for WCAG 2.0 (Level AA)</li>
          </ul>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+
+      <p class="totop"><a href="#toc">back to page contents</a></p>
       <h2 id="forms">Forms, labels, and errors</h2>
       <p><em>Note: This section is more complex than the others. If it's too complicated, consider skipping it for now and proceeding through the remaining checks</em>.</p>
       <p>Labels, keyboard access, clear instructions, and effective error handling are  important for forms accessibility.</p>
       <p>Form fields and other form controls usually have visible labels, such as &quot;E-mail Address:&quot; as the label for a text field.<br />
-         <img src="http://w3.org/WAI/images/easychecks/form-label-text.png" width="242" height="29" alt="" class="imgbreathe"/><br />
+         <img src="images/form-label-text.png" width="242" height="29" alt="" class="imgbreathe"/><br />
          When these labels are <a href="#markup" class="termref">marked up</a> correctly,  people can interact with them using  only the keyboard, using voice input, and using screen readers. Also, the label itself becomes clickable, increasing the target area and making it easier to select small radio buttons or checkboxes.</p>
       <h3 class="whathead">What to do:</h3>
       <p class="whathead">Find  any forms on the page. A form could be a single text box, such as Search, or could be a complex form with text  fields, radio buttons, checkboxes, drop-down lists, and  buttons.</p>
@@ -928,9 +942,9 @@ margin: 0 2% 0 27%;
          <li>Check that the labels are positioned correctly. For left-to-right languages, labels should usually be:
             <ul>
                <li>Left of text boxes and drop-down lists.<br />
-                  <img src="http://w3.org/WAI/images/easychecks/form-label-text.png" width="242" height="29" alt="" class="imgbreathe"/></li>
+                  <img src="images/form-label-text.png" width="242" height="29" alt="" class="imgbreathe"/></li>
                <li>Right of radio buttons and checkboxes. <br/>
-                  <img src="http://w3.org/WAI/images/easychecks/form-label-radio.png" alt="" width="216" height="64" class="imgbreathe"/> </li>
+                  <img src="images/form-label-radio.png" alt="" width="216" height="64" class="imgbreathe"/> </li>
             </ul>
          </li>
       </ul>
@@ -964,24 +978,27 @@ margin: 0 2% 0 27%;
             <li>Open the web page you are checking.</li>
             <li>In the toolbar, select &quot;Structure&quot;, then &quot;FieldSet / Labels&quot;.
                Or, with the keyboard: Ctrl+Alt+6, then down arrow key to &quot;FieldSet / Labels&quot;, and select.
-               <ul>
+              <ul>
                   <li><em>A dialog box appears with the number of errors and controls.</em> <!-- <span class="changed">[@@ shall we explain &quot;to check out&quot;?] </span> -->
-                     <figure class="figure" style="width:451px;"> <img src="http://w3.org/WAI/images/easychecks/forms-wat-dialog.png" alt="" width="449" height="209" />
+                     <figure>
+                        <div class="figcontent"><img src="images/forms-wat-dialog.png" alt="" width="449" height="209" /></div>
                         <figcaption class="figcaption">Figure: IE WAT dialog box.</figcaption>
-                        <!--.figure-->
+                        <!--figure-->
                      </figure>
                      <p><strong>The dialog box tells you the number of  identified errors, the total number of form controls, and the number of controls that you need to check manually. For the rest of the steps you need to look at the text around the labels. If this is difficult, you could skip the next steps.</strong></p>
                   </li>
                   <li><em>The form elements (labels and controls) are outlined in a red box, the markup is shown, and potential errors are indicated.<br />
                      Example with no errors:</em><br />
-                     <figure class="figure" style="width:676px;"><img src="http://w3.org/WAI/images/easychecks/forms-wat-good.png" alt="" width="674" height="316" />
+                     <figure>
+                        <div class="figcontent"><img src="images/forms-wat-good.png" alt="" width="674" height="316" /></div>
                         <figcaption class="figcaption">Figure: Form markup shown. Date label includes format.</figcaption>
-                        <!--.figure-->
+                        <!--figure-->
                      </figure>
                      <em>Example with potential errors:</em><br />
-                     <figure class="figure" style="width:676px;"> <img src="http://w3.org/WAI/images/easychecks/forms-wat-bad.png" alt="" width="674" height="305" />
+                     <figure>
+                        <div class="figcontent"><img src="images/forms-wat-bad.png" alt="" width="674" height="305" /></div>
                         <figcaption class="figcaption">Figure: Form markup shown. Date label does not include format. Fieldset missing legend.</figcaption>
-                        <!--.figure-->
+                        <!--figure-->
                      </figure>
                   </li>
                </ul>
@@ -994,15 +1011,19 @@ margin: 0 2% 0 27%;
                </ul>
             </li>
             <li>Check that the required field indicator is in the field label, or for radio button and check boxes, it is in the &quot;legend&quot;. For example:
-               <ul>
-                  <li>Correct: The asterisk (*) is included in the box around the label:<br />
-                     <span class="quiet">[image coming slh]</span></li>
-                  <li>Incorrect: The asterisk (*) is outside of the box around the label:<br />
-                     <span class="quiet">[image coming slh]</span></li>
-                  <li>Correct: &quot;(required)&quot; is in the legend.<br />
-                     <span class="quiet">[image coming slh]</span></li>
-                  <li>Incorrect: &quot;(required)&quot; is not in the legend.<br />
-                     <span class="quiet">[image coming slh]</span></li>
+              <ul>
+                  <li>Correct: The asterisk (*) is included in the box around the label.
+                     <!-- TODO Low Priority Add Image <span class="quiet">[image coming slh]</span> -->
+                  </li>
+                  <li>Incorrect: The asterisk (*) is outside of the box around the label.
+                     <!-- TODO Low Priority Add Image <span class="quiet">[image coming slh]</span> -->
+                  </li>
+                  <li>Correct: &quot;(required)&quot; is in the legend.
+                     <!-- TODO Low Priority Add Image <span class="quiet">[image coming slh]</span> -->
+                  </li>
+                  <li>Incorrect: &quot;(required)&quot; is not in the legend.
+                     <!-- TODO Low Priority Add Image <span class="quiet">[image coming slh]</span> -->
+                  </li>
                </ul>
             </li>
          </ol>
@@ -1033,12 +1054,12 @@ margin: 0 2% 0 27%;
             <li>Open the Accessible Survey Page: <a href="http://www.w3.org/WAI/demos/bad/after/survey">www.w3.org/WAI/demos/bad/after/survey</a> that has several forms. Do  the label  checks above.
                Notice the '<code>label</code>'s, '<code>for</code>'s, and '<code>id</code>'s.</li>
             <li>Open the Inaccessible Survey Page: <a href="http://www.w3.org/WAI/demos/bad/before/survey">www.w3.org/WAI/demos/bad/before/survey</a> and do the label checks above.<br />
-               In IE WAT, you get the dialog box saying there are errors and the errors are marked in the page with  &quot;&lt;input    Error&gt;&quot;.</li>
+           In IE WAT, you get the dialog box saying there are errors and the errors are marked in the page with  &quot;&lt;input    Error&gt;&quot;.</li>
          </ol>
          <h5 class="listintro" id="formerrorsbad">Errors:</h5>
          <ul>
             <li>Open the Accessible Survey Page: <a href="http://www.w3.org/WAI/demos/bad/after/survey">www.w3.org/WAI/demos/bad/after/survey</a>. Leave the fields blank and Submit the form.<br />
-               Notice the error messages at the top and the asterisks to indicate required fields. Also, the page title includes &quot;Submission Failed&quot;.</li>
+           Notice the error messages at the top and the asterisks to indicate required fields. Also, the page title includes &quot;Submission Failed&quot;.</li>
             <li>Open the Inaccessible Survey Page: <a href="http://www.w3.org/WAI/demos/bad/before/survey">www.w3.org/WAI/demos/bad/before/survey</a>. Leave the fields blank and Submit the form.<br />
                Notice errors are only indicated by the label being red, and there is no explanation of the errors.</li>
          </ul>
@@ -1053,34 +1074,41 @@ margin: 0 2% 0 27%;
             <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html">Error Prevention (Legal, Financial, Data)</a> - Understanding Success Criterion 3.3.4 for WCAG 2.0 (Level AA) </li>
          </ul>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+
+      <p class="totop"><a href="#toc">back to page contents</a></p>
 
 
+<h2 id="moving">Moving, Flashing, or Blinking Content</h2>
+<p>Moving, flashing, or blinking content includes carousels (<a href="https://www.w3.org/WAI/tutorials/carousels/animations/#c">example carousel</a>), ads, videos, auto-updating stock tickers, scrolling news feeds, and more. Users need to be able to control moving content, especially some people with attention deficit disorder or visual processing disorders.</p>
 
-<h2 id="flash">Flashing or Blinking Content</h2>
-<p>People with photosensitive seizure disorders can experience a seizure if web content flashes at them within specific parameters. This will be a problem only if all of the following are true:
-<ol><li>The flashing occurs more than three times in any one second period;</li>
-<li>the flash covers a sufficiently large area of the screen; and</li>
-<li>the flash is bright enough.</li> </ol></p>
-<h3 class="whathead">What to do:</h3>
-<ul><li>Examine the screen display, looking for content that flashes or blinks more than three times in one second. </li>
-<li>If no content blinks or flashes at that rate, the page passes and nothing more is needed. </li>
-<li>If content DOES blink or flash at that rate, set your screen to 1024 x 768 and follow the checks below.</li></ul>
+<p>Potential accessibility problems with moving, flashing, or blinking content include:</p>
+     <ol class="listspaced">
+            <li>Understanding moving information — Some people read and process information slowly. The content may disappear before people have time to read it. Some people have difficulty tracking moving objects.</li>
+            <li>Distraction from moving content — Moving content can make focusing and reading elsewhere difficult; that is, people cannot focus on some content because the movement in another area of the web page grabs their attention.</li>
+     </ol>
+     <p class="listintro">Additionally,  flashing or blinking content can cause seizures in people with photosensitive epilepsy, particularly if it:</p>
+     <ol class="listafterpul">
+       <li>flashes more than three times in one second,</li>
+            <li>covers a large enough area of the screen, and</li>
+            <li>is bright enough.</li>
+     </ol>
 
 <h3 class="whathead">What to check for:</h3>
-<ul><li>Check that the flashing is smaller than a box that is one third  the height and one fourth the width of the screen.</li>
-<li> If it is smaller than the box, the page passes this requirement and no further testing is needed. </li>
-<li>If the flashing is larger than the box, it may still pass but further testing is beyond the scope of EasyChecks. Use resources below if you wish to proceed further.</li> </ul>
-      <h3 class="f_panelHead">Learn more about flashing content</h3>
-      <div>
-         <ul>
-<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">Three Flashes or Below Threshold</a> Understanding Success Criterion 2.3.1 for WCAG 2.0 (Level A)</li>
-<li>Free, downloadable <a href="http://trace.wisc.edu/peat/">Photosensitive Epilepsy Analysis Tool</a> from the Trace Center at the University of Wisconsin</li>
-         </ul>
-      </div>
+<ul>
+      <li>Check if there is any <strong>moving, blinking, or scrolling information</strong> that starts automatically and lasts more than five seconds. If there is, check that there is a way for the user to pause, stop, or hide the movement.</li>
+      <li>Check if there is any <strong>auto-updated information</strong> (such as stock price). If there is, check that there is a way for the user to pause, stop, or hide the updated information, or for the user to control the frequency of the update.</li>
+      <li>Check that <strong>no content flashes or blinks</strong> more than three times in one second. If it does, further evaluation is needed as explained in <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">Three Flashes or Below Threshold</a>.</li>
+</ul>
+<h3 class="f_panelHead">To learn more about moving, flashing, or blinking content</h3>
+<div>
+      <ul>
+            <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html">Pause, Stop, Hide</a> – Understanding Success Criterion 2.2.2 for WCAG 2.0 (Level A)</li>
+            <li><a href="https://www.w3.org/WAI/tutorials/carousels/animations/">Carousel Animations</a> – WAI Web Accessibility Tutorial</li>
+            <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">Three Flashes or Below Threshold</a> Understanding Success Criterion 2.3.1 for WCAG 2.0 (Level A)</li>
+      </ul>
+</div>
 
-
-<p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+<p class="totop"><a href="#toc">back to page contents</a></p>
       <h2 id="media">Multimedia (video, audio) alternatives</h2>
       <p>Information in podcasts or other audio is not available to people who are deaf or some people who are hard of hearing, unless it is provided in an alternative format such as captions and text  transcripts. Visual information in videos is not available to people who are blind or some people what have low vision, unless it is provided in an alternative format such as audio or  text. (Text can be read  by a screen reader or Braille display, or enlarged and reformatted for people with low vision.)</p>
       <p> (Remember these easy checks  are not comprehensive or definitive.)</p>
@@ -1096,11 +1124,12 @@ margin: 0 2% 0 27%;
       </ul>
       <h4>Captions</h4>
       <p>(Captions are known as &quot;subtitles&quot; in some areas.)</p>
-      <p>Most video on the web that provides captions has &quot;closed captions&quot; that can be turned on and off. (&quot;Open captions&quot; are always shown.) For example, in YouTube, you turn on captions with the CC button <img src="http://w3.org/WAI/images/easychecks/cc-button.png" alt="" width="26" height="21" /> (no known keyboard access). If there is not a CC button, there are no captions available for that video.</p>
-      <p>Automatic captions are not sufficient for accessibility because they are not accurate enough. For example, in YouTube, if only &quot;automatic captions&quot; are listed  (as in the image above), there are no sufficient captions and the video is not accessible. Captions in the specific language need to be listed. <span class="quiet">[@@ say more ?]</span></p>
-      <figure class="figure" style="width:233px;"> <img src="http://w3.org/WAI/images/easychecks/captions-both.png" alt="" width="231" height="173" />
+      <p>Most video on the web that provides captions has &quot;closed captions&quot; that can be turned on and off. (&quot;Open captions&quot; are always shown.) For example, in YouTube, you turn on captions with the CC button <img src="images/cc-button.png" alt="" width="26" height="21" /> (no known keyboard access). If there is not a CC button, there are no captions available for that video.</p>
+      <p>Automatic captions are not sufficient for accessibility because they are not accurate enough. For example, in YouTube, if only &quot;automatic captions&quot; are listed<!-- TODO Low Priority Add Image (as in the image above) -->, there are no sufficient captions and the video is not accessible. Captions in the specific language need to be listed.<!-- [@@ say more ?] --></p>
+      <figure>
+         <div class="figcontent"><img src="images/captions-both.png" alt="" width="231" height="173" /></div>
          <figcaption class="figcaption">Figure: Captions listed: French (automatic captions), Norwegian.</figcaption>
-         <!--.figure-->
+         <!--figure-->
       </figure>
 
       <p class="listintro">If there are captions, you can check that:</p>
@@ -1130,8 +1159,9 @@ margin: 0 2% 0 27%;
             <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-text-doc.html">Media Alternative</a> - Understanding Success Criterion 1.2.8 for WCAG 2.0 (Level AAA)</li>
          </ul>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
-      <a name="plain" id="plain"></a>
+
+      <p class="totop"><a href="#toc">back to page contents</a></p>
+      <a id="plain"></a>
       <!-- anchor for historical purposes - so old links work -->
       <h2 id="structure">Basic structure check</h2>
       <p><em>While the other checks on this page focus on specific success criteria in WCAG 2.0, this check is more broad. It helps you understand how some people &quot;see&quot; the web page differently. For this basic structure check, you look at the web page without images, styles, and layout.</em></p>
@@ -1141,41 +1171,46 @@ margin: 0 2% 0 27%;
       <div>
          <p>The images below illustrate how a web page is displayed in 3 columns by default and how it can be changed.</p>
          <p class="listintro">Figure A shows the default display of three columns, with the navigation at the left.</p>
-         <figure class="figure" style="width:365px;"> <img src="http://w3.org/WAI/images/easychecks/lin-start.png" alt="" width="363" height="150"/>
+         <figure>
+         <div class="figcontent"><img src="images/lin-start.png" alt="" width="363" height="150"/></div>
          <figcaption class="figcaption">Figure A.</figcaption>
-         <!--.figure-->
+         <!--figure-->
       </figure>
 
          <p>Figure B shows the page linearized into one column, with the navigation at the top. Figure C shows the page  linearized, with the navigation at the bottom. The order of the sections (e.g., navigation at top or bottom or elsewhere) depends on how the web page is developed &mdash; the user usually cannot control the order.</p>
-         <figure class="figure" style="width:365px;"> <img src="http://w3.org/WAI/images/easychecks/lin-lin.png" alt="" width="359" height="278"/>
-         <figcaption class="figcaption">Figure B.</figcaption>
-         <!--.figure-->
-      </figure>
-         <figure class="figure" style="width:365px;"> <img src="http://w3.org/WAI/images/easychecks/lin-awk.png" alt="" width="359" height="278"/>
-         <figcaption class="figcaption">Figure C.</figcaption>
-         <!--.figure-->
-      </figure>
-<p>Figure D shows the page linearized and with styles turned off. When you follow the <a href="#bschecks">Basic structure checks steps below</a>, your page will look like something like this:</p>
-         <figure class="figure" style="width:365px;"> <img src="http://w3.org/WAI/images/easychecks/lin-plain.png" alt="" width="359" height="266" />
+      <div class="multifigs">
+         <figure>
+            <div class="figcontent"><img src="images/lin-lin.png" alt="" width="359" height="278"/></div>
+            <figcaption class="figcaption">Figure B.</figcaption>
+         </figure>
+         <figure>
+            <div class="figcontent"><img src="images/lin-awk.png" alt="" width="359" height="278"/></div>
+            <figcaption class="figcaption">Figure C.</figcaption>
+         </figure>
+      </div>
+      <p>Figure D shows the page linearized and with styles turned off. When you follow the <a href="#bschecks">Basic structure checks steps below</a>, your page will look like something like this:</p>
+      <figure>
+         <div class="figcontent"><img src="images/lin-plain.png" alt="" width="359" height="266" /></div>
          <figcaption class="figcaption">Figure D.</figcaption>
-         <!--.figure-->
+         <!--figure-->
       </figure>
 
 <p>Figure E shows the page changed by a person with low vision to make it more readable, for example, the main text is big, the footer text is very small, and the headings are a different color.</p>
-         <figure class="figure" style="width:365px;"> <img src="http://w3.org/WAI/images/easychecks/lin-lv.png" alt="" width="359" height="429" />
+      <figure>
+         <div class="figcontent"><img src="images/lin-lv.png" alt="" width="359" height="429" /></div>
          <figcaption class="figcaption">Figure E.</figcaption>
-         <!--.figure-->
+         <!--figure-->
       </figure>
 <hr />
       </div>
       <p>While it is useful to have an experienced screen reader user check web pages, anyone can get an initial idea of  potential accessibility barriers for screen reader users and others who change the way the page is presented. The steps below show you how to disable images, disable styles for how the page is usually displayed, and linearize the page to check the page structure.</p>
-      <p class="listintro">Notes:</p>
+      <p class="listintro" id="dtnote">Notes:</p>
       <ul class="listafterpul">
          <li>Data tables will not make sense when linearized &mdash; that's OK because  screen readers have functionality to make data tables usable (when they are marked up correctly).</li>
          <li>BAD provides a clear example of how the basic structure check reveals accessibility barriers. (It's also a bit funny, and we suggest you check it out, by following the <a href="#plainBAD">BAD instructions</a> below.)</li>
       </ul>
       <h3 class="whathead listintro">What to do:</h3>
-      <p class="listintro">Get a basic structure view of the page by following the instructions under <a href="#structurechecks">Basic structure checks</a> below to: </p>
+      <p class="listintro">Get a basic structure view of the page by following the instructions under <a href="#structure">Basic structure checks</a> below to: </p>
       <ul class="listafterpul">
          <li> Turn off images and show the text alternatives.</li>
          <li>Turn off style sheets (CSS), which specifies how the page is displayed with layout, colors, etc.</li>
@@ -1194,11 +1229,11 @@ margin: 0 2% 0 27%;
          <ol>
             <li> Open the web page you are checking.</li>
             <li>In the toolbar, select &quot;Images&quot;, then &quot;Remove Images&quot;.<br />
-               Or, with the keyboard: Ctrl+Alt+4, then arrow down to &quot;Remove Images&quot;.</li>
+           Or, with the keyboard: Ctrl+Alt+4, then arrow down to &quot;Remove Images&quot;.</li>
             <li> In the toolbar, select &quot;CSS&quot;, then &quot;Disable CSS&quot;.<br />
-               Or, with the keyboard: Ctrl+Alt+3, then arrow down to &quot;Disable CSS&quot;.</li>
+           Or, with the keyboard: Ctrl+Alt+3, then arrow down to &quot;Disable CSS&quot;.</li>
             <li>In the toolbar, select &quot;Tables&quot;, then &quot;Linearize&quot;.<br />
-               Or, with the keyboard: Ctrl+Alt+7, then arrow down to  &quot;Linearize&quot;.</li>
+           Or, with the keyboard: Ctrl+Alt+7, then arrow down to  &quot;Linearize&quot;.</li>
          </ol>
       </div>
       <h4 class="f_panelHead">To check  basic structure <em>with FF toolbar</em></h4>
@@ -1247,7 +1282,7 @@ margin: 0 2% 0 27%;
       <div class="steps">
          <ol>
             <li>First use the Accessible Home Page <code><a href="http://www.w3.org/WAI/demos/bad/after/home">www.w3.org/WAI/demos/bad/after/home</a></code> with one of the checks above to turn off images, disable CSS, and linearize.<br />
-               Skim down and notice that under &quot;Welcome to CityLights&quot; there are 3 article headlines with summary text under each headline.</li>
+           Skim down and notice that under &quot;Welcome to CityLights&quot; there are 3 article headlines with summary text under each headline.</li>
             <li>Next use the Inaccessible Home Page <code><a href="http://www.w3.org/WAI/demos/bad/before/home">www.w3.org/WAI/demos/bad/before/home</a></code> with one of the checks above to turn off images, disable CSS, and linearize.
                <ul>
                   <li>Skim down to find &quot;Welcome to CityLights&quot;. Notice that it's much harder to find. That's because it's not <a href="#markup" class="termref">marked up</a> as a <a href="http://www.w3.org/WAI/eval/preliminary#headings">heading, per above</a>.</li>
@@ -1258,7 +1293,8 @@ margin: 0 2% 0 27%;
                Notice that that radio button labels are not with the buttons. (This is because the page uses layout tables incorrectly.)</li>
          </ol>
       </div>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+
+      <p class="totop"><a href="#toc">back to page contents</a></p>
       <h2 id="next">Next steps</h2>
       <p class="listintro">Now that you have an idea of the accessibility issues on a web page, two things you can do:</p>
       <ol class="listafterpul">
@@ -1268,35 +1304,94 @@ margin: 0 2% 0 27%;
       <h3>Share your findings</h3>
       <p><a href="http://www.w3.org/WAI/users/inaccessible">Contacting Organizations about Inaccessible Websites</a> has guidance on reporting accessibility problems. It is focused for people who do not work for the organization that owns the website, yet also has some useful information if you do work for the organization &mdash; particularly the Introduction, Consider Your Approach, and Sources for More Information sections.</p>
       <h3 id="moreeval">Encourage thorough accessibility evaluation</h3>
-      <p class="listintro">The checks on this page are not definitive;  a web page could seem to pass these checks, yet still have accessibility barriers.</p>
-      <p class="listintro">This page covers just a few accessibility issues. There are other accessibility issues not covered in these easy checks, for example: links, data table <a href="#markup" class="termref">markup</a>, reliance on color,  content that causes seizures, and much more.</p>
+      <p class="listintro">The checks on this page are not definitive;  a web page could seem to pass these checks, yet still have significant accessibility barriers.</p>
+      <p class="listintro">This page covers just a few accessibility issues. There are other accessibility issues not covered in these easy checks, for example: links, data table <a href="#markup" class="termref">markup</a>, reliance on color, and much more.</p>
       <p class="listintro">More robust evaluation is needed to evaluate all issues comprehensively. Guidance is available from:</p>
       <ul class="listafterpul">
-         <li><a href="http://www.w3.org/WAI/eval/conformance">WCAG-EM Website Accessibility Conformance Evaluation Methodology</a></li>
+         <li><a href="http://www.w3.org/WAI/eval/conformance">WCAG-EM Website Accessibility Conformance Evaluation Methodology</a><br/> <a href="http://www.w3.org/WAI/eval/report-tool/#/">WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator <img src="https://www.w3.org/Icons/tr.png" alt="different format" /></a></li>
          <li><a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a></li>
          <li><a href="http://www.w3.org/WAI/eval/users">Involving Users in Evaluating Web Accessibility</a></li>
       </ul>
-      <p class="totop"><a href="#toc" shape="rect">back to page contents</a></p>
+      <p class="totop"><a href="#toc">back to page contents</a></p>
       <div class="f_controls_accordion f_fileToLoad_accordionControls"></div>
    </div>
+<aside class="side-box contribute">
+  <h2 class="heading">Help improve this page</h2>
+  <p>Please share your ideas, suggestions, or comments via email to the publicly-archived list <a href="mailto:wai-eo-editors@w3.org?subject=%5bEasy%20Checks%5d">wai-eo-editors@w3.org</a> or via GitHub.</p>
+  <div class="buttons"> <a class="btn" title="Publicly archived list" href="mailto:wai-eo-editors@w3.org?subject=%5bEasy%20Checks%5d">E-mail</a> <a class="btn"
+href="https://github.com/w3c/EasyChecks/blob/gh-pages/index.html">Fork &amp; edit on GitHub</a> <a class="btn" href="https://github.com/w3c/EasyChecks/issues/new?title=[Easy%20Checks]&body=This%20is%20a%20comment%20related%20to%20[Easy%20Checks%20-%20A%20First%20Review%20of%20Web%20Accessibility](https://www.w3.org/WAI/eval/preliminary)">New GitHub Issue</a> </div>
+</aside>
 </div>
 <div id="footer">
    <h2>Document Information</h2>
   <p class="highlight-version"><strong>This is an internal Editors' Draft. The main page is at <a href="http://www.w3.org/wai/eval/preliminary">www.w3.org/WAI/eval/preliminary</a><br />
     Please send any suggestions, edits, or comments </strong>to the publicly-archived list: <a href="mailto:wai-eo-editors@w3.org">wai-eo-editors@w3.org</a><br />
     (Updated $Date: 2015/09/03 21:42:46 $)</p>
-   <p><strong>Status:</strong> <strong>Editors' Draft</strong> Updated $Date: 2015/09/03 21:42:46 $ [<a href="http://www.w3.org/WAI/EO/wiki/Easy_Checks_changelog">changelog</a>]<br />
+   <p><strong>Status:</strong> <strong>Editors' Draft</strong> Updated $Date: 2015/09/03 21:42:46 $ [<a href="https://www.w3.org/WAI/EO/wiki/Easy_Checks_changelog">changelog</a>]<br />
       Easy Checks - A First Review of Web Accessibility was first published as a draft in June 2013. It replaces Preliminary Review of Web Sites for Accessibility that was first published September 2005 and edited by Shadi Abou-Zahra. It was originally one section of  Evaluating Web Sites for Accessibility that was first published in October 2001 and edited by Judy Brewer and Chuck Letourneau.</p>
-   <p>Editor: Shawn Lawton Henry. Contributors: Sharron Rush, Caleb Watson, Suzette Keith, Anna Belle Leiserson, Andrew Arch, Wayne Dick, Vicki Menezes Miller, Jennifer Sutton, Ian Pouncey, Denis Boudreau, Tom Jewett, and <a href="http://w3.org/WAI/EO/EOWG-members">participants</a> of the Education and Outreach Working Group (<a href="http://w3.org/WAI/EO/">EOWG</a>). </p>
+   <p>Editor: Shawn Lawton Henry. Contributors: Sharron Rush, Caleb Watson, Suzette Keith, Anna Belle Leiserson, Andrew Arch, Wayne Dick, Vicki Menezes Miller, Jennifer Sutton, Ian Pouncey, Denis Boudreau, Tom Jewett, and <a href="http://www.w3.org/WAI/EO/EOWG-members">participants</a> of the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). </p>
       <div class="footer-nav">
-<p>[<a href="http://www.w3.org/WAI/sitemap.html">WAI Site Map</a>] [<a href="http://www.w3.org/WAI/sitehelp.html">Help with WAI Website</a>] [<a href="http://www.w3.org/WAI/search.php">Search</a>] [<a href="http://w3.org/WAI/contacts">Contacting WAI</a>]<br />
+<p>[<a href="http://www.w3.org/WAI/sitemap.html">WAI Site Map</a>] [<a href="http://www.w3.org/WAI/sitehelp.html">Help with WAI Website</a>] [<a href="http://www.w3.org/WAI/search.php">Search</a>] [<a href="http://www.w3.org/WAI/contacts">Contacting WAI</a>]<br />
 <strong>Feedback welcome to <a href="mailto:wai-eo-editors@w3.org">wai-eo-editors@w3.org</a></strong> (a publicly archived list) or <a href="mailto:wai@w3.org">wai@w3.org</a> (a WAI staff-only list).</p>
 </div> <!-- end footer-nav -->
 
 <div class="copyright">
 <p>Copyright &#xA9; 2015 W3C <sup>&#xAE;</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>,
-<a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>) <a href="http://w3.org/Consortium/Legal/ipr-notice">Usage policies apply</a>.</p>
+<a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>) <a href="http://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231">Usage policies apply</a>.</p>
 </div>
 </div>
+<script>
+
+  (function() {
+    var throttle = function(type, name, obj) {
+        obj = obj || window;
+        var running = false;
+        var func = function() {
+            if (running) { return; }
+            running = true;
+             requestAnimationFrame(function() {
+                obj.dispatchEvent(new CustomEvent(name));
+                running = false;
+            });
+        };
+        obj.addEventListener(type, func);
+    };
+
+    /* init - you can init any event */
+    throttle("resize", "optimizedResize");
+  })();
+
+  function init() {
+    var allfigcontents = document.querySelectorAll('.figcontent');
+    Array.prototype.forEach.call(allfigcontents, function(currentfigcont, i){
+      var images = currentfigcont.querySelectorAll('img');
+      var width = -10;
+      Array.prototype.forEach.call(images, function(img, i){
+         width = width + img.offsetWidth + 10;
+      });
+      currentfigcont.parentNode.querySelector('figcaption').style.maxWidth = width + 'px';
+    });
+    var allfigures = document.querySelectorAll('figure');
+    Array.prototype.forEach.call(allfigures, function(f, i){
+      f.insertAdjacentHTML('afterend', '<div></div>');
+    });
+  }
+
+  function ready(fn) {
+    if (document.readyState != 'loading'){
+      fn();
+    } else {
+      document.addEventListener('DOMContentLoaded', fn);
+    }
+  }
+
+  ready(init);
+
+  // handle event
+  window.addEventListener("optimizedResize", function() {
+      init();
+  });
+
+</script>
 </body>
 </html>
