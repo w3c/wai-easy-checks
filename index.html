@@ -463,7 +463,7 @@ figcaption {
          <ol>
             <li>Open the web page you are checking.</li>
             <li>In the toolbar, select &quot;Images&quot;, then &quot;Outline Images&quot;, then &quot;Outline Images Without Alt Attributes&quot;. Or, with the keyboard: Alt+T, W (to Web Developer Extension), I, O, A<br />
-                           <em>Red boxes appear around any images missing alt.</em>
+               <em>Red boxes appear around any images missing alt.</em><br>
                <figure>
                   <div class="figcontent"><img src="images/alt-ff-missing.png" width="676" height="278" alt=""/></div>
                   <figcaption class="figcaption">Figure:  WebDev toolbar menu, and red boxes around images.</figcaption>
@@ -473,7 +473,7 @@ figcaption {
             <li>Note images without any alt text.</li>
             <li>In the toolbar, select &quot;Images&quot;, then &quot;Display Alt Attributes&quot;. Or, with the keyboard: Alt+T, W (to Web Developer Extension), I, A
 <br />
-               <em>The alt text will be displayed before the images as white letters on a red background.</em>
+               <em>The alt text will be displayed before the images as white letters on a red background.</em><br>
                <figure>
                   <div class="figcontent"><img src="images/ff-toolbar-display-alt.png" alt="" width="674" height="175" /></div>
                   <figcaption class="figcaption">Figure:  WebDev toolbar menu, and alt text displayed.</figcaption>
@@ -842,17 +842,46 @@ figcaption {
       <h4 class="f_panelHead">To check text-only zoom in Firefox, Safari, and some other browsers</h4>
       <div class="steps">
          <ol class="listafterpul">
-            <li>From the menubar,
-               do one of the following <em>(depending on your browser) </em>
+            <li>Set zoom to text only. Depending on your browser:
                <ul>
-                  <li> select View &gt; Zoom &gt; Zoom Text Only. Or, with the keyboard in Firefox: Alt+V, Z, T</li>
-                  <li>select View &gt; Zoom Text Only. Or, with the keyboard in Safari: control+F2, V,  return, ZZ</li>
+                  <li>
+                    From the menubar, select View > Zoom > Zoom Text Only.<br>
+                    Or, with the keyboard in Firefox: Alt+V, Z, T
+                  </li>
+                  <li>
+                    From the menubar, select View > Zoom Text Only.<br>
+                    Or, with the keyboard in Safari: control+F2, V, return, ZZ
+                  </li>
                </ul>
             </li>
-            <li>Incrementally increase text-only zoom:
+            <li>Increase zoom to 200%.
                <ul>
-                  <li>In Windows, press Ctrl+[+] <em>(the control key and the + key at the same time)</em> 4 times</li>
-                  <li>On Mac, press command+[+] <em>(the Command key and the + key at the same time)</em> 4 times</li>
+                  <li>
+                    To incrementally increase zoom with the keyboard in Firefox, Safari, and most browsers:
+                    <ul>
+                      <li>Windows, press Ctrl+[+] <em>(hold down the control key and press the + key at the same time)</em>.</li>
+                      <li>On Mac, press command+[+] <em>(hold down the command key and the + key at the same time)</em>.</li>
+                    </ul>
+                    Usually 4-6 key presses gets to 200%.
+                    </li>
+                  <li>
+                    In Firefox, to check or set the zoom percent:
+                    <ul>
+                      <li>
+                        Click the menu button on the right.<br>
+                        <img src="https://support.cdn.mozilla.net/media/uploads/gallery/images/2014-02-06-12-50-57-fa7069.png" alt="Firefox customization menu zoom percent settings.">
+                      </li>
+                      <li>In the customization menu, click the + button to zoom larger. The number before the + button is the current zoom percent.</li>
+                      <li>
+                        In Safari, to check or set the zoom percent:
+                        <ul>
+                          <li>Windows, press Ctrl+[+] <em>(hold down the control key and press the + key at the same time)</em>.</li>
+                          <li>On Mac, press cmd+[+] <em>(hold down the command key and the + key at the same time)</em>.</li>
+                        </ul>
+                        Usually 5 key presses gets to 200%.
+                      </li>
+                    </ul>
+                  </li>
                </ul>
                <em>(To confirm that you have text-only zoom set per step 1, make sure  that only the text is getting larger, not the images.) </em></li>
          </ol>
@@ -1007,9 +1036,13 @@ figcaption {
             <li>In the toolbar, select &quot;Structure&quot;, then &quot;FieldSet / Labels&quot;.
                Or, with the keyboard: Ctrl+Alt+6, then down arrow key to &quot;FieldSet / Labels&quot;, and select.
               <ul>
-                  <li><em>A dialog box appears with the number of errors and controls.</em> <!-- <span class="changed">[@@ shall we explain &quot;to check out&quot;?] </span> -->
+                  <li>
+                    <em>A dialog box appears with the number of errors and controls.</em> <!-- <span class="changed">[@@ shall we explain &quot;to check out&quot;?] </span> -->
+                    <br>
                      <figure>
-                        <div class="figcontent"><img src="images/forms-wat-dialog.png" alt="" width="449" height="209" /></div>
+                        <div class="figcontent">
+                          <img src="images/forms-wat-dialog.png" alt="" width="449" height="209" />
+                        </div>                       
                         <figcaption class="figcaption">Figure: IE WAT dialog box.</figcaption>
                         <!--figure-->
                      </figure>
