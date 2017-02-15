@@ -117,6 +117,7 @@ margin: 0 2% 0 27%;
 */
 .multifigs {
    display: flex;
+   flex-wrap: wrap;
    margin: -5px;
 }
 
@@ -129,10 +130,7 @@ figure * {
 }
 
 figure {
-   float:left;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
+   display: table;
    margin: 0;
    padding: 10px;
    border: 1px solid #aaa;
@@ -152,8 +150,6 @@ figure img {
    box-sizing: content-box;
 }
 .figcontent {
-   display: flex;
-   flex-wrap: wrap;
    padding: 5px;
    margin: -5px;
    align-items: flex-start;
@@ -1408,14 +1404,14 @@ href="https://github.com/w3c/EasyChecks/blob/gh-pages/index.html">Fork &amp; edi
       });
       currentfigcont.parentNode.querySelector('figcaption').style.maxWidth = width + 'px';
     });
-    var allfigures = document.querySelectorAll('figure');
-    Array.prototype.forEach.call(allfigures, function(f, i){
-      f.insertAdjacentHTML('afterend', '<div></div>');
-    });
   }
 
   imagesLoaded( document.querySelectorAll('figure'), function( instance ) {
     init();
+    var allfigures = document.querySelectorAll('figure');
+    Array.prototype.forEach.call(allfigures, function(f, i){
+      f.insertAdjacentHTML('afterend', '<div></div>');
+    });
   });
 
   // handle event
