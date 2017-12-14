@@ -40,72 +40,72 @@
 <style type="text/css">
 <!--
 .highlight-version {
-	font-size: 123%;
+   font-size:123%;
 }
 h2.toc {
-	border: 0em;
-	color: #000000;
-	margin-bottom: 0em;
+   border: 0em;
+   color: #000000;
+   margin-bottom: 0em;
 }
 ul.toc {
-	list-style: none;
-	margin-left: 1.5em;
-	margin-top: 0.5em;
-	padding: 0em;
+   list-style: none;
+   margin-left: 1.5em;
+   margin-top: 0.5em;
+   padding: 0em;
 }
 .toc ul {
-	list-style-type: none;
-	margin-left: 0;
-	padding-left: 0;
+   list-style-type: none;
+   margin-left: 0;
+   padding-left: 0;
 }
 ul.toc a {
-	background: url(https://www.w3.org/WAI/images/bullet-c60.png) left no-repeat;
-	color: #930;
-	font-weight: bold;
-	padding-left: 1em;
+   background: url(http://www.w3.org/WAI/images/bullet-c60.png) left no-repeat;
+   color: #930;
+   font-weight: bold;
+   padding-left: 1em;
 }
 .ptoc a {
-	color: #930;
-	font-weight: bold;
+   color: #930;
+   font-weight: bold;
 }
 p.totop {
-	display: block;
-	text-align: right;
+   display: block;
+   text-align: right;
 }
 p.totop a {
-	background: url(https://www.w3.org/Icons/topofpage.png) left no-repeat;
-	padding-left: 1em;
+   background: url(http://www.w3.org/Icons/topofpage.png) left no-repeat;
+   padding-left: 1em;
 }
 #main #accordion .whathead {
-	color: #000000;
-	margin-bottom: 0;
-	padding-bottom: 0;
+   color: #000000;
+   margin-bottom: 0;
+   padding-bottom: 0;
 }
 #main #accordion h5 {
-	margin-top: 0;
-	padding-top: 0;
+   margin-top: 0;
+   padding-top: 0;
 }
 .steps li {
-	padding-bottom: 0.5em;
-	padding-top: 0.5em;
+   padding-bottom: 0.5em;
+   padding-top: 0.5em;
 }
 .steps li li {
-	padding-bottom: 0;
-	padding-top: 0;
+   padding-bottom: 0;
+   padding-top: 0;
 }
 .imgbreathe {
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	max-width: 100%;
-	height: auto;
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+   max-width: 100%;
+   height: auto;
 }
 .subhead {
-	color: #585858;
-	padding-bottom: 0.5em;
-	padding-top: 0.5em;
+   color:#585858;
+   padding-bottom:0.5em;
+   padding-top: 0.5em;
 }
 code {
-	font-weight: bold;
+   font-weight: bold;
 }
 /* ******************************** illustration CSS ******* */
 /* NOTE: around image: <figure> - with the width being the width of the images + for multiple images within a fgiure, add 11px for each space between.*/
@@ -115,52 +115,59 @@ margin: 0 2% 0 27%;
 }
 */
 .multifigs {
-	display: flex;
-	flex-wrap: wrap;
-	margin: -5px;
+   display: flex;
+   margin: -5px;
 }
+
 .multifigs>* {
-	margin: 5px;
+   margin: 5px;
 }
+
 figure * {
-	box-sizing: border-box;
+   box-sizing: border-box;
 }
+
 figure {
-	display: table;
-	margin: 0;
-	padding: 5px 10px 1em 10px;
-	border: 1px solid #aaa;
-	background: #FFFDFA; /* color that shows in padding around image -- half way between #fff and #fffaf5 */
-	line-height: 115%;
-	overflow: hidden;
+   /* float:left; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin: 0 0 1em 0;
+   padding: 5px 10px 1em 10px;
+   border: 1px solid #aaa;
+   background: #FFFDFA; /* color that shows in padding around image -- half way between #fff and #fffaf5 */
+   line-height: 115%;
+   overflow: hidden;
 }
 figure + * {
-	clear: left;
+   clear:left;
 }
 figure img {
-	max-width: 100%; /* this may be duplicative of above max-width; however this is where height: auto is needed */
-	height: auto; /* to prevent height distortion when scaling browser width down */
-	margin: 0 0 10px 0;
-	border: 1px solid #888;
-	vertical-align: top;
-	box-sizing: content-box;
+   max-width: 100%; /* this may be duplicative of above max-width; however this is where height: auto is needed */
+   height:auto; /* to prevent height distortion when scaling browser width down */
+   margin: 0 0 10px 0;
+   border: 1px solid #888;
+   vertical-align: top;
+   box-sizing: content-box;
 }
 .figcontent {
-	padding: 5px;
-	margin: -5px;
-	align-items: flex-start;
-	margin-bottom: 5px;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 5px;
+   margin: -5px;
+   align-items: flex-start;
+   margin-bottom: 5px;
 }
 .figcontent>* {
-	flex: 1;
-	flex-basis: 246px;
-	flex-grow: 0;
-	margin: 5px;
+   flex:1;
+   flex-basis: 246px;
+   flex-grow: 0;
+   margin: 5px;
 }
 figcaption {
-	margin: 0 0 5px 1px; /* 1px left margin is to offset 1px for border used for image*/
-	font-size: 85%;
-	color: #444;
+   margin: 0 0 5px 1px; /* 1px left margin is to offset 1px for border used for image*/
+   font-size: 85%;
+   color: #444;
 }
 /* End illustration CSS */
 
