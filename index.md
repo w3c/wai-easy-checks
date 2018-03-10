@@ -1207,6 +1207,6 @@ footer: >
     <a href="https://www.w3.org/WAI/eval/conformance">WCAG-EM Overview</a>: Website Accessibility Conformance Evaluation Methodology<br/>
     <a href="https://www.w3.org/WAI/eval/report-tool/#/">WCAG-EM Report Tool</a>: Website Accessibility Evaluation Report Generator </li>
   <li><a href="https://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a></li>
-  <li><a href="https://www.w3.org/WAI/eval/users">Involving Users in Evaluating Web Accessibility</a></li>
+  <li><a href="{{ "/test-evaluate/involving-users/" | relative_url }}">Involving Users in Evaluating Web Accessibility</a></li>
 </ul>
 
