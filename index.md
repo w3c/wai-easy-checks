@@ -120,7 +120,7 @@ footer: >
 </ul>
 <p class="listintro">To learn more, see:</p>
 <ul class="listafterpul   ">
-  <li><a href="https://www.w3.org/WAI/intro/people-use-web/principles">Accessibility Principles</a></li>
+  <li><a href="{{ "/fundamentals/accessibility-principles/" | relative_url }}">Accessibility Principles</a></li>
   <li><a href="https://www.w3.org/standards/webdesign/accessibility">Introduction to Accessibility</a></li>
   <li><a href="https://www.w3.org/WAI/yourWAI">Other WAI resources</a></li>
 </ul>
