@@ -93,7 +93,7 @@ footer: >
 
 <p>These checks are based on the Web Content Accessibility Guidelines (WCAG) 2.0. The main points in WCAG are called &quot;Success Criteria&quot;. In the &quot;Learn more from&quot; sections of this page, there are links to pages that explain the relevant success criteria in the &quot;Understanding WCAG 2.0&quot; document.</p>
 
-<p><strong>Please see the <a href="https://www.w3.org/WAI/intro/wcag">WCAG Overview</a> for an introduction to WCAG.</strong></p>
+<p><strong>Please see the <a href="{{ "/standards-guidelines/wcag/" | relative_url }}">WCAG Overview</a> for an introduction to WCAG.</strong></p>
 
 {% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
@@ -835,7 +835,7 @@ footer: >
 <h3 class="whathead">What to check for:</h3>
 <h4 class="small4">Keyboard access</h4>
 <ul>
-  <li> Check that all form controls are keyboard accessible by following the <a href="#interaction">keyboard access</a> checks above, including checking that you can get to all items in any <a href="https://www.w3.org/WAI/EO/Drafts/eval/checks#dropdown">drop-down lists</a>.</li>
+  <li> Check that all form controls are keyboard accessible by following the <a href="#interaction">keyboard access</a> checks above, including checking that you can get to all items in any <a href="#dropdown">drop-down lists</a>.</li>
 </ul>
 <h4 class="small4">Labels</h4>
 <ul>
@@ -1112,7 +1112,7 @@ footer: >
 <ul>
   <li>Check that the information makes sense when read in the order it is shown; for example, headings are right above the information they apply to.<br />
     <em>(Data tables do not need to make sense linearized, per the <a href="#dtnote">note</a> above.)</em></li>
-  <li>Check that the alternative text provides adequate information for the missing images (per the <a href="https://www.w3.org/WAI/eval/preliminary#images">Image text alternatives</a> section above).</li>
+  <li>Check that the alternative text provides adequate information for the missing images (per the <a href="#images">Image text alternatives</a> section above).</li>
   <li>Check that blocks of information have clear headings (see also the <a href="#headings">Headings</a> section above). When navigation, main content, and other sections have  good headings, it's easier for people to find their way around the information.</li>
 </ul>
 <h3 id="bschecks">Basic structure checks</h3>
@@ -1181,7 +1181,7 @@ footer: >
       Skim down and notice that under &quot;Welcome to CityLights&quot; there are 3 article headlines with summary text under each headline.</li>
     <li>Next use the Inaccessible Home Page <code><a href="https://www.w3.org/WAI/demos/bad/before/home">www.w3.org/WAI/demos/bad/before/home</a></code> with one of the checks above to turn off images, disable CSS, and linearize.
       <ul>
-        <li>Skim down to find &quot;Welcome to CityLights&quot;. Notice that it's much harder to find. That's because it's not <a href="#markup" class="termref">marked up</a> as a <a href="https://www.w3.org/WAI/eval/preliminary#headings">heading, per above</a>.</li>
+        <li>Skim down to find &quot;Welcome to CityLights&quot;. Notice that it's much harder to find. That's because it's not <a href="#markup" class="termref">marked up</a> as a <a href="{{ "/test-evaluation/preliminary/" | relative_url }}#headings">heading, per above</a>.</li>
         <li>Notice that the 3 article headings are together and the article text is together. (For fun, read the article text together.)</li>
       </ul>
     </li>
