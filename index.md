@@ -114,9 +114,9 @@ footer: >
 <p class="listintro">Here are some things to know that will help you understand the brief explanations throughout this page:</p>
 <ul>
   <li><strong><em><a id="markup"></a>markup</em></strong> refers to web page code, called HTML. You can see the markup of a web page in most browsers by selecting from the menu: View &gt; Source. You do not  need to look at the markup to do these checks; however, it does help to understand what  &quot;markup&quot; and &quot;marked up&quot; means.</li>
-  <li><i><a href="https://www.w3.org/WAI/intro/people-use-web/browsing#at">assistive technologies</a></i> (AT) are software or hardware that people with disabilities use to improve interaction with the web.</li>
-  <li><i><a href="https://www.w3.org/WAI/intro/people-use-web/browsing#sr">screen readers</a></i> are software that reads aloud the information in web pages and enables keyboard navigation. They are used by people who are blind.</li>
-  <li><i><a href="https://www.w3.org/WAI/intro/people-use-web/browsing#voice">voice input</a></i> is using speech instead of a keyboard and mouse.</li>
+  <li><i><a href="{{ "/people-use-web/tools-techniques/" | relative_url }}#at">assistive technologies</a></i> (AT) are software or hardware that people with disabilities use to improve interaction with the web.</li>
+  <li><i><a href="{{ "/people-use-web/tools-techniques/" | relative_url }}#sr">screen readers</a></i> are software that reads aloud the information in web pages and enables keyboard navigation. They are used by people who are blind.</li>
+  <li><i><a href="{{ "/people-use-web/tools-techniques/" | relative_url }}#voice">voice input</a></i> is using speech instead of a keyboard and mouse.</li>
 </ul>
 <p class="listintro">To learn more, see:</p>
 <ul class="listafterpul   ">
@@ -373,7 +373,7 @@ footer: >
 <h3>Learn more about alt text</h3>
 {% include excol.html type="middle" %}
   <ul class="listwithpul">
-    <li><a href="https://www.w3.org/WAI/intro/people-use-web/principles#alternatives">Text alternatives for non-text content</a> is an easy introduction with links to more details</li>
+    <li><a href="{{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives">Text alternatives for non-text content</a> is an easy introduction with links to more details</li>
     <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">Non-text Content</a> - Understanding Success Criterion 1.1.1 for WCAG 2.0 (Level A)</li>
     <li><a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">An alt text decision tree</a></li>
   </ul>
@@ -811,7 +811,7 @@ footer: >
 <h3>Learn more about keyboard access</h3>
 {% include excol.html type="middle" %}
   <ul>
-    <li><a href="https://www.w3.org/WAI/intro/people-use-web/principles#keyboard">Functionality is available from a keyboard</a> section in Accessibility Principles</li>
+    <li><a href="{{ "/fundamentals/accessibility-principles/" | relative_url }}#keyboard">Functionality is available from a keyboard</a> section in Accessibility Principles</li>
     <li><a href="https://www.w3.org/WAI/users/browsing#keyboard">Browsing the Web by Keyboard</a> section in Better Web Browsing: Tips for Customizing Your Computer</li>
     <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation.html">Guideline 2.1</a>:  Make all functionality available from a keyboard.
       <ul>
