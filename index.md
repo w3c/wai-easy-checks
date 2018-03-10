@@ -1,6 +1,6 @@
 ---
 title: Easy Checks - A First Review of Web Accessibility
-permalink: /test-eval/preliminary/
+permalink: /test-evaluate/preliminary/
 layout: default
 github:
   repository: w3c/EasyChecks
