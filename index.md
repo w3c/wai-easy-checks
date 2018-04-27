@@ -5,10 +5,12 @@ layout: default
 github:
   repository: w3c/EasyChecks
 footer: >
-  <p><strong>Status:</strong> Updated 22 December 2017 [<a href="https://www.w3.org/WAI/EO/wiki/Easy_Checks_changelog">changelog</a>]<br>
-    Easy Checks - A First Review of Web Accessibility was first published as a draft in June 2013. It replaces Preliminary Review of Web Sites for Accessibility that was first published September 2005 and edited by Shadi Abou-Zahra. It was originally one section of  Evaluating Web Sites for Accessibility that was first published in October 2001 and edited by Judy Brewer and Chuck Letourneau.</p>
-  <p>Editor: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Sharron Rush, Caleb Watson, Suzette Keith, Anna Belle Leiserson, Andrew Arch, Wayne Dick, Vicki Menezes Miller, Jennifer Sutton, Ian Pouncey, Denis Boudreau, Tom Jewett, and <a href="https://www.w3.org/WAI/EO/EOWG-members">participants</a> of the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). </p>
+  <p><strong>Date: </strong>Updated 22 December 2017 [<a href="https://www.w3.org/WAI/EO/wiki/Easy_Checks_changelog">changelog</a>]<br>
+  History: Easy Checks - A First Review of Web Accessibility was first published as a draft in June 2013. It replaces Preliminary Review of Web Sites for Accessibility that was first published September 2005 and edited by Shadi Abou-Zahra. It was originally one section of Evaluating Web Sites for Accessibility that was first published in October 2001 and edited by Judy Brewer and Chuck Letourneau.</p>
+  <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Sharron Rush, Caleb Watson, Suzette Keith, Anna Belle Leiserson, Andrew Arch, Wayne Dick, Vicki Menezes Miller, Jennifer Sutton, Ian Pouncey, Denis Boudreau, Tom Jewett, and <a href="https://www.w3.org/WAI/EO/participants">EOWG Participants</a>.</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---
+
 <h2 class="no-display" id="introduction">Introduction</h2>
 <p><strong>This page helps you start to assess the accessibility of a web page. With these simple steps, you can get an idea whether or not accessibility is addressed in even the most basic way.</strong></p>
 
