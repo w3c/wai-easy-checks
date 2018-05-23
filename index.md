@@ -121,10 +121,9 @@ footer: >
   <li><i><a href="{{ "/people-use-web/tools-techniques/" | relative_url }}#voice">voice input</a></i> is using speech instead of a keyboard and mouse.</li>
 </ul>
 <p class="listintro">To learn more, see:</p>
-<ul class="listafterpul   ">
+<ul class="listafterpul">
+  <li><a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/">Introduction to Web Accessibility</a></li>
   <li><a href="{{ "/fundamentals/accessibility-principles/" | relative_url }}">Accessibility Principles</a></li>
-  <li><a href="https://www.w3.org/standards/webdesign/accessibility">Introduction to Accessibility</a></li>
-  <li><a href="https://www.w3.org/WAI/yourWAI">Other WAI resources</a></li>
 </ul>
 
 {% include excol.html type="end" %}{% include excol.html type="start" id="" %}
