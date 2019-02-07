@@ -97,7 +97,7 @@ footer: >
 
 <p>These checks are based on the Web Content Accessibility Guidelines (WCAG) 2.0. The main points in WCAG are called &quot;Success Criteria&quot;. In the &quot;Learn more from&quot; sections of this page, there are links to pages that explain the relevant success criteria in the &quot;Understanding WCAG 2.0&quot; document.</p>
 
-<p><strong>Please see the <a href="{{ "/standards-guidelines/wcag/" | relative_url }}">WCAG Overview</a> for an introduction to WCAG.</strong></p>
+<p><strong>Please see the {%- include link.html to="/standards-guidelines/wcag/" text="WCAG Overview" -%} for an introduction to WCAG.</strong></p>
 
 {% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
@@ -124,8 +124,8 @@ footer: >
 </ul>
 <p class="listintro">To learn more, see:</p>
 <ul class="listafterpul">
-  <li><a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/">Introduction to Web Accessibility</a></li>
-  <li><a href="{{ "/fundamentals/accessibility-principles/" | relative_url }}">Accessibility Principles</a></li>
+  <li>{%- include link.html to="/fundamentals/accessibility-intro/" fallback="Introduction to Web Accessibility" -%}</li>
+  <li>{%- include link.html to="/fundamentals/accessibility-principles/" text="Accessibility Principles" -%}</li>
 </ul>
 
 {% include excol.html type="end" %}{% include excol.html type="start" id="" %}
@@ -1200,16 +1200,17 @@ footer: >
   <li>Encourage thorough accessibility evaluation.</li>
 </ol>
 <h3>Share your findings</h3>
-<p><a href="https://www.w3.org/WAI/users/inaccessible">Contacting Organizations about Inaccessible Websites</a> has guidance on reporting accessibility problems. It is focused for people who do not work for the organization that owns the website, yet also has some useful information if you do work for the organization &mdash; particularly the Introduction, Consider Your Approach, and Sources for More Information sections.</p>
+<p>{%- include link.html to="/teach-advocate/contact-inaccessible-websites/" fallback="Contacting Organizations about Inaccessible Websites" -%} has guidance on reporting accessibility problems. It is focused for people who do not work for the organization that owns the website, yet also has some useful information if you do work for the organization &mdash; particularly the Introduction, Consider Your Approach, and Sources for More Information sections.</p>
 <h3 id="moreeval">Encourage thorough accessibility evaluation</h3>
 <p class="listintro">The checks on this page are not definitive; a web page could seem to pass these checks, yet still have significant accessibility barriers.</p>
 <p class="listintro">This page covers just a few accessibility issues. There are other accessibility issues not covered in these easy checks, for example: links, data table <a href="#markup" class="termref">markup</a>, reliance on color, and much more.</p>
 <p id="evalresources">More robust assessment is needed to evaluate accessibility comprehensively. Guidance is available from:</p>
 <ul>
   <li>Evaluation methodology and report generator &mdash;<br>
-    <a href="https://www.w3.org/WAI/eval/conformance">WCAG-EM Overview</a>: Website Accessibility Conformance Evaluation Methodology<br/>
+    {%- include link.html to="/test-evaluate/conformance/wcag-em/" text="WCAG-EM Overview" -%}:
+    Website Accessibility Conformance Evaluation Methodology<br/>
     <a href="https://www.w3.org/WAI/eval/report-tool/#/">WCAG-EM Report Tool</a>: Website Accessibility Evaluation Report Generator </li>
-  <li><a href="https://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a></li>
-  <li><a href="{{ "/test-evaluate/involving-users/" | relative_url }}">Involving Users in Evaluating Web Accessibility</a></li>
+  <li>{%- include link.html to="/test-evaluate/tools/selecting/" fallback="Selecting Web Accessibility Evaluation Tools" -%}</li>
+  <li>{%- include link.html to="/test-evaluate/involving-users/" fallback="Involving Users in Evaluating Web Accessibility" -%}</li>
 </ul>
 
