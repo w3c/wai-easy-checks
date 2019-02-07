@@ -199,7 +199,6 @@ footer: >
       </ul>
     </li>
   </ul>
-</div>
 {% include excol.html type="end" %}
 <h3>Page title checks</h3>
 {% include excol.html type="start" id="" %}
