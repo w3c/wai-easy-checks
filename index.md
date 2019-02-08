@@ -69,7 +69,7 @@ footer: >
 
 <p>Some sections of this page might not apply to your situation, for example, they are for a  browser you don't have, or you  only need to read them once. These sections are hidden by default so they don't clutter the page. You can expand them to see the information. The headings of hidden  sections have a plus button [+] before them. Screen readers will say something like: &quot;graphic, expand this section&quot;. To get the hidden information, click the button or click anywhere on the heading.</p>
 
-<p>The  sections below all have hidden information under expandable headings. The first time you read this page, <strong>we recommend that you expand the headings of these five sections and  read them.</strong></p>
+<p>The  sections below all have hidden information under expandable headings. The first time you read this page, <strong>we recommend that you expand the headings of these five sections and  read them.</p>
 
 {% include excol.html type="start" %}
 <h3 id="tools">Tools: WebDev Toolbar and IE WAT <em>(optional)</em></h3>
@@ -238,7 +238,7 @@ footer: >
 <h3>Learn more about page titles</h3>
 {% include excol.html type="middle" %}
   <ul class="listwithpul">
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">Page Titled</a> - Understanding Success Criterion 2.4.2 for WCAG 2.0 (Level A)</li>
+    <li><a href="/WAI/WCAG21/Understanding/page-titled/">Page Titled</a> - Understanding Success Criterion 2.4.2 for WCAG 2.1 (Level A)</li>
   </ul>
 {% include excol.html type="end" %}
 
@@ -267,8 +267,7 @@ footer: >
     <li>The text needs to convey the same meaning as the image. That is, if someone cannot see the image, they get the important information from the image in the alternative text.</li>
     <li>Alternative text depends on context. For example, for an image of a dog on a kennel club website, the alt text might include the breed of the dog; however, the same image on a dog park website may be there just to make the page more attractive, and the image might not need any alt text (and should have null alt). One way to help think about appropriate alt text is: if you were helping someone read and interact with the web page and they cannot see it, what would you say about the image?</li>
     <li>Images that are functional — for example,  images that initiate actions (like submit buttons) and linked images (like in navigation) — need alt text that is the functional equivalent.</li>
-    <li>If there is text in the image — for example,  in a logo — that text needs to be included in the alt text.<br/>
-    </li>
+    <li>If there is text in the image — for example,  in a logo — that text needs to be included in the alt text.</li>
     <li>If the image has complex information  — such as charts or graphs — the image should have a short alt text to identify the image, and then the detailed description of the information should be provided elsewhere (for example, in a data table).</li>
   </ul>
 {% include excol.html type="end" %}
@@ -376,7 +375,7 @@ footer: >
 {% include excol.html type="middle" %}
   <ul class="listwithpul">
     <li><a href="{{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives">Text alternatives for non-text content</a> is an easy introduction with links to more details</li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">Non-text Content</a> - Understanding Success Criterion 1.1.1 for WCAG 2.0 (Level A)</li>
+    <li><a href="/WAI/WCAG21/Understanding/non-text-content">Non-text Content</a> - Understanding Success Criterion 1.1.1 for WCAG 2.1 (Level A)</li>
     <li><a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">An alt text decision tree</a></li>
   </ul>
 {% include excol.html type="end" %}
@@ -542,9 +541,9 @@ footer: >
 <h3 id="headingsmore">Learn more about headings</h3>
 {% include excol.html type="middle" %}
   <ul>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">Info and Relationships</a> - Understanding Success Criterion 1.3.1 for WCAG 2.0 (Level A)</li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">Headings and Labels</a> - Understanding Success Criterion 2.4.6 for WCAG 2.0 (Level AA)</li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html">Section Headings</a> - Understanding Success Criterion 2.4.10 for WCAG 2.0 (Level AAA)</li>
+    <li><a href="/WAI/WCAG21/Understanding/info-and-relationships">Info and Relationships</a> - Understanding Success Criterion 1.3.1 for WCAG 2.1 (Level A)</li>
+    <li><a href="/WAI/WCAG21/Understanding/headings-and-labels">Headings and Labels</a> - Understanding Success Criterion 2.4.6 for WCAG 2.1 (Level AA)</li>
+    <li><a href="/WAI/WCAG21/Understanding/section-headings">Section Headings</a> - Understanding Success Criterion 2.4.10 for WCAG 2.1 (Level AAA)</li>
   </ul>
 {% include excol.html type="end" %}
   
@@ -592,7 +591,7 @@ footer: >
   </li>
 </ol>
 <h3 id="contrastchecks">Contrast checks</h3>
-<p>Below are instructions for checking contrast with IE WAT; a list of other contrast analyzer tools is in the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head">Related Resources section</a> of Understanding Success Criterion 1.4.3.</p>
+<p>Below are instructions for checking contrast with IE WAT; a list of other contrast analyzer tools is in the <a href="/WAI/WCAG21/Understanding/contrast-minimum#resources">Related Resources section</a> of Understanding Success Criterion 1.4.3.</p>
 {% include excol.html type="start" id="" %}
 <h4 id="contrastiewat">To check contrast <em> with IE WAT</em></h4>
 {% include excol.html type="middle" %}
@@ -645,8 +644,8 @@ footer: >
 <h3>Learn more about contrast ratio</h3>
 {% include excol.html type="middle" %}
   <ul>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast">Contrast (Minimum)</a> - Understanding Success Criterion 1.4.3 for WCAG 2.0 (Level AA)</li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast">Contrast (Enhanced)</a> - Understanding Success Criterion 1.4.6 for WCAG 2.0 (Level AAA)<br />
+    <li><a href="/WAI/WCAG21/Understanding/contrast-minimum">Contrast (Minimum)</a> - Understanding Success Criterion 1.4.3 for WCAG 2.1 (Level AA)</li>
+    <li><a href="/WAI/WCAG21/Understanding/contrast-enhanced">Contrast (Enhanced)</a> - Understanding Success Criterion 1.4.6 for WCAG 2.1 (Level AAA)<br />
     </li>
   </ul>
 {% include excol.html type="end" %}
@@ -749,8 +748,8 @@ footer: >
 <h3>Learn more about resize text</h3>
 {% include excol.html type="middle" %}
   <ul>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale">Resize text</a> - Understanding Success Criterion  1.4.4 for WCAG 2.0 (Level AA)</li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation">Images of Text</a> - Understanding Success Criterion  1.4.5 for WCAG 2.0 (Level AA)<br />
+    <li><a href="/WAI/WCAG21/Understanding/resize-text">Resize text</a> - Understanding Success Criterion  1.4.4 for WCAG 2.1 (Level AA)</li>
+    <li><a href="/WAI/WCAG21/Understanding/images-of-text">Images of Text</a> - Understanding Success Criterion  1.4.5 for WCAG 2.1 (Level AA)<br />
     </li>
   </ul>
 {% include excol.html type="end" %}
@@ -794,7 +793,7 @@ footer: >
   <li><strong>Tab away:</strong> Check that you can  tab <strong>away</strong> from all elements that you can tab into.  (A common problem is the keyboard focus gets caught in media controls and you cannot get out; it's called the &quot;keyboard trap&quot;.)</li>
   <li><strong>Tab order: </strong>Check that the  tab order follows the logical reading order (e.g., for left-to-right languages: top to bottom, left to right) in sequence.</li>
   <li><strong>Visual focus: </strong>Check that the focus  is clearly visible as you tab through the elements, that is, you can tell which element has focus, e.g., links have a gray outline around them or are  highlighted.</li>
-  <li><strong>All functionality by keyboard: </strong>Check that you can do everything with  the keyboard; that is, you don't need the mouse to activate actions, options, visible changes, and other <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html#functiondef" class="termref">functionality</a>. (A common problem is that some functionality is   available only with mouse hover, and is not available with keyboard focus.)</li>
+  <li><strong>All functionality by keyboard: </strong>Check that you can do everything with  the keyboard; that is, you don't need the mouse to activate actions, options, visible changes, and other <a href="/TR/WCAG21/#dfn-functionality" class="termref">functionality</a>. (A common problem is that some functionality is   available only with mouse hover, and is not available with keyboard focus.)</li>
   <li><strong><a id="dropdown"></a>Drop-down lists: </strong>Check that after you  tab into a drop-down list, you can  use the arrow keys to move through all the options without triggering an action. (A common problem for drop-downs used for navigation is that as soon as you arrow down, it automatically selects the first item in the list and goes to a new page &mdash; you cannot get to other items in the list.)</li>
   <li><strong>Image links: </strong>Check that when images  are links, they have clear visual focus and  can be  activated using the keyboard (usually by pressing the Enter key).</li>
 </ul>
@@ -815,14 +814,14 @@ footer: >
   <ul>
     <li><a href="{{ "/fundamentals/accessibility-principles/" | relative_url }}#keyboard">Functionality is available from a keyboard</a> section in Accessibility Principles</li>
     <li><a href="https://www.w3.org/WAI/users/browsing#keyboard">Browsing the Web by Keyboard</a> section in Better Web Browsing: Tips for Customizing Your Computer</li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation.html">Guideline 2.1</a>:  Make all functionality available from a keyboard.
+    <li><a href="/WAI/WCAG21/Understanding/keyboard-accessible">Guideline 2.1</a>:  Make all functionality available from a keyboard.
       <ul>
-        <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html">Keyboard</a> -  Understanding Success Criterion 2.1.1 for WCAG 2.0 (Level A)</li>
-        <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html">No Keyboard Trap</a> - Understanding Success Criterion 2.1.2 for WCAG 2.0 (Level A)</li>
+        <li><a href="/WAI/WCAG21/Understanding/keyboard">Keyboard</a> -  Understanding Success Criterion 2.1.1 for WCAG 2.1 (Level A)</li>
+        <li><a href="/WAI/WCAG21/Understanding/no-keyboard-trap">No Keyboard Trap</a> - Understanding Success Criterion 2.1.2 for WCAG 2.1 (Level A)</li>
       </ul>
     </li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html">Focus Order</a> - Understanding Success Criterion 2.4.3  for WCAG 2.0 (Level A) </li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html">Focus Visible</a> - Understanding Success Criterion 2.4.7  for WCAG 2.0 (Level AA)</li>
+    <li><a href="/WAI/WCAG21/Understanding/focus-order">Focus Order</a> - Understanding Success Criterion 2.4.3  for WCAG 2.1 (Level A) </li>
+    <li><a href="/WAI/WCAG21/Understanding/focus-visible">Focus Visible</a> - Understanding Success Criterion 2.4.7  for WCAG 2.1 (Level AA)</li>
   </ul>
 {% include excol.html type="end" %}
   
@@ -972,11 +971,11 @@ footer: >
 <h3>Learn more about forms</h3>
 {% include excol.html type="middle" %}
   <ul>
-    <li> <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html">Labels or Instructions</a> - Understanding Success Criterion 3.3.2 for WCAG 2.0 (Level A)</li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">Info and Relationships</a> - Understanding Success Criterion 1.3.1 for WCAG 2.0 (Level A)</li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html">Error Identification</a> - Understanding Success Criterion 3.3.1 for WCAG 2.0 (Level A)</li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-suggestions.html">Error Suggestion</a> - Understanding Success Criterion 3.3.3 for WCAG 2.0 (Level AA)</li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html">Error Prevention (Legal, Financial, Data)</a> - Understanding Success Criterion 3.3.4 for WCAG 2.0 (Level AA) </li>
+    <li> <a href="/WAI/WCAG21/Understanding/labels-or-instructions">Labels or Instructions</a> - Understanding Success Criterion 3.3.2 for WCAG 2.1 (Level A)</li>
+    <li><a href="/WAI/WCAG21/Understanding/info-and-relationships">Info and Relationships</a> - Understanding Success Criterion 1.3.1 for WCAG 2.1 (Level A)</li>
+    <li><a href="/WAI/WCAG21/Understanding/error-identification">Error Identification</a> - Understanding Success Criterion 3.3.1 for WCAG 2.1 (Level A)</li>
+    <li><a href="/WAI/WCAG21/Understanding/error-suggestion">Error Suggestion</a> - Understanding Success Criterion 3.3.3 for WCAG 2.1 (Level AA)</li>
+    <li><a href="/WAI/WCAG21/Understanding/error-prevention-legal-financial-data">Error Prevention (Legal, Financial, Data)</a> - Understanding Success Criterion 3.3.4 for WCAG 2.1 (Level AA) </li>
   </ul>
 {% include excol.html type="end" %}
 
@@ -997,15 +996,15 @@ footer: >
 <ul>
   <li>Check if there is any <strong>moving, blinking, or scrolling information</strong> that starts automatically and lasts more than five seconds. If there is, check that there is a way for the user to pause, stop, or hide the movement.</li>
   <li>Check if there is any <strong>auto-updated information</strong> (such as stock price). If there is, check that there is a way for the user to pause, stop, or hide the updated information, or for the user to control the frequency of the update.</li>
-  <li>Check that <strong>no content flashes or blinks</strong> more than three times in one second. If it does, further evaluation is needed as explained in <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">Three Flashes or Below Threshold</a>.</li>
+  <li>Check that <strong>no content flashes or blinks</strong> more than three times in one second. If it does, further evaluation is needed as explained in <a href="/WAI/WCAG21/Understanding/three-flashes-or-below-threshold">Three Flashes or Below Threshold</a>.</li>
 </ul>
 {% include excol.html type="start" id="" %}
 <h3>To learn more about moving, flashing, or blinking content</h3>
 {% include excol.html type="middle" %}
   <ul>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html">Pause, Stop, Hide</a> – Understanding Success Criterion 2.2.2 for WCAG 2.0 (Level A)</li>
+    <li><a href="/WAI/WCAG21/Understanding/pause-stop-hide">Pause, Stop, Hide</a> – Understanding Success Criterion 2.2.2 for WCAG 2.1 (Level A)</li>
     <li><a href="https://www.w3.org/WAI/tutorials/carousels/animations/">Carousel Animations</a> – WAI Web Accessibility Tutorial</li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">Three Flashes or Below Threshold</a> Understanding Success Criterion 2.3.1 for WCAG 2.0 (Level A)</li>
+    <li><a href="/WAI/WCAG21/Understanding/three-flashes-or-below-threshold">Three Flashes or Below Threshold</a> Understanding Success Criterion 2.3.1 for WCAG 2.1 (Level A)</li>
   </ul>
 {% include excol.html type="end" %}
 
@@ -1052,10 +1051,10 @@ footer: >
 {% include excol.html type="middle" %}
   <ul>
     <li><a href="https://www.w3.org/2008/06/video-notes">W3C Multimedia Accessibility FAQ</a></li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html" >Captions</a> - Understanding Success Criterion 1.2.2 for WCAG 2.0 (Level A)</li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html" >Audio Description or Media Alternative</a> - Understanding Success Criterion 1.2.3 for WCAG 2.0 (Level A)</li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html">Audio Control</a> - Understanding Success Criterion 1.4.2 for WCAG 2.0 (Level A)</li>
-    <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-text-doc.html">Media Alternative</a> - Understanding Success Criterion 1.2.8 for WCAG 2.0 (Level AAA)</li>
+    <li><a href="/WAI/WCAG21/Understanding/captions-prerecorded" >Captions</a> - Understanding Success Criterion 1.2.2 for WCAG 2.1 (Level A)</li>
+    <li><a href="/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded" >Audio Description or Media Alternative</a> - Understanding Success Criterion 1.2.3 for WCAG 2.1 (Level A)</li>
+    <li><a href="/WAI/WCAG21/Understanding/audio-control">Audio Control</a> - Understanding Success Criterion 1.4.2 for WCAG 2.1 (Level A)</li>
+    <li><a href="/WAI/WCAG21/Understanding/media-alternative-prerecorded">Media Alternative</a> - Understanding Success Criterion 1.2.8 for WCAG 2.1 (Level AAA)</li>
   </ul>
 {% include excol.html type="end" %}
   
