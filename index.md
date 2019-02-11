@@ -69,7 +69,7 @@ footer: >
 
 <p>Some sections of this page might not apply to your situation, for example, they are for a  browser you don't have, or you  only need to read them once. These sections are hidden by default so they don't clutter the page. You can expand them to see the information. The headings of hidden  sections have a plus button [+] before them. Screen readers will say something like: &quot;graphic, expand this section&quot;. To get the hidden information, click the button or click anywhere on the heading.</p>
 
-<p>The  sections below all have hidden information under expandable headings. The first time you read this page, <strong>we recommend that you expand the headings of these five sections and  read them.</p>
+<p>The sections below all have hidden information under expandable headings. The first time you read this page, <strong>we recommend that you expand the headings of these five sections and read them.</strong></p>
 
 {% include excol.html type="start" %}
 <h3 id="tools">Tools: WebDev Toolbar and IE WAT <em>(optional)</em></h3>
