@@ -238,7 +238,7 @@ footer: >
 <h3>Learn more about page titles</h3>
 {% include excol.html type="middle" %}
   <ul class="listwithpul">
-    <li><a href="/WAI/WCAG21/Understanding/page-titled/">Page Titled</a> - Understanding Success Criterion 2.4.2 for WCAG 2.1 (Level A)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/page-titled/">Page Titled</a> - Understanding Success Criterion 2.4.2 for WCAG 2.1 (Level A)</li>
   </ul>
 {% include excol.html type="end" %}
 
@@ -375,7 +375,7 @@ footer: >
 {% include excol.html type="middle" %}
   <ul class="listwithpul">
     <li><a href="{{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives">Text alternatives for non-text content</a> is an easy introduction with links to more details</li>
-    <li><a href="/WAI/WCAG21/Understanding/non-text-content">Non-text Content</a> - Understanding Success Criterion 1.1.1 for WCAG 2.1 (Level A)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content">Non-text Content</a> - Understanding Success Criterion 1.1.1 for WCAG 2.1 (Level A)</li>
     <li><a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">An alt text decision tree</a></li>
   </ul>
 {% include excol.html type="end" %}
@@ -541,9 +541,9 @@ footer: >
 <h3 id="headingsmore">Learn more about headings</h3>
 {% include excol.html type="middle" %}
   <ul>
-    <li><a href="/WAI/WCAG21/Understanding/info-and-relationships">Info and Relationships</a> - Understanding Success Criterion 1.3.1 for WCAG 2.1 (Level A)</li>
-    <li><a href="/WAI/WCAG21/Understanding/headings-and-labels">Headings and Labels</a> - Understanding Success Criterion 2.4.6 for WCAG 2.1 (Level AA)</li>
-    <li><a href="/WAI/WCAG21/Understanding/section-headings">Section Headings</a> - Understanding Success Criterion 2.4.10 for WCAG 2.1 (Level AAA)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships">Info and Relationships</a> - Understanding Success Criterion 1.3.1 for WCAG 2.1 (Level A)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels">Headings and Labels</a> - Understanding Success Criterion 2.4.6 for WCAG 2.1 (Level AA)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/section-headings">Section Headings</a> - Understanding Success Criterion 2.4.10 for WCAG 2.1 (Level AAA)</li>
   </ul>
 {% include excol.html type="end" %}
   
@@ -591,7 +591,7 @@ footer: >
   </li>
 </ol>
 <h3 id="contrastchecks">Contrast checks</h3>
-<p>Below are instructions for checking contrast with IE WAT; a list of other contrast analyzer tools is in the <a href="/WAI/WCAG21/Understanding/contrast-minimum#resources">Related Resources section</a> of Understanding Success Criterion 1.4.3.</p>
+<p>Below are instructions for checking contrast with IE WAT; a list of other contrast analyzer tools is in the <a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum#resources">Related Resources section</a> of Understanding Success Criterion 1.4.3.</p>
 {% include excol.html type="start" id="" %}
 <h4 id="contrastiewat">To check contrast <em> with IE WAT</em></h4>
 {% include excol.html type="middle" %}
@@ -644,8 +644,8 @@ footer: >
 <h3>Learn more about contrast ratio</h3>
 {% include excol.html type="middle" %}
   <ul>
-    <li><a href="/WAI/WCAG21/Understanding/contrast-minimum">Contrast (Minimum)</a> - Understanding Success Criterion 1.4.3 for WCAG 2.1 (Level AA)</li>
-    <li><a href="/WAI/WCAG21/Understanding/contrast-enhanced">Contrast (Enhanced)</a> - Understanding Success Criterion 1.4.6 for WCAG 2.1 (Level AAA)<br />
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum">Contrast (Minimum)</a> - Understanding Success Criterion 1.4.3 for WCAG 2.1 (Level AA)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced">Contrast (Enhanced)</a> - Understanding Success Criterion 1.4.6 for WCAG 2.1 (Level AAA)<br />
     </li>
   </ul>
 {% include excol.html type="end" %}
@@ -748,8 +748,8 @@ footer: >
 <h3>Learn more about resize text</h3>
 {% include excol.html type="middle" %}
   <ul>
-    <li><a href="/WAI/WCAG21/Understanding/resize-text">Resize text</a> - Understanding Success Criterion  1.4.4 for WCAG 2.1 (Level AA)</li>
-    <li><a href="/WAI/WCAG21/Understanding/images-of-text">Images of Text</a> - Understanding Success Criterion  1.4.5 for WCAG 2.1 (Level AA)<br />
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/resize-text">Resize text</a> - Understanding Success Criterion  1.4.4 for WCAG 2.1 (Level AA)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text">Images of Text</a> - Understanding Success Criterion  1.4.5 for WCAG 2.1 (Level AA)<br />
     </li>
   </ul>
 {% include excol.html type="end" %}
@@ -814,14 +814,14 @@ footer: >
   <ul>
     <li><a href="{{ "/fundamentals/accessibility-principles/" | relative_url }}#keyboard">Functionality is available from a keyboard</a> section in Accessibility Principles</li>
     <li><a href="https://www.w3.org/WAI/users/browsing#keyboard">Browsing the Web by Keyboard</a> section in Better Web Browsing: Tips for Customizing Your Computer</li>
-    <li><a href="/WAI/WCAG21/Understanding/keyboard-accessible">Guideline 2.1</a>:  Make all functionality available from a keyboard.
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible">Guideline 2.1</a>:  Make all functionality available from a keyboard.
       <ul>
-        <li><a href="/WAI/WCAG21/Understanding/keyboard">Keyboard</a> -  Understanding Success Criterion 2.1.1 for WCAG 2.1 (Level A)</li>
-        <li><a href="/WAI/WCAG21/Understanding/no-keyboard-trap">No Keyboard Trap</a> - Understanding Success Criterion 2.1.2 for WCAG 2.1 (Level A)</li>
+        <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/keyboard">Keyboard</a> -  Understanding Success Criterion 2.1.1 for WCAG 2.1 (Level A)</li>
+        <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap">No Keyboard Trap</a> - Understanding Success Criterion 2.1.2 for WCAG 2.1 (Level A)</li>
       </ul>
     </li>
-    <li><a href="/WAI/WCAG21/Understanding/focus-order">Focus Order</a> - Understanding Success Criterion 2.4.3  for WCAG 2.1 (Level A) </li>
-    <li><a href="/WAI/WCAG21/Understanding/focus-visible">Focus Visible</a> - Understanding Success Criterion 2.4.7  for WCAG 2.1 (Level AA)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-order">Focus Order</a> - Understanding Success Criterion 2.4.3  for WCAG 2.1 (Level A) </li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-visible">Focus Visible</a> - Understanding Success Criterion 2.4.7  for WCAG 2.1 (Level AA)</li>
   </ul>
 {% include excol.html type="end" %}
   
@@ -971,11 +971,11 @@ footer: >
 <h3>Learn more about forms</h3>
 {% include excol.html type="middle" %}
   <ul>
-    <li> <a href="/WAI/WCAG21/Understanding/labels-or-instructions">Labels or Instructions</a> - Understanding Success Criterion 3.3.2 for WCAG 2.1 (Level A)</li>
-    <li><a href="/WAI/WCAG21/Understanding/info-and-relationships">Info and Relationships</a> - Understanding Success Criterion 1.3.1 for WCAG 2.1 (Level A)</li>
-    <li><a href="/WAI/WCAG21/Understanding/error-identification">Error Identification</a> - Understanding Success Criterion 3.3.1 for WCAG 2.1 (Level A)</li>
-    <li><a href="/WAI/WCAG21/Understanding/error-suggestion">Error Suggestion</a> - Understanding Success Criterion 3.3.3 for WCAG 2.1 (Level AA)</li>
-    <li><a href="/WAI/WCAG21/Understanding/error-prevention-legal-financial-data">Error Prevention (Legal, Financial, Data)</a> - Understanding Success Criterion 3.3.4 for WCAG 2.1 (Level AA) </li>
+    <li> <a href="https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions">Labels or Instructions</a> - Understanding Success Criterion 3.3.2 for WCAG 2.1 (Level A)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships">Info and Relationships</a> - Understanding Success Criterion 1.3.1 for WCAG 2.1 (Level A)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/error-identification">Error Identification</a> - Understanding Success Criterion 3.3.1 for WCAG 2.1 (Level A)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion">Error Suggestion</a> - Understanding Success Criterion 3.3.3 for WCAG 2.1 (Level AA)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data">Error Prevention (Legal, Financial, Data)</a> - Understanding Success Criterion 3.3.4 for WCAG 2.1 (Level AA) </li>
   </ul>
 {% include excol.html type="end" %}
 
@@ -996,15 +996,15 @@ footer: >
 <ul>
   <li>Check if there is any <strong>moving, blinking, or scrolling information</strong> that starts automatically and lasts more than five seconds. If there is, check that there is a way for the user to pause, stop, or hide the movement.</li>
   <li>Check if there is any <strong>auto-updated information</strong> (such as stock price). If there is, check that there is a way for the user to pause, stop, or hide the updated information, or for the user to control the frequency of the update.</li>
-  <li>Check that <strong>no content flashes or blinks</strong> more than three times in one second. If it does, further evaluation is needed as explained in <a href="/WAI/WCAG21/Understanding/three-flashes-or-below-threshold">Three Flashes or Below Threshold</a>.</li>
+  <li>Check that <strong>no content flashes or blinks</strong> more than three times in one second. If it does, further evaluation is needed as explained in <a href="https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold">Three Flashes or Below Threshold</a>.</li>
 </ul>
 {% include excol.html type="start" id="" %}
 <h3>To learn more about moving, flashing, or blinking content</h3>
 {% include excol.html type="middle" %}
   <ul>
-    <li><a href="/WAI/WCAG21/Understanding/pause-stop-hide">Pause, Stop, Hide</a> – Understanding Success Criterion 2.2.2 for WCAG 2.1 (Level A)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide">Pause, Stop, Hide</a> – Understanding Success Criterion 2.2.2 for WCAG 2.1 (Level A)</li>
     <li><a href="https://www.w3.org/WAI/tutorials/carousels/animations/">Carousel Animations</a> – WAI Web Accessibility Tutorial</li>
-    <li><a href="/WAI/WCAG21/Understanding/three-flashes-or-below-threshold">Three Flashes or Below Threshold</a> Understanding Success Criterion 2.3.1 for WCAG 2.1 (Level A)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold">Three Flashes or Below Threshold</a> Understanding Success Criterion 2.3.1 for WCAG 2.1 (Level A)</li>
   </ul>
 {% include excol.html type="end" %}
 
@@ -1051,10 +1051,10 @@ footer: >
 {% include excol.html type="middle" %}
   <ul>
     <li><a href="https://www.w3.org/2008/06/video-notes">W3C Multimedia Accessibility FAQ</a></li>
-    <li><a href="/WAI/WCAG21/Understanding/captions-prerecorded" >Captions</a> - Understanding Success Criterion 1.2.2 for WCAG 2.1 (Level A)</li>
-    <li><a href="/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded" >Audio Description or Media Alternative</a> - Understanding Success Criterion 1.2.3 for WCAG 2.1 (Level A)</li>
-    <li><a href="/WAI/WCAG21/Understanding/audio-control">Audio Control</a> - Understanding Success Criterion 1.4.2 for WCAG 2.1 (Level A)</li>
-    <li><a href="/WAI/WCAG21/Understanding/media-alternative-prerecorded">Media Alternative</a> - Understanding Success Criterion 1.2.8 for WCAG 2.1 (Level AAA)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded" >Captions</a> - Understanding Success Criterion 1.2.2 for WCAG 2.1 (Level A)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded" >Audio Description or Media Alternative</a> - Understanding Success Criterion 1.2.3 for WCAG 2.1 (Level A)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-control">Audio Control</a> - Understanding Success Criterion 1.4.2 for WCAG 2.1 (Level A)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/media-alternative-prerecorded">Media Alternative</a> - Understanding Success Criterion 1.2.8 for WCAG 2.1 (Level AAA)</li>
   </ul>
 {% include excol.html type="end" %}
   
