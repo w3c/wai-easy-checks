@@ -1208,7 +1208,7 @@ footer: >
     {% include link.html to="/test-evaluate/conformance/wcag-em/" text="WCAG-EM Overview" %}:
     Website Accessibility Conformance Evaluation Methodology<br/>
     <a href="https://www.w3.org/WAI/eval/report-tool/#/">WCAG-EM Report Tool</a>: Website Accessibility Evaluation Report Generator </li>
-  <li>{% include link.html to="/test-evaluate/tools/selecting/" fallback="Selecting Web Accessibility Evaluation Tools" %}</li>
-  <li>{% include link.html to="/test-evaluate/involving-users/" fallback="Involving Users in Evaluating Web Accessibility" %}</li>
+  <li>{% include link.html to="/test-evaluate/tools/selecting/" text="Selecting Web Accessibility Evaluation Tools" %}</li>
+  <li>{% include link.html to="/test-evaluate/involving-users/" text="Involving Users in Evaluating Web Accessibility" %}</li>
 </ul>
 
