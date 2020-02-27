@@ -1,12 +1,15 @@
 ---
-title: Easy Checks – A First Review of Web Accessibility
+title: "Easy Checks – A First Review of Web Accessibility"
 permalink: /test-evaluate/preliminary/
 ref: /test-evaluate/preliminary/
+
 lang: en
 layout: default
+
 github:
   repository: w3c/EasyChecks
   path: content/index.md
+
 footer: >
   <p><strong>Date: </strong>Updated 22 December 2017 [<a href="https://www.w3.org/WAI/EO/wiki/Easy_Checks_changelog">changelog</a>]<br>
   History: Easy Checks - A First Review of Web Accessibility was first published as a draft in June 2013. It replaces Preliminary Review of Web Sites for Accessibility that was first published September 2005 and edited by Shadi Abou-Zahra. It was originally one section of Evaluating Web Sites for Accessibility that was first published in October 2001 and edited by Judy Brewer and Chuck Letourneau.</p>
