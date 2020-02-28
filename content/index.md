@@ -1,11 +1,15 @@
 ---
-title: Easy Checks - A First Review of Web Accessibility
+title: "Easy Checks – A First Review of Web Accessibility"
 permalink: /test-evaluate/preliminary/
 ref: /test-evaluate/preliminary/
+
 lang: en
 layout: default
+
 github:
   repository: w3c/EasyChecks
+  path: content/index.md
+
 footer: >
   <p><strong>Date: </strong>Updated 22 December 2017 [<a href="https://www.w3.org/WAI/EO/wiki/Easy_Checks_changelog">changelog</a>]<br>
   History: Easy Checks - A First Review of Web Accessibility was first published as a draft in June 2013. It replaces Preliminary Review of Web Sites for Accessibility that was first published September 2005 and edited by Shadi Abou-Zahra. It was originally one section of Evaluating Web Sites for Accessibility that was first published in October 2001 and edited by Judy Brewer and Chuck Letourneau.</p>
@@ -88,7 +92,7 @@ footer: >
 </ul>
 <p>Note that we&#39;re not endorsing these tools over others. There are many other useful <a href="https://www.w3.org/WAI/eval/selectingtools">tools to help with evaluation</a>.</p>
 <p><i>(If you can&#39;t download these tools, that&#39;s OK; you can still do the checks indicated &quot;with any browser&quot;.)</i></p>
-    
+
 {% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 <h3 id="wcaglinks">WCAG links</h3>
@@ -379,7 +383,7 @@ footer: >
     <li><a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">An alt text decision tree</a></li>
   </ul>
 {% include excol.html type="end" %}
-  
+
 <h2 id="headings">Headings</h2>
 <p>Web pages often have sections of information separated by visual headings, for example, heading text is bigger and bold (like &quot;Headings&quot; right above this sentence :-). To make these work for everyone, the headings need to be <a href="#markup" class="termref">marked up</a>. That way people can navigate to the headings — including people who cannot use a mouse and use only the keyboard, and people who use a screen reader.</p>
 <p class="listintro">Heading levels should have a meaningful hierarchy, e.g.: </p>
@@ -546,7 +550,7 @@ footer: >
     <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/section-headings">Section Headings</a> - Understanding Success Criterion 2.4.10 for WCAG (Level AAA)</li>
   </ul>
 {% include excol.html type="end" %}
-  
+
 <h2 id="contrast"> Contrast ratio (&quot;color contrast&quot;)</h2>
 <p>Some people cannot read text if there is not sufficient contrast between the text and background, for example,  light gray text on a light background.</p>
 <figure class="shrink-wrap">
@@ -649,7 +653,7 @@ footer: >
     </li>
   </ul>
 {% include excol.html type="end" %}
-  
+
 <a id="zoom"></a><!-- for old links -->
 <h2 id="resize">Resize text</h2>
 <p>Some people need to enlarge web content in order to read it. Some  need to change other aspects of text display: font, space between lines, and more.</p>
@@ -753,7 +757,7 @@ footer: >
     </li>
   </ul>
 {% include excol.html type="end" %}
-  
+
 <h2 id="interaction">Keyboard access and visual focus</h2>
 <p>Many people cannot use a mouse and rely on the keyboard to interact with the Web. People who are blind and some sighted people with mobility impairments  rely on the keyboard or on assistive technologies and strategies that rely on keyboard commands, such as voice input. Accessible websites enable people to access all content and functionality &mdash; links, forms, media controls, etc. &mdash; through a keyboard.</p>
 <p>Keyboard focus should be visible and should follow a logical order through the page elements. Visible keyboard focus could be a  border or highlight, as shown below, that moves as  you tab through the web page.</p>
@@ -824,7 +828,7 @@ footer: >
     <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-visible">Focus Visible</a> - Understanding Success Criterion 2.4.7  for WCAG (Level AA)</li>
   </ul>
 {% include excol.html type="end" %}
-  
+
 <h2 id="forms">Forms, labels, and errors</h2>
 <p><em>Note: This section is more complex than the others. If it's too complicated, consider skipping it for now and proceeding through the remaining checks</em>.</p>
 <p>Labels, keyboard access, clear instructions, and effective error handling are  important for forms accessibility.</p>
@@ -882,7 +886,7 @@ footer: >
     <li>In the toolbar, select &quot;Structure&quot;, then &quot;FieldSet / Labels&quot;.
       Or, with the keyboard: Ctrl+Alt+6, then down arrow key to &quot;FieldSet / Labels&quot;, and select.
       <ul>
-        <li> <em>A dialog box appears with the number of errors and controls.</em> <!-- <span class="changed">[@@ shall we explain &quot;to check out&quot;?] </span> --> 
+        <li> <em>A dialog box appears with the number of errors and controls.</em> <!-- <span class="changed">[@@ shall we explain &quot;to check out&quot;?] </span> -->
           <br>
           <figure class="shrink-wrap">
             <div class="figcontent"> <img src="{{ "/content-images/preliminary/" | relative_url }}forms-wat-dialog.png" alt="" width="449" height="209" /> </div>
@@ -904,7 +908,7 @@ footer: >
         </li>
       </ul>
     </li>
-    <li>Check that every field label has <code>label for=&quot;x&quot;</code> before it and <code>id=&quot;x&quot;</code> in the box with it, and that the text in quotes matches. <em>(&quot;x&quot; can be anything; for example, <code>for=&quot;park&quot;</code>, <code>id=&quot;park&quot;</code>)</em> 
+    <li>Check that every field label has <code>label for=&quot;x&quot;</code> before it and <code>id=&quot;x&quot;</code> in the box with it, and that the text in quotes matches. <em>(&quot;x&quot; can be anything; for example, <code>for=&quot;park&quot;</code>, <code>id=&quot;park&quot;</code>)</em>
       <!-- <span class="quiet">[@@ work with screen reader?]</span> -->
       <ul>
         <li>If the label is missing, it will indicate &quot;Label no for&quot;.</li>
@@ -913,17 +917,17 @@ footer: >
     </li>
     <li>Check that the required field indicator is in the field label, or for radio button and check boxes, it is in the &quot;legend&quot;. For example:
       <ul>
-        <li>Correct: The asterisk (*) is included in the box around the label. 
-          <!-- TODO Low Priority Add Image <span class="quiet">[image coming slh]</span> --> 
+        <li>Correct: The asterisk (*) is included in the box around the label.
+          <!-- TODO Low Priority Add Image <span class="quiet">[image coming slh]</span> -->
         </li>
-        <li>Incorrect: The asterisk (*) is outside of the box around the label. 
-          <!-- TODO Low Priority Add Image <span class="quiet">[image coming slh]</span> --> 
+        <li>Incorrect: The asterisk (*) is outside of the box around the label.
+          <!-- TODO Low Priority Add Image <span class="quiet">[image coming slh]</span> -->
         </li>
-        <li>Correct: &quot;(required)&quot; is in the legend. 
-          <!-- TODO Low Priority Add Image <span class="quiet">[image coming slh]</span> --> 
+        <li>Correct: &quot;(required)&quot; is in the legend.
+          <!-- TODO Low Priority Add Image <span class="quiet">[image coming slh]</span> -->
         </li>
-        <li>Incorrect: &quot;(required)&quot; is not in the legend. 
-          <!-- TODO Low Priority Add Image <span class="quiet">[image coming slh]</span> --> 
+        <li>Incorrect: &quot;(required)&quot; is not in the legend.
+          <!-- TODO Low Priority Add Image <span class="quiet">[image coming slh]</span> -->
         </li>
       </ul>
     </li>
@@ -1057,8 +1061,8 @@ footer: >
     <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/media-alternative-prerecorded">Media Alternative</a> - Understanding Success Criterion 1.2.8 for WCAG (Level AAA)</li>
   </ul>
 {% include excol.html type="end" %}
-  
-<a id="plain"></a> 
+
+<a id="plain"></a>
 <!-- anchor for historical purposes - so old links work -->
 <h2 id="structure">Basic structure check</h2>
 <p><em>While the other checks on this page focus on specific success criteria in WCAG, this check is more broad. It helps you understand how some people &quot;see&quot; the web page differently. For this basic structure check, you look at the web page without images, styles, and layout.</em></p>
