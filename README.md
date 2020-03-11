@@ -1,3 +1,5 @@
 # Introduction to Web Accessibility
 
-This does https://w3c.github.io/EasyChecks/test-eval/preliminary/
+Preview of `master`: https://wai-easychecks.netlify.com
+
+WAI Website Manual: https://wai-website-theme.netlify.com/overview/
