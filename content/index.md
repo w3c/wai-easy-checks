@@ -72,17 +72,16 @@ footer: >
 
 {% include excol.html type="start" id="video-intro" %}
 
-## <img src="https://www.w3.org/WAI/content-images/wai-intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" alt="" style="height: 2em; border-radius: .25em; vertical-align: middle;"> Video: Preliminary Evaluation
+## {% include image.html src="video-thumb-easy-checks.png" alt="" class="video tiny" %} Video: Preliminary Evaluation {#video}
 
 {% include excol.html type="middle" %}
 
 {% include video-player.html
-    yt-id="93UgG72os8M"
-    captions="/keyboard-en.vtt|en|Captions"
-    descriptions=""
+    yt-id="HwTtnoBKl5Y"
+    captions="https://media.w3.org/wai/evaluation-intros/easy-checks-accessibility.vtt"
 %}
 
-_This video is also available on a [W3C server (file format: MP4, file size: 2MB) - Video: Preliminary Evaluation](https://@@)._
+_This video is also available on a [W3C server (file format: MP4, file size: 29MB) - Video: Preliminary Evaluation](https://media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4)._
 
 {% include excol.html type="start" id="video-intro-transcript" %}
 
@@ -97,50 +96,52 @@ Text Transcript with Description of Visuals
       <th>Visual</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Web Accessibility Perspectives: Keyboard Compatibility</td>
-      <td>Web Accessibility Perspectives:<br />
-        Keyboard Compatibility</td>
-    </tr>
-    <tr>
-      <td>Not being able to use your computer because your mouse doesn't work, is frustrating.</td>
-      <td>A man drops his computer mouse off the desk. The computer mouse no longer works.</td>
-    </tr>
-    <tr>
-      <td>Many people use only the keyboard to navigate websites &mdash; either through preference or circumstance.<br /></td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>Whether it's temporarily limited mobility,</td>
-      <td>A woman with her arm in a sling is typing on a keyboard &mdash; but the website requires the use of a mouse to select the date.</td>
-    </tr>
-    <tr>
-      <td>a permanent physical disability,</td>
-      <td>A man with a wheelchair is using a mouth-stick to type.</td>
-    </tr>
-    <tr>
-      <td>or simply a broken mouse,<br />
-        the result is the same:</td>
-      <td>The man with the wheelchair also cannot use the site.</td>
-    </tr>
-    <tr>
-      <td>Websites and apps need to be operable by keyboard.</td>
-      <td>He switches to a different website that allows typing the date.</td>
-    </tr>
-    <tr>
-      <td>Web accessibility: Essential for some, useful for all.</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>Visit w3.org/WAI/perspectives for more information on Keyboard Compatibility</td>
-      <td>Visit<br />
-        w3.org/WAI/perspectives<br />
-        for more information on<br />
-        Keyboard Compatibility.<br />
-        W3C Web Accessibility Initiative logo</td>
-    </tr>
-  </tbody>
+<tbody>
+  <tr>
+    <td>Easy checks for web accessibility. </td>
+    <td>Easy checks for web accessibility.</td>
+  </tr>
+  <tr>
+    <td>Even if you are new to web accessibility and not technical, you can check some aspects of accessibility yourself. </td>
+    <td>A person in front of the computer checking a website with passes and fails. The words new and non-technical are displayed. Icons around a computer: hand; eye; brain; ear and mouth with sound waves. </td>
+  </tr>
+  <tr>
+    <td>"Easy Checks - A First Review of Web Accessibility" gives you step-by-step instructions to get a rough idea of the accessibility of any web page. </td>
+    <td>An arrow moves from left to right to point a list of checks.</td>
+  </tr>
+  <tr>
+    <td>For example, a web page from your own website, from your competitor, or from suppliers you might want to work with. </td>
+    <td>3 websites with different formats.</td>
+  </tr>
+  <tr>
+    <td>It is not a complete evaluation of accessibility. More assessment by professionals is needed for a definitive and comprehensive evaluation. </td>
+    <td>A computer with a website shows the progress of an evaluation as items are either marked as a fail or pass.</td>
+  </tr>
+  <tr>
+    <td>Sometimes doing just a few of these checks can give you an indication of the overall accessibility. </td>
+    <td>Fails and passes stand out.</td>
+  </tr>
+  <tr>
+    <td>Some checks are simple. For example, looking at the title of the web page displayed in the browser window. </td>
+    <td>Web page title is highlighted.</td>
+  </tr>
+  <tr>
+    <td>You can do most of the checks using any web browser. Some checks are easier using an extension for your browser. </td>
+    <td>A browser extension is downloaded.</td>
+  </tr>
+  <tr>
+    <td>Start your accessibility journey right now by doing some Easy Checks. </td>
+    <td>A map with a route and an accessibility flag at the end.</td>
+  </tr>
+  <tr>
+    <td>Web accessibility: essential for some, useful for all. </td>
+    <td>Icons around a computer: hand; eye; brain; ear; and mouth with sound waves.</td>
+  </tr>
+  <tr>
+    <td>For information on easy checks for web accessibility, visit w3.o-r-g/W-A-I/evaluation. </td>
+    <td>Easy checks, W3C and Web Accessibility Initiative (WAI) logos.</td>
+  </tr>
+</tbody>
 </table>
 
 {% include excol.html type="end" %}
