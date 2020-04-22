@@ -11,7 +11,8 @@ github:
   path: content/index.md
 
 footer: >
-  <p><strong>Date: </strong>Updated 11 March 2020 [<a href="https://www.w3.org/WAI/EO/wiki/Easy_Checks_changelog">changelog</a>]<br>
+  <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is integrated in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
+  <p><strong>Date: </strong>Main content updated 22 December 2017. Intro video added 28 April 2020. [<a href="https://www.w3.org/WAI/EO/wiki/Easy_Checks_changelog">changelog</a>]<br>
   History: Easy Checks - A First Review of Web Accessibility was first published as a draft in June 2013. It replaces Preliminary Review of Web Sites for Accessibility that was first published September 2005 and edited by Shadi Abou-Zahra. It was originally one section of Evaluating Web Sites for Accessibility that was first published in October 2001 and edited by Judy Brewer and Chuck Letourneau.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Sharron Rush, Caleb Watson, Suzette Keith, Anna Belle Leiserson, Andrew Arch, Wayne Dick, Vicki Menezes Miller, Jennifer Sutton, Ian Pouncey, Denis Boudreau, Tom Jewett, and <a href="https://www.w3.org/WAI/EO/EOWG-members">EOWG Participants</a>.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Video developed with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245). <a href="/WAI/test-evaluate/acknowledgements">Acknowledgments for video</a>.</p>
@@ -22,6 +23,8 @@ footer: >
 
 <h2 class="no-display" id="introduction">Introduction</h2>
 <p><strong>This page helps you start to assess the accessibility of a web page. With these simple steps, you can get an idea whether or not accessibility is addressed in even the most basic way.</strong></p>
+
+<p><a href="#video"><img src="/content-images/wai-InvolveUsersEval/video-thumb-easy-checks.png " alt="" class="video tiny" /> Video: Easy Checks Overview</a></p>
 
 {::nomarkdown}
 {% include box.html type="start" title="Scope" h="3" class="example" %}
@@ -72,16 +75,16 @@ footer: >
 
 {% include excol.html type="start" id="video-intro" %}
 
-## {% include image.html src="video-thumb-easy-checks.png" alt="" class="video tiny" %} Video: Preliminary Evaluation {#video}
+## {% include image.html src="video-thumb-easy-checks.png" alt="" class="video tiny" %} Video: Easy Checks Overview {#video}
 
 {% include excol.html type="middle" %}
 
 {% include video-player.html
-    yt-id="HwTtnoBKl5Y"
+    yt-id="IZp8eUAu450"
     captions="https://media.w3.org/wai/evaluation-intros/easy-checks-accessibility.vtt"
 %}
 
-_This video is also available on a [W3C server (file format: MP4, file size: 29MB) - Video: Preliminary Evaluation](https://media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4)._
+_This video is also available on a W3C server: [Video: Easy Checks Overview (file format: MP4, file size: 29MB)](https://media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4)._
 
 {% include excol.html type="start" id="video-intro-transcript" %}
 
