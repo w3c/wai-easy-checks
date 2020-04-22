@@ -18,17 +18,10 @@ footer: >
   <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Video developed with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245). <a href="/WAI/test-evaluate/acknowledgements">Acknowledgments for video</a>.</p>
 ---
 
-{% include excol.html type="all" %}
-
-
 <h2 class="no-display" id="introduction">Introduction</h2>
 <p><strong>This page helps you start to assess the accessibility of a web page. With these simple steps, you can get an idea whether or not accessibility is addressed in even the most basic way.</strong></p>
 
-<p>1. <a href="#video"><img src="/content-images/wai-InvolveUsersEval/video-thumb-easy-checks.png" alt="" class="video tiny" /> Video: Easy Checks Overview</a></p>
-
-<p>2. <a href="#video"><img src="video-thumb-easy-checks.png" alt="" class="video tiny" /> Video: Easy Checks Overview</a></p>
-
-3. [{% include image.html src="video-thumb-easy-checks.png" alt="" class="video tiny" %} Video: Easy Checks Overview](#video)
+[{% include image.html src="video-thumb-easy-checks.png" alt="" class="video tiny" %} Video: Easy Checks Overview](#video)
 
 {::nomarkdown}
 {% include box.html type="start" title="Scope" h="3" class="example" %}
