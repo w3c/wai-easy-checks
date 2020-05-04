@@ -78,7 +78,7 @@ footer: >
 
 {% include video-player.html
     yt-id="IZp8eUAu450"
-    captions="https://media.w3.org/wai/evaluation-intros/easy-checks-accessibility.vtt"
+    captions="easy-checks-accessibility-cc.vtt"
 %}
 
 _This video is also available on a W3C server: [Video: Easy Checks Overview (file format: MP4, file size: 29MB)](https://media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4)._
