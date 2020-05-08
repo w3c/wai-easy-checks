@@ -35,7 +35,7 @@ footer: >
 {:/}
 
 {::nomarkdown}
-{% include_cached toc.html type="start" title="Page Contents" class="full" %}
+{% include_cached toc.html type="start" title="Checks" class="full" %}
 {:/}
 
 <ul class="toc listafterpul listtight">
