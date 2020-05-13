@@ -11,14 +11,17 @@ github:
   path: content/index.md
 
 footer: >
-  <p><strong>Date: </strong>Updated 22 December 2017 [<a href="https://www.w3.org/WAI/EO/wiki/Easy_Checks_changelog">changelog</a>]<br>
+  <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is integrated in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
+  <p><strong>Date: </strong>Main content updated 22 December 2017. Intro video added 28 April 2020. [<a href="https://www.w3.org/WAI/EO/wiki/Easy_Checks_changelog">changelog</a>]<br>
   History: Easy Checks - A First Review of Web Accessibility was first published as a draft in June 2013. It replaces Preliminary Review of Web Sites for Accessibility that was first published September 2005 and edited by Shadi Abou-Zahra. It was originally one section of Evaluating Web Sites for Accessibility that was first published in October 2001 and edited by Judy Brewer and Chuck Letourneau.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Sharron Rush, Caleb Watson, Suzette Keith, Anna Belle Leiserson, Andrew Arch, Wayne Dick, Vicki Menezes Miller, Jennifer Sutton, Ian Pouncey, Denis Boudreau, Tom Jewett, and <a href="https://www.w3.org/WAI/EO/EOWG-members">EOWG Participants</a>.</p>
-  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Video developed with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245). <a href="/WAI/test-evaluate/acknowledgements">Acknowledgments for video</a>.</p>
 ---
 
 <h2 class="no-display" id="introduction">Introduction</h2>
 <p><strong>This page helps you start to assess the accessibility of a web page. With these simple steps, you can get an idea whether or not accessibility is addressed in even the most basic way.</strong></p>
+
+[{% include image.html src="video-thumb-easy-checks.png" alt="" class="video tiny" %} Video: Easy Checks Overview](#video)
 
 {::nomarkdown}
 {% include box.html type="start" title="Scope" h="3" class="example" %}
@@ -32,7 +35,7 @@ footer: >
 {:/}
 
 {::nomarkdown}
-{% include_cached toc.html type="start" title="Page Contents" class="full" %}
+{% include_cached toc.html type="start" title="Checks on this page:" class="full" %}
 {:/}
 
 <ul class="toc listafterpul listtight">
@@ -66,6 +69,84 @@ footer: >
 {:/}
 
 {% include excol.html type="all" %}
+
+{% include excol.html type="start" id="video-intro" %}
+
+## {% include image.html src="video-thumb-easy-checks.png" alt="" class="video tiny" %} Video: Easy Checks Overview {#video}
+
+{% include excol.html type="middle" %}
+
+{% include video-player.html
+    yt-id="IZp8eUAu450"
+    captions="easy-checks-accessibility-cc.vtt|en|Captions"
+%}
+
+_This video is also available on a W3C server: [Video: Easy Checks Overview (file format: MP4, file size: 29MB)](https://media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4)._
+
+{% include excol.html type="start" id="video-intro-transcript" %}
+
+Text Transcript with Description of Visuals
+
+{% include excol.html type="middle" %}
+
+<table>
+  <thead>
+    <tr>
+      <th width="65%">Audio</th>
+      <th>Visual</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>Easy checks for web accessibility. </td>
+    <td>Easy checks for web accessibility.</td>
+  </tr>
+  <tr>
+    <td>Even if you are new to web accessibility and not technical, you can check some aspects of accessibility yourself. </td>
+    <td>A person in front of the computer checking a website with passes and fails. The words new and non-technical are displayed. Icons around a computer: hand; eye; brain; ear and mouth with sound waves. </td>
+  </tr>
+  <tr>
+    <td>"Easy Checks - A First Review of Web Accessibility" gives you step-by-step instructions to get a rough idea of the accessibility of any web page. </td>
+    <td>An arrow moves from left to right to point a list of checks.</td>
+  </tr>
+  <tr>
+    <td>For example, a web page from your own website, from your competitor, or from suppliers you might want to work with. </td>
+    <td>3 websites with different formats.</td>
+  </tr>
+  <tr>
+    <td>It is not a complete evaluation of accessibility. More assessment by professionals is needed for a definitive and comprehensive evaluation. </td>
+    <td>A computer with a website shows the progress of an evaluation as items are either marked as a fail or pass.</td>
+  </tr>
+  <tr>
+    <td>Sometimes doing just a few of these checks can give you an indication of the overall accessibility. </td>
+    <td>Fails and passes stand out.</td>
+  </tr>
+  <tr>
+    <td>Some checks are simple. For example, looking at the title of the web page displayed in the browser window. </td>
+    <td>Web page title is highlighted.</td>
+  </tr>
+  <tr>
+    <td>You can do most of the checks using any web browser. Some checks are easier using an extension for your browser. </td>
+    <td>A browser extension is downloaded.</td>
+  </tr>
+  <tr>
+    <td>Start your accessibility journey right now by doing some Easy Checks. </td>
+    <td>A map with a route and an accessibility flag at the end.</td>
+  </tr>
+  <tr>
+    <td>Web accessibility: essential for some, useful for all. </td>
+    <td>Icons around a computer: hand; eye; brain; ear; and mouth with sound waves.</td>
+  </tr>
+  <tr>
+    <td>For information on easy checks for web accessibility, visit w3.o-r-g/W-A-I/evaluation. </td>
+    <td>Easy checks, W3C and Web Accessibility Initiative (WAI) logos.</td>
+  </tr>
+</tbody>
+</table>
+
+{% include excol.html type="end" %}
+
+{% include excol.html type="end" %}
 
 <h2><a id="using"></a>Using these Easy Checks</h2>
 
