@@ -1188,7 +1188,7 @@ Text Transcript with Description of Visuals
   <li>BAD provides a clear example of how the basic structure check reveals accessibility barriers. (It's also a bit funny, and we suggest you check it out, by following the <a href="#plainBAD">BAD instructions</a> below.)</li>
 </ul>
 <h3>What to do:</h3>
-<p class="listintro">Get a basic structure view of the page by following the instructions under <a href="#structure">Basic structure checks</a> below to: </p>
+<p class="listintro">Get a basic structure view of the page by following the instructions under <a href="#bschecks">Basic structure checks</a> below to: </p>
 <ul>
   <li> Turn off images and show the text alternatives.</li>
   <li>Turn off style sheets (CSS), which specifies how the page is displayed with layout, colors, etc.</li>
