@@ -323,7 +323,7 @@ Text Transcript with Description of Visuals
 <h3>Learn more about page titles</h3>
 {% include excol.html type="middle" %}
   <ul class="listwithpul">
-    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/page-titled/">Page Titled</a> - Understanding Success Criterion 2.4.2 for WCAG (Level A)</li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/page-titled">Page Titled</a> - Understanding Success Criterion 2.4.2 for WCAG (Level A)</li>
   </ul>
 {% include excol.html type="end" %}
 
