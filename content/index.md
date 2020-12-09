@@ -1296,3 +1296,5 @@ Text Transcript with Description of Visuals
   <li>{% include link.html to="/test-evaluate/tools/selecting/" text="Selecting Web Accessibility Evaluation Tools" %}</li>
   <li>{% include link.html to="/test-evaluate/involving-users/" text="Involving Users in Evaluating Web Accessibility" %}</li>
 </ul>
+
+.
