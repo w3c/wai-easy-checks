@@ -1,5 +1,1 @@
-# Introduction to Web Accessibility
-
-Preview of `master`: https://wai-easychecks.netlify.com
-
-WAI Website Manual: https://wai-website-theme.netlify.com/overview/
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8ab53271-b72b-47fb-8af5-3af03ef7d6cd/deploy-status)](https://app.netlify.com/sites/wai-easychecks/deploys)
