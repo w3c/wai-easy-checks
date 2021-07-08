@@ -7,7 +7,7 @@ lang: en
 layout: default
 
 github:
-  repository: w3c/EasyChecks
+  repository: w3c/wai-easy-checks
   path: content/index.md
 
 footer: >
@@ -78,7 +78,7 @@ footer: >
 
 {% include video-player.html
     yt-id="IZp8eUAu450"
-    captions="/content-images/EasyChecks/easy-checks-accessibility-cc.vtt|en|Captions"
+    captions="/content-images/wai-easy-checks/easy-checks-accessibility-cc.vtt|en|Captions"
 %}
 
 _This video is also available on a W3C server: [Video: Easy Checks Overview (file format: MP4, file size: 29MB)](https://media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4)._
