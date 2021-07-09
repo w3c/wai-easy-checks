@@ -29,7 +29,7 @@ kramwdown:
   input: GFM
   syntax_highlighter: rouge
 highlighter: rouge
-repository: w3c/EasyChecks
+repository: w3c/wai-easy-checks
 
 ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
 
