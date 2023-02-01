@@ -860,6 +860,7 @@ Text Transcript with Description of Visuals
       <li>In newer browsers: Select System Preferences &gt; Keyboard &gt; Shortcuts. Select the &quot;All controls&quot; option button.</li>
       <li>In older browsers: Select System Preferences &gt; Keyboard &gt; Keyboard Shortcuts. In the &quot;Full Keyboard Access&quot; section, check &quot;All Controls&quot;.</li>
     </ul>
+    <em>(In Windows browsers, you don't need to do this step.)</em>
   </li>
   <li>Click in the address bar, then put your mouse aside and <b>do not use it</b>.</li>
   <li>Press the 'Tab' key to move through the elements on the page. You can press 'Shift-Tab' to go backwards.</li>
