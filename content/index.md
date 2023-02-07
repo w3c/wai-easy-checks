@@ -81,7 +81,7 @@ footer: >
     captions="/content-images/wai-easy-checks/easy-checks-accessibility-cc.vtt|en|Captions"
 %}
 
-_This video is also available on a W3C server: [Video: Easy Checks Overview (file format: MP4, file size: 29MB)](https://media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4)._
+_This video is also available on a W3C server: [Video: Easy Checks Overview (file format: MP4, file size: 29MB)](https://media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4)_
 
 {% include excol.html type="start" id="video-intro-transcript" %}
 
