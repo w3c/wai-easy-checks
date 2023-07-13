@@ -18,3 +18,5 @@ github:
 ## Who depends on Transcripts?
 
 ## Checking Transcripts
+
+## Learn more

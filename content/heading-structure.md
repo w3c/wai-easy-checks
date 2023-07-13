@@ -18,3 +18,5 @@ github:
 ## Who depends on Heading Structure?
 
 ## Checking Heading Structure
+
+## Learn more

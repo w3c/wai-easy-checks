@@ -18,3 +18,5 @@ github:
 ## Who depends on Resize Text?
 
 ## Checking Resize Text
+
+## Learn more

@@ -18,3 +18,5 @@ github:
 ## Who depends on Captions?
 
 ## Checking Captions
+
+## Learn more

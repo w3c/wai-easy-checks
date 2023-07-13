@@ -18,3 +18,5 @@ github:
 ## Who depends on Image Alternative Text?
 
 ## Checking Image Alternative Text
+
+## Learn more

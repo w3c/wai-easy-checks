@@ -18,3 +18,5 @@ github:
 ## Who depends on Link Text?
 
 ## Checking Image Link Text
+
+## Learn more

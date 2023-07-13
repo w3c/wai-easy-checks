@@ -18,3 +18,5 @@ github:
 ## Who depends on Skip Link?
 
 ## Checking Skip Link
+
+## Learn more
