@@ -19,4 +19,8 @@ github:
 
 ## Checking Image Alternative Text
 
+* [Paul Adam bookmarklet](https://pauljadam.com/bookmarklets/images.html) - Uses jQuery 
+* [Pixo and DRES bookmarklets](https://accessibility-bookmarklets.org/install.html) - No jQuery
+* [Ian Lloyd bookmarklet](https://a11y-tools.com/bookmarklets/#listimages) - No jQuery (I think)
+
 ## Learn more

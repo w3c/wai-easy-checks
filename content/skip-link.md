@@ -19,4 +19,6 @@ github:
 
 ## Checking Skip Link
 
+* [Jim Thatcher bookmarklet](https://jimthatcher.com/favelets/) - No jQuery
+
 ## Learn more

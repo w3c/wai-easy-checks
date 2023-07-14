@@ -19,4 +19,8 @@ github:
 
 ## Checking Field Labels
 
+* [Paul Adam bookmarklet](https://pauljadam.com/bookmarklets/forms.html) - Uses jQuery
+* [Pixo and DRES bookmarklets](https://accessibility-bookmarklets.org/install.html) - No jQuery
+* [Jim Thatcher bookmarklet](https://jimthatcher.com/favelets/) - No jQuery
+
 ## Learn more

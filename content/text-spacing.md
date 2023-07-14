@@ -19,4 +19,7 @@ github:
 
 ## Checking Text Spacing
 
+* [Dylan Darrell bookmarklet](https://dylanb.github.io/bookmarklets.html) - No jQuery
+* [Steve Faulkner bookmarklet](https://cdpn.io/pen/debug/YLMqbo) - No jQuery
+
 ## Learn more
