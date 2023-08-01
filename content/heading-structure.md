@@ -16,7 +16,7 @@ github:
 * Headings are the signposts to different sections on a web page
 * Sub-headings signal topics within the main topic
 * Screen reader users rely on headings to navigate the web poage
-* Heading levels should be differentiated visually and in the code
+* Heading levels should be differentiated in the code not just visually
 
 ## What is Heading Structure?
 
@@ -39,10 +39,10 @@ Check the structure tree for missing heading levels - there shouldn't be any, al
 * [Paul Adam bookmarklet](https://pauljadam.com/bookmarklets/headings.html) - Uses jQuery
 * [Pixo and DRES bookmarklets](https://accessibility-bookmarklets.org/install.html) - No jQuery
 * [Jim Thatcher bookmarklet](https://jimthatcher.com/favelets/) - No jQuery
-* [Ian Lloyd bookmarklet](https://a11y-tools.com/bookmarklets/#checkheadings) - No jQuery (I think)
+* [Ian Lloyd bookmarklet](https://a11y-tools.com/bookmarklets/#checkheadings) - No jQuery (I think) **preferred**
 * [Hinderlink Volkart bookmarklet](https://hinderlingvolkart.github.io/h123/)
 
 ## Learn more
 
-* [W3C Headings tutorial](https://www.w3.org/WAI/tutorials/page-structure/headings/) in the Page Structure tutorial
-* [Use headings to convey meaning and structure](https://www.w3.org/WAI/tips/writing/#use-headings-to-convey-meaning-and-structure) in the Writing for Web Accessibility page
+* [Headings tutorial](https://www.w3.org/WAI/tutorials/page-structure/headings/) in the W3C Page Structure tutorial
+* [Use headings to convey meaning and structure](https://www.w3.org/WAI/tips/writing/#use-headings-to-convey-meaning-and-structure) in the W3C Writing for Web Accessibility page
