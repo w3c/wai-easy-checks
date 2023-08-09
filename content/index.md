@@ -12,7 +12,7 @@ github:
 
 footer: >
   <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is integrated in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
-  <p><strong>Date: </strong>Minor content update 31 January 2023. [<a href="https://www.w3.org/WAI/EO/wiki/Easy_Checks_changelog">changelog</a>] Major revision planned for late 2023.<br>
+  <p><strong>Date: </strong>Minor content update 9 August 2023. [<a href="https://www.w3.org/WAI/EO/wiki/Easy_Checks_changelog">changelog</a>] Major revision planned for late 2023.<br>
   History: Easy Checks - A First Review of Web Accessibility was first published as a draft in June 2013. It replaces Preliminary Review of Web Sites for Accessibility that was first published September 2005 and edited by Shadi Abou-Zahra. It was originally one section of Evaluating Web Sites for Accessibility that was first published in October 2001 and edited by Judy Brewer and Chuck Letourneau.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Sharron Rush, Caleb Watson, Suzette Keith, Anna Belle Leiserson, Andrew Arch, Wayne Dick, Vicki Menezes Miller, Jennifer Sutton, Ian Pouncey, Denis Boudreau, Tom Jewett, and <a href="https://www.w3.org/WAI/EO/EOWG-members">EOWG Participants</a>.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Video developed with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245). <a href="/WAI/test-evaluate/acknowledgements">Acknowledgments for video</a>.</p>
@@ -1136,11 +1136,7 @@ Text Transcript with Description of Visuals
 <h3>Learn more about multimedia alternatives</h3>
 {% include excol.html type="middle" %}
   <ul>
-    <li><a href="https://www.w3.org/2008/06/video-notes">W3C Multimedia Accessibility FAQ</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded" >Captions</a> - Understanding Success Criterion 1.2.2 for WCAG (Level A)</li>
-    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded" >Audio Description or Media Alternative</a> - Understanding Success Criterion 1.2.3 for WCAG (Level A)</li>
-    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-control">Audio Control</a> - Understanding Success Criterion 1.4.2 for WCAG (Level A)</li>
-    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/media-alternative-prerecorded">Media Alternative</a> - Understanding Success Criterion 1.2.8 for WCAG (Level AAA)</li>
+    <li><a href="https://www.w3.org/WAI/media/av/">Making Audio and Video Media Accessible</a></li>
   </ul>
 {% include excol.html type="end" %}
 
