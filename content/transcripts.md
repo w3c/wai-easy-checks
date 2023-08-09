@@ -12,16 +12,23 @@ github:
 ---
 
 ## At a Glance
-_shawn thinks not needed_
-
-## What are Transcripts?
-
-_**Basic transcripts**_ are a text version of the speech and non-speech audio information needed to understand the content.
-
-_**Descriptive transcripts**_ for videos also include visual information needed to understand the content.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example descriptive transcript excerpt" class="" %}
+{% include box.html type="start" title="Example transcript of a podcast interview with two speakers (excerpt)" class="" %}
+{:/}
+
+<p><strong>Rajwinder Kaur</strong>: Welcome to the podcast.</p>
+<p><strong>Shawn Lawton Henry:</strong>: Thank you for this opportunity to share information about accessibility.</p>
+<p><strong>Raj</strong>: Would you start by telling us a little about your role at W3C?</p>
+<p><strong>Shawn</strong>: I work within the Web Accessibility Initiative, W-A-I, pronounced "way". </p>
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+
+{::nomarkdown}
+{% include box.html type="start" title="Example descriptive transcript (excerpt)" class="" %}
 {:/}
 
 <table>
@@ -51,6 +58,11 @@ _**Descriptive transcripts**_ for videos also include visual information needed 
 {% include box.html type="end" %}
 {:/}
 
+## What are Transcripts?
+
+_**Basic transcripts**_ are a text version of the speech and non-speech audio information needed to understand the content.
+
+_**Descriptive transcripts**_ for videos also include visual information needed to understand the content.
 For videos with visual and audio information, ideally a descriptive transcript is provided, and a separate basic transcript is not needed.
 
 ## Who depends on Transcripts?
