@@ -1,72 +1,53 @@
 ---
-title: "Transcripts - Easy Checks"
-permalink: /test-evaluate/easy-checks/transcripts/
-ref: /test-evaluate/easy-checks/transcripts/
+title: "Captions - Easy Checks"
+permalink: /test-evaluate/easy-checks/captions/
+ref: /test-evaluate/easy-checks/captions/
 
 lang: en
 layout: default
 
 github:
   repository: w3c/wai-easy-checks
-  path: content/transcripts.md
+  path: content/captions.md
 ---
 
 ## At a Glance
-_shawn thinks not needed_
 
-## What are Transcripts?
+<img src="https://www.w3.org/WAI/content-images/wai-media-guide/captions.png">
 
-_**Basic transcripts**_ are a text version of the speech and non-speech audio information needed to understand the content.
+## What are Captions?
 
-_**Descriptive transcripts**_ for videos also include visual information needed to understand the content.
+Captions are called “subtitles” in some areas.
 
-{::nomarkdown}
-{% include box.html type="start" title="Example descriptive transcript excerpt" class="" %}
-{:/}
+Captions are a text version of the speech and non-speech audio information needed to understand the content. They are displayed within the media player and are synchronized with the audio.
 
-<table>
-  <thead>
-    <tr>
-      <th width="65%">Audio</th>
-      <th>Visual</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Video isn't just about pictures, it's also about sound. Without the audio, you would have to guess what this film is about.</td>
-      <td>A man sitting at a desk starts watching a video on his computer.<br></td>
-    </tr>
-    <tr>
-      <td>[no sound]</td>
-      <td>The video on his computer shows a person speaking to the camera. It is playing with no audio.</td>
-    </tr>
-    <tr>
-      <td>Frustrating isn't it? Not knowing what's going on. That's the situation for everyone who can't hear.</td>
-      <td>The man watching the video has a hearing aid.</td>
-    </tr>
-  </tbody>
-</table>
+Most are “closed captions” that can be hidden or shown by people watching the video. They can be “open captions” that are always displayed and cannot be turned off.
 
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
+## Who depends on Captions?
 
-For videos with visual and audio information, ideally a descriptive transcript is provided, and a separate basic transcript is not needed.
+People who are Deaf, hard-of-hearing, or otherwise cannot hear the sound depend on captions to provide audio content.
 
-## Who depends on Transcripts?
+Some people who process written information better than audio information also use captions.
 
-People who are Deaf, are hard of hearing, have difficulty processing auditory information, and others use basic transcripts.
+## Checking Captions
 
-People who are both Deaf and blind need descriptive transcripts to get audio and video content. People who process text information better than they process audio and video information also use descriptive transcripts.
+Check if captions are available:
+* Play the video where there is important audio. If you see captions, they may be open captions.
+* Check for a closed caption button in the media player. [image] In some media players, if no captions are available, the button does not appear.
+* Click the closed caption button to confirm captions are available in the language of the audio. If it only lists auto-generated captions, then sufficient captions are not provided.
 
-## Checking Transcripts
+[Automatically-generated captions do not meet user needs or accessibility requirements](/WAI/media/av/captions/#automatic-captions-are-not-sufficient).
 
-* Check for a transcript with the media or a link to a transcript. Transcripts should be easy to find near the audio/video itself and any links to the audio/video.
-* If the video has important visual content, check that it is included in the transcript. (It doesn't need to be labeled as a "descriptive transcript".
+Check caption quality:
+*  Check if the captions have appropriate punctuation and capitalization. Automatic  captions often don't have any.
+*  Check if the captions in sync with the spoken content.
+*  If there are multiple people speaking, check if the person speaking is identified when they speak.
 
-@@ EOWG discussion: probably nothing about quality? previous version had: "Check that transcripts include all audio information, including dialogue with the speakers identified, and all important sound — e.g., footsteps approaching, doors closing, glass breaking." -- yet that seems more than an easy check.
+_(There are many more aspects of quality captions; above is just a couple.)_
+
+@@ EOWG question: do we want to include the above quality checks? more or less or others?
 
 ## Learn more
 
 * [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](/media/av/users-orgs/)
-* [Transcripts, in Making Audio and Video Media Accessible](/media/av/transcripts/)
+* [Captions/Subtitles, in Making Audio and Video Media Accessible](/media/av/captions/)
