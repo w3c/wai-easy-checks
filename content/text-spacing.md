@@ -11,7 +11,7 @@ github:
   path: content/text-spacing.md
 ---
 
-## At a Glance
+## ~~At a Glance~~
 
 
 ## What is Text Spacing?
@@ -26,7 +26,6 @@ People with low vision, dyslexia, or other print disabilties who need increased 
 
 Bookmark tool: [Text Spacing ](@@) [(i)]
 
-
 1. From the content you're checking, select the "Text Spacing" tool in your browser bookmarks.
 2. Check that it changed the spacing.
    * If not, it fails the requirement to allow users to change spacing.
@@ -40,8 +39,6 @@ Bookmark tool: [Text Spacing ](@@) [(i)]
 
 <br><br><hr>
 # _editor notes_
-
-@@ This requires sight to check? Anything non-sighted can check? How do we want to indicate that?
 
 bookmarks:
 * [Dylan Darrell bookmarklet](https://dylanb.github.io/bookmarklets.html) - No jQuery
