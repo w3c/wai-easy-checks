@@ -26,7 +26,8 @@ People with low vision, dyslexia, or other print disabilties who need increased 
 
 Bookmark tool: [Text Spacing ](@@) [(i)]
 
-1. From the content you're checking, select the "Text Spacing" tool in your bookmarks bar.
+
+1. From the content you're checking, select the "Text Spacing" tool in your browser bookmarks.
 2. Check that it changed the spacing.
    * If not, it fails the requirement to allow users to change spacing.
    * If it changed spacing, check that you can still get to all the content and functionality. For example, check that:
@@ -37,8 +38,11 @@ Bookmark tool: [Text Spacing ](@@) [(i)]
 
 * [Understanding SC 1.4.12: Text Spacing](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html)
 
-<hr>
-# editor notes
+<br><br><hr>
+# _editor notes_
+
+@@ This requires sight to check? Anything non-sighted can check? How do we want to indicate that?
+
 bookmarks:
 * [Dylan Darrell bookmarklet](https://dylanb.github.io/bookmarklets.html) - No jQuery
 * [Steve Faulkner bookmarklet](https://cdpn.io/pen/debug/YLMqbo) - No jQuery
