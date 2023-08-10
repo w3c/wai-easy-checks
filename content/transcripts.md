@@ -11,7 +11,7 @@ github:
   path: content/transcripts.md
 ---
 
-## At a Glance
+## ~~At a Glance~~
 
 {::nomarkdown}
 {% include box.html type="start" title="Example transcript of a podcast interview with two speakers (excerpt)" class="" %}
@@ -76,9 +76,11 @@ People who are both Deaf and blind need descriptive transcripts to get audio and
 * Check for a transcript with the media or a link to a transcript. Transcripts should be easy to find near the audio/video itself and any links to the audio/video.
 * If the video has important visual content, check that it is included in the transcript. (It doesn't need to be labeled as a "descriptive transcript".
 
-@@ EOWG discussion: probably nothing about quality? previous version had: "Check that transcripts include all audio information, including dialogue with the speakers identified, and all important sound — e.g., footsteps approaching, doors closing, glass breaking." -- yet that seems more than an easy check.
-
 ## Learn more
 
 * [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](/media/av/users-orgs/)
 * [Transcripts, in Making Audio and Video Media Accessible](/media/av/transcripts/)
+
+## _editor notes_
+
+@@ EOWG discussion: probably not include anything about checking the quality? previous version had: "Check that transcripts include all audio information, including dialogue with the speakers identified, and all important sound — e.g., footsteps approaching, doors closing, glass breaking." -- yet that seems more than an easy check.
