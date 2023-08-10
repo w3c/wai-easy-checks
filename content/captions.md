@@ -45,9 +45,12 @@ Check caption quality:
 
 _(There are many more aspects of quality captions; above is just a couple.)_
 
-@@ EOWG question: do we want to include the above quality checks? more or less or others?
-
 ## Learn more
 
 * [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](/media/av/users-orgs/)
 * [Captions/Subtitles, in Making Audio and Video Media Accessible](/media/av/captions/)
+
+## _editor notes_
+
+@@ EOWG question: do we want to include the quality checks listed above after "Check caption quality:"? more? less? different ones? none?
+
