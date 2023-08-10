@@ -12,7 +12,7 @@ github:
 ---
 
 ## ~~At a Glance~~
-
+@@ image of default text and text with increased spacing
 
 ## What is Text Spacing?
 
