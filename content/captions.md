@@ -11,7 +11,7 @@ github:
   path: content/captions.md
 ---
 
-## At a Glance
+## ~~At a Glance~~
 
 <img src="https://www.w3.org/WAI/content-images/wai-media-guide/captions.png">
 
