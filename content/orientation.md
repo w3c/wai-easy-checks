@@ -1,5 +1,5 @@
 ---
-title: "Orientation - Easy Checks"
+title: "Orientation for Apps - Easy Checks"
 permalink: /test-evaluate/easy-checks/orientation/
 ref: /test-evaluate/easy-checks/orientation/
 
