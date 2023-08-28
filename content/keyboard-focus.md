@@ -2,6 +2,7 @@
 title: "Keyboard Focus - Easy Checks"
 permalink: /test-evaluate/easy-checks/keyboard-focus/
 ref: /test-evaluate/easy-checks/keyboard-focus/
+nav_title: "Keyboard Focus"
 
 lang: en
 layout: default

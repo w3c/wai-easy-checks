@@ -2,6 +2,7 @@
 title: "Resize Text - Easy Checks"
 permalink: /test-evaluate/easy-checks/resize-text/
 ref: /test-evaluate/easy-checks/resize-text/
+nav_title: "Resize Text"
 
 lang: en
 layout: default

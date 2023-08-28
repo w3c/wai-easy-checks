@@ -2,6 +2,7 @@
 title: "Page Title - Easy Checks"
 permalink: /test-evaluate/easy-checks/title/
 ref: /test-evaluate/easy-checks/title/
+nav_title: "Page Title"
 
 lang: en
 layout: default

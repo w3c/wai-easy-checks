@@ -2,6 +2,7 @@
 title: "Image Alternative Text - Easy Checks"
 permalink: /test-evaluate/easy-checks/image-alt/
 ref: /test-evaluate/easy-checks/image-alt/
+nav_title: "Image Alternative Text"
 
 lang: en
 layout: default

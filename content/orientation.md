@@ -1,7 +1,8 @@
 ---
-title: "Orientation for Apps - Easy Checks"
+title: "Orientation - Easy Checks"
 permalink: /test-evaluate/easy-checks/orientation/
 ref: /test-evaluate/easy-checks/orientation/
+nav_title: "Orientation"
 
 lang: en
 layout: default

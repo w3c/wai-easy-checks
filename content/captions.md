@@ -2,6 +2,7 @@
 title: "Captions - Easy Checks"
 permalink: /test-evaluate/easy-checks/captions/
 ref: /test-evaluate/easy-checks/captions/
+nav_title: "Captions"
 
 lang: en
 layout: default

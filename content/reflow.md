@@ -2,6 +2,7 @@
 title: "Reflow - Easy Checks"
 permalink: /test-evaluate/easy-checks/reflow/
 ref: /test-evaluate/easy-checks/reflow/
+nav_title: "Reflow"
 
 lang: en
 layout: default

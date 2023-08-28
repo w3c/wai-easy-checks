@@ -2,6 +2,7 @@
 title: "Links Opening in New Windows - Easy Checks"
 permalink: /test-evaluate/easy-checks/links-new-windows/
 ref: /test-evaluate/easy-checks/links-new-windows/
+nav_title: "Links Opening in New Windows"
 
 lang: en
 layout: default

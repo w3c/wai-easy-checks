@@ -2,6 +2,7 @@
 title: "Zoom Levels - Easy Checks"
 permalink: /test-evaluate/easy-checks/zoom-levels/
 ref: /test-evaluate/easy-checks/zoom-levels/
+nav_title: "Zoom Levels"
 
 lang: en
 layout: default

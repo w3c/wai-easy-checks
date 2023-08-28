@@ -2,6 +2,7 @@
 title: "Form Field Labels - Easy Checks"
 permalink: /test-evaluate/easy-checks/form-field-labels/
 ref: /test-evaluate/easy-checks/form-field-labels/
+nav_title: "Form Field Labels"
 
 lang: en
 layout: default

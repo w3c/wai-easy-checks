@@ -2,6 +2,7 @@
 title: "Transcripts - Easy Checks"
 permalink: /test-evaluate/easy-checks/transcripts/
 ref: /test-evaluate/easy-checks/transcripts/
+nav_title: "Transcripts"
 
 lang: en
 layout: default

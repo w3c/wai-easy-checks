@@ -2,6 +2,7 @@
 title: "Heading Structure - Easy Checks"
 permalink: /test-evaluate/easy-checks/heading-structure/
 ref: /test-evaluate/easy-checks/heading-structure/
+nav_title: "Heading Structure"
 
 lang: en
 layout: default
@@ -9,14 +10,24 @@ layout: default
 github:
   repository: w3c/wai-easy-checks
   path: content/heading-structure.md
+  
+navigation:
+  previous: /test-evaluate/easy-checks/form-field-labels/
+  next: /test-evaluate/easy-checks/image-alt/
 ---
 
-## At a Glance
+{::nomarkdown}
+{% include box.html type="start" title="At a Glance" h="2" %}
+{:/}
 
 * Headings and sub-headings signpost different sections on a web page
 * People using screen readers often use headings to navigate the web page
 * headings help people who become distracted or with impaired memory and attention by clarifying the content on a page and providing a focus
 * Heading levels should be differentiated in the code not just visually
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## What is Heading Structure?
 

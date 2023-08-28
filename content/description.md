@@ -1,7 +1,8 @@
 ---
-title: "Description of Visual Information in Videos - Easy Checks"
+title: "Audio Description - Easy Checks"
 permalink: /test-evaluate/easy-checks/description/
 ref: /test-evaluate/easy-checks/description/
+nav_title: "Audio Description"
 
 lang: en
 layout: default

@@ -2,6 +2,7 @@
 title: "Text Spacing - Easy Checks"
 permalink: /test-evaluate/easy-checks/text-spacing/
 ref: /test-evaluate/easy-checks/text-spacing/
+nav_title: "Text Spacing"
 
 lang: en
 layout: default
