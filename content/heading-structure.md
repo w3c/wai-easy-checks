@@ -13,24 +13,40 @@ github:
 
 ## At a Glance
 
-* Headings are the signposts to different sections on a web page
-* Sub-headings signal topics within the main topic
-* Screen reader users rely on headings to navigate the web poage
+* Headings and sub-headings signpost different sections on a web page
+* People using screen readers often use headings to navigate the web page
+* headings help people who become distracted or with impaired memory and attention by clarifying the content on a page and providing a focus
 * Heading levels should be differentiated in the code not just visually
 
 ## What is Heading Structure?
 
-Headings create a structure for a web page and are like a table of contents for a page. Headings introduce the content that follows and thus helps people to decide if they want to read the following paragraphs or move on further. 
+Headings communicate the organization of the content on the page, like a table of contents. They are nested by their rank or level. They help provide a summary of the structure and content of a page. For example:
 
-Good structure indicates the relationship between the heading levels. Headings can have 1 of 6 levels assigned and should be nested by their heading level. The main heading on a page should be at level 1 [h1]; subsequent headings should be at levels 2 to 6 - [h2] to [h6]. Levels should not be skipped as sub-headings are created, just like the table-of-contents in a book.
+```
+  <h1> Popular games
+    <h2> Card games
+      <h3> Solitaire games
+      <h3> Trick-taking games
+    <h2> Board games
+      <h3> Abstract
+      <h3> Deckbuilder
+```
 
-## Who depends on Heading Structure?
+Headings can have 1 of 6 levels assigned and should be nested by that level. The main heading on a page is level 1; `<h1>`. Subsequent headings should be at levels 2 to 6; `<h2>` to `<h6>`. Levels should not be skipped as sub-headings are created, just like the table-of-contents in a book.
+  
+@@Headings should be succinct and describe the section or text of the page that follows.@@
 
-Heading struture is a key way people using screen reader users in particular navigate a web page. Screen readers allow the users to jump from heading to heading with the heading text and the heading level being anounced. Many screen readers also allow a list of headings to be generated for a quick overview of the page structure and for quick navigation. \[possible image from NVDA?\]
+## Who depends on Headings?
 
-However, lots of other low vision and sighted people rely on the visual heading structure to understand the topics and subtopics on a web page and move quickly to the section they are interested in. Headings can also form the basis of an 'in-page' table of contents on a long web page such the chapter in a report.
+Screen reader users often use page headings as a way to navigate a web page. Screen readers allow the users to jump from heading to heading with the heading text and the heading level being announced. Many screen readers also provide a list of headings in a dialog as an overview of the page structure.
 
-## Checking Heading Structure
+{% include image.html src="heading-structure-example-1.png" alt="Example of screen reader generated list of headings" %}
+
+Lots of other low vision and sighted people rely on the visual heading structure to understand the topics and subtopics on a web page and move quickly to the section they are interested in. Headings can also form the basis of an 'in-page' table of contents on a long web page such the chapter in a report.
+
+@@Something about benefit to people with cognitive impairments and conditions@@ 
+
+## Checking Headings
 
 On the web page you're checking the heading structure for, click the [[_name of bookmarklet_]]. It will look at all the headings present on a page and create the table-of-contents-like structure tree of the headings based on the level each heading has been assigned. \[possible image of structure tree of a WAI page?\]
 
