@@ -19,7 +19,18 @@ footer: >
   <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Video developed with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245). <a href="/WAI/test-evaluate/acknowledgements">Acknowledgments for video</a>.</p>
 ---
 
+{::nomarkdown}
+
 <style>
+  #summary {
+    display: flex;
+  }
+  
+  #summary p:first-of-type {
+    font-size:120%;
+    margin-top: 0.5em;
+  }
+  
   .video-card {
     margin: 1em;
     float: none !important;
@@ -41,59 +52,79 @@ footer: >
     width: 60px;
     height: 60px;
   }
-
-  .box-flex .box-i {
-      display: flex;
+  
+  .icon {
+    width: 1em;
+    height: 1em;
   }
-</style>
+  
+  .box-warning.box {
+    border-color: var(--faded-red);
+  }
+  .box-warning .box-h {
+    background-color: var(--faded-red);
+    color: var(--body-bg);
+  }
+  
+  .box-sections {
+    margin-top: 3em;
+  }
+  .box-sections .box-i {
+    padding: 0;
+  }
+  .box-sections .box-i div {
+    clear: left;
+    padding: 8px 16px;
+    border-bottom: solid 1px var(--line-grey);
+  }
+  
+  .box-sections .splash {
+    float: left;
+    padding-right: 1em;
+  }
+  .box-sections h3 {
+    margin: 0;
+  }
+  
+  .box-sections .check-summary {
+    font-weight: bold;
+    margin-top: 1.5em;
+  }
+  .box-sections .check-summary li {
+    list-style: none;
+    border-right: solid 1px var(--line-grey);
+    display: inline-block;
+    padding: 0 2em 0 1em;
+  }
+  .box-sections .check-summary li:last-of-type {
+    border-right: 0;
+  }
+  .box-sections .check-summary .icon {
+    width: 1.2em;
+    height: 1.2em;
+  }      
+  </style>
 
-<aside class="box box-simple"><div class="box-i">
+<aside id="summary" class="box box-i box-simple">
   <div>
-    <p style="font-size:120%; margin-top: 0.5em">This page helps you start to assess the accessibility of a web page. With these simple steps, you can get an idea whether or not accessibility is addressed in even the most basic way.</p>
+    <p>This page helps you start to assess the accessibility of a web page. With these simple checks, you can find out whether or not accessibility is addressed in even the most basic way.</p>
     <nav aria-labelledby="tocheading" id="toc">
       <header id="tocheading" class="box-h box-h-simple">Page Contents</header>
       <ul id="markdown-toc">
-        <li><a href="#about-alan" id="markdown-toc-about-alan">About Alan</a></li>
-        <li><a href="#barrier-examples" id="markdown-toc-barrier-examples">Barrier examples</a></li>
-        <li><a href="#assistive-technologies-and-adaptive-strategies-used" id="markdown-toc-assistive-technologies-and-adaptive-strategies-used">Assistive technologies and adaptive strategies used</a></li>
-        <li><a href="#related-wai-resources" id="markdown-toc-related-wai-resources">Related WAI resources</a></li>
-        <li><a href="#related-principles" id="markdown-toc-related-principles">Related principles</a></li>
+        <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
+        <li><a href="#structural" id="markdown-toc-structural-checks">Structural checks</a></li>
       </ul>
     </nav>
   </div>
-  <div class="video-card" style="flex-grow: 1">
-      <img class="video" src="https://i.ytimg.com/vi_webp/20SHvU2PKsM/maxresdefault.webp">
+  <div class="video-card">
+      <img class="video" src="https://i.ytimg.com/vi_webp/IZp8eUAu450/maxresdefault.webp">
       <img class="play-button" src="https://www.starpng.com/public/uploads/preview/red-play-button-png-101576847279kuxmycuxzj.png">
   </div>
 </aside>
 
-{::nomarkdown}
-{% include box.html type="start" title="Introduction" h="2" class="flex" %}
 {:/}
 
-<div>
-    <p></p>
-
 {::nomarkdown}
-
-{::options toc_levels="3..3" /}
-
-{% include_cached toc.html type="start" title="Page Contents" %}
-
-{:toc}
-
-{% include_cached toc.html type="end" %}
-{:/}
-
-</div>
-<div class="video-card">
-  <img class="video" src="https://i.ytimg.com/vi_webp/20SHvU2PKsM/maxresdefault.webp">
-  <img class="play-button" src="https://www.starpng.com/public/uploads/preview/red-play-button-png-101576847279kuxmycuxzj.png">
-</div>
-
-{::nomarkdown}
-{% include box.html type="end" %}
-
 {% include box.html type="start" title="Not an audit" class="warning" icon="warning" %}
 {:/}
 
@@ -107,9 +138,86 @@ footer: >
 
 ## Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+You will be able to perform any of the following checks on any web page. The results will give you a basic idea of how accessible the page is. Each check explains briefly what it is checking for and why this matters. THe checks also tell you what you should be looking for.
 
-### Structural checks
+You can do the checks in any order, or choose based on:
+
+* ![]({{ "/content/check-who.png" | relative_url }}){:.icon} who the check is most relevant to
+* ![]({{ "/content/check-time.png" | relative_url }}){:.icon} the time it takes to do the check
+* ![]({{ "/content/check-impact.png" | relative_url }}){:.icon} the impact that a failed check would have
+
+{::nomarkdown}
+{% include box.html type="start" id="structural" class="sections" h="2" title="Structural checks" %}
+<div>
+{:/}
+
+![]({{ "/content/splash-headings.png" | relative_url }}){:.splash}
+
+### [Heading structure](/test-evaluate/easy-checks/heading-structure/)
+
+Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
+
+{:.check-summary}
+* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
+* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 2 minutes
+* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} High
+
+{::nomarkdown}
+</div>
+<div>
+{:/}
+
+![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+
+### [Skip link](/test-evaluate/easy-checks/#/)
+
+Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
+
+{:.check-summary}
+* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Developers
+* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 2 minutes
+* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+
+{::nomarkdown}
+</div>
+<div>
+{:/}
+
+![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+
+### [Text spacing](/test-evaluate/easy-checks/#/)
+
+Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
+
+{:.check-summary}
+* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Developers
+* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 2 minutes
+* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+
+{::nomarkdown}
+</div>
+<div>
+{:/}
+
+![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+
+### [Lists](/test-evaluate/easy-checks/#/)
+
+Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
+
+{:.check-summary}
+* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
+* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
+* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+
+{::nomarkdown}
+</div>
+{:/}
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
 
 ### Navigation checks
 
