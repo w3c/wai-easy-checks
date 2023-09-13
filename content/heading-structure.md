@@ -22,7 +22,7 @@ navigation:
 
 * Headings and sub-headings signpost different sections on a web page
 * People using screen readers often use headings to navigate the web page
-* headings help people who become distracted or with impaired memory and attention by clarifying the content on a page and providing a focus
+* Headings help people who become distracted or with impaired memory and attention by clarifying the content on a page and providing a focus
 * Heading levels should be differentiated in the code not just visually
 
 {::nomarkdown}
@@ -79,7 +79,11 @@ To check other pages you need to add the check link as a bookmark.
 
 ### What to look for
 
-@@@@@
+* Did the the list start with an H1?
+* Are any heading levels skipped?
+* Are any headings levels blank with no text?
+
+  @@@ other things?
 
 ## Learn more
 
