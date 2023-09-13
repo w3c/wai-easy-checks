@@ -16,7 +16,7 @@ github:
 
 ## What is description of visual information?
 
-Description of visual information is called _audio description_, _video description_, or _described video_ in different areas.
+Description of visual information is called _audio description_, _video description_, or _described video_ in different countries.
 
 Description explains the visual information needed to understand the video content. For example, “Pat opens a small box, looks at a diamond engagement ring, and cries”.
 
@@ -42,7 +42,7 @@ People who are blind, some people with low vision, and others who cannot see the
 
 1. Check if description is needed. Are there visual elements that are important to understand what the video is communicating?
 
-2. If it's needed, check if description is provided.
+2. If it is needed, check if description is provided.
 * Is the important visual information included with the main audio, such as the example integrated video linked above?
 * Is separate described video available? Usually there is a link to a separate described video, or a player control such as "AD(on)" or [@@image D))) from AblePlayer].
 
@@ -50,13 +50,13 @@ People who are blind, some people with low vision, and others who cannot see the
 
 Generally, all text in the video should be included in the main audio (integrated description) or in the separate description. For example, title text at the beginning of the video, links and e-mail addresses shown at the end, speakers’ names in text, and text in a presentation.
 
-The text does not have to be included verbatim (exactly word-for-word), yet all of the information conveyed by the text needs to be available in the main audio, in the separate description, or clearly with the video.
+The text does not have to be included verbatim (exactly word-for-word), however all of the information conveyed by the text needs to be available in the main audio, in the separate description, or clearly with the video.
 
 ## Learn more
 
 * [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](/media/av/users-orgs/)
 * [Description of Visual Information, in Making Audio and Video Media Accessible](/media/av/description/)
-
+* @@ what about including [Understanding 1.2.5](https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html)?
 
 ## _editor notes_
 
