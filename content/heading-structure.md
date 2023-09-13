@@ -45,7 +45,7 @@ Headings communicate the organization of the content on the page, like a table o
 
 Headings can have 1 of 6 levels assigned and should be nested by that level. The main heading on a page is level 1; `<h1>`. Subsequent headings should be at levels 2 to 6; `<h2>` to `<h6>`. Levels should not be skipped as sub-headings are created, just like the table-of-contents in a book.
   
-@@Headings should be succinct and describe the section or text of the page that follows.@@
+Headings should be succinct and describe the section or text of the page that follows.
 
 ## Who depends on Headings?
 
@@ -55,7 +55,7 @@ Screen reader users often use page headings as a way to navigate a web page. Scr
 
 Lots of other low vision and sighted people rely on the visual heading structure to understand the topics and subtopics on a web page and move quickly to the section they are interested in. Headings can also form the basis of an 'in-page' table of contents on a long web page such the chapter in a report.
 
-@@Something about benefit to people with cognitive impairments and conditions@@ 
+Many people with cognitive and learning or reading impairements also find that headings can help them understand and focus on the topics on a page and move to the section of interst easily.
 
 ## Checking Headings
 
