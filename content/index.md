@@ -147,13 +147,13 @@ You can do the checks in any order, or choose based on:
 * ![]({{ "/content/check-impact.png" | relative_url }}){:.icon} the impact that a failed check would have
 
 {::nomarkdown}
-{% include box.html type="start" id="structural" class="sections" h="2" title="Structural checks" %}
+{% include box.html type="start" id="structural" class="sections" h="2" title="Common checks" %}
 <div>
 {:/}
 
 ![]({{ "/content/splash-headings.png" | relative_url }}){:.splash}
 
-### [Heading structure](/test-evaluate/easy-checks/heading-structure/)
+### [Image Alternative Text](/test-evaluate/easy-checks/image-alt/)
 
 Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
 
@@ -169,7 +169,7 @@ Headings communicate the organization of the content on the page, like a table o
 
 ![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
 
-### [Skip link](/test-evaluate/easy-checks/#/)
+### [Page Title](/test-evaluate/easy-checks/title/)
 
 Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
 
@@ -185,7 +185,7 @@ Headings communicate the organization of the content on the page, like a table o
 
 ![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
 
-### [Text spacing](/test-evaluate/easy-checks/#/)
+### [Heading Structure](/test-evaluate/easy-checks/heading-structure/)
 
 Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
 
@@ -201,7 +201,67 @@ Headings communicate the organization of the content on the page, like a table o
 
 ![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
 
-### [Lists](/test-evaluate/easy-checks/#/)
+### [Color Contrast](/test-evaluate/easy-checks/color-contrast/)
+
+Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
+
+{:.check-summary}
+* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
+* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
+* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+
+{::nomarkdown}
+</div>
+{:/}
+
+![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+
+### [Skip Link](/test-evaluate/easy-checks/skip-link/)
+
+Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
+
+{:.check-summary}
+* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
+* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
+* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+
+{::nomarkdown}
+</div>
+{:/}
+
+![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+
+### [Keyboard Focus](/test-evaluate/easy-checks/keyboard-focus/)
+
+Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
+
+{:.check-summary}
+* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
+* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
+* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+
+{::nomarkdown}
+</div>
+{:/}
+
+![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+
+### [Langage of Page](/test-evaluate/easy-checks/language/)
+
+Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
+
+{:.check-summary}
+* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
+* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
+* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+
+{::nomarkdown}
+</div>
+{:/}
+
+![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+
+### [Zoom](/test-evaluate/easy-checks/zoom-levels/)
 
 Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
 
@@ -219,8 +279,96 @@ Headings communicate the organization of the content on the page, like a table o
 {:/}
 
 
-### Navigation checks
+{::nomarkdown}
+{% include box.html type="start" id="structural" class="sections" h="2" title="Audio/Visual Checks" %}
+<div>
+{:/}
 
-### Multimedia checks
+![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
 
-### Forms checks
+### [Captions](/test-evaluate/easy-checks/captions/)
+
+Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
+
+{:.check-summary}
+* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
+* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
+* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+
+{::nomarkdown}
+</div>
+{:/}
+
+![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+
+### [Transcripts](/test-evaluate/easy-checks/transcripts/)
+
+Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
+
+{:.check-summary}
+* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
+* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
+* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+
+{::nomarkdown}
+</div>
+{:/}
+
+![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+
+### [Audio Description](/test-evaluate/easy-checks/description/)
+
+Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
+
+{:.check-summary}
+* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
+* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
+* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+
+{::nomarkdown}
+</div>
+{:/}
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+
+{::nomarkdown}
+{% include box.html type="start" id="structural" class="sections" h="2" title="Form Checks" %}
+<div>
+{:/}
+
+![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+
+### [Labels](/test-evaluate/easy-checks/form-field-labels/)
+
+Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
+
+{:.check-summary}
+* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
+* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
+* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+
+{::nomarkdown}
+</div>
+{:/}
+
+![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+
+### [Required Fields](/test-evaluate/easy-checks/required-fields/)
+
+Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
+
+{:.check-summary}
+* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
+* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
+* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+
+{::nomarkdown}
+</div>
+{:/}
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
