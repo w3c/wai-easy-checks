@@ -58,14 +58,6 @@ footer: >
     height: 1em;
   }
   
-  .box-warning.box {
-    border-color: var(--faded-red);
-  }
-  .box-warning .box-h {
-    background-color: var(--faded-red);
-    color: var(--body-bg);
-  }
-  
   .box-sections {
     margin-top: 3em;
   }
@@ -125,7 +117,7 @@ footer: >
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Not an audit" class="warning" icon="warning" %}
+{% include box.html type="start" title="Disclaimer" icon="warning" %}
 {:/}
 
 <p>These checks cover just a few accessibility issues and are designed to be quick and easy, rather than definitive. A web page could seem to pass these checks, yet still have significant accessibility barriers. More robust assessment is needed to evaluate accessibility comprehensively.</p>
