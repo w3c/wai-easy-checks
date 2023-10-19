@@ -77,24 +77,6 @@ footer: >
   .box-sections h3 {
     margin: 0;
   }
-  
-  .box-sections .check-summary {
-    font-weight: bold;
-    margin-top: 1.5em;
-  }
-  .box-sections .check-summary li {
-    list-style: none;
-    border-right: solid 1px var(--line-grey);
-    display: inline-block;
-    padding: 0 2em 0 1em;
-  }
-  .box-sections .check-summary li:last-of-type {
-    border-right: 0;
-  }
-  .box-sections .check-summary .icon {
-    width: 1.2em;
-    height: 1.2em;
-  }      
   </style>
 
 <aside id="summary" class="box box-i box-simple">
@@ -104,7 +86,9 @@ footer: >
       <header id="tocheading" class="box-h box-h-simple">Page Contents</header>
       <ul id="markdown-toc">
         <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
-        <li><a href="#structural" id="markdown-toc-structural-checks">Structural checks</a></li>
+        <li><a href="#common" id="markdown-toc-common-checks">Common Checks</a></li>
+        <li><a href="#audio-visual" id="markdown-toc-audio-visual-checks">Audio/Visual Checks</a></li>
+        <li><a href="#forms" id="markdown-toc-forms-checks">Form Checks</a></li>
       </ul>
     </nav>
   </div>
@@ -120,7 +104,7 @@ footer: >
 {% include box.html type="start" title="Disclaimer" icon="warning" %}
 {:/}
 
-<p>These checks cover just a few accessibility issues and are designed to be quick and easy, rather than definitive. A web page could seem to pass these checks, yet still have significant accessibility barriers. More robust assessment is needed to evaluate accessibility comprehensively.</p>
+<p>These checks cover just a few accessibility issues and are designed to be quick and easy, rather than exhaustive. A web page could seem to pass these checks, yet still have significant accessibility barriers. More extensive assessment is needed to evaluate accessibility comprehensively.</p>
 
 <p>This page provides checks for the following specific aspects of a web page. It also provides guidance on <span class="ptoc"><a href="#next">Next Steps</a></span> and links to more <a href="#evalresources">evaluation resources</a>.</p>
 
@@ -132,14 +116,8 @@ footer: >
 
 You will be able to perform any of the following checks on any web page. The results will give you a basic idea of how accessible the page is. Each check explains briefly what it is checking for and why this matters. THe checks also tell you what you should be looking for.
 
-You can do the checks in any order, or choose based on:
-
-* ![]({{ "/content/check-who.png" | relative_url }}){:.icon} who the check is most relevant to
-* ![]({{ "/content/check-time.png" | relative_url }}){:.icon} the time it takes to do the check
-* ![]({{ "/content/check-impact.png" | relative_url }}){:.icon} the impact that a failed check would have
-
 {::nomarkdown}
-{% include box.html type="start" id="structural" class="sections" h="2" title="Common checks" %}
+{% include box.html type="start" id="common" class="sections" h="2" title="Common checks" %}
 <div>
 {:/}
 
@@ -147,12 +125,7 @@ You can do the checks in any order, or choose based on:
 
 ### [Image Alternative Text](/test-evaluate/easy-checks/image-alt/)
 
-Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
-
-{:.check-summary}
-* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
-* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 2 minutes
-* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} High
+Image alternative text ("alt text") is a short description that conveys the purpose of an image. Alternative text is used by people who do not see the image. For example, people who are blind and use screen readers can hear the alt text read out.
 
 {::nomarkdown}
 </div>
@@ -163,12 +136,7 @@ Headings communicate the organization of the content on the page, like a table o
 
 ### [Page Title](/test-evaluate/easy-checks/title/)
 
-Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
-
-{:.check-summary}
-* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Developers
-* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 2 minutes
-* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+Page titles are shown in the window title bar or tab in browsers. They are the first thing read by screen readers and help people know where they are. 
 
 {::nomarkdown}
 </div>
@@ -181,11 +149,6 @@ Headings communicate the organization of the content on the page, like a table o
 
 Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
 
-{:.check-summary}
-* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Developers
-* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 2 minutes
-* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
-
 {::nomarkdown}
 </div>
 <div>
@@ -195,72 +158,51 @@ Headings communicate the organization of the content on the page, like a table o
 
 ### [Color Contrast](/test-evaluate/easy-checks/color-contrast/)
 
-Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
-
-{:.check-summary}
-* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
-* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
-* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+Color contrast refers to the difference between adjacent colors. Typically this is the text and background color. It also includes interactive elements and their background, and parts of graphs or charts. Some people cannot read text or find elements if there is insufficient contrast between colors.
 
 {::nomarkdown}
 </div>
+<div>
 {:/}
 
 ![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
 
 ### [Skip Link](/test-evaluate/easy-checks/skip-link/)
 
-Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
-
-{:.check-summary}
-* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
-* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
-* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+A skip link is the first interactive element on a page. People using keyboards, screen readers and other assistive technologies can use skip links to quickly and easily reach the main page content.
 
 {::nomarkdown}
 </div>
+<div>
 {:/}
 
 ![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
 
 ### [Keyboard Focus](/test-evaluate/easy-checks/keyboard-focus/)
 
-Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
-
-{:.check-summary}
-* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
-* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
-* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+For people who rely on a keyboard to navigate it is important that they know which link or form control has focus. Keyboard focus is a visible indicator that identifies the element with focus and moves as your tab through a page.
 
 {::nomarkdown}
 </div>
+<div>
 {:/}
 
 ![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
 
 ### [Langage of Page](/test-evaluate/easy-checks/language/)
 
-Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
-
-{:.check-summary}
-* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
-* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
-* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+Specifying the language of the page means that assistive technology that speaks content can correctly pronounce words.
 
 {::nomarkdown}
 </div>
+<div>
 {:/}
 
 ![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
 
 ### [Zoom](/test-evaluate/easy-checks/zoom-levels/)
 
-Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
-
-{:.check-summary}
-* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
-* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
-* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+Some people need to enlarge content in order to read it. When content is zoomed it still needs to legible and usable.
 
 {::nomarkdown}
 </div>
@@ -272,7 +214,7 @@ Headings communicate the organization of the content on the page, like a table o
 
 
 {::nomarkdown}
-{% include box.html type="start" id="structural" class="sections" h="2" title="Audio/Visual Checks" %}
+{% include box.html type="start" id="audio-visual" class="sections" h="2" title="Audio/Visual Checks" %}
 <div>
 {:/}
 
@@ -280,42 +222,29 @@ Headings communicate the organization of the content on the page, like a table o
 
 ### [Captions](/test-evaluate/easy-checks/captions/)
 
-Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
-
-{:.check-summary}
-* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
-* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
-* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+The audio in video content needs to be available to people who are dead or hard of hearing. Captions are a text version of the speech and non-speech audio information needed to understand the video.
 
 {::nomarkdown}
 </div>
+<div>
 {:/}
 
 ![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
 
 ### [Transcripts](/test-evaluate/easy-checks/transcripts/)
 
-Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
-
-{:.check-summary}
-* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
-* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
-* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+Transcripts are a text version of the speech and non-speech information in audio content. They are used by people who are Deaf, hard of hearing or who have difficulty processing audio information.
 
 {::nomarkdown}
 </div>
+<div>
 {:/}
 
 ![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
 
 ### [Audio Description](/test-evaluate/easy-checks/description/)
 
-Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
-
-{:.check-summary}
-* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
-* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
-* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+Audio description provides content to people who are blind and others who cannot see the video adequately. It describes visual information needed to understand the content, including text displayed in the video.
 
 {::nomarkdown}
 </div>
@@ -327,7 +256,7 @@ Headings communicate the organization of the content on the page, like a table o
 
 
 {::nomarkdown}
-{% include box.html type="start" id="structural" class="sections" h="2" title="Form Checks" %}
+{% include box.html type="start" id="forms" class="sections" h="2" title="Form Checks" %}
 <div>
 {:/}
 
@@ -335,27 +264,18 @@ Headings communicate the organization of the content on the page, like a table o
 
 ### [Labels](/test-evaluate/easy-checks/form-field-labels/)
 
-Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
-
-{:.check-summary}
-* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
-* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
-* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+Labels should identify all form controls, including text fields, checkboxes, radio buttons, and drop-down menus. Labels need to describe the purpose of the form control. 
 
 {::nomarkdown}
 </div>
+<div>
 {:/}
 
 ![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
 
 ### [Required Fields](/test-evaluate/easy-checks/required-fields/)
 
-Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
-
-{:.check-summary}
-* ![Who]({{ "/content/check-who.png" | relative_url }}){:.icon} Content creators
-* ![Time]({{ "/content/check-time.png" | relative_url }}){:.icon} 10 minutes
-* ![Impact]({{ "/content/check-impact.png" | relative_url }}){:.icon} Medium
+Marking which fields are required makes it easier for people to complete forms.
 
 {::nomarkdown}
 </div>
