@@ -61,7 +61,7 @@ github:
 
 ## What are Transcripts?
 
-_**Basic transcripts**_ are a text version of the speech and non-speech audio information needed to understand the content.
+_**Basic transcripts**_ are a text version of the speech and non-speech audio information needed to understand the content. They are similar to captions, but in a format than can be easily opened and read.
 
 _**Descriptive transcripts**_ for videos also include visual information needed to understand the content.
 For videos with visual and audio information, ideally a descriptive transcript is provided, and a separate basic transcript is not needed.
@@ -70,12 +70,20 @@ For videos with visual and audio information, ideally a descriptive transcript i
 
 People who are Deaf, are hard of hearing, have difficulty processing auditory information, and others use basic transcripts.
 
-People who are both Deaf and blind need descriptive transcripts to get audio and video content. People who process text information better than they process audio and video information also use descriptive transcripts.
+People who are deafblind (both deaf and blind) need descriptive transcripts to get audio and video content. 
+
+People who process text information better than they process audio and video information also use descriptive transcripts.
 
 ## Checking Transcripts
 
 * Check for a transcript with the media or a link to a transcript. Transcripts should be easy to find near the audio/video itself and any links to the audio/video.
-* If the video has important visual content, check that it is included in the transcript. (It doesn't need to be labeled as a "descriptive transcript".
+* If the video has important visual content, check that it is described in the transcript. (It doesn't need to be labeled as a "descriptive transcript".)
+
+### Check transcript quality:
+
+* Is all the speach accurately reflected in the transcript with the speakers identified?
+* Are all other sounds decribed in the transcript, such as 'soft clapping' or 'tyres screeching'?
+* Is all visual content important to understanding the video decribed in the transcript?
 
 ## Learn more
 
@@ -84,4 +92,4 @@ People who are both Deaf and blind need descriptive transcripts to get audio and
 
 ## _editor notes_
 
-@@ EOWG discussion: probably not include anything about checking the quality? previous version had: "Check that transcripts include all audio information, including dialogue with the speakers identified, and all important sound — e.g., footsteps approaching, doors closing, glass breaking." -- yet that seems more than an easy check.
+@@ EOWG discussion: probably not include anything about checking the quality? previous version had: "Check that transcripts include all audio information, including dialogue with the speakers identified, and all important sound — e.g., footsteps approaching, doors closing, glass breaking." -- yet that seems more than an easy check. @@ sample inlcuded again for now as easy to check (if tedious).
