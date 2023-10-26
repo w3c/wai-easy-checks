@@ -34,8 +34,20 @@ People who are blind also navigate the web with the keyboard, but they listen fo
 
 ## Checking Keyboard Focus
 
-@@
+### Checking this page
 
-* [Ian Lloyd bookmarklet](https://a11y-tools.com/bookmarklets/#focusstyles) - No jQuery (I think)
+This is just for practice. Also, you can see what the check will look like on an accessible page.
+
+Simply click on the link below:
+
+{::nomarkdown}
+<p>
+  <a class="button active" href="javascript:void%20function(){for(const%20b%20of%20document.querySelectorAll(%22a[href],button,select,input:not([type=\%22hidden\%22]),textarea,summary,details,area,[tabindex],[contenteditable]:not([contenteditable=\%22false\%22])%22)){let%20c=%22%22;b.style.transition=%22none%22,b.focus();let%20d=getComputedStyle(b);for(var%20a=0;a%3Cd.length;a++)c+=d[a]+%22:%22+d.getPropertyValue(d[a])+%22;%22;b.setAttribute(%22style%22,c)}}();">Check keyboard focus</a>
+</p>
+{:/}
+
+The bookmarklet is based on the work by Ian Lloyd.
+
+* [Ian Lloyd bookmarklet](https://a11y-tools.com/bookmarklets/#focusstyles)
 
 ## Learn more
