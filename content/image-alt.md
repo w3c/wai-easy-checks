@@ -67,10 +67,11 @@ On the web page you're checking the image alternative text for, click the [[name
 * Images that appear to be just to be 'pretty' should display as alt=""
 * Images that are functional, like a link or a button, should have alt-text that described the destination page or the function of the button
 
-@@ bookmarklet options:
+## Bookmarklet used
+
+The bookmarklet is based on the work by Paul Adam.
+
 * [Paul Adam bookmarklet](https://pauljadam.com/bookmarklets/images.html) - Uses jQuery 
-* [Pixo and DRES bookmarklets](https://accessibility-bookmarklets.org/install.html) - No jQuery
-* [Ian Lloyd bookmarklet](https://a11y-tools.com/bookmarklets/#listimages) - No jQuery (I think)
 
 ## Learn more
 
