@@ -36,7 +36,21 @@ Technically, colour contrast is the relative luminance of 2 or more colours to e
 
 ## Checking Color Contrast
 
-A rough check can be made by viewing the page you're checking in grey scale with the 'grey-scale bookmarklet'. Some text will obviously be difficult for some poeple to read and will need increased contrast. 
+### Quick check
+
+Simply click on the link below:
+
+[Grey Scale page](@@)
+
+This gives a rough check as to whether the text on the page is eastily read or needs increased  contrast. 
+
+To do a rough check on other pages:
+
+1. Drag the [Grey Scale page](@@) to your bookmarks
+2. Visit the page you want to check
+3. Click on the 'Check headings' link in your bookmarks 
+
+### Accurate check
 
 To test more thoroughly, you need to find out what the text or other element and background colours are and then get a contrast analyser to do the math and tell you if there is enough or not.
 

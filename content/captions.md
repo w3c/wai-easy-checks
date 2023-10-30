@@ -18,38 +18,42 @@ github:
 
 ## What are Captions?
 
-Captions are called “subtitles” in some areas.
+Captions are called “subtitles” in some locations.
 
-Captions are a text version of the speech and non-speech audio information needed to understand the content. They are displayed within the media player and are synchronized with the audio.
+Captions are a text version of the speech and other sounds needed to understand the content. They are displayed within the media player and are synchronized with the audio.
 
 Most are “closed captions” that can be hidden or shown by people watching the video. They can be “open captions” that are always displayed and cannot be turned off.
 
 ## Who depends on Captions?
 
-People who are Deaf, hard-of-hearing, or otherwise cannot hear the sound depend on captions to provide audio content.
+People who are Deaf, hard-of-hearing, or otherwise have difficulty hearing, or cannot hear, the sound depend on captions to provide audio content.
 
-Some people who process written information better than audio information also use captions.
+Some people who process written information better than audio information also use captions. Some people also like to use captions to be sure they're not missing the dialogue due to a speaker's accent or quiet or fast speech, or loud background sounds.
+
+People in noisy environments or who have to keep noise levels down can also benefit.
 
 ## Checking Captions
 
 Check if captions are available:
 * Play the video where there is important audio. If you see captions, they may be open captions.
-* Check for a closed caption button in the media player. [image] In some media players, if no captions are available, the button does not appear.
+* Check for a closed caption button in the media player (often shown as "[CC]". [image] In some media players, if no captions are available, the button does not appear.
 * Click the closed caption button to confirm captions are available in the language of the audio. If it only lists auto-generated captions, then sufficient captions are not provided.
 
 [Automatically-generated captions do not meet user needs or accessibility requirements](/WAI/media/av/captions/#automatic-captions-are-not-sufficient).
 
 Check caption quality:
-*  Check if the captions have appropriate punctuation and capitalization. Automatic  captions often don't have any.
-*  Check if the captions in sync with the spoken content.
+*  Check if the captions have appropriate punctuation and capitalization. Automatic captions often don't have any.
+*  Check if the captions are in sync with the spoken content.
 *  If there are multiple people speaking, check if the person speaking is identified when they speak.
+*  Check if other sound important to the scene, like applause or thunder rumbling, is inlcuded
 
-_(There are many more aspects of quality captions; above is just a couple.)_
+_(There are many more aspects of quality captions; above are just a few.)_
 
 ## Learn more
 
 * [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](/media/av/users-orgs/)
 * [Captions/Subtitles, in Making Audio and Video Media Accessible](/media/av/captions/)
+* @@ what about linking to [Understanding 1.2.2](https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html)?
 
 ## _editor notes_
 
