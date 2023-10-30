@@ -45,18 +45,26 @@ Simply click on the link below:
 </p>
 {:/}
 
-Bookmark tool: [Page Title ](@@) [(i)]
+### Checking other pages
 
-1. From the web page you're checking, select the "Page Title" tool in your browser bookmarks.
-  * Check that there is a title that adequately and briefly describes the content of the page.
+To check other pages you need to add the check link as a bookmark.
 
-2. Open other pages on the website and select the "Page Title" tool in your browser bookmarks.
-  * Check that the title on the page your are checking is different from other pages on the website, and adequately distinguishes the page from other web pages.
+1. Drag the [Page Title](@@) link to your browser bookmarks
+2. Visit the page you want to check
+3. Click on the ‘Page Title’ link in your bookmarks
+
+* Bookmark tool: [Page Title ](@@) [(i)]
+
+
+
+### What to look for
+
+* Check that there is a title that adequately and briefly describes the content of the page.
+* Check that the title on the page your are checking is different from other pages on the website, and adequately distinguishes the page from other web pages.
 
 ### Tips
 
-*   There is flexibility on what makes a good page title.
-*   Best practice is for the important and unique identifying information first (called "front-loading").  
+There is flexibility on what makes a good page title, howeverb est practice is for the important and unique identifying information first (called "front-loading").  
     For example:
     *   Poor titles:
         *   Welcome to home page of Acme Web Solutions, Inc.
@@ -71,6 +79,6 @@ Bookmark tool: [Page Title ](@@) [(i)]
 
 ## Learn more
 
-In the web page markup page titles are the <title> within the <head>.
+In the web page markup the page title is the text between the <title> </title> element within the <head> </head> element.
 
 * [Page Titled](https://www.w3.org/WAI/WCAG22/Understanding/page-titled.html) - Understanding Success Criterion 2.4.2 for WCAG (Level A)
