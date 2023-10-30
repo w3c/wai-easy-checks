@@ -26,9 +26,9 @@ Most are “closed captions” that can be hidden or shown by people watching th
 
 ## Who depends on Captions?
 
-People who are Deaf, hard-of-hearing, or otherwise cannot hear the sound depend on captions to provide audio content.
+People who are Deaf, hard-of-hearing, or otherwise have difficulty hearing, or cannot hear, the sound depend on captions to provide audio content.
 
-Some people who process written information better than audio information also use captions.
+Some people who process written information better than audio information also use captions. Some people also like to use captions to be sure they're not missing the dialogue due to a speaker's accent or quiet or fast speech, or loud background sounds.
 
 People in noisy environments or who have to keep noise levels down can also benefit.
 
@@ -45,6 +45,7 @@ Check caption quality:
 *  Check if the captions have appropriate punctuation and capitalization. Automatic captions often don't have any.
 *  Check if the captions are in sync with the spoken content.
 *  If there are multiple people speaking, check if the person speaking is identified when they speak.
+*  Check if other sound important to the scene, like applause or thunder rumbling, is inlcuded
 
 _(There are many more aspects of quality captions; above are just a few.)_
 
@@ -52,6 +53,7 @@ _(There are many more aspects of quality captions; above are just a few.)_
 
 * [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](/media/av/users-orgs/)
 * [Captions/Subtitles, in Making Audio and Video Media Accessible](/media/av/captions/)
+* @@ what about linking to [Understanding 1.2.2](https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html)?
 
 ## _editor notes_
 
