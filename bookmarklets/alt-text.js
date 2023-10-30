@@ -6,7 +6,7 @@ for(const el of document.querySelectorAll("span")) {
 if(el = document.querySelector("#img-check-styles")) {
   el.remove();
 }
-document.querySelector("body").insertAdjacentHTML("afterbegin","<style id='img-check-styles'>.altSpan,.inputSpan,#failure,#success {color:black;font-weight:bold;font-size:small;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;background-color:#eed009;margin:0 2px;padding:2px;speak:literal-punctuation}#success{position:absolute;width:0;height:0;clip:rect(0,0,0,0);})</style>");
+document.querySelector("body").insertAdjacentHTML("afterbegin","<style id='img-check-styles'>.altSpan,.inputSpan,#failure,#success {color:black;font-weight:bold;font-size:small;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;background-color:#eed009;margin:0 2px;padding:2px;speak:literal-punctuation}#success{position:absolute;width:0;height:0;clip:rect(0,0,0,0);}</style>");
 document.querySelectorAll("img, [role=img]").forEach(function(el) {
   var message = "";
   if (el.hasAttribute('role')) {
