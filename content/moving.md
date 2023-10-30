@@ -2,6 +2,7 @@
 title: "Moving, Flashing, or Blinking - Easy Checks"
 permalink: /test-evaluate/easy-checks/moving/
 ref: /test-evaluate/easy-checks/moving/
+nav_title: "Moving, Flashing, or Blinking"
 
 lang: en
 layout: default

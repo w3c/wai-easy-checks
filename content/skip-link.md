@@ -2,6 +2,7 @@
 title: "Skip Link - Easy Checks"
 permalink: /test-evaluate/easy-checks/skip-link/
 ref: /test-evaluate/easy-checks/skip-link/
+nav_title: "Skip Link"
 
 lang: en
 layout: default

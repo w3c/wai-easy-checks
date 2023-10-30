@@ -2,6 +2,7 @@
 title: "Color Contrast - Easy Checks"
 permalink: /test-evaluate/easy-checks/color-contrast/
 ref: /test-evaluate/easy-checks/color-contrast/
+nav_title: "Color Contrast"
 
 lang: en
 layout: default

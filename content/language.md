@@ -2,6 +2,7 @@
 title: "Language - Easy Checks"
 permalink: /test-evaluate/easy-checks/language/
 ref: /test-evaluate/easy-checks/language/
+nav_title: "Language"
 
 lang: en
 layout: default

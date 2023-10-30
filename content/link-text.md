@@ -2,6 +2,7 @@
 title: "Link Text - Easy Checks"
 permalink: /test-evaluate/easy-checks/link-text/
 ref: /test-evaluate/easy-checks/link-text/
+nav_title: "Link Text"
 
 lang: en
 layout: default
