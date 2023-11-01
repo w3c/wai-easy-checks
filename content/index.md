@@ -70,9 +70,14 @@ footer: >
     border-bottom: solid 1px var(--line-grey);
   }
   
+  .box-sections .box-i div:last-child {
+    border-bottom: none;
+  }
+  
   .box-sections .splash {
     float: left;
     padding-right: 1em;
+    width: 8em;
   }
   .box-sections h3 {
     margin: 0;
@@ -121,7 +126,7 @@ You will be able to perform any of the following checks on any web page. The res
 <div>
 {:/}
 
-![]({{ "/content/splash-headings.png" | relative_url }}){:.splash}
+<img role="img" src="{{ "/content/icon-alt-text.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Image Alternative Text](/test-evaluate/easy-checks/image-alt/)
 
@@ -132,7 +137,7 @@ Image alternative text ("alt text") is a short description that conveys the purp
 <div>
 {:/}
 
-![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+<img role="img" src="{{ "/content/icon-page-title.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Page Title](/test-evaluate/easy-checks/title/)
 
@@ -143,7 +148,7 @@ Page titles are shown in the window title bar or tab in browsers. They are the f
 <div>
 {:/}
 
-![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+<img role="img" src="{{ "/content/icon-heading-structure.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Heading Structure](/test-evaluate/easy-checks/heading-structure/)
 
@@ -154,7 +159,7 @@ Headings communicate the organization of the content on the page, like a table o
 <div>
 {:/}
 
-![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+<img role="img" src="{{ "/content/icon-color-contrast.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Color Contrast](/test-evaluate/easy-checks/color-contrast/)
 
@@ -165,7 +170,7 @@ Color contrast refers to the difference between adjacent colors. Typically this 
 <div>
 {:/}
 
-![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+<img role="img" src="{{ "/content/icon-skip-link.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Skip Link](/test-evaluate/easy-checks/skip-link/)
 
@@ -176,7 +181,7 @@ A skip link is the first interactive element on a page. People using keyboards, 
 <div>
 {:/}
 
-![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+<img role="img" src="{{ "/content/icon-keyboard-focus.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Keyboard Focus](/test-evaluate/easy-checks/keyboard-focus/)
 
@@ -187,7 +192,7 @@ For people who rely on a keyboard to navigate it is important that they know whi
 <div>
 {:/}
 
-![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+<img role="img" src="{{ "/content/icon-page-language.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Langage of Page](/test-evaluate/easy-checks/language/)
 
@@ -198,7 +203,7 @@ Specifying the language of the page means that assistive technology that speaks 
 <div>
 {:/}
 
-![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+<img role="img" src="{{ "/content/icon-zoom-levels.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Zoom](/test-evaluate/easy-checks/zoom-levels/)
 
