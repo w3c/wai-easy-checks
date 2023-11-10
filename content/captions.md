@@ -12,11 +12,9 @@ github:
   path: content/captions.md
 ---
 
-## ~~At a Glance~~
-
-<img src="https://www.w3.org/WAI/content-images/wai-media-guide/captions.png">
-
 ## What are Captions?
+
+<img src="https://www.w3.org/WAI/content-images/wai-media-guide/captions.png" alt="" class="right">
 
 Captions are called “subtitles” in some locations.
 
@@ -39,7 +37,7 @@ Check if captions are available:
 * Check for a closed caption button in the media player (often shown as "[CC]". [image] In some media players, if no captions are available, the button does not appear.
 * Click the closed caption button to confirm captions are available in the language of the audio. If it only lists auto-generated captions, then sufficient captions are not provided.
 
-[Automatically-generated captions do not meet user needs or accessibility requirements](/WAI/media/av/captions/#automatic-captions-are-not-sufficient).
+Find why [automatically-generated captions do not meet user needs or accessibility requirements](/WAI/media/av/captions/#automatic-captions-are-not-sufficient).
 
 Check caption quality:
 *  Check if the captions have appropriate punctuation and capitalization. Automatic captions often don't have any.
@@ -47,15 +45,8 @@ Check caption quality:
 *  If there are multiple people speaking, check if the person speaking is identified when they speak.
 *  Check if other sound important to the scene, like applause or thunder rumbling, is inlcuded
 
-_(There are many more aspects of quality captions; above are just a few.)_
-
 ## Learn more
 
-* [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](/media/av/users-orgs/)
-* [Captions/Subtitles, in Making Audio and Video Media Accessible](/media/av/captions/)
-* @@ what about linking to [Understanding 1.2.2](https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html)?
-
-## _editor notes_
-
-@@ EOWG question: do we want to include the quality checks listed above after "Check caption quality:"? more? less? different ones? none?
-
+* [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](/WAI/media/av/users-orgs/)
+* [Captions/Subtitles, in Making Audio and Video Media Accessible](/WAI/media/av/captions/)
+* [Understanding 1.2.2: Captions (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)?
