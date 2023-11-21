@@ -48,7 +48,7 @@ if(link) {
 }
 
 if(error) {
-  document.querySelector('body').insertAdjacentHTML('afterbegin','<aside id="wai-info-box" tabindex="-1" class="wai-error"><header>Missing skip link?<a href="javascript:document.querySelector(\'#skiplink-check-message\').remove();" aria-label="dismiss">X</a></header><div>' + error + '</div></aside>');
+  document.querySelector('body').insertAdjacentHTML('afterbegin','<aside id="wai-info-box" tabindex="-1" class="wai-error"><header>Missing skip link?<a href="javascript:document.querySelector(\'#wai-info-box\').remove();" aria-label="dismiss">X</a></header><div>' + error + '</div></aside>');
 }
 
 document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" class="wai-more-info"><header>Find out more</header><div><a href="https://w3.org/wai/easy-checks/skip-link/">Checking Skip Links</a></div></aside>');
