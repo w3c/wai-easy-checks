@@ -1,20 +1,20 @@
-if(el = document.querySelector("#language-check-styles")) {
+if(el = document.querySelector("#wai-styles")) {
   el.remove();
 }
-if(el = document.querySelector("#language-check-message")) {
+if(el = document.querySelector("#wai-info-box")) {
   el.remove();
 }
-document.querySelector("body").insertAdjacentHTML("afterbegin","<style id='language-check-styles'>#language-check-message{position:fixed;width:40%;top:40%;left:50%;transform:translate(-50%,-50%);z-index:1000;color:black;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif}aside{border:solid 1px #ddd;background-color:#fff;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}#language-check-message header{font-weight:700;background-color:#f2f2f2;color:#005a6a;padding:8px 16px;}#language-check-message header a{float:right;text-decoration:none}#language-check-message div{padding:8px 16px;}#language-message div span{font-weight:500;}</style>");
+document.querySelector("body").insertAdjacentHTML("afterbegin","<style id='wai-styles'>#wai-info-box{position:fixed;width:40%;top:40%;left:50%;transform:translate(-50%,-50%);z-index:1000;color:black;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif}#wai-info-box{border:solid 1px #ddd;background-color:#fff;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}#wai-info-box header{font-weight:700;background-color:#f2f2f2;color:#005a6a;padding:8px 16px;}#wai-info-box header a{float:right;text-decoration:none}#wai-info-box div{padding:8px 16px;}#wai-info-box div span{font-weight:700;}</style>");
 
 let userLang = navigator.language || navigator.userLanguage;
 let languageNames = new Intl.DisplayNames([userLang], {type: "language"}); 
 var message = "";
 let pageLang = document.documentElement.lang || document.getElementsByTagName('html')[0].getAttribute('xml:lang');
 if(pageLang) {
-  message += "Page langage is: <span>" + pageLang + " (" + languageNames.of(pageLang) + ")</span>";
+  message += '<span>' + pageLang + " (" + languageNames.of(pageLang) + ')</span>';
 } else {
-  message += "Page langage is not specified" 
+  message += 'Page langage is not specified';
 }
-document.querySelector('body').insertAdjacentHTML('afterbegin','<aside id="language-check-message" tabindex="-1"><header>Page Language<a href="javascript:document.querySelector(\'#language-check-message\').remove();" aria-label="dismiss">X</a></header><div>' + message + '</div></aside>');
+document.querySelector('body').insertAdjacentHTML('afterbegin','<aside id="wai-info-box" tabindex="-1"><header>Page Language<a href="javascript:document.querySelector(\'#wai-info-box\').remove();" aria-label="dismiss">X</a></header><div>' + message + '<p>Find out more about <a href="https://www.w3.org/wai/easy-checks/language/">Checking Page Language</a></div></aside>');
 
-document.getElementById("language-check-message").focus();
+document.getElementById("wai-info-box").focus();
