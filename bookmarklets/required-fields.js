@@ -5,7 +5,7 @@ if(el = document.querySelector("#wai-info-box")) {
   el.remove();
 }
 
-document.querySelector("body").insertAdjacentHTML("afterbegin","<style id='wai-styles'>.labelSpan{display:block;width:fit-content;color:black;font-weight:bold;font-size:small;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;background-color:#eed009;padding:4px;speak:literal-punctuation}#wai-info-box{z-index:1000;color:black;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;border:solid 1px #ddd;background-color:#fff;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}#wai-info-box header{font-weight:700;background-color:#f2f2f2;color:#005a6a;padding:8px 16px;}#wai-info-box header a{float:right;text-decoration:none}#wai-info-box div{padding:8px 16px;}.wai-more-info{position:fixed;bottom:5em;right:5em}.wai-error{position:fixed;width:40%;top:40%;left:50%;transform:translate(-50%,-50%)}.required-span{color:black;font-weight:bold;font-size:small;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;background-color:#eed009;margin:0 2px;padding:2px;speak:literal-punctuation}</style>");
+document.querySelector("body").insertAdjacentHTML("afterbegin","<style id='wai-styles'>#wai-info-box{z-index:1000;color:black;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;border:solid 1px #ddd;background-color:#fff;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}#wai-info-box header{font-weight:700;background-color:#f2f2f2;color:#005a6a;padding:8px 16px;}#wai-info-box header a{float:right;text-decoration:none}#wai-info-box div{padding:8px 16px;}.wai-more-info{position:fixed;bottom:5em;right:5em}.wai-error{position:fixed;width:40%;top:40%;left:50%;transform:translate(-50%,-50%)}.required-span{display:block;width:fit-content;color:black;font-weight:bold;font-size:small;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;background-color:#eed009;padding:4px;speak:literal-punctuation}</style>");
 
 // Find the first in page link
 const labels = Array.prototype.slice.call(document.querySelectorAll('label'));
@@ -58,10 +58,10 @@ if(labels) {
     let required = requiredFields[i];
     if(required['requiredText']) {
       required['label'].style.setProperty("outline", "#eed009 2px dashed");
-      required['label'].insertAdjacentHTML("afterbegin", "<span class='labelSpan'>Correctly marked with '" + required['requiredText'] + "'?</span>");
+      required['label'].insertAdjacentHTML("afterbegin", "<span class='required-span'>Correctly marked with '" + required['requiredText'] + "'?</span>");
     } else {
       required['label'].style.setProperty("outline", "#eed009 2px dashed");
-      required['label'].insertAdjacentHTML("afterbegin", "<span class='labelSpan'>Required field</span>");        
+      required['label'].insertAdjacentHTML("afterbegin", "<span class='required-span'>Required field</span>");        
     }
   }
 }
