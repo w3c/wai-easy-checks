@@ -56,14 +56,14 @@ To check other pages you need to add the check link as a bookmark.
 * Complex images like graphs and charts have short alternative text that describes the type of image and a short summary of the key point
   * Complex images should have the detail described elsewhere on the page or on a separate page with a link
 
-## Bookmarklet used
-
-The bookmarklet is based on the work by Paul Adam.
-
-* [Paul Adam bookmarklet](https://pauljadam.com/bookmarklets/images.html) - Uses jQuery 
-
 ## Learn more
 
 * [User story of someone relyng on image alternative text to understand the page information](https://www.w3.org/WAI/people-use-web/user-stories/#accountant)
 * [Images Tutorial in Tutorials](https://www.w3.org/WAI/tutorials/images/)
 * [Non-text Content - Understanding WCAG Success Criterion 1.1.1 Level A](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)
+
+## Acknowledgements
+
+The bookmarklet is based on the work by Paul Adam.
+
+* [Paul Adam bookmarklet](https://pauljadam.com/bookmarklets/images.html) - Uses jQuery 
