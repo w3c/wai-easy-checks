@@ -52,13 +52,9 @@ To check other pages you need to add the check link as a bookmark.
 * [Language of Page](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html) Understanding WCAG Success Criterion 3.1.1
 * [Language of Parts](https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts) Understanding WCAG Success Criterion 3.1.2
 
-## _editor notes_
+## Acknowledgements
 
 The bookmarklet is based on the work by Paul Adam.
 
 bookmarklets:
 * [Paul Adam bookmarklet](javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/lang.js';var iframes=document.getElementsByTagName('iframe');for(i=0;i<iframes.length;i++) {iframes[i].contentDocument.body.appendChild(document.createElement('script')).src='https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/lang.js';}})();) - Note, this is the actual bookmarklet. There is no demo page for this one. Uses jQuery
-
-<script>
-  
-</script>
