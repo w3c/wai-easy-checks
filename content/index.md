@@ -126,7 +126,7 @@ You will be able to perform any of the following checks on any web page. The res
 <div>
 {:/}
 
-<img role="img" src="{{ "/content/icon-alt-text.svg" | relative_url }}" alt="" class="splash" />
+<img src="{{ "/content-images/icon-alt-text.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Image Alternative Text](/test-evaluate/easy-checks/image-alt/)
 
@@ -137,7 +137,7 @@ Image alternative text ("alt text") is a short description that conveys the purp
 <div>
 {:/}
 
-<img role="img" src="{{ "/content/icon-page-title.svg" | relative_url }}" alt="" class="splash" />
+<img src="{{ "/content-images/icon-page-title.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Page Title](/test-evaluate/easy-checks/title/)
 
@@ -148,7 +148,7 @@ Page titles are shown in the window title bar or tab in browsers. They are the f
 <div>
 {:/}
 
-<img role="img" src="{{ "/content/icon-heading-structure.svg" | relative_url }}" alt="" class="splash" />
+<img src="{{ "/content-images/icon-heading-structure.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Heading Structure](/test-evaluate/easy-checks/heading-structure/)
 
@@ -159,7 +159,7 @@ Headings communicate the organization of the content on the page, like a table o
 <div>
 {:/}
 
-<img role="img" src="{{ "/content/icon-color-contrast.svg" | relative_url }}" alt="" class="splash" />
+<img src="{{ "/content-images/icon-color-contrast.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Color Contrast](/test-evaluate/easy-checks/color-contrast/)
 
@@ -170,7 +170,7 @@ Color contrast refers to the difference between adjacent colors. Typically this 
 <div>
 {:/}
 
-<img role="img" src="{{ "/content/icon-skip-link.svg" | relative_url }}" alt="" class="splash" />
+<img src="{{ "/content-images/icon-skip-link.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Skip Link](/test-evaluate/easy-checks/skip-link/)
 
@@ -181,7 +181,7 @@ A skip link is the first interactive element on a page. People using keyboards, 
 <div>
 {:/}
 
-<img role="img" src="{{ "/content/icon-keyboard-focus.svg" | relative_url }}" alt="" class="splash" />
+<img src="{{ "/content-images/icon-keyboard-focus.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Keyboard Focus](/test-evaluate/easy-checks/keyboard-focus/)
 
@@ -192,7 +192,7 @@ For people who rely on a keyboard to navigate it is important that they know whi
 <div>
 {:/}
 
-<img role="img" src="{{ "/content/icon-page-language.svg" | relative_url }}" alt="" class="splash" />
+<img src="{{ "/content-images/icon-page-language.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Langage of Page](/test-evaluate/easy-checks/language/)
 
@@ -203,7 +203,7 @@ Specifying the language of the page means that assistive technology that speaks 
 <div>
 {:/}
 
-<img role="img" src="{{ "/content/icon-zoom-levels.svg" | relative_url }}" alt="" class="splash" />
+<img src="{{ "/content-images/icon-zoom-levels.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Zoom](/test-evaluate/easy-checks/zoom-levels/)
 
@@ -223,7 +223,7 @@ Some people need to enlarge content in order to read it. When content is zoomed 
 <div>
 {:/}
 
-![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+<img src="{{ "/content-images/icon-captions.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Captions](/test-evaluate/easy-checks/captions/)
 
@@ -234,7 +234,7 @@ The audio in video content needs to be available to people who are dead or hard 
 <div>
 {:/}
 
-![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+<img src="{{ "/content-images/icon-transcripts.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Transcripts](/test-evaluate/easy-checks/transcripts/)
 
@@ -245,7 +245,7 @@ Transcripts are a text version of the speech and non-speech information in audio
 <div>
 {:/}
 
-![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+<img src="{{ "/content-images/icon-description.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Audio Description](/test-evaluate/easy-checks/description/)
 
@@ -265,7 +265,7 @@ Audio description provides content to people who are blind and others who cannot
 <div>
 {:/}
 
-![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+<img src="{{ "/content-images/icon-form-labels.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Labels](/test-evaluate/easy-checks/form-field-labels/)
 
@@ -276,7 +276,7 @@ Labels should identify all form controls, including text fields, checkboxes, rad
 <div>
 {:/}
 
-![]({{ "/content/splash-blank.png" | relative_url }}){:.splash}
+<img src="{{ "/content-images/icon-required.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Required Fields](/test-evaluate/easy-checks/required-fields/)
 
