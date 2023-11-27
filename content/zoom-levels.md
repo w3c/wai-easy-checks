@@ -14,7 +14,7 @@ github:
 
 ## At a Glance
 
-@@ imges for a standard page and a zoomed page side by side
+@@ images for a standard page and a zoomed page side by side (sample from w3.org sent to Jasper to play with)
 
 ## What is Zoom Levels?
 
@@ -25,6 +25,8 @@ Zoom levels are used to enlarge the text and images on web pages to make them mo
 Many people with low vision use the browser zoom to magnify text to become readable. Some people just need to enlarge the text a little if they forgot their reading glasses; others need to enlarge it a lot, e.g. up to 200% or even larger.
 
 ## Checking Zoom Levels
+
+Follow the instruction brlow, or try opening the web page on a mobile device as these usually have narrower page widths than laptop or desktop PCs; see 'What to look for' below. 
 
 ### Checking this page
 This is just for practice. Also, you can see what the check will look like on an accessible page.
