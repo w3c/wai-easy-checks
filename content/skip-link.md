@@ -12,11 +12,26 @@ github:
   path: content/skip-link.md
 ---
 
-## What is Skip Link?
+## What is a Skip Link? 
 
-## Who depends on Skip Link?
+* [[image of WAI home page with an arrow from the 'skip to content' link to the start of the main content]]
+* [[alternatively, two image of the W3C home page - with and without the 'skip to content' link showing - add an arrow on the show page]]
 
-Some test text
+A skip navigation link is a link at the start of a page that allows non-mouse users to move straight to the main content on a page. It allows them to bypass the common material at the start of most web pages such as Search and the menu and move straight to the content of interest. 
+
+It should be the first link on the page and preferably it is visible the "Skip to Content" like at the top of this WAI page. However, some designers like to hide it from view until it receives keyboard focus and this is acceptable as long as it becomes highly visible on focus.
+
+## Who depends on a Skip Link?
+
+Anyone who relies on the keyboard to navigate rather than useing a regular or virtual mouse. This includes:
+
+* screen reader users
+* people with poor dexterity
+* people with varous motor disabilities
+* people using mouth sticks or head pointers
+* people using switch devices
+
+All these people will use the tab key to move linearly through the page, so assistance to move from the start of the page to the main content helps them more efficiently navigate your website.
 
 ## Checking Skip Link
 
@@ -42,8 +57,17 @@ To check other pages you need to add the check link as a bookmark.
 
 ### What to look for
 
+Occaisionally the skip navigation link is not the frst link on a page, however the checking tool we have provided here only checks the first link for skipping down the current page.
+
+The wording of the link doesn't matter too much as long as the purpose is clear. Common wording includes:
+
+* Skip navigation
+* Skip to content
+* Skip to main content
 
 ## Learn more
+
+* [Understanding WCAG - Bypass Blocks](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html)
 
 ## Acknowledgements
 
