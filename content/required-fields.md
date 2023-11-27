@@ -20,7 +20,7 @@ github:
 
 A required form field is one that must be competed before you Submit the form or you will get an error mesage of some sort indicating the form isn't complete.
 
-The best way to indicate visially (and via the form field label) is to include the word 'required' as part of the label. However, many forms rely on a small red asterisk "\*" adjacent to the form field label to indicate a required field. Unfortunately the asterisk is often not announced to screen reader users as it's considered punctuation by them. People with low vision can ofetn miss the '\*' too due to it's small size.
+The best way to indicate visually (and via the form field label) is to include the word 'required' as part of the label. However, many forms rely on a small red asterisk '\*' adjacent to the form field label to indicate a required field. Unfortunately the asterisk is often not announced to screen reader users as it's considered punctuation by them. People with low vision can ofetn miss the '\*' too due to it's small size.
 
 Some forms, especially Government forms, are starting to state that all fields are required unless marked 'optional'.
 
