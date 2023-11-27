@@ -12,13 +12,27 @@ github:
   path: content/required-fields.md
 ---
 
+@@ lets put a couple of variations of indicating 'required' fields at the top this page.
+* using the word 'required' and
+* indicating required via a red asterisk.
+
 ## What is a Required Field?
+
+A required form field is one that must be competed before you Submit the form or you will get an error mesage of some sort indicating the form isn't complete.
+
+The best way to indicate visially (and via the form field label) is to include the word 'required' as part of the label. However, many forms rely on a small red asterisk "\*" adjacent to the form field label to indicate a required field. Unfortunately the asterisk is often not announced to screen reader users as it's considered punctuation by them. People with low vision can ofetn miss the '\*' too due to it's small size.
+
+Some forms, especially Government forms, are starting to state that all fields are required unless marked 'optional'.
+
+A required field can also be flagged as required in the HTML code, but if it's not indicated visually and aurally, then everyone is like to receive an error message that the required fields haven't been completed.
 
 ## Who depends on Required Fields?
 
-Some test text
+All of us need to know which form fields are required as we fill in a form on the web. If you're blind and rely on a screen reader then you need to have the required fields indicated aurally by your screen reader.
 
 ## Checking for Required Fields
+
+@@ checks still to be confirmed and competed [AA]
 
 ### Checking this page
 
