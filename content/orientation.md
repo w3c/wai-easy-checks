@@ -38,4 +38,4 @@ Rotate your device. Make sure the app changes @@orientation.
 
 ## Learn more
 
-* [Orientation](https://www.w3.org/WAI/WCAG22/Understanding/orientation.html) Understanding WCAG Success Criterion 1.3.4
+* [Understanding 1.3.4: Orientation](https://www.w3.org/WAI/WCAG22/Understanding/orientation.html)

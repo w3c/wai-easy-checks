@@ -49,8 +49,8 @@ To check other pages you need to add the check link as a bookmark.
 
 ## Learn more
 
-* [Language of Page](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html) Understanding WCAG Success Criterion 3.1.1
-* [Language of Parts](https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts) Understanding WCAG Success Criterion 3.1.2
+* [Understanding 3.1.1: Language of Page](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html)
+* [Understanding 3.1.2: Language of Parts](https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts)
 
 ## Acknowledgements
 

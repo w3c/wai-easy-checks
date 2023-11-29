@@ -60,7 +60,7 @@ To check other pages you need to add the check link as a bookmark.
 
 * [User story of someone relyng on image alternative text to understand the page information](https://www.w3.org/WAI/people-use-web/user-stories/#accountant)
 * [Images Tutorial in Tutorials](https://www.w3.org/WAI/tutorials/images/)
-* [Non-text Content - Understanding WCAG Success Criterion 1.1.1 Level A](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)
+* [Understanding 1.1.1: Non-text Content](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html)
 
 ## Acknowledgements
 

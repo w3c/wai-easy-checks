@@ -55,9 +55,9 @@ Potential accessibility problems with moving, flashing, or blinking content incl
 
 ## Learn more
 
-* [Pause, Stop, Hide](https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide) – Understanding Success Criterion 2.2.2 for WCAG (Level A)
 * [Carousel Animations](https://www.w3.org/WAI/tutorials/carousels/animations/) – WAI Web Accessibility Tutorial
-* [Three Flashes or Below Threshold](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold) Understanding Success Criterion 2.3.1 for WCAG (Level A)
+* [Understanding 2.2.2: Pause, Stop, Hide](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide)
+* [Understanding 2.3.1: Three Flashes or Below Threshold](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold)
 
 ## _editor notes_
 

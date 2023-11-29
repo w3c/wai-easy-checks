@@ -36,7 +36,7 @@ Bookmark tool: [Text Spacing ](@@) [(i)]
 
 ## Learn more
 
-* [Understanding SC 1.4.12: Text Spacing](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html)
+* [Understanding 1.4.12: Text Spacing](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html)
 
 <br><br><hr>
 # _editor notes_

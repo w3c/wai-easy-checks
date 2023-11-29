@@ -56,4 +56,4 @@ The exact text does not have to be included. However all of the information in t
 
 * [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](/media/av/users-orgs/)
 * [Description of Visual Information, in Making Audio and Video Media Accessible](/media/av/description/)
-* [Understanding 1.2.5](https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html)
+* [Understanding 1.2.5: Audio Description (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html)

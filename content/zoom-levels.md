@@ -49,5 +49,4 @@ Drag the Set Pagewidth link to your browser bookmarks
   * All text visible on the original page should still be visible on the zoomed page. 
 
 ## Learn more
-* [Understanding WCAG 2.2 - SC 1.4.4: Resize Text](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html)
-* @@ should we link to the relavant User Story eg [Yun's story](https://www.w3.org/WAI/people-use-web/user-stories/#retiree)? 
+* [Understanding 1.4.4: Resize Text](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html)

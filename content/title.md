@@ -75,4 +75,4 @@ For example:
 
 ## Learn more
 
-* [Page Titled](https://www.w3.org/WAI/WCAG22/Understanding/page-titled.html) - Understanding Success Criterion 2.4.2 for WCAG (Level A)
+* [Understanding: 2.4.2: Page Titled](https://www.w3.org/WAI/WCAG22/Understanding/page-titled.html)

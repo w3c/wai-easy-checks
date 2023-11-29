@@ -63,9 +63,9 @@ To find tools that will help, search the [Evaluation Tools List](https://www.w3.
 ## Learn more
 
 * [How a user with “color blindness” experiences the Web](https://www.w3.org/WAI/people-use-web/user-stories/#shopper)
-* [Contrast (Minimum) - Understanding Success Criterion 1.4.3 for WCAG (Level AA)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum)
-* [Contrast (Enhanced) - Understanding Success Criterion 1.4.6 for WCAG (Level AAA)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced)
-* [Non-text Contrast - Understanding Success Criterion 4.1.1 for WCAG (Level AA)](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html)
+* [Understanding 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum)
+* [Understanding 1.4.6: Contrast (Enhanced)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced)
+* [Understanding 1.4.11: Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html)
 
 ## Acknowledgements
 

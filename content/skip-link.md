@@ -23,15 +23,15 @@ It should be the first link on the page and preferably it is visible the "Skip t
 
 ## Who depends on a Skip Link?
 
-Anyone who relies on the keyboard to navigate rather than useing a regular or virtual mouse. This includes:
+Anyone who relies on the keyboard to navigate rather than using a regular or virtual mouse. This includes:
 
 * screen reader users
 * people with poor dexterity
-* people with varous motor disabilities
+* people with various motor disabilities
 * people using mouth sticks or head pointers
 * people using switch devices
 
-All these people will use the tab key to move linearly through the page, so assistance to move from the start of the page to the main content helps them more efficiently navigate your website.
+All these people will use the tab key to move through the page. Help to move from the start of the page to the main content makes navigating your pages easier for them.
 
 ## Checking Skip Link
 
@@ -57,7 +57,7 @@ To check other pages you need to add the check link as a bookmark.
 
 ### What to look for
 
-Occaisionally the skip navigation link is not the frst link on a page, however the checking tool we have provided here only checks the first link for skipping down the current page.
+Occasionally the skip navigation link is not the first link on a page. However the checking tool we have provided here only checks the first link for skipping down the current page.
 
 The wording of the link doesn't matter too much as long as the purpose is clear. Common wording includes:
 
@@ -67,7 +67,7 @@ The wording of the link doesn't matter too much as long as the purpose is clear.
 
 ## Learn more
 
-* [Understanding WCAG - Bypass Blocks](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html)
+* [Understanding 2.4.1: Bypass Blocks](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html)
 
 ## Acknowledgements
 
