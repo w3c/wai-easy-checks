@@ -12,19 +12,19 @@ github:
   path: content/required-fields.md
 ---
 
-@@ lets put a couple of variations of indicating 'required' fields at the top this page.
+## What is a Required Field?
+
+[TODO] lets put a couple of variations of indicating 'required' fields at the top this page.
 * using the word 'required' and
 * indicating required via a red asterisk.
 
-## What is a Required Field?
-
-A required form field must be completed before you submit the form.
+A required form field must be completed before you submit a form.
 
 The best way to indicate a required field is to include the word 'required' as part of the label. Many forms use a red asterisk, '\*', in the label. The asterisk is often not announced to screen reader users because it's considered punctuation. People with low vision can often miss the '\*' too due to it's small size and the color that is used.
 
 Some forms don't mark required fields but state that all fields are required unless marked 'optional'.
 
-A required field should also be flagged as required in the HTML code. This needs to include some visible indicator as well. If it doesn't then everyone is like to receive an error message that the required fields haven't been completed.
+A required field should also be flagged as required in the HTML code. This needs to include some visible indicator as well. If it doesn't then everyone is likely to receive an error message that the required fields haven't been completed.
 
 ## Who depends on Required Fields?
 
