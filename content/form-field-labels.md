@@ -12,62 +12,71 @@ github:
   path: content/form-field-labels.md
 ---
 
-## At a Glance
-
-@@ sample image for a for such as the sign-in form from https://auth.w3.org/login
-
 ## What are Form Field Labels?
 
-Form field labels are the text we see adjacent to form text fields telling us what information to enter. they also identify other form controls, including checkboxes, radio buttons, and drop-down choices. 
+[TODO] sample image for a for such as the sign-in form from https://auth.w3.org/login
+
+Form field labels are the text beside form fields. They should tell us what information to enter or what checkbox to select. 
 
 ## Who depends on Form Field Labels?
 
-We all depend on form field labels to understand how to interact with a web form. However, some users need the labels to be associated in code to be able to easily interact with the form. In particular:
-* screen readers users need codified labels in order to have the form labels and control read out with each form element
+Everyone needs labels to understand how to interact with a form. Some users need the labels to be coded correctly to be able to interact with the form. In particular:
+
+* screen readers users need coded labels in order to have the form labels read out with each form element
 * people with poor dexterity need the visual label to be associated with the form field to create a larger clickable area, especially for radio buttons and check boxes
 
 ## Checking Form Field Labels
 
-### Sample Form
-
-@@ create a simple form like:
-```
-<label for="name">Name:</label>
-<input id="name" type="text">
-<fieldset>
-<legend>Which flowers do you like:</legend>
-<input id="Rose" type="checkbox" name="flower" value="rose">
-<label for="ham">Ham</label><br>
-<input id="pepperoni" type="checkbox" name="flower" value="poppy">
-<label for="Poppy">Poppy</label><br>
-</fieldset>
-<button type="submit">Submit</button>
-```
-
 ### Checking this page
+
 This is just for practice. Also, you can see what the check will look like on an accessible page.
 
 Simply click on the link below:
 
-* [Paul Adam bookmarklet](https://pauljadam.com/bookmarklets/forms.html) - Uses jQuery
-* [Pixo and DRES bookmarklets](https://accessibility-bookmarklets.org/install.html) - No jQuery
-* [Jim Thatcher bookmarklet](https://jimthatcher.com/favelets/) - No jQuery
+{::nomarkdown}
+<p>
+  <a class="button active" href="javascript:void%20function(){for(const%20a%20of%20document.querySelectorAll(%22span%22))a.matches(%22.wai-label,%20.wai-good,%20.wai-bad%22)%26%26a.remove();(el=document.querySelector(%22%23wai-styles%22))%26%26el.remove(),document.querySelector(%22body%22).insertAdjacentHTML(%22afterbegin%22,%22%3Cstyle%20id='wai-styles'%3E.wai-label{color:black;font-weight:bold;font-size:small;font-family:Noto%20Sans,Trebuchet%20MS,Helvetica%20Neue,Arial,sans-serif;background-color:%23eed009;margin:0%202px;padding:2px;speak:literal-punctuation}.wai-good{outline:2px%20solid%20%23005a6a}.wai-bad{outline:3px%20dashed%20%23c0272d}label{line-height:200%25}%23wai-info-box{z-index:1000;color:black;font-family:Noto%20Sans,Trebuchet%20MS,Helvetica%20Neue,Arial,sans-serif;border:solid%201px%20%23ddd;background-color:%23fff;box-shadow:0%204px%208px%200%20rgba(0,0,0,0.2),0%206px%2020px%200%20rgba(0,0,0,0.19)}%23wai-info-box%20header{font-weight:700;background-color:%23f2f2f2;color:%23005a6a;padding:8px%2016px}%23wai-info-box%20header%20a{float:right;text-decoration:none}%23wai-info-box%20div{padding:8px%2016px}.wai-more-info{position:fixed;bottom:5em;right:5em}%3C/style%3E%22);for(let%20a%20of%20document.querySelectorAll(%22input,%20textarea,%20select%22))if(!a.getAttribute(%22type%22).match(/hidden|button|submit|reset/)){let%20b=document.querySelector(%22label[for=\%22%22+a.getAttribute(%22id%22)+%22\%22]%22);if(!!b)a.insertAdjacentHTML(%22beforebegin%22,%22%3Cspan%20class=\%22wai-good\%22%3E%3Cspan%20class=\%22wai-label\%22%3E\u2713%20Labelled%3C/span%3E%3C/span%3E%22),a.previousElementSibling.appendChild(a),b.insertAdjacentHTML(%22afterbegin%22,%22%3Cspan%20class=\%22wai-label\%22%3ELabel%20for%20field%20with%20ID=\%22%3Ca%20href=\%22%23%22+b.getAttribute(%22for%22)+%22\%22%3E%22+b.getAttribute(%22for%22)+%22%3C/a%3E\%22%3C/span%3E%22),b.classList.add(%22wai-good%22);else%20if(a.getAttribute(%22aria-labeledby%22)){let%20b=a.getAttribute(%22aria-labeledby%22).split(/%20+/);if(0%3C=b.length){a.getAttribute(%22id%22)||a.setAttribute(%22id%22,b[0]+%22-field%22),a.insertAdjacentHTML(%22beforebegin%22,%22%3Cspan%20class=\%22wai-good\%22%3E%3Cspan%20class=\%22wai-label\%22%3E\u2713%20Labelled%3C/span%3E%3C/span%3E%22),a.previousElementSibling.appendChild(a);for(let%20c%20of%20b){let%20b=document.querySelector(%22%23%22+c);b.insertAdjacentHTML(%22afterbegin%22,%22%3Cspan%20class=\%22wai-label\%22%3ELabel%20for%20ID=\%22%3Ca%20href=\%22%23%22+a.getAttribute(%22id%22)+%22\%22%3E%22+a.getAttribute(%22id%22)+%22%3C/a%3E\%22%3C/span%3E%22),b.classList.add(%22wai-good%22)}}}else%20a.getAttribute(%22aria-label%22)%3F(a.insertAdjacentHTML(%22beforebegin%22,%22%3Cspan%20class=\%22wai-good\%22%3E%3Cspan%20class=\%22wai-label\%22%3E!%20Labelled%20(using%20ARIA)%3C/span%3E%3C/span%3E%22),a.previousElementSibling.appendChild(a)):%22LABEL%22==a.parentElement.tagName%3F(a.parentElement.classList.add(%22wai-good%22),a.parentElement.insertAdjacentHTML(%22afterbegin%22,%22%3Cspan%20class=\%22wai-label\%22%3E\u2713%20Labelled%3C/span%3E%22)):(a.getAttribute(%22id%22)%3Fa.insertAdjacentHTML(%22beforebegin%22,%22%3Cspan%20class=\%22wai-bad\%22%3E%3Cspan%20class=\%22wai-label\%22%3E\u2717%20Missing%20label%20(No%20matching%20label%20for%20ID=\%22%22+a.getAttribute(%22id%22)+%22\%22%20found)%3C/span%3E%3C/span%3E%22):a.insertAdjacentHTML(%22beforebegin%22,%22%3Cspan%20class=\%22wai-bad\%22%3E%3Cspan%20class=\%22wai-label\%22%3E\u2717%20Missing%20label%3C/span%3E%3C/span%3E%22),a.previousElementSibling.appendChild(a))}for(let%20a%20of%20document.querySelectorAll(%22label%22))a.getAttribute(%22for%22)%26%26!document.querySelector(%22%23%22+a.getAttribute(%22for%22))%26%26(a.insertAdjacentHTML(%22afterbegin%22,%22%3Cspan%20class=\%22wai-label\%22%3ELabel%20with%20no%20matching%20field%20with%20ID=\%22%22+a.getAttribute(%22for%22)+%22\%22%3C/span%3E%22),a.classList.add(%22wai-bad%22));document.querySelector(%22body%22).insertAdjacentHTML(%22beforeend%22,%22%3Caside%20id=\%22wai-info-box\%22%20class=\%22wai-more-info\%22%3E%3Cheader%3EFind%20out%20more%3C/header%3E%3Cdiv%3E%3Ca%20href=\%22https://w3.org/wai/easy-checks/form-field-labels/\%22%3EChecking%20Field%20Labels%3C/a%3E%3C/div%3E%3C/aside%3E%22)}();">Check field labels</a>
+</p>
+{:/}
+
+Example form fields:
+
+<form>
+  <label for="name">Name:</label> <input id="name" type="text"><br>
+  <span>Role:</span> <input type="text"><br>
+  <fieldset>
+    <legend>Which flowers do you like:</legend>
+    <input id="rose" type="checkbox" name="flower" value="rose"> <label>Roses</label><br>
+    <input id="poppy" type="checkbox" name="flower" value="poppy"> <label for="poppy">Poppy</label><br>
+    <label><input type="checkbox" name="flower" value="hellebore"> Hellebore</label><br>
+  </fieldset>
+  </form>
 
 ### Checking other pages
 To check other pages you need to add the check link as a bookmark.
 
-1. Drag the Check Labels link to your browser bookmarks
+1. Drag the <a class="button active" href="javascript:void%20function(){for(const%20a%20of%20document.querySelectorAll(%22span%22))a.matches(%22.wai-label,%20.wai-good,%20.wai-bad%22)%26%26a.remove();(el=document.querySelector(%22%23wai-styles%22))%26%26el.remove(),document.querySelector(%22body%22).insertAdjacentHTML(%22afterbegin%22,%22%3Cstyle%20id='wai-styles'%3E.wai-label{color:black;font-weight:bold;font-size:small;font-family:Noto%20Sans,Trebuchet%20MS,Helvetica%20Neue,Arial,sans-serif;background-color:%23eed009;margin:0%202px;padding:2px;speak:literal-punctuation}.wai-good{outline:2px%20solid%20%23005a6a}.wai-bad{outline:3px%20dashed%20%23c0272d}label{line-height:200%25}%23wai-info-box{z-index:1000;color:black;font-family:Noto%20Sans,Trebuchet%20MS,Helvetica%20Neue,Arial,sans-serif;border:solid%201px%20%23ddd;background-color:%23fff;box-shadow:0%204px%208px%200%20rgba(0,0,0,0.2),0%206px%2020px%200%20rgba(0,0,0,0.19)}%23wai-info-box%20header{font-weight:700;background-color:%23f2f2f2;color:%23005a6a;padding:8px%2016px}%23wai-info-box%20header%20a{float:right;text-decoration:none}%23wai-info-box%20div{padding:8px%2016px}.wai-more-info{position:fixed;bottom:5em;right:5em}%3C/style%3E%22);for(let%20a%20of%20document.querySelectorAll(%22input,%20textarea,%20select%22))if(!a.getAttribute(%22type%22).match(/hidden|button|submit|reset/)){let%20b=document.querySelector(%22label[for=\%22%22+a.getAttribute(%22id%22)+%22\%22]%22);if(!!b)a.insertAdjacentHTML(%22beforebegin%22,%22%3Cspan%20class=\%22wai-good\%22%3E%3Cspan%20class=\%22wai-label\%22%3E\u2713%20Labelled%3C/span%3E%3C/span%3E%22),a.previousElementSibling.appendChild(a),b.insertAdjacentHTML(%22afterbegin%22,%22%3Cspan%20class=\%22wai-label\%22%3ELabel%20for%20field%20with%20ID=\%22%3Ca%20href=\%22%23%22+b.getAttribute(%22for%22)+%22\%22%3E%22+b.getAttribute(%22for%22)+%22%3C/a%3E\%22%3C/span%3E%22),b.classList.add(%22wai-good%22);else%20if(a.getAttribute(%22aria-labeledby%22)){let%20b=a.getAttribute(%22aria-labeledby%22).split(/%20+/);if(0%3C=b.length){a.getAttribute(%22id%22)||a.setAttribute(%22id%22,b[0]+%22-field%22),a.insertAdjacentHTML(%22beforebegin%22,%22%3Cspan%20class=\%22wai-good\%22%3E%3Cspan%20class=\%22wai-label\%22%3E\u2713%20Labelled%3C/span%3E%3C/span%3E%22),a.previousElementSibling.appendChild(a);for(let%20c%20of%20b){let%20b=document.querySelector(%22%23%22+c);b.insertAdjacentHTML(%22afterbegin%22,%22%3Cspan%20class=\%22wai-label\%22%3ELabel%20for%20ID=\%22%3Ca%20href=\%22%23%22+a.getAttribute(%22id%22)+%22\%22%3E%22+a.getAttribute(%22id%22)+%22%3C/a%3E\%22%3C/span%3E%22),b.classList.add(%22wai-good%22)}}}else%20a.getAttribute(%22aria-label%22)%3F(a.insertAdjacentHTML(%22beforebegin%22,%22%3Cspan%20class=\%22wai-good\%22%3E%3Cspan%20class=\%22wai-label\%22%3E!%20Labelled%20(using%20ARIA)%3C/span%3E%3C/span%3E%22),a.previousElementSibling.appendChild(a)):%22LABEL%22==a.parentElement.tagName%3F(a.parentElement.classList.add(%22wai-good%22),a.parentElement.insertAdjacentHTML(%22afterbegin%22,%22%3Cspan%20class=\%22wai-label\%22%3E\u2713%20Labelled%3C/span%3E%22)):(a.getAttribute(%22id%22)%3Fa.insertAdjacentHTML(%22beforebegin%22,%22%3Cspan%20class=\%22wai-bad\%22%3E%3Cspan%20class=\%22wai-label\%22%3E\u2717%20Missing%20label%20(No%20matching%20label%20for%20ID=\%22%22+a.getAttribute(%22id%22)+%22\%22%20found)%3C/span%3E%3C/span%3E%22):a.insertAdjacentHTML(%22beforebegin%22,%22%3Cspan%20class=\%22wai-bad\%22%3E%3Cspan%20class=\%22wai-label\%22%3E\u2717%20Missing%20label%3C/span%3E%3C/span%3E%22),a.previousElementSibling.appendChild(a))}for(let%20a%20of%20document.querySelectorAll(%22label%22))a.getAttribute(%22for%22)%26%26!document.querySelector(%22%23%22+a.getAttribute(%22for%22))%26%26(a.insertAdjacentHTML(%22afterbegin%22,%22%3Cspan%20class=\%22wai-label\%22%3ELabel%20with%20no%20matching%20field%20with%20ID=\%22%22+a.getAttribute(%22for%22)+%22\%22%3C/span%3E%22),a.classList.add(%22wai-bad%22));document.querySelector(%22body%22).insertAdjacentHTML(%22beforeend%22,%22%3Caside%20id=\%22wai-info-box\%22%20class=\%22wai-more-info\%22%3E%3Cheader%3EFind%20out%20more%3C/header%3E%3Cdiv%3E%3Ca%20href=\%22https://w3.org/wai/easy-checks/form-field-labels/\%22%3EChecking%20Field%20Labels%3C/a%3E%3C/div%3E%3C/aside%3E%22)}();">Check field labels</a> link to your browser bookmarks
 2. Visit the page you want to check
-3. Click on the ‘Check Labels’ link in your bookmarks
+3. Click on the ‘Check field labels’ link in your bookmarks
 
 ### What to look for
 
-While there are many ways to provide a label for screen reader users, only the association between the visual label and the form control asists the low dexterity mouse user and  that is what we've checked for with this bookmark, specifically:
-* Did the visual labels get outlined?
+There are many ways to provide a label for screen reader users. To support mouse users form elements must have a programatically associated label. When using the 'Check field labels' link, this is shown by the form element being marked as 'Labelled' and the form label being marked with 'Label for field with ID=...'. For example,
 
-You can also try clicking the visual label and checking if it moved the cursor into the text box or activated the check box or radio button.
+<img src="{{ "/content-images/example-correct-label.png" | relative_url }}" alt="Example of form field with correctly associated label">
+
+Other checks to make include:
+
+* Click on a label. If the form field is correctly coded then it should receive keyboard focus
+* After using the 'Check field labels' link, check that there are no fields marked with '✗ Missing label'
+* Check for labels marked with '! Labelled (using ARIA)'. This isn't a failure but it isn't as helpful as using a proper label
 
 ## Learn more
-* [Understanding WCAG 2.2 - Success Criteria 3.3.2: Labels or Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html)
+
 * [Associate a label with every form control](https://www.w3.org/WAI/tips/developing/#associate-a-label-with-every-form-control) in the Tips for Developers page
 * [Labeling Controls](https://www.w3.org/WAI/tutorials/forms/labels/) in the Forms tutorial
+* [Understanding 3.3.2: Labels or Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html)
+
+## Acknowledgements
+
+* [Paul Adam bookmarklet](https://pauljadam.com/bookmarklets/forms.html) - Uses jQuery
