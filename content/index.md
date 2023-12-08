@@ -119,7 +119,7 @@ footer: >
 
 ## Introduction
 
-You will be able to perform any of the following checks on any web page. The results will give you a basic idea of how accessible the page is. Each check explains briefly what it is checking for and why this matters. THe checks also tell you what you should be looking for.
+You will be able to perform any of the following checks on any web page. The results will give you a basic idea of how accessible the page is. Each check explains briefly what it is checking for and why this matters. The checks also tell you what you should be looking for.
 
 {::nomarkdown}
 {% include box.html type="start" id="common" class="sections" h="2" title="Common checks" %}
