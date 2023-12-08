@@ -194,7 +194,7 @@ For people who rely on a keyboard to navigate it is important that they know whi
 
 <img src="{{ "/content-images/icon-page-language.svg" | relative_url }}" alt="" class="splash" />
 
-### [Langage of Page](/test-evaluate/easy-checks/language/)
+### [Language of Page](/test-evaluate/easy-checks/language/)
 
 Specifying the language of the page means that assistive technology that speaks content can correctly pronounce words.
 
