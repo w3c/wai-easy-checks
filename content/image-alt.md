@@ -51,7 +51,7 @@ To check other pages you need to add the ‘Check images’ link as a bookmark.
 
 * Images with information relevant to the page's content have alternative text that decribes that important information
 * Images with text should have the text in the alternative text
-* Images that appear to be just to be 'pretty' should be marked with 'Alt text = "". Suitable?'
+* Images that appear to be just to be decorative should be marked with 'Alt text = "". Suitable?'
 * Images that are functional, like a link or a button, should have alternative text that describes the destination page or the function of the button
 * Complex images like graphs and charts have short alternative text that describes the type of image and a short summary of the key point
   * Complex images should have the detail described elsewhere on the page or on a separate page with a link
