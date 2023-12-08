@@ -111,8 +111,6 @@ footer: >
 
 <p>These checks cover just a few accessibility issues and are designed to be quick and easy, rather than exhaustive. A web page could seem to pass these checks, yet still have significant accessibility barriers. More extensive assessment is needed to evaluate accessibility comprehensively.</p>
 
-<p>This page provides checks for the following specific aspects of a web page. It also provides guidance on <span class="ptoc"><a href="#next">Next Steps</a></span> and links to more <a href="#evalresources">evaluation resources</a>.</p>
-
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
