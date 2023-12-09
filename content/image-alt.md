@@ -22,7 +22,7 @@ Image alternative text (“alt text”) is a short description that conveys the 
 
 The alternative text for an image is essential for many people to help them understand the information on a page including:
 * People who can't see the image, or see it clearly, due to blindness or low vision and use a screen reader to have the page read to them
-* People who might be having the page read to them as result of learning disabilities or low literacy
+* People who use a screen reader to aid in comprehension due to a learning disability or low literacy
 * People who might have very slow internet connection speeds, or low download limits, and turn images off
 
 ## Checking Image Alternative Text
