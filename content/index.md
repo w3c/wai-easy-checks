@@ -111,15 +111,13 @@ footer: >
 
 <p>These checks cover just a few accessibility issues and are designed to be quick and easy, rather than exhaustive. A web page could seem to pass these checks, yet still have significant accessibility barriers. More extensive assessment is needed to evaluate accessibility comprehensively.</p>
 
-<p>This page provides checks for the following specific aspects of a web page. It also provides guidance on <span class="ptoc"><a href="#next">Next Steps</a></span> and links to more <a href="#evalresources">evaluation resources</a>.</p>
-
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
 
 ## Introduction
 
-You will be able to perform any of the following checks on any web page. The results will give you a basic idea of how accessible the page is. Each check explains briefly what it is checking for and why this matters. THe checks also tell you what you should be looking for.
+You will be able to perform any of the following checks on any web page. The results will give you a basic idea of how accessible the page is. Each check explains briefly what it is checking for and why this matters. The checks also tell you what you should be looking for.
 
 {::nomarkdown}
 {% include box.html type="start" id="common" class="sections" h="2" title="Common checks" %}
@@ -194,7 +192,7 @@ For people who rely on a keyboard to navigate it is important that they know whi
 
 <img src="{{ "/content-images/icon-page-language.svg" | relative_url }}" alt="" class="splash" />
 
-### [Langage of Page](/test-evaluate/easy-checks/language/)
+### [Language of Page](/test-evaluate/easy-checks/language/)
 
 Specifying the language of the page means that assistive technology that speaks content can correctly pronounce words.
 
