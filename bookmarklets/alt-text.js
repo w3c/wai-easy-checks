@@ -2,7 +2,7 @@ document.querySelectorAll("#wai-styles,#wai-info-box,.image-span").forEach(el =>
   el.remove();  
 });
 
-document.querySelector("body").insertAdjacentHTML("afterbegin","<style id='wai-styles'>.image-span,#failure,#success {color:black;font-weight:bold;font-size:small;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;background-color:#eed009;margin:0 2px;padding:2px;speak:literal-punctuation}#success{position:absolute;width:0;height:0;clip:rect(0,0,0,0);}#wai-info-box{z-index:1000;color:black;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;border:solid 1px #ddd;background-color:#fff;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}#wai-info-box header{font-weight:700;background-color:#f2f2f2;color:#005a6a;padding:8px 16px;}#wai-info-box header a{float:right;text-decoration:none}#wai-info-box div{padding:8px 16px;}.wai-more-info{position:fixed;bottom:5em;right:5em}</style>");
+document.querySelector("body").insertAdjacentHTML("afterbegin","<style id='wai-styles'>.image-span,#failure,#success {color:black;font-weight:bold;font-size:small;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;background-color:#eed009;margin:0 2px;padding:2px;speak:literal-punctuation}#success{position:absolute;width:0;height:0;clip:rect(0,0,0,0);}#wai-info-box{z-index:1000;color:black;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;border:solid 1px #ddd;background-color:#fff;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}#wai-info-box header{font-weight:700;background-color:#f2f2f2;color:#005a6a;padding:8px 16px;}#wai-info-box header a{float:right;text-decoration:none}#wai-info-box div{padding:8px 16px;}.wai-more-info{position:fixed;bottom:5em;right:5em}.wai-good{outline:5px solid #005A6A;padding:2px}.wai-bad{outline:5px solid #c0272d;padding:2px}.wai-note{outline:2px dashed #eed009}</style>");
 document.querySelectorAll("img, [role=img]").forEach(function(el) {
   var message = "";
   if (el.hasAttribute('role')) {
@@ -22,7 +22,7 @@ document.querySelectorAll("img, [role=img]").forEach(function(el) {
         message += ", ";
       }
       if(describedby) {
-        describedby.style.setProperty("outline", "orange 2px dashed");
+        describedby.classList.add("wai-note");
         describedby.insertAdjacentHTML("afterbegin", "<span class=\"image-span\">id=\"" + describedbyArray[i] + "\"</span>");
       }
     }
@@ -38,19 +38,20 @@ document.querySelectorAll("img, [role=img]").forEach(function(el) {
         message += ", ";
       }
       if(labelledby) {
-        labelledby.style.setProperty("outline", "orange 2px dashed");
+        labelledby.classList.add("wai-note");
         labelledby.insertAdjacentHTML("afterbegin", "<span class=\"image-span\">id=\"" + labelledbyArray[i] + "\"</span>");
       }
     }
   }
-  el.style.setProperty("outline", "#00818d 5px solid");
-  el.style.setProperty("padding", "2px;");
+  
+  el.classList.add('wai-good');
   if (!el.hasAttribute('alt')) {
     if (el.parentNode.nodeName == "A") {
       if (!el.hasAttribute('aria-label')) {
         if (!el.hasAttribute('aria-labelledby')) {
           if (!el.hasAttribute('aria-describedby')) {
             if (!el.hasAttribute('title')) {
+              el.classList.replace('wai-good','wai-bad');
               message += "<span style=\"border-bottom:2px solid #003366;\">❌ Link image missing alt text</span>";
             }
           }
@@ -60,16 +61,13 @@ document.querySelectorAll("img, [role=img]").forEach(function(el) {
       if (!el.hasAttribute('aria-labelledby')) {
         if (!el.hasAttribute('aria-describedby')) {
           if (!el.hasAttribute('title')) {
-            el.style.setProperty("outline", "#c0272d 5px solid");
-            el.style.setProperty("padding", "2px;");
+            el.classList.replace('wai-good','wai-bad');
             message += "❌ Image missing alt text";
           }
         }
       }
     }
   } else {
-    el.style.setProperty("outline", "#00818d 5px solid");
-    el.style.setProperty("padding", "2px;");
     if (el.parentNode.nodeName == "A") {
       if (el.getAttribute('alt') == "") {
         message += "<span style=\"border-bottom:2px solid #003366;\">❓Empty link alt text. Ok?</span>";

@@ -14,6 +14,8 @@ if(link) {
   if( (link.offsetWidth || link.offsetHeight || link.getClientRects().length) ||
       window.getComputedStyle(link).visibility == "hidden" ||
       window.getComputedStyle(link).position == "absolute" ) {
+    link.setAttribute("data-style",link.getAttribute("style"));
+        
     // Make the link visible by styling it based on it's focus styling
     let focusStyle = "";
     link.style.transition = "none";
@@ -28,14 +30,14 @@ if(link) {
 
   // Check if there is a target
   const anchorHash = link.getAttribute('href').substring(1);
-  const anchor = document.querySelector("*[id=" + anchorHash + "]");
+  const anchor = document.querySelector("#" + anchorHash);
   if(!anchor) {
     error = "There is no target for the skip link"
   }
   
   // Highlight link and target
-  link.style.setProperty("outline", "#eed009 2px dashed");
-  anchor.style.setProperty("border", "#eed009 2px dashed");
+  link.classList.add('wai-highlight');
+  anchor.classList.add('wai-highlight');
   
   // Provide some text to explain the link and anchor
   link.insertAdjacentHTML("beforebegin", '<span class="skiplink-span">Skip link connects to id="' + anchorHash + '"</span>');
@@ -48,4 +50,4 @@ if(error) {
   document.querySelector('body').insertAdjacentHTML('afterbegin','<aside id="wai-info-box" tabindex="-1" class="wai-error"><header>Missing skip link?<a href="javascript:document.querySelector(\'#wai-info-box\').remove();" aria-label="dismiss">X</a></header><div>' + error + '</div></aside>');
 }
 
-document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" class="wai-more-info"><header>Find out more<a href=\'javascript:document.querySelectorAll("#wai-styles,#wai-info-box,.skiplink-span").forEach(function(el){el.remove()});\' aria-label=\'dismiss\'>X</a></header><div><a href="https://w3.org/wai/easy-checks/skip-link/">Checking Skip Links</a></div></aside>');
+document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" class="wai-more-info"><header>Find out more<a href=\'javascript:document.querySelectorAll("#wai-styles,#wai-info-box,.skiplink-span").forEach(function(el){el.remove()});document.querySelectorAll("[data-style]").forEach(function(el){el.setAttribute("style",el.getAttribute("data-style"))});\' aria-label=\'dismiss\'>X</a></header><div><a href="https://w3.org/wai/easy-checks/skip-link/">Checking Skip Links</a></div></aside>');
