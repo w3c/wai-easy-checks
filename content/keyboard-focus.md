@@ -1,8 +1,8 @@
 ---
-title: "Keyboard Focus - Easy Checks"
+title: "Visible Keyboard Focus - Easy Checks"
 permalink: /test-evaluate/easy-checks/keyboard-focus/
 ref: /test-evaluate/easy-checks/keyboard-focus/
-nav_title: "Keyboard Focus"
+nav_title: "Visible Keyboard Focus"
 
 lang: en
 layout: default
@@ -18,7 +18,7 @@ github:
 
 Many people cannot use a mouse and rely on the keyboard to interact with the Web and need to see where they are. 
 
-Keyboard focus is the ability to see which interactive element - link, button, form field - you might have moved to with the tab key. 
+Visible keyboard focus indicates which interactive element - link, button, form field - you might have moved to with the tab key. 
 
 ## Who depends on Keyboard Focus?
 
