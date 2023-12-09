@@ -1,11 +1,8 @@
-if(el = document.querySelector("#wai-styles")) {
-  el.remove();
-}
-if(el = document.querySelector("#wai-info-box")) {
-  el.remove();
-}
+document.querySelectorAll("#wai-styles,#wai-info-box,.skiplink-span").forEach(el => {
+  el.remove();  
+});
 
-document.querySelector("body").insertAdjacentHTML("afterbegin","<style id='wai-styles'>#wai-info-box{z-index:1000;color:black;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;border:solid 1px #ddd;background-color:#fff;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}#wai-info-box header{font-weight:700;background-color:#f2f2f2;color:#005a6a;padding:8px 16px;}#wai-info-box header a{float:right;text-decoration:none}#wai-info-box div{padding:8px 16px;}.wai-more-info{position:fixed;bottom:5em;right:5em}.wai-error{position:fixed;width:40%;top:40%;left:50%;transform:translate(-50%,-50%)}.skiplink-span{color:black;font-weight:bold;font-size:small;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;background-color:#eed009;margin:0 2px;padding:2px;speak:literal-punctuation}</style>");
+document.querySelector("body").insertAdjacentHTML("afterbegin","<style id='wai-styles'>#wai-info-box{z-index:1000;color:black;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;border:solid 1px #ddd;background-color:#fff;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}#wai-info-box header{font-weight:700;background-color:#f2f2f2;color:#005a6a;padding:8px 16px;}#wai-info-box header a{float:right;text-decoration:none}#wai-info-box div{padding:8px 16px;}.wai-more-info{position:fixed;bottom:5em;right:5em}.wai-error{position:fixed;width:40%;top:40%;left:50%;transform:translate(-50%,-50%)}.skiplink-span{color:black;font-weight:bold;font-size:small;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;background-color:#eed009;margin:0 2px;padding:2px;speak:literal-punctuation}.wai-highlight{outline:#eed009 2px dashed}</style>");
 
 // Keep track of any errors
 let error = '';
@@ -51,4 +48,4 @@ if(error) {
   document.querySelector('body').insertAdjacentHTML('afterbegin','<aside id="wai-info-box" tabindex="-1" class="wai-error"><header>Missing skip link?<a href="javascript:document.querySelector(\'#wai-info-box\').remove();" aria-label="dismiss">X</a></header><div>' + error + '</div></aside>');
 }
 
-document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" class="wai-more-info"><header>Find out more</header><div><a href="https://w3.org/wai/easy-checks/skip-link/">Checking Skip Links</a></div></aside>');
+document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" class="wai-more-info"><header>Find out more<a href=\'javascript:document.querySelectorAll("#wai-styles,#wai-info-box,.skiplink-span").forEach(function(el){el.remove()});\' aria-label=\'dismiss\'>X</a></header><div><a href="https://w3.org/wai/easy-checks/skip-link/">Checking Skip Links</a></div></aside>');

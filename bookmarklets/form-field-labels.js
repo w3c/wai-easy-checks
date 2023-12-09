@@ -1,11 +1,6 @@
-for(const el of document.querySelectorAll("span")) {
-  if(el.matches(".wai-label, .wai-good, .wai-bad")) {
-    el.remove();
-  }
-}
-if(el = document.querySelector("#wai-styles")) {
-  el.remove();
-}
+document.querySelectorAll("#wai-styles,#wai-info-box,.wai-label").forEach(el => {
+  el.remove();  
+});
 document.querySelector("body").insertAdjacentHTML("afterbegin","<style id='wai-styles'>.wai-label{color:black;font-weight:bold;font-size:small;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;background-color:#eed009;margin:0 2px;padding:2px;speak:literal-punctuation}.wai-good{outline:2px solid #005a6a}.wai-bad{outline:3px dashed #c0272d}label{line-height:200%}#wai-info-box{z-index:1000;color:black;font-family:Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;border:solid 1px #ddd;background-color:#fff;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}#wai-info-box header{font-weight:700;background-color:#f2f2f2;color:#005a6a;padding:8px 16px}#wai-info-box header a{float:right;text-decoration:none}#wai-info-box div{padding:8px 16px}.wai-more-info{position:fixed;bottom:5em;right:5em}</style>");
 
 // Go through input elements and check for lables
@@ -72,4 +67,4 @@ for(let label of document.querySelectorAll('label')) {
   }
 }
 
-document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" class="wai-more-info"><header>Find out more</header><div><a href="https://w3.org/wai/easy-checks/form-field-labels/">Checking Field Labels</a></div></aside>');
+document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" class="wai-more-info"><header>Find out more<a href=\'javascript:document.querySelectorAll("#wai-styles,#wai-info-box,.wai-label").forEach(function(el){el.remove()});\' aria-label=\'dismiss\'>X</a></header><div><a href="https://w3.org/wai/easy-checks/form-field-labels/">Checking Field Labels</a></div></aside>');
