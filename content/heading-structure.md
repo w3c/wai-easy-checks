@@ -45,7 +45,7 @@ Screen reader users can use page headings to navigate a web page. Users can move
 
 Other low vision and sighted people rely on the visual heading structure to understand the topics and subtopics on a web page. They can move quickly to the section they are interested in. Headings can also form the basis of an 'in-page' table of contents on a long web page such the chapter in a report.
 
-Headings help people with cognitive and learning or reading impairments. They can help them understand and focus on the topics on a page and easily move to the section of interest.
+Headings help people with cognitive and learning or reading disability. They can help them understand and focus on the topics on a page and easily move to the section of interest.
 
 ## Checking Headings
 
