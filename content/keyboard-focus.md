@@ -16,11 +16,11 @@ github:
 
 [TODO] side by side images of the same screen (or part of the screen) with no focus and with good focus
 
-Many people cannot use a mouse and rely on the keyboard to interact with the Web and need to see where they are. 
-
-Visible keyboard focus indicates which interactive element - link, button, form field - you might have moved to with the tab key. 
+Visible keyboard focus indicates which interactive element - link, button, form field - you might have moved to using the tab key. 
 
 ## Who depends on Keyboard Focus?
+
+Many people cannot use a mouse and rely on the keyboard to interact with the Web and need to see where they are. 
 
 Many sighted users with physical disabilities will use the keyboard to navigate a web page, including:
 * people with quadriplegia
