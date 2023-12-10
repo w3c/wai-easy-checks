@@ -68,10 +68,10 @@ For example:
   * Acme Web Solutions, Inc. - Contact Us
   * Acme Web Solutions, Inc. - History
 * Better page titles:
-  * Acme Web Solutions home page
-  * About Acme Web Solutions
-  * Contact Acme Web Solutions
-  * History of Acme Web Solutions
+  * Acme Web Solutions home page _**or**_ Acme Web Solutions
+  * About Acme Web Solutions _**or**_ About us - Acme Web Solutions
+  * Contact Acme Web Solutions _**or**_ Contact us - Acme Web Solutions
+  * History of Acme Web Solutions _**or**_ Our History - Acme Web Solutions
 
 ## Learn more
 
