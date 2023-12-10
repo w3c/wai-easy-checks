@@ -28,7 +28,6 @@ Technically, color contrast is the relative luminance of two or more colors to e
 * Many people with low vision need high contrast
 * Many people with color deficient vision (color blind) need high contrast
 * Many others need high contrast when in bright situations such being outdoors
-* Some people need lower contrast as the highest contrast (black on white) might cause too much glare
 * Many people use colored filters or overlays on their screens or devices so need good color contrast
 
 ## Checking Color Contrast
