@@ -58,6 +58,9 @@ footer: >
     height: 1em;
   }
   
+  .box-sections>div>div {
+    display:flex;
+  }
   .box-sections {
     margin-top: 3em;
   }
@@ -69,15 +72,12 @@ footer: >
     padding: 8px 16px;
     border-bottom: solid 1px var(--line-grey);
   }
-  
   .box-sections .box-i div:last-child {
     border-bottom: none;
   }
-  
   .box-sections .splash {
-    float: left;
-    padding-right: 1em;
     width: 8em;
+    max-width: inherit;
   }
   .box-sections h3 {
     margin: 0;
@@ -122,92 +122,99 @@ You will be able to perform any of the following checks on any web page. The res
 {::nomarkdown}
 {% include box.html type="start" id="common" class="sections" h="2" title="Common checks" %}
 <div>
+  <p><img src="{{ "/content-images/icon-alt-text.svg" | relative_url }}" alt="" class="splash" /></p>
+  <div>
 {:/}
-
-<img src="{{ "/content-images/icon-alt-text.svg" | relative_url }}" alt="" class="splash" />
-
 ### [Image Alternative Text](/test-evaluate/easy-checks/image-alt/)
 
 Image alternative text ("alt text") is a short description that conveys the purpose of an image. Alternative text is used by people who do not see the image. For example, people who are blind and use screen readers can hear the alt text read out.
 
 {::nomarkdown}
+  </div>
 </div>
 <div>
+  <p><img src="{{ "/content-images/icon-page-title.svg" | relative_url }}" alt="" class="splash" /></p>
+  <div>
 {:/}
-
-<img src="{{ "/content-images/icon-page-title.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Page Title](/test-evaluate/easy-checks/title/)
 
 Page titles are shown in the window title bar or tab in browsers. They are the first thing read by screen readers and help people know where they are. 
 
 {::nomarkdown}
+  </div>
 </div>
 <div>
+  <p><img src="{{ "/content-images/icon-heading-structure.svg" | relative_url }}" alt="" class="splash" /></p>
+  <div>
 {:/}
-
-<img src="{{ "/content-images/icon-heading-structure.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Heading Structure](/test-evaluate/easy-checks/heading-structure/)
 
 Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
 
 {::nomarkdown}
+  </div>
 </div>
 <div>
+  <p><img src="{{ "/content-images/icon-color-contrast.svg" | relative_url }}" alt="" class="splash" /></p>
+  <div>
 {:/}
-
-<img src="{{ "/content-images/icon-color-contrast.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Color Contrast](/test-evaluate/easy-checks/color-contrast/)
 
 Color contrast refers to the difference between adjacent colors. Typically this is the text and background color. It also includes interactive elements and their background, and parts of graphs or charts. Some people cannot read text or find elements if there is insufficient contrast between colors.
 
 {::nomarkdown}
+  </div>
 </div>
 <div>
+  <p><img src="{{ "/content-images/icon-skip-link.svg" | relative_url }}" alt="" class="splash" /></p>
+  <div>
 {:/}
-
-<img src="{{ "/content-images/icon-skip-link.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Skip Link](/test-evaluate/easy-checks/skip-link/)
 
 A skip link is the first interactive element on a page. People using keyboards, screen readers and other assistive technologies can use skip links to quickly and easily reach the main page content.
 
 {::nomarkdown}
+  </div>
 </div>
 <div>
+  <p><img src="{{ "/content-images/icon-keyboard-focus.svg" | relative_url }}" alt="" class="splash" /></p>
+  <div>
 {:/}
-
-<img src="{{ "/content-images/icon-keyboard-focus.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Visible Keyboard Focus](/test-evaluate/easy-checks/keyboard-focus/)
 
 For people who rely on a keyboard to navigate it is important that they know which link or form control has focus. Keyboard focus is a visible indicator that identifies the element with focus and moves as your tab through a page.
 
 {::nomarkdown}
+  </div>
 </div>
 <div>
+  <p><img src="{{ "/content-images/icon-page-language.svg" | relative_url }}" alt="" class="splash" /></p>
+  <div>
 {:/}
-
-<img src="{{ "/content-images/icon-page-language.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Language of Page](/test-evaluate/easy-checks/language/)
 
 Specifying the language of the page means that assistive technology that speaks content can correctly pronounce words.
 
 {::nomarkdown}
+  </div>
 </div>
 <div>
+  <p><img src="{{ "/content-images/icon-zoom-levels.svg" | relative_url }}" alt="" class="splash" /></p>
+  <div>
 {:/}
-
-<img src="{{ "/content-images/icon-zoom-levels.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Zoom](/test-evaluate/easy-checks/zoom-levels/)
 
 Some people need to enlarge content in order to read it. When content is zoomed it still needs to legible and usable.
 
 {::nomarkdown}
+  </div>
 </div>
 {:/}
 
@@ -219,37 +226,40 @@ Some people need to enlarge content in order to read it. When content is zoomed 
 {::nomarkdown}
 {% include box.html type="start" id="audio-visual" class="sections" h="2" title="Audio/Visual Checks" %}
 <div>
+  <p><img src="{{ "/content-images/icon-captions.svg" | relative_url }}" alt="" class="splash" /></p>
+  <div>
 {:/}
-
-<img src="{{ "/content-images/icon-captions.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Captions](/test-evaluate/easy-checks/captions/)
 
 The audio in video content needs to be available to people who are dead or hard of hearing. Captions are a text version of the speech and non-speech audio information needed to understand the video.
 
 {::nomarkdown}
+  </div>
 </div>
 <div>
+  <p><img src="{{ "/content-images/icon-transcripts.svg" | relative_url }}" alt="" class="splash" /></p>
+  <div>
 {:/}
-
-<img src="{{ "/content-images/icon-transcripts.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Transcripts](/test-evaluate/easy-checks/transcripts/)
 
 Transcripts are a text version of the speech and non-speech information in audio content. They are used by people who are Deaf, hard of hearing or who have difficulty processing audio information.
 
 {::nomarkdown}
+  </div>
 </div>
 <div>
+  <p><img src="{{ "/content-images/icon-description.svg" | relative_url }}" alt="" class="splash" /></p>
+  <div>
 {:/}
-
-<img src="{{ "/content-images/icon-description.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Audio Description](/test-evaluate/easy-checks/description/)
 
 Audio description provides content to people who are blind and others who cannot see the video adequately. It describes visual information needed to understand the content, including text displayed in the video.
 
 {::nomarkdown}
+  </div>
 </div>
 {:/}
 
@@ -261,26 +271,28 @@ Audio description provides content to people who are blind and others who cannot
 {::nomarkdown}
 {% include box.html type="start" id="forms" class="sections" h="2" title="Form Checks" %}
 <div>
+  <p><img src="{{ "/content-images/icon-form-labels.svg" | relative_url }}" alt="" class="splash" /></p>
+  <div>
 {:/}
-
-<img src="{{ "/content-images/icon-form-labels.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Labels](/test-evaluate/easy-checks/form-field-labels/)
 
 Labels should identify all form controls, including text fields, checkboxes, radio buttons, and drop-down menus. Labels need to describe the purpose of the form control. 
 
 {::nomarkdown}
+  </div>
 </div>
 <div>
+  <p><img src="{{ "/content-images/icon-required.svg" | relative_url }}" alt="" class="splash" /></p>
+  <div>
 {:/}
-
-<img src="{{ "/content-images/icon-required.svg" | relative_url }}" alt="" class="splash" />
 
 ### [Required Fields](/test-evaluate/easy-checks/required-fields/)
 
 Marking which fields are required makes it easier for people to complete forms.
 
 {::nomarkdown}
+  </div>
 </div>
 {:/}
 
