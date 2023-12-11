@@ -29,7 +29,7 @@ Page titles are:
 
 ## Who depends on good page titles?
 
-People who are blind need good page titles. The first thing screen readers say when the user goes to a different web page is the page title.
+Screen reader users need good page titles. The first thing screen readers say when the user goes to a different web page is the page title.
 
 Good page titles are particularly important for orientation — to help people know where they are and move between pages open in their browser.
 
