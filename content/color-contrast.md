@@ -60,7 +60,7 @@ To check other pages you need to add the check link as a bookmark.
 
 You can use tools to test more thoroughly. These will do the math and then tell you whether there is sufficient contrast.
 
-There are many tools out there to help check the contrast between your text and the background. Some tools allow you to sample the colors directly. Other tools need you to know what the code is for the colors being checked.
+There are many tools out there to help check the contrast between your text and the background. Some tools allow you to sample the colors directly. Other tools need you to know what the <a href="https://simple.wikipedia.org/wiki/RGB">color code</a> is for the colors being checked. For example, RGB (238, 208, 9) or Hex #eed009 is the code for a gold/yellow color.
 
 To find tools that will help, search the [Evaluation Tools List](https://www.w3.org/WAI/ER/tools/) for 'color' or 'colour'.
 
