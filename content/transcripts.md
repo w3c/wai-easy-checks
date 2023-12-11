@@ -18,7 +18,7 @@ navigation:
 
 ## What are Transcripts?
 
-**Basic transcripts** are a text version of the speech and non-speech audio information needed to understand the content. They are similar to captions, but in a format than can be easily opened and read.
+**Basic transcripts** are a text version of the speech and non-speech audio information needed to understand the content. They are similar to captions, but in a format that can be easily opened and read.
 
 **Descriptive transcripts** for videos also include visual information needed to understand the content.
 
