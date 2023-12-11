@@ -10,6 +10,10 @@ layout: default
 github:
   repository: w3c/wai-easy-checks
   path: content/color-contrast.md
+
+navigation:
+  previous: /test-evaluate/easy-checks/heading-structure/
+  next: /test-evaluate/easy-checks/skip-link/
 ---
 
 ## What is Color Contrast?

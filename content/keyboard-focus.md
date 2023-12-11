@@ -10,6 +10,10 @@ layout: default
 github:
   repository: w3c/wai-easy-checks
   path: content/keyboard-focus.md
+
+navigation:
+  previous: /test-evaluate/easy-checks/skip-link/
+  next: /test-evaluate/easy-checks/language/
 ---
 
 ## What is Keyboard Focus?

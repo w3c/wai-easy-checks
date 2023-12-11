@@ -10,10 +10,10 @@ layout: default
 github:
   repository: w3c/wai-easy-checks
   path: content/heading-structure.md
-  
+
 navigation:
-  previous: /test-evaluate/easy-checks/form-field-labels/
-  next: /test-evaluate/easy-checks/image-alt/
+  previous: /test-evaluate/easy-checks/title/
+  next: /test-evaluate/easy-checks/color-contrast/
 ---
 
 ## What is Heading Structure?

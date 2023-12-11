@@ -10,6 +10,10 @@ layout: default
 github:
   repository: w3c/wai-easy-checks
   path: content/image-alt.md
+  
+navigation:
+  previous: /test-evaluate/easy-checks/
+  next: /test-evaluate/easy-checks/title/
 ---
 
 ## What is Image Alternative Text?

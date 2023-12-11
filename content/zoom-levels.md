@@ -10,6 +10,10 @@ layout: default
 github:
   repository: w3c/wai-easy-checks
   path: content/zoom-levels.md
+
+navigation:
+  previous: /test-evaluate/easy-checks/language/
+  next: /test-evaluate/easy-checks/captions/
 ---
 
 

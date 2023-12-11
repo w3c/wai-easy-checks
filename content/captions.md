@@ -10,6 +10,10 @@ layout: default
 github:
   repository: w3c/wai-easy-checks
   path: content/captions.md
+
+navigation:
+  previous: /test-evaluate/easy-checks/zoom-levels/
+  next: /test-evaluate/easy-checks/transcripts/
 ---
 
 ## What are Captions?

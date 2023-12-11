@@ -10,6 +10,10 @@ layout: default
 github:
   repository: w3c/wai-easy-checks
   path: content/description.md
+
+navigation:
+  previous: /test-evaluate/easy-checks/transcripts/
+  next: /test-evaluate/easy-checks/form-field-labels/
 ---
 
 ## What is Audio Description?

@@ -10,6 +10,10 @@ layout: default
 github:
   repository: w3c/wai-easy-checks
   path: content/skip-link.md
+
+navigation:
+  previous: /test-evaluate/easy-checks/color-contrast/
+  next: /test-evaluate/easy-checks/keyboard-focus/
 ---
 
 ## What is a Skip Link? 

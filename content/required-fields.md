@@ -10,6 +10,10 @@ layout: default
 github:
   repository: w3c/wai-easy-checks
   path: content/required-fields.md
+
+navigation:
+  previous: /test-evaluate/easy-checks/form-field-labels/
+  next: /test-evaluate/easy-checks/
 ---
 
 ## What is a Required Field?

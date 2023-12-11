@@ -10,6 +10,10 @@ layout: default
 github:
   repository: w3c/wai-easy-checks
   path: content/language.md
+
+navigation:
+  previous: /test-evaluate/easy-checks/keyboard-focus/
+  next: /test-evaluate/easy-checks/zoom-levels/
 ---
 
 ## What is language identified?

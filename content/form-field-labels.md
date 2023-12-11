@@ -10,6 +10,10 @@ layout: default
 github:
   repository: w3c/wai-easy-checks
   path: content/form-field-labels.md
+
+navigation:
+  previous: /test-evaluate/easy-checks/description/
+  next: /test-evaluate/easy-checks/required-fields/
 ---
 
 ## What are Form Field Labels?

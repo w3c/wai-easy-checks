@@ -10,6 +10,10 @@ layout: default
 github:
   repository: w3c/wai-easy-checks
   path: content/transcripts.md
+
+navigation:
+  previous: /test-evaluate/easy-checks/captions/
+  next: /test-evaluate/easy-checks/description/
 ---
 
 ## What are Transcripts?

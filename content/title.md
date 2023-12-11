@@ -10,6 +10,10 @@ layout: default
 github:
   repository: w3c/wai-easy-checks
   path: content/title.md
+
+navigation:
+  previous: /test-evaluate/easy-checks/image-alt/
+  next: /test-evaluate/easy-checks/heading-structure/
 ---
 
 ## What are page titles?
