@@ -34,6 +34,8 @@ Some people who process written information better than audio information also u
 
 People in noisy environments or who have to keep noise levels down can also benefit.
 
+Captions also benefit people watching videos in their non-native language and for people learning a new language.
+
 ## Checking Captions
 
 Check that captions are available for any video.
