@@ -30,7 +30,7 @@ Many people with low vision use zoom to magnify text to make it readable. Some p
 This is just for practice. Also, you can see what the check will look like on an accessible page.
 
 * Don't use a big wide browser window. Resize your browser so that it is quite narrow
-* Press 'Ctrl'/'Cmd' with '+' to enlarage the text to 200%. Doing it five times should bring you to 200%
+* Press 'Ctrl'/'Cmd' with '+' to enlarge the text to 200%. Doing it five times should bring you to 200%
 * Note that all the text wraps to remain within the visible area as you zoomed. Also, no horizontal scrolling is required
 
 ### Checking other pages 
@@ -43,6 +43,7 @@ The same process will work on other pages. However, if the page hasn't been code
 * Text isn't hidden behind other text or images
 * Horizontal scrolling isn't required to view all the content
 * Sometimes navigation menus change to an icon that can be clicked to access the menu. This is fine
+* For sites using vertical-writing systems, check that vertical scrolling isn't required
 
 ## Learn more
 * [Understanding 1.4.4: Resize Text](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html)
