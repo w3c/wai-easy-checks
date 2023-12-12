@@ -35,7 +35,8 @@ This is just for practice. Also, you can see what the check will look like on an
 
 * Don't use a big wide browser window. Resize your browser so that it is quite narrow
 * Press 'Ctrl'/'Cmd' with '+' to enlarge the text to 200%. Doing it five times should bring you to 200%
-* Note that all the text wraps to remain within the visible area as you zoomed. Also, no horizontal scrolling is required
+* Note that all the text wraps to remain within the visible area as you zoomed
+* This page has horizontal text, so no horizontal scrolling is should be required
 
 ### Checking other pages 
 
@@ -45,9 +46,8 @@ The same process will work on other pages. However, if the page hasn't been code
 
 * All text is still readable
 * Text isn't hidden behind other text or images
-* Horizontal scrolling isn't required to view all the content
+* If the content uses a horizontal-writing system then check that horizontal scrolling isn't required to view all the content. For content using vertical-writing systems, vertical scrolling shouldn't be required
 * Sometimes navigation menus change to an icon that can be clicked to access the menu. This is fine
-* For sites using vertical-writing systems, check that vertical scrolling isn't required
 
 ## Learn more
 * [Understanding 1.4.4: Resize Text](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html)
