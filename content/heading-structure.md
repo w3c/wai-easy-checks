@@ -75,6 +75,7 @@ To check other pages you need to add the check link as a bookmark.
 * Are any heading levels skipped?
 * Are any headings levels blank with no text?
 * Does the heading text describe the content below?
+* Do the headings accurately represent the structure of the content, particularly nested content?
 
 ## Learn more
 
