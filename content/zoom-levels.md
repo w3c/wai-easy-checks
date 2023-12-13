@@ -21,7 +21,7 @@ navigation:
 
 [TODO] images for a standard page and a zoomed page side by side (sample from w3.org sent to Jasper to play with)
 
-Zoom is used to enlarge the text and images on web pages to make them more readable. In most browsers the 'Ctrl' or 'Cmd' with the '+' keys will increase zoom. 'Ctrl' or 'Cmd' with the '-' will reduce zoom and 'Ctrl' or 'Cmd' with '0' will reset it.
+Zoom is used to enlarge the text and images on web pages to make them more readable. In most browsers the 'Ctrl' or 'Cmd' with '+' will increase zoom. 'Ctrl' or 'Cmd' with '-' will reduce zoom and 'Ctrl' or 'Cmd' with '0' will reset it.
 
 ## Who depends on Zoom Levels?
 
