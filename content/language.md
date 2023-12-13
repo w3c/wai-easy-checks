@@ -20,7 +20,7 @@ navigation:
 
 [TODO] Image showing sample of page with differing languages
 
-Web pages should identify the primary language of the page. If there is any content in a different language, that language should be also be identified.
+Web pages should identify the primary language of the page.
 
 ## Who depends on language being identified?
 
