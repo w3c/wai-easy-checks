@@ -24,7 +24,7 @@ Web pages should identify the primary language of the page.
 
 ## Who depends on language being identified?
 
-People who use screen readers or other technologies that convert text into synthetic speech, including people who are blind and people with certain cognitive, language, and learning disabilities depend on the language being identified. When language is identified, then the synthetic speech can use the proper pronunciation.
+People who use screen readers or other technologies that convert text into synthetic speech depend on the language being identified. This could include people who are blind and people with certain cognitive, language, and learning disabilities. When language is identified, then the synthetic speech can use the proper pronunciation.
 
 ## Checking Language
 
