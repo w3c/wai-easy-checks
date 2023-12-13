@@ -78,7 +78,7 @@ Example part of descriptive transcript
 
 People who are Deaf, are hard of hearing, or have difficulty processing auditory information use basic transcripts.
 
-People who are deafblind (both deaf and blind) need descriptive transcripts to get audio and video content. 
+People who are deafblind (both deaf and blind) need descriptive transcripts to understand audio and video content. 
 
 People who process text information better than they process audio and video information also use descriptive transcripts.
 
