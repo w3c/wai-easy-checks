@@ -28,13 +28,11 @@ Most are "closed captions" that can be hidden or shown by people watching the vi
 
 ## Who depends on Captions?
 
-People who are Deaf, hard-of-hearing, or otherwise have difficulty hearing, or cannot hear, the sound depend on captions to provide audio content.
-
-Some people who process written information better than audio information also use captions. Some people also like to use captions to be sure they're not missing the dialogue due to a speaker's accent or quiet or fast speech, or loud background sounds.
-
-People in noisy environments or who have to keep noise levels down can also benefit.
-
-Captions also benefit people watching videos in their non-native language and for people learning a new language.
+* People who are Deaf, hard-of-hearing, or otherwise have difficulty hearing, or cannot hear, the sound depend on captions to provide audio content
+* Some people who process written information better than audio information
+* Some people also like to use captions to be sure they're not missing the dialogue due to a speaker's accent or quiet or fast speech, or loud background sounds
+* People in noisy environments or who have to keep noise levels down
+* People watching videos in their non-native language or learning a new language
 
 ## Checking Captions
 
