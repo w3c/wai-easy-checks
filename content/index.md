@@ -232,7 +232,7 @@ Some people need to enlarge content in order to read it. When content is zoomed 
 
 ### [Captions](/test-evaluate/easy-checks/captions/)
 
-The audio in video content needs to be available to people who are dead or hard of hearing. Captions are a text version of the speech and non-speech audio information needed to understand the video.
+The audio in video content needs to be available to people who are deaf or hard of hearing. Captions are a text version of the speech and non-speech audio information needed to understand the video.
 
 {::nomarkdown}
   </div>
