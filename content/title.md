@@ -39,7 +39,7 @@ Good page titles are particularly important for orientation — to help people k
 
 This is just for practice. Also, you can see what the check will look like on an accessible page.
 
-Simply click on the link below:
+Click on the link below:
 
 {::nomarkdown}
 <p>

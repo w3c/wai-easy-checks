@@ -40,7 +40,7 @@ People who are blind also navigate the web with the keyboard, but will use non-v
 
 This is just for practice. Also, you can see what the check will look like on an accessible page.
 
-Simply click on the link below:
+Click on the link below:
 
 {::nomarkdown}
 <p>
