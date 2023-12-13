@@ -90,9 +90,9 @@ People who process text information better than they process audio and video inf
 
 ### Check transcript quality
 
-* Is all the speach accurately reflected in the transcript?
+* Is all the speech accurately reflected in the transcript?
 * Are all the speakers identified?
-* Are all other sounds described in the transcript, such as 'soft clapping' or 'tyres screeching'?
+* Are all other sounds described in the transcript, such as 'soft clapping' or 'tires screeching'?
 * Is all visual content important to understanding the video described in the transcript?
 
 ## Learn more
