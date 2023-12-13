@@ -12,7 +12,7 @@ github:
   path: content/color-contrast.md
 
 navigation:
-  previous: /test-evaluate/easy-checks/heading-structure/
+  previous: /test-evaluate/easy-checks/headings/
   next: /test-evaluate/easy-checks/skip-link/
 ---
 

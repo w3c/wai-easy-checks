@@ -149,7 +149,7 @@ Page titles are shown in the window title bar or tab in browsers. They are the f
   <div>
 {:/}
 
-### [Heading Structure](/test-evaluate/easy-checks/heading-structure/)
+### [Headings](/test-evaluate/easy-checks/headings/)
 
 Headings communicate the organization of the content on the page, like a table of contents. Screen reader users often use page headings as a way to navigate a web page.
 

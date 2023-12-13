@@ -13,7 +13,7 @@ github:
 
 navigation:
   previous: /test-evaluate/easy-checks/image-alt/
-  next: /test-evaluate/easy-checks/heading-structure/
+  next: /test-evaluate/easy-checks/headings/
 ---
 
 ## What are page titles?
