@@ -38,7 +38,7 @@ Captions also benefit people watching videos in their non-native language and fo
 
 ## Checking Captions
 
-Check that captions are available for any video.
+### Check captions are available
 
 * Play the video. If you see captions, they may be open captions.
 * Check for a closed caption button in the media player. This is often shown as "[CC]". If no captions are available, some players don't show the button.
