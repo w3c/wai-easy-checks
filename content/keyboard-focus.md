@@ -30,7 +30,7 @@ Many sighted users with physical disabilities will use the keyboard to navigate 
 * people with quadriplegia
 * people with limited dexterity
 * people with tremors such as Parkinson's Disease
-* people who might have broken their hand or wrist
+* people who have broken their hand or wrist
 
 People who are blind also navigate the web with the keyboard, but will use non-visual cues to determine where they are.
 
