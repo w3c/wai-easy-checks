@@ -60,7 +60,7 @@ To check other pages you need to add the check link as a bookmark.
 
 ### What to look for
 
-Sometimes the skip link is not the first link on a page. The checking tool provided here only checks the first link that skips down the current page. This may not be an actual skip link. This means there is a problem with the skip link.
+Sometimes the skip link is not the first link on a page. The checking tool provided here only checks for the first link that skips down the current page. It is possible that this link is not one that skips to the main content but just a normal in-page link. This means there is a problem with the skip link.
 
 The wording of the link doesn't matter too much as long as the purpose is clear. Common wording includes:
 
