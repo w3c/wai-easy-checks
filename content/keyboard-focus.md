@@ -32,7 +32,7 @@ Many sighted users with physical disabilities will use the keyboard to navigate 
 * people with tremors such as Parkinson's Disease
 * people who might have broken their hand or wrist
 
-People who are blind also navigate the web with the keyboard, but they listen for cues about where they are.
+People who are blind also navigate the web with the keyboard, but will use non-visual cues to determine where they are.
 
 ## Checking Keyboard Focus
 
