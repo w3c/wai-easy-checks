@@ -40,7 +40,7 @@ All of us need to know which form fields are required as we fill in a form on th
 
 This is just for practice. Also, you can see what the check will look like on an accessible page.
 
-Click on the link below:
+Click on the button below:
 
 {::nomarkdown}
 <p>

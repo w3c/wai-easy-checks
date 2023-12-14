@@ -38,7 +38,7 @@ Technically, color contrast is the relative luminance of two or more colors to e
 
 ### Quick check
 
-Click on the link below:
+Click on the button below:
 
 {::nomarkdown}
 <p>

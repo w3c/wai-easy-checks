@@ -35,7 +35,7 @@ Everyone needs labels to understand how to interact with a form. Some users need
 
 This is just for practice. Also, you can see what the check will look like on an accessible page.
 
-Click on the link below:
+Click on the button below:
 
 {::nomarkdown}
 <p>
