@@ -43,7 +43,7 @@ People who are blind, some people with low vision, and others who cannot see the
 1. Check if description is needed. Are there visual elements that are important to understand the video?
 2. If it is needed, check if description is provided.
 * Is the important visual information included with the main audio? Does the speaker explain the visual information?
-* Is a separate described video available? Usually there is a link to a separate described video, or a player control such as <svg role="img" aria-label="Audio Description logo" class="icon-audio-description " data-status="audio-described" style="margin:-0.5em"><use xlink:href="/EasyChecks/assets/images/icons.svg#icon-audio-description"></use></svg>.
+* Is a separate described video available? Usually there is a link to a separate described video, or a player control such as <svg role="img" aria-label="Audio Description logo" class="icon-audio-description " data-status="audio-described" style="margin:-0.5em"><use xlink:href="{{ "/assets/images/icons.svg#icon-audio-description" | relative_url }}"></use></svg>.
 
 ### Tips
 
