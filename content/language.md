@@ -18,13 +18,13 @@ navigation:
 
 ## What is language identified?
 
-[TODO] Image showing sample of page with differing languages
+[TO DO] Image showing sample of page with differing languages
 
 Web pages should identify the primary language of the page.
 
 ## Who depends on language being identified?
 
-People who use screen readers or other technologies that convert text into synthetic speech depend on the language being identified. This could include people who are blind and people with certain cognitive, language, and learning disabilities. When language is identified, then the synthetic speech can use the proper pronunciation.
+People who use screen readers or other technologies that convert text into synthetic speech depend on the language being identified. This could include people who are blind and people with certain cognitive, language, and learning disabilities. When the language is identified, then the synthetic speech can use the proper pronunciation.
 
 ## Checking Language
 
@@ -46,10 +46,14 @@ To check other pages you need to add the check link as a bookmark.
 2. Visit the page you want to check
 3. Click on the ‘Check page language’ link in your bookmarks
 
+[TO DO]: Add or link to keyboard instructions
+
 ### What to look for
 
 * Check that the primary language is identified correctly
 * If there is no page language set, it will display: "Page langage is not specified"
+
+Note: this check does not identify language chnages within a page
 
 ## Learn more
 
