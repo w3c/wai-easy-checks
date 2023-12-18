@@ -56,9 +56,12 @@ To check other pages you need to add the check link as a bookmark.
 2. Visit the page you want to check
 3. Click on the ‘Check keyboard focus’ link in your bookmarks
 
+[TO DO]: Add or link to keyboard instructions
+
 ### What to look for
 
 * Check that all interactive elements have an obvious visual styling
+* Check that no blank space is highlighted by the check; this indicates a possible link with no text
 
 ## Learn more
 
