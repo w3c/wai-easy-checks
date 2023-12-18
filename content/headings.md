@@ -69,6 +69,8 @@ To check other pages you need to add the check link as a bookmark.
 2. Visit the page you want to check
 3. Click on the 'Check headings' link in your bookmarks
 
+[TO DO]: Add or link to keyboard instructions
+
 ### What to look for
 
 * Does the page have any headings?
