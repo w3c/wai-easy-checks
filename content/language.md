@@ -51,7 +51,7 @@ To check other pages you need to add the check link as a bookmark.
 ### What to look for
 
 * Check that the primary language is identified correctly
-* If there is no page language set, it will display: "Page langage is not specified"
+* If there is no page language set, it will display: "Page language is not specified"
 
 Note: this check does not identify language chnages within a page
 
