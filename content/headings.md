@@ -20,34 +20,34 @@ bookmarklet: javascript:void%20function(){function%20a(){o.style.height=%220px%2
 
 ## What are Headings?
 
-Headings communicate the organization of the content on the page. They are like a table of contents. They are nested by their rank or level. They help provide a summary of the structure and content of a page. For example:
+Headings communicate the organization of the content on the page - they are like a table of contents. They should be nested by their rank or level and thus help provide a summary of the structure and content of a page. For example:
 
 ```
   <h1> Headings - Easy Checks
-    <h2> What are Headings?
-    <h2> Who depends on Headings?
-    <h2> Checking Headings
-      <h3> Checking this page
-      <h3> Checking other pages
-      <h3> What to look for
-    <h2> Learn more
-    <h2> Acknowledgements
-    <h2> Help improve this page
+     <h2> What are Headings?
+     <h2> Who depends on Headings?
+     <h2> Checking Headings
+        <h3> Checking this page
+        <h3> Checking other pages
+        <h3> What to look for
+     <h2> Learn more
+     <h2> Acknowledgements
+     <h2> Help improve this page
 ```
 
-Headings can have 1 of 6 levels assigned and should be nested by that level. The main heading on a page is level 1; `<h1>`. Subsequent headings should be at levels 2 to 6; `<h2>` to `<h6>`. Levels should not be skipped as sub-headings are created, just like the table-of-contents in a book.
+Headings can have 1 of 6 levels assigned and should be nested by that level and the main heading on a page is usually level 1, `<h1>`. The following headings should be at levels 2 to 6, `<h2>` to `<h6>`. Levels should not be skipped as sub-headings are created, like the table-of-contents in a book.
   
 Headings should be succinct and describe the section or text of the page that follows.
 
 ## Who depends on Headings?
 
-Screen reader users can use page headings to navigate a web page. Users can move from heading to heading with the heading text and the heading level being announced. Many screen readers also provide a list of headings in a dialog as an overview of the page structure.
+Screen reader users often use page headings to navigate a web page. They can move from heading to heading in the page with the heading text and the heading level being announced. Many screen readers also provide a list of headings in a dialog as an overview of the page structure.
 
 <img src="{{ "/content-images/headings-example.png" | relative_url }}" alt="Example of screen reader generated list of headings" class="normal">
 
-Other low vision and sighted people rely on the visual headings to understand the topics and subtopics on a web page. They can move quickly to the section they are interested in. Headings can also form the basis of an 'in-page' table of contents on a long web page such the chapter in a report.
+Other low vision and sighted people rely on the visual headings to understand the topics and subtopics on a web page. They can quickly move to the section of interest. <!-- Headings can also form the basis of an 'in-page' table of contents on a long web page such the chapter in a report. @@removing this sentance as clutter -->
 
-Headings help people with cognitive and learning or reading disability. They can help them understand and focus on the topics on a page and easily move to the section of interest.
+Headings also help people with cognitive and learning or reading disability. They can help them understand and focus on the topics within a page and move to the section of interest.
 
 ## Checking Headings
 
@@ -77,11 +77,11 @@ To check other pages you need to add the check link as a bookmark.
 
 * Does the page have any headings?
 * Did the the list start with an H1?
-* Does text look like a heading but not marked as one?
 * Are any heading levels skipped?
 * Are any headings levels blank with no text?
-* Does the heading text describe the content below?
-* Do the headings accurately represent the structure of the content, particularly nested content?
+* Does any text look like a heading but not showing up as one?
+* Does the heading text reflect the content that follows?
+* Do the headings represent the structure of the content, particularly nested content?
 
 ## Learn more
 
