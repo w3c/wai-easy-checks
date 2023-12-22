@@ -24,9 +24,9 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 [TODO] [[alternatively, two image of the W3C home page - with and without the 'skip to content' link showing - add an arrow on the show page]]
 
-A skip navigation link is a link at the start of a page that allows keyboard users to move straight to the main content on a page. It allows them to bypass the common content at the start of the pages. For example, search and navigation. 
+Skip links can help users quickly move past blocks of content they do not want to navigate through. The most important instance of them is a skip navigation link . This is a link at the start of a page that allows keyboard users to move straight to the main content on a page allowing them to bypass the common content at the start of the pages. They can skip past, for example, search, menu and other navigation options. 
 
-Ideally it should be visible as the first link on the page. However, some designers like to hide it from view until it receives keyboard focus and this is acceptable as long as it becomes highly visible on focus.
+Ideally the skip navigation link should be visible as the first link on the page. However, some designers like to hide it from view until it receives keyboard focus; this is acceptable as long as it becomes highly visible on focus.
 
 ## Who depends on a Skip Link?
 
@@ -38,7 +38,7 @@ Anyone who uses the tab key to navigate rather than using a regular or virtual m
 * people using mouth sticks or head pointers
 * people using switch devices
 
-## Checking Skip Link
+## Checking Skip Navigation Link
 
 ### Checking this page
 
@@ -74,7 +74,7 @@ To check other pages you need to add the check link as a bookmark.
 
 ### What to look for
 
-Sometimes the skip link is not the first link on a page. The checking tool provided here only checks for the first link that skips down the current page. It is possible that this link is not one that skips to the main content but just a normal in-page link. This means there is a problem with the skip link.
+Sometimes the skip navigation link is not the first link on a page. The checking tool provided here only checks for the first link that skips down the current page. It is possible that this link is not one that skips to the main content but just a normal in-page link. This means there is a problem with the skip link.
 
 The wording of the link doesn't matter too much as long as the purpose is clear. Common wording includes:
 
