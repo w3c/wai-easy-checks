@@ -187,7 +187,7 @@ A skip link is the first interactive element on a page. People using keyboards, 
 
 ### [Visible Keyboard Focus](/test-evaluate/easy-checks/keyboard-focus/)
 
-For people who rely on a keyboard to navigate it is important that they know which link or form control has focus. Keyboard focus is a visible indicator that identifies the element with focus and moves as your tab through a page.
+Keyboard focus is a visible indicator that identifies the element with focus and moves as your tab through a page. For sighted people who rely on a keyboard to navigate it is important that they know which link or form control has focus. 
 
 {::nomarkdown}
   </div>
