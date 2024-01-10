@@ -22,8 +22,6 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 <img src="{{ "/content-images/example-skip-link.png" | relative_url }}" alt="Example of a skip link" class="normal right">
 
-[TODO] [[alternatively, two image of the W3C home page - with and without the 'skip to content' link showing - add an arrow on the show page]]
-
 A skip navigation link is a link at the start of a page that allows keyboard users to move straight to the main content on a page. It allows them to bypass the common content at the start of the pages. For example, search and navigation. 
 
 Ideally it should be visible as the first link on the page. However, some designers like to hide it from view until it receives keyboard focus and this is acceptable as long as it becomes highly visible on focus.
@@ -62,10 +60,8 @@ To check other pages you need to add the check link as a bookmark.
 4. Click on the ‘Check skip link’ link in your bookmarks
 
 {% include excol.html type="start" %}
-#### Add bookmark using keyboard only
+#### Add link using keyboard only
 {% include excol.html type="middle" %}
-Common keystrokes are included in the instructions below. If these don't work then you can find the keystrokes for your browser by searching for "(browser name) keyboard shortcuts".
-
 1. <button onclick="copyBookmarklet()">Copy script to clipboard</button>
 2. Make sure your browser bookmarks/favorites bar is open. Ctrl/CMD+Shift+B will usually toggle the bar
 3. Create a bookmark to this page using Ctrl/CMD+D

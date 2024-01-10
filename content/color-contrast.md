@@ -40,7 +40,7 @@ Technically, color contrast is the relative luminance of two or more colors to e
 
 ### Quick check
 
-Determine contrast levels based on viewing the page in grayscale.
+Determine contrast issues by viewing the page in grayscale.
 
 Click on the button below:
 
