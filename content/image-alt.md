@@ -61,16 +61,20 @@ To check other pages you need to add the ‘Check images’ link as a bookmark.
 
 ### What to look for
 
-* Images with information relevant to the page’s content should have alternative text that describes that important information
+* Images with information relevant to the page’s content should have alternative text that describes that important information. Images with missing alternative text will be marked with:
+  
+  ![❌ Image missing alt text]({{ "/content-images/example-missing-alt.png" | relative_url }}){:.normal} 
 * Images with text should have the text in the alternative text
-* Images that are decorative should be noted as having an empty alt text attribute ('Alt text="". Suitable?')
+* Images that are decorative should be noted as having an empty alt text attribute. This will be marked with:
+  
+  ![✓ Alt text="". Suitable?]({{ "/content-images/example-decorative-image.png" | relative_url }}){:.normal}
 * Images that are functional, like a link or a button, should have alternative text that describes the destination page or the function of the button
 * Complex images like graphs and charts should have short alternative text that describes the type of image and a short summary of the key point
   * Complex images should have the detail described elsewhere on the page or on a separate page with a link
 
 ## Learn more
 
-* [User story of someone relyng on image alternative text to understand the page information](https://www.w3.org/WAI/people-use-web/user-stories/#accountant)
+* [User story of someone relying on image alternative text to understand the page information](https://www.w3.org/WAI/people-use-web/user-stories/#accountant)
 * [Images Tutorial in Tutorials](https://www.w3.org/WAI/tutorials/images/)
 * [Understanding 1.1.1: Non-text Content](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html)
 
