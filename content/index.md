@@ -128,7 +128,8 @@ You will be able to perform any of the following checks on any web page. The res
 
 ### [Image Alternative Text](/test-evaluate/easy-checks/image-alt/)
 
-Image alternative text ("alt text") is a short description that conveys the purpose of an image. Alternative text is used by people who do not see the image. 
+Image alternative text ("alt text") is a short description that conveys the purpose of an image. Alternative text is used by people who do not see the image.
+
 {::nomarkdown}
   </div>
 </div>
