@@ -20,13 +20,11 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 ## What is a Skip Link? 
 
-<img src="{{ "/content-images/example-skip-link.png" | relative_url }}" alt="Example of a skip link" class="normal right">
+![Example of a skip link]({{ "/content-images/example-skip-link.png" | relative_url }}){:.normal .right}
 
-[TODO] [[alternatively, two image of the W3C home page - with and without the 'skip to content' link showing - add an arrow on the show page]]
+Skip links can help users quickly move past blocks of content they do not want to navigate through. The most important instance of them is a skip navigation link. This is a link at the start of a page that allows keyboard users to move straight to the main content on a page allowing them to bypass the common content at the start of the pages. They can skip past, for example, search, menu and other navigation options. 
 
-Skip links can help users quickly move past blocks of content they do not want to navigate through. The most important instance of them is a skip navigation link . This is a link at the start of a page that allows keyboard users to move straight to the main content on a page allowing them to bypass the common content at the start of the pages. They can skip past, for example, search, menu and other navigation options. 
-
-Ideally the skip navigation link should be visible as the first link on the page. However, some designers like to hide it from view until it receives keyboard focus; this is acceptable as long as it becomes highly visible on focus.
+Ideally the skip navigation link should be visible as the first link on the page. However, some designers like to hide it from view until it receives keyboard focus. This is acceptable as long as it becomes highly visible on focus.
 
 ## Who depends on a Skip Link?
 
