@@ -20,7 +20,7 @@ bookmarklet: javascript:void%20function(){function%20a(){o.style.height=%220px%2
 
 ## What are Headings?
 
-Headings communicate the organization of the content on the page - they are like a table of contents. They should be nested by their rank or level and thus help provide a summary of the structure and content of a page. For example:
+Headings communicate the organization of the content on the page. They are like a table of contents. They should be nested by their rank or level. This helps provide a summary of the structure and content of a page. For example:
 
 ```
   <h1> Headings - Easy Checks
@@ -43,9 +43,9 @@ Headings should be succinct and describe the section or text of the page that fo
 
 Screen reader users often use page headings to navigate a web page. They can move from heading to heading in the page with the heading text and the heading level being announced. Many screen readers also provide a list of headings in a dialog as an overview of the page structure.
 
-<img src="{{ "/content-images/headings-example.png" | relative_url }}" alt="Example of screen reader generated list of headings" class="normal">
+![Example of screen reader generated list of headings]({{ "/content-images/headings-example.png" | relative_url }}){:.normal}
 
-Other low vision and sighted people rely on the visual headings to understand the topics and subtopics on a web page. They can quickly move to the section of interest. <!-- Headings can also form the basis of an 'in-page' table of contents on a long web page such the chapter in a report. @@removing this sentance as clutter -->
+Other low vision and sighted people rely on the visual headings to understand the topics and subtopics on a web page. They can quickly move to the section of interest.
 
 Headings also help people with cognitive and learning or reading disability. They can help them understand and focus on the topics within a page and move to the section of interest.
 
@@ -70,8 +70,6 @@ To check other pages you need to add the check link as a bookmark.
 1. Drag this link to your browser bookmarks bar: <a href="{{ page.bookmarklet }}">Check headings</a>
 2. Visit the page you want to check
 3. Click on the 'Check headings' link in your bookmarks
-
-[TO DO]: Add or link to keyboard instructions
 
 ### What to look for
 
