@@ -70,7 +70,7 @@ To check other pages you need to add the ‘Check images’ link as a bookmark.
 
 ## Learn more
 
-* [User story of someone relyng on image alternative text to understand the page information](https://www.w3.org/WAI/people-use-web/user-stories/#accountant)
+* [User story of someone relying on image alternative text to understand the page information](https://www.w3.org/WAI/people-use-web/user-stories/#accountant)
 * [Images Tutorial in Tutorials](https://www.w3.org/WAI/tutorials/images/)
 * [Understanding 1.1.1: Non-text Content](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html)
 
