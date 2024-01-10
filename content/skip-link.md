@@ -64,6 +64,8 @@ To check other pages you need to add the check link as a bookmark.
 {% include excol.html type="start" %}
 #### Add link using keyboard only
 {% include excol.html type="middle" %}
+Common keystrokes are included in the instructions below. If these don't work then you can find the keystrokes for your browser by searching for "(browser name) keyboard shortcuts".
+
 1. <button onclick="copyBookmarklet()">Copy script to clipboard</button>
 2. Make sure your browser bookmarks/favorites bar is open. Ctrl/CMD+Shift+B will usually toggle the bar
 3. Create a bookmark to this page using Ctrl/CMD+D
