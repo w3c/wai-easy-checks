@@ -62,7 +62,7 @@ To check other pages you need to add the check link as a bookmark.
 4. Click on the ‘Check skip link’ link in your bookmarks
 
 {% include excol.html type="start" %}
-#### Add link using keyboard only
+#### Add bookmark using keyboard only
 {% include excol.html type="middle" %}
 Common keystrokes are included in the instructions below. If these don't work then you can find the keystrokes for your browser by searching for "(browser name) keyboard shortcuts".
 
