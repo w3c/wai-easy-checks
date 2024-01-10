@@ -125,10 +125,10 @@ You will be able to perform any of the following checks on any web page. The res
   <p><img src="{{ "/content-images/icon-alt-text.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
+
 ### [Image Alternative Text](/test-evaluate/easy-checks/image-alt/)
 
-Image alternative text ("alt text") is a short description that conveys the purpose of an image. Alternative text is used by people who do not see the image. For example, people who are blind and use screen readers can hear the alt text read out.
-
+Image alternative text ("alt text") is a short description that conveys the purpose of an image. Alternative text is used by people who do not see the image. 
 {::nomarkdown}
   </div>
 </div>
@@ -187,7 +187,7 @@ A skip link is the first interactive element on a page. People using keyboards, 
 
 ### [Visible Keyboard Focus](/test-evaluate/easy-checks/keyboard-focus/)
 
-Keyboard focus is a visible indicator that identifies the element with focus and moves as your tab through a page. For sighted people who rely on a keyboard to navigate it is important that they know which link or form control has focus. 
+Keyboard focus is a visible indicator that identifies the element with focus and moves as your tab through a page. For people who rely on a keyboard to navigate it is important that they know which link or form control has focus. 
 
 {::nomarkdown}
   </div>
@@ -199,7 +199,7 @@ Keyboard focus is a visible indicator that identifies the element with focus and
 
 ### [Language of Page](/test-evaluate/easy-checks/language/)
 
-Specifying the language of the page means that assistive technology that speaks content can correctly pronounce words.
+Web pages should identify the primary language of the page. Specifying the language of the page means that assistive technology that speaks content can correctly pronounce words.
 
 {::nomarkdown}
   </div>
@@ -211,7 +211,7 @@ Specifying the language of the page means that assistive technology that speaks 
 
 ### [Zoom](/test-evaluate/easy-checks/zoom-levels/)
 
-Some people need to enlarge content in order to read it. When content is zoomed it still needs to legible and usable.
+Zoom is used to enlarge the text and images on web pages to make them more readable. Some people need to enlarge content in order to read it. When content is zoomed it still needs to legible and usable.
 
 {::nomarkdown}
   </div>
@@ -232,7 +232,7 @@ Some people need to enlarge content in order to read it. When content is zoomed 
 
 ### [Captions](/test-evaluate/easy-checks/captions/)
 
-The audio in video content needs to be available to people who are Deaf or hard of hearing. Captions are a text version of the speech and non-speech audio information needed to understand the video.
+Captions are a text version of the speech and non-speech audio information needed to understand the video and displayed with the video. The audio in video content needs to be available to people who are Deaf or hard of hearing. 
 
 {::nomarkdown}
   </div>
@@ -244,7 +244,7 @@ The audio in video content needs to be available to people who are Deaf or hard 
 
 ### [Transcripts](/test-evaluate/easy-checks/transcripts/)
 
-Transcripts are a text version of the speech and non-speech information in audio content. They are used by people who are Deaf, hard of hearing or who have difficulty processing audio information.
+Transcripts are a text version of the speech and non-speech information in audio content and available separately from the video. They are used by people who are Deaf, hard of hearing or who have difficulty processing audio information.
 
 {::nomarkdown}
   </div>
@@ -256,7 +256,7 @@ Transcripts are a text version of the speech and non-speech information in audio
 
 ### [Audio Description](/test-evaluate/easy-checks/description/)
 
-Audio description provides content to people who are blind and others who cannot see the video adequately. It describes visual information needed to understand the content, including text displayed in the video.
+Audio description describes visual information needed to understand the content, including text displayed in the video, as part of the video. It provides content to people who are blind and others who cannot see the video adequately.
 
 {::nomarkdown}
   </div>
@@ -277,7 +277,7 @@ Audio description provides content to people who are blind and others who cannot
 
 ### [Labels](/test-evaluate/easy-checks/form-field-labels/)
 
-Labels should identify all form controls, including text fields, checkboxes, radio buttons, and drop-down menus. Labels need to describe the purpose of the form control. 
+Form field labels are the text beside form fields. They should tell us what information to enter or what checkbox to select. Everyone needs labels to understand how to interact with a form. 
 
 {::nomarkdown}
   </div>
@@ -289,7 +289,7 @@ Labels should identify all form controls, including text fields, checkboxes, rad
 
 ### [Required Fields](/test-evaluate/easy-checks/required-fields/)
 
-Marking which fields are required makes it easier for people to complete forms.
+A required form field must be completed before you submit a form. Marking which fields are required in a form makes it easier for everyone to complete forms.
 
 {::nomarkdown}
   </div>
