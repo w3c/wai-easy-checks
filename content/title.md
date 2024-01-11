@@ -31,9 +31,9 @@ Page titles are:
 
 ## Who depends on good page titles?
 
-Screen reader users need good page titles. The first thing screen readers say when the user goes to a different web page is the page title.
+Good page titles are particularly important for orientation. They help people know where they are and move between pages open in their browser.
 
-Good page titles are particularly important for orientation — to help people know where they are and move between pages open in their browser.
+Screen reader users need good page titles. The first thing screen readers say when the user goes to a different web page is the page title.
 
 ## Checking page titles
 
