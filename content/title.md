@@ -64,7 +64,7 @@ To check other pages you need to add the check link as a bookmark.
 
 ### Tips
 
-There is flexibility on what makes a good page title. However best practice is for the important and unique information to come first. This is called "front-loading".
+There is flexibility on what makes a good page title. However, best practice is for the important and unique information to come first. This is called "front-loading".
 
 For example:
 
