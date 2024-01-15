@@ -15,7 +15,7 @@ navigation:
   previous: /test-evaluate/easy-checks/image-alt/
   next: /test-evaluate/easy-checks/headings/
 
-bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-styles,%23wai-info-box%22).forEach(function(a){a.remove()}),document.querySelector(%22body%22).insertAdjacentHTML(%22afterbegin%22,%22%3Cstyle%20id='wai-styles'%3E%23wai-info-box{position:fixed;width:40%25;top:40%25;left:50%25;transform:translate(-50%25,-50%25);z-index:1000;color:black;font-family:Noto%20Sans,Trebuchet%20MS,Helvetica%20Neue,Arial,sans-serif}aside{border:solid%201px%20%23ddd;background-color:%23fff;box-shadow:0%204px%208px%200%20rgba(0,0,0,0.2),0%206px%2020px%200%20rgba(0,0,0,0.19);}%23wai-info-box%20header{font-weight:700;background-color:%23f2f2f2;color:%23005a6a;padding:8px%2016px;}%23wai-info-box%20header%20a{float:right;text-decoration:none}%23wai-info-box%20div{padding:8px%2016px;}%23wai-info-box%20div%20span{font-weight:700;}%3C/style%3E%22);var%20a=%22%22;a+=document.title%3F%22\%22%3Cspan%3E%22+document.title+%22%3C/span%3E\%22%22:%22Page%20title%20is%20missing%22,document.querySelector(%22body%22).insertAdjacentHTML(%22afterbegin%22,%22%3Caside%20id=\%22wai-info-box\%22%20tabindex=\%22-1\%22%3E%3Cheader%3EPage%20Title%3Ca%20href='javascript:document.querySelectorAll(\%22%23wai-styles,%23wai-info-box\%22).forEach(function(el){el.remove()});'%20aria-label='dismiss'%3EX%3C/a%3E%3C/header%3E%3Cdiv%3E%22+a+%22%3Cp%3EFind%20out%20more%20about%20%3Ca%20href=\%22https://www.w3.org/wai/easy-checks/title/\%22%3EChecking%20Page%20Title%3C/a%3E%3C/div%3E%3C/aside%3E%22),document.getElementById(%22wai-info-box%22).focus()}();
+bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-styles,%23wai-info-box%22).forEach(function(a){a.remove()}),document.querySelector(%22body%22).insertAdjacentHTML(%22afterbegin%22,%22%3Cstyle%20id='wai-styles'%3E%23wai-info-box{position:fixed;width:40%25;top:40%25;left:50%25;transform:translate(-50%25,-50%25);z-index:1000;color:black;font-family:Noto%20Sans,Trebuchet%20MS,Helvetica%20Neue,Arial,sans-serif}aside{border:solid%201px%20%23ddd;background-color:%23fff;box-shadow:0%204px%208px%200%20rgba(0,0,0,0.2),0%206px%2020px%200%20rgba(0,0,0,0.19);}%23wai-info-box%20header{font-weight:700;background-color:%23f2f2f2;color:%23005a6a;padding:8px%2016px;}%23wai-info-box%20header%20a{float:right;text-decoration:none}%23wai-info-box%20div{padding:8px%2016px;}%23wai-info-box%20div%20span{font-weight:700;}%3C/style%3E%22);var%20a=%22%22;a+=document.title%3F%22%27%3Cspan%3E%22+document.title+%22%3C/span%3E%27%22:%22Page%20title%20is%20missing%22,document.querySelector(%22body%22).insertAdjacentHTML(%22afterbegin%22,%22%3Caside%20id=%27wai-info-box%27%20tabindex=%27-1%27%3E%3Cheader%3EPage%20Title%3Ca%20href=javascript:document.querySelectorAll(%27%23wai-styles,%23wai-info-box%27).forEach(function(el){el.remove()});%20aria-label=dismiss%3EX%3C/a%3E%3C/header%3E%3Cdiv%3E%22+a+%22%3Cp%3EFind%20out%20more%20about%20%3Ca%20href=%27https://www.w3.org/wai/easy-checks/title/%27%3EChecking%20Page%20Title%3C/a%3E%3C/div%3E%3C/aside%3E%22),document.getElementById(%22wai-info-box%22).focus()}();
 ---
 
 ## What are page titles?
@@ -31,9 +31,9 @@ Page titles are:
 
 ## Who depends on good page titles?
 
-Screen reader users need good page titles. The first thing screen readers say when the user goes to a different web page is the page title.
+Good page titles are particularly important for orientation. They help people know where they are and move between pages open in their browser.
 
-Good page titles are particularly important for orientation — to help people know where they are and move between pages open in their browser.
+Screen reader users need good page titles. The first thing screen readers say when the user goes to a different web page is the page title.
 
 ## Checking page titles
 
@@ -64,7 +64,7 @@ To check other pages you need to add the check link as a bookmark.
 
 ### Tips
 
-There is flexibility on what makes a good page title. However best practice is for the important and unique information to come first. This is called "front-loading".
+There is flexibility on what makes a good page title. However, best practice is for the important and unique information to come first. This is called "front-loading".
 
 For example:
 

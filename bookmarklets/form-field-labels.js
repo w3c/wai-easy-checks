@@ -67,4 +67,4 @@ for(let label of document.querySelectorAll('label')) {
   }
 }
 
-document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" class="wai-more-info"><header>Find out more<a href=\'javascript:document.querySelectorAll("#wai-styles,#wai-info-box,.wai-label").forEach(function(el){el.remove()});\' aria-label=\'dismiss\'>X</a></header><div><a href="https://w3.org/wai/easy-checks/form-field-labels/">Checking Field Labels</a></div></aside>');
+document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" class="wai-more-info"><header>Find out more<a href=javascript:document.querySelectorAll("#wai-styles,#wai-info-box,.wai-label").forEach(function(el){el.remove()}); aria-label=dismiss>X</a></header><div><a href="https://w3.org/wai/easy-checks/form-field-labels/">Checking Field Labels</a></div></aside>');

@@ -102,4 +102,4 @@ if (!document.querySelectorAll('img, [role=img]').length) {
   }, 3000);
 }
 
-document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" class="wai-more-info"><header>Find out more<a href=\'javascript:document.querySelectorAll("#wai-styles,#wai-info-box,.image-span").forEach(function(el){el.remove()});\' aria-label=\'dismiss\'>X</a></header><div><a href="https://w3.org/wai/easy-checks/image-alt/">Checking Image Alternative Text</a></div></aside>');
+document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" class="wai-more-info"><header>Find out more<a href=javascript:document.querySelectorAll("#wai-styles,#wai-info-box,.image-span").forEach(function(el){el.remove()}); aria-label=dismiss>X</a></header><div><a href="https://w3.org/wai/easy-checks/image-alt/">Checking Image Alternative Text</a></div></aside>');

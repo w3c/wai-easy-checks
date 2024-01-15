@@ -17,4 +17,4 @@ for(const el of document.querySelectorAll('a[href],button,select,input:not([type
   el.setAttribute("style", focusStyle);
 }
 
-document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" class="wai-more-info"><header>Find out more<a href=\'javascript:document.querySelectorAll("#wai-styles,#wai-info-box").forEach(function(el){el.remove()});document.querySelectorAll("[data-style]").forEach(function(el){el.setAttribute("style",el.getAttribute("data-style"))});\' aria-label=\'dismiss\'>X</a></header><div><a href="https://w3.org/wai/easy-checks/keyboard-focus/">Checking Keyboard Focus</a></div></aside>');
+document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" class="wai-more-info"><header>Find out more<a href=javascript:document.querySelectorAll("#wai-styles,#wai-info-box").forEach(function(el){el.remove()});document.querySelectorAll("[data-style]").forEach(function(el){el.setAttribute("style",el.getAttribute("data-style"))}); aria-label=dismiss>X</a></header><div><a href="https://w3.org/wai/easy-checks/keyboard-focus/">Checking Keyboard Focus</a></div></aside>');
