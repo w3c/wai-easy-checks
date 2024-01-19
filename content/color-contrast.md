@@ -67,10 +67,11 @@ To return to full color, close the dialog that appears.
 
 To check other pages you need to add the check link as a bookmark.
 
-1. Drag this link to your browser bookmarks bar: <a href="{{ page.bookmarklet }}">Covert to grayscale</a>
-2. Visit the page you want to check
-3. Click on the 'Covert to grayscale' link in your bookmarks
-4. To return to full color, close the dialog that appears 
+1. Make sure your browser bookmarks bar is open. Ctrl/CMD+Shift+B will usually toggle the bar
+2. Drag this link to your browser bookmarks bar: <a href="{{ page.bookmarklet }}">Covert to grayscale</a>
+3. Visit the page you want to check
+4. Click on the 'Covert to grayscale' link in your bookmarks
+5. To return to full color, close the dialog that appears 
 
 ### Accurate check
 

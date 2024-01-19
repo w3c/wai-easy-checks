@@ -63,7 +63,7 @@ Click on the button below:
 
 To check other pages you need to add the check link as a bookmark.
 
-1. Make sure your browser bookmarks/favorites bar is open
+1. Make sure your browser bookmarks bar is open. Ctrl/CMD+Shift+B will usually toggle the bar
 2. Drag this link to the bookmarks/favorites bar: <a href="{{ page.bookmarklet }}">Check skip link</a>
 3. Visit the page you want to check
 4. Click on the ‘Check skip link’ link in your bookmarks
