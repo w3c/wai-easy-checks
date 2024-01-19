@@ -37,24 +37,16 @@ footer: >
     margin: 1em;
     float: none !important;
     max-width: inherit !important;
-    width: 100% !important;
+    width: 90em !important;
     flex-grow: 1;
   }
-  
-  img.video {
+  .video-card p {
+    font-size: 90% !important;
+  }
+  .video-card video {
     border-radius: 5px;
-    width: 300px;
-    max-width: 300px;
   }
-  
-  .video-card .play-button {
-    position: relative;
-    top: -120px;
-    left: 120px;
-    width: 60px;
-    height: 60px;
-  }
-  
+
   .icon {
     width: 1em;
     height: 1em;
@@ -99,12 +91,17 @@ footer: >
       </ul>
     </nav>
   </div>
-  <div class="video-card">
-      <img class="video" src="https://i.ytimg.com/vi_webp/IZp8eUAu450/maxresdefault.webp">
-      <img class="play-button" src="https://www.starpng.com/public/uploads/preview/red-play-button-png-101576847279kuxmycuxzj.png">
-  </div>
+{:/}
+{% include video-card.html
+    video-url="//media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4"
+    captions="https://www.w3.org/WAI/content-images/wai-eval-overview/easy-checks-accessibility.en.vtt|en|default"
+    poster="https://www.w3.org/WAI/content-images/wai-eval-overview/video-thumb-easy-checks.png"
+    accessible-version="https://www.w3.org/WAI/test-evaluate/preliminary/#video-intro"
+    accessible-version-label="Video: Easy Checks Overview"
+    poster="https://www.w3.org/WAI/content-images/wai-eval-overview/video-thumb-easy-checks.png"
+%}
+{::nomarkdown}
 </aside>
-
 {:/}
 
 {::nomarkdown}
