@@ -14,6 +14,15 @@ github:
 navigation:
   previous: /test-evaluate/easy-checks/zoom-levels/
   next: /test-evaluate/easy-checks/transcripts/
+
+acknowledgements: /test-evaluate/easy-checks/acknowledgements/
+footer: >
+  <p>
+    <strong>Status:</strong> Updated December 2023<br>
+    <strong>Editor:</strong> <a href="https://www.w3.org/People/#kevin">Kevin White</a><br>
+    ACKNOWLEDGEMENTS<br>
+    Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Updated as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.
+  </p>
 ---
 
 ## What are Captions?
