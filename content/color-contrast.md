@@ -29,12 +29,16 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 ## What is Color Contrast?
 
-[TODO] image of a screen with low contrast beside a screen with good contrast
 
 Color contrast refers to the contrast between:
 * text and the background color
 * interactive elements such as [focus indicators](/test-evaluate/easy-checks/keyboard-focus/) and their background
 * elements in a graph, chart of map that need to be understood
+
+The following images show an example of part of a webpage with poor contrast and the same one with good contrast.
+
+![Example of webpage with poor contrast]({{ "/content-images/example-contrast-poor.png" | relative_url }}){:.normal}
+![Example of webpage with good contrast]({{ "/content-images/example-contrast-good.png" | relative_url }}){:.normal}
 
 Technically, color contrast is the relative luminance of two or more colors to each other, particularly between text and its background. The tools we can use to measure this take care of the math and make checking that we have enough contrast easy. 
 

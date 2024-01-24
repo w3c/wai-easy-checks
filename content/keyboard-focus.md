@@ -29,9 +29,9 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 ## What is Keyboard Focus?
 
-[TODO] side by side images of the same screen (or part of the screen) with no focus and with good focus
+![Example of navigation field showing visible keyboard focus]({{ "/content-images/example-keyboard-focus.png" | relative_url }}){:.normal .right}
 
-Visible keyboard focus indicates which interactive element - link, button, form field - you might have moved to using the tab key. 
+Visible keyboard focus indicates which interactive element - link, button, form field - you might have moved to using the tab key.
 
 ## Who depends on Keyboard Focus?
 

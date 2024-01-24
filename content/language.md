@@ -29,8 +29,6 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 ## How is Language identified?
 
-[TO DO] Image showing sample of page with differing languages
-
 Web pages should identify the primary language of the page.
 
 ## Who depends on Language being identified?

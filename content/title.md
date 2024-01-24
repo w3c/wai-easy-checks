@@ -29,7 +29,7 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 ## What are Page Titles?
 
-[TODO] Clean image of window chrome with title in it
+![Example of webpage with title highlighted]({{ "/content-images/example-page-title.png" | relative_url }}){:.normal .right}
 
 Page titles are:
 *   shown in the window title bar in some browsers

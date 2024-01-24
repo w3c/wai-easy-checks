@@ -29,9 +29,9 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 ## What is a Required Field?
 
-[TODO] lets put a couple of variations of indicating 'required' fields at the top this page.
-* using the word 'required' and
-* indicating required via a red asterisk.
+![Example of field with asterisk to mark required status]({{ "/content-images/example-required-asterisk.png" | relative_url }}){:.normal .right}
+
+![Example of field with text to mark required status]({{ "/content-images/example-required-label.png" | relative_url }}){:.normal .right}
 
 A required form field must be completed before you submit a form.
 

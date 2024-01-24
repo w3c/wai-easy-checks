@@ -29,8 +29,6 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 ## What is Image Alternative Text?
 
-[TO DO] Image of side by side images of the same page - left with an image on the page, right with the image replaced with it's alt-text
-
 Image alternative text (“alt text”) is a short description that conveys the purpose of an image. 
 
 ## Who depends on Image Alternative Text?
@@ -56,7 +54,7 @@ Click on the button below:
 
 Example images:
 
-[<img src="{{ "/content-images/dog.jpg" | relative_url }}" alt="Golden Lab" class="normal">](test) <img src="{{ "/content-images/dog.jpg" | relative_url }}" class="normal">
+![Golden Lab]({{ "/content-images/dog.jpg" | relative_url }}){:.normal} <img src="{{ "/content-images/dog.jpg" | relative_url }}" class="normal">
 
 ### Checking other pages
 
