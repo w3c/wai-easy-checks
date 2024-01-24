@@ -77,7 +77,7 @@ To check other pages you need to add the check link as a bookmark.
 
 ### What to look for
 
-There are many ways to provide a label for screen reader users. To support mouse users form elements must have a programatically associated label. When using the 'Check field labels' link, this is shown by the form element being marked as 'Labelled' and the form label being marked with 'Label for field with ID=...'. For example,
+There are many ways to provide a label. To support assistive technology users, including mouse users, form elements must have a programatically associated label. When using the 'Check field labels' link, this is shown by the form element being marked as 'Labelled' and the form label being marked with 'Label for field with ID=...'. For example,
 
 <img src="{{ "/content-images/example-correct-label.png" | relative_url }}" alt="Example of form field with correctly associated label">
 
