@@ -73,6 +73,17 @@ To check other pages you need to add the check link as a bookmark.
 4. Click on the 'Covert to grayscale' link in your bookmarks
 5. To return to full color, close the dialog that appears 
 
+{% include excol.html type="start" %}
+#### Add link using keyboard only
+{% include excol.html type="middle" %}
+1. <button onclick="copyBookmarklet()">Copy script to clipboard</button>
+2. Make sure your browser bookmarks/favorites bar is open. Ctrl/CMD+Shift+B will usually toggle the bar
+3. Create a bookmark to this page using Ctrl/CMD+D
+4. Edit your bookmarks - this varies depending on browser and operating system. There is usually a menu option to manage your bookmarks
+5. Edit the newly added bookmark to this page
+6. Paste the script copied into the URL or Link field
+{% include excol.html type="end" %}
+
 ### Accurate check
 
 Tools are available to help you test more thoroughly. These will do the math and tell you if the colors meet the correct ratios for sufficient contrast.

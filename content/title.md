@@ -67,6 +67,17 @@ To check other pages you need to add the check link as a bookmark.
 3. Visit the page you want to check
 4. Click on the ‘Check page title’ link in your bookmarks
 
+{% include excol.html type="start" %}
+#### Add link using keyboard only
+{% include excol.html type="middle" %}
+1. <button onclick="copyBookmarklet()">Copy script to clipboard</button>
+2. Make sure your browser bookmarks/favorites bar is open. Ctrl/CMD+Shift+B will usually toggle the bar
+3. Create a bookmark to this page using Ctrl/CMD+D
+4. Edit your bookmarks - this varies depending on browser and operating system. There is usually a menu option to manage your bookmarks
+5. Edit the newly added bookmark to this page
+6. Paste the script copied into the URL or Link field
+{% include excol.html type="end" %}
+
 ### What to look for
 
 * Check that there is a title that adequately and briefly describes the content of the page
