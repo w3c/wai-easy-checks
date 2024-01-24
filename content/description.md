@@ -43,11 +43,11 @@ For example,
 
 These videos are also available from the W3C website: <a href="https://www.w3.org/2020/10/TPAC/w3cx-challenging-assumptions.html#talk" >training video (web page)</a>, <a href="http://media.w3.org/wai/perspective-videos/text-to-speech-ad.mp4">story video (MP4 file size 28MB)</a>.
 
-## Who depends on audio description?
+## Who depends on Audio Description?
 
 People who are blind, some people with low vision, and others who cannot see the video adequately depend on description of visual information in videos.
 
-## Checking audio description
+## Checking Audio Description
 
 1. Check if description is needed. Are there visual elements that are important to understand the video?
 2. If it is needed, check if description is provided.

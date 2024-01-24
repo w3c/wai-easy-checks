@@ -26,7 +26,7 @@ footer: >
 ---
 
 
-## What is Zoom Levels?
+## What is Zoom Level?
 
 [TODO] images for a standard page and a zoomed page side by side (sample from w3.org sent to Jasper to play with)
 

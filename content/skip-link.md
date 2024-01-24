@@ -45,7 +45,7 @@ Anyone who uses the tab key to navigate rather than using a regular or virtual m
 * people using mouth sticks or head pointers
 * people using switch devices
 
-## Checking Skip Navigation Link
+## Checking for a Skip Link
 
 ### Checking this page
 
