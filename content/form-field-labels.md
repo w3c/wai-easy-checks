@@ -29,9 +29,9 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 ## What are Form Field Labels?
 
-[TODO] sample image for a for such as the sign-in form from https://auth.w3.org/login
+Form field labels are the text beside or above form fields. They should tell us what information to enter or what checkbox or radio button to select. 
 
-Form field labels are the text beside form fields. They should tell us what information to enter or what checkbox to select. 
+![Example of labeled login fields]({{ "/content-images/example-form-field-names.png" | relative_url }}){:.normal}
 
 ## Who depends on Form Field Labels?
 
