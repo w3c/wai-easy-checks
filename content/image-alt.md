@@ -29,7 +29,12 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 ## What is Image Alternative Text?
 
-Image alternative text (“alt text”) is a short description that conveys the purpose of an image. 
+Image alternative text (“alt text”) is a short description that conveys the purpose of an image.
+
+The following images show an example of part of a webpage with a phote and the same one with the photo replaced by it's alternative text.
+
+![Example of webpage with picture]({{ "/content-images/image-picture.png" | relative_url }}){:.normal} ! 
+[Example of webpage with alt-text instead]({{ "/content-images/image-alt_text2.png" | relative_url }}){:.normal}
 
 ## Who depends on Image Alternative Text?
 
