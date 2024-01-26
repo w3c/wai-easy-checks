@@ -31,6 +31,12 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 Web pages should identify the primary language of the page.
 
+The following images show an examples of webpages in English, Japanese and German.
+
+![Example of English webpage with EN declared]({{ "/content-images/example language EN.png" | relative_url }}){:.normal}
+![Example of Japanese webpage with JP declared]({{ "/content-images/example language JP.png" | relative_url }}){:.normal}
+![Example of German webpage with DE declared]({{ "/content-images/example language DE.png" | relative_url }}){:.normal}
+
 ## Who depends on Language being identified?
 
 People who use screen readers or other technologies that convert text into synthetic speech depend on the language being identified. This could include people who are blind and people with certain cognitive, language, and learning disabilities. When the language is identified, then the synthetic speech can use the proper pronunciation.
