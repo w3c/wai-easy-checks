@@ -63,7 +63,7 @@ Generally, all text in the video should be included in the main audio or a separ
 * speakers’ names in text, and
 * text in a presentation.
 
-The exact text does not have to be included. However all of the information in the text needs to be available.
+The exact text does not have to be included. However, all of the information in the text needs to be available.
 
 ## Learn more
 
