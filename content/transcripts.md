@@ -108,3 +108,4 @@ People who process text information better than they process audio and video inf
 
 * [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](/media/av/users-orgs/)
 * [Transcripts, in Making Audio and Video Media Accessible](/media/av/transcripts/)
+* [Understanding SC 1.2.8: Media Alternative (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded.html)
