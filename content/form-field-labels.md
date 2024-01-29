@@ -31,7 +31,7 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 Form field labels are the text beside or above form fields. They should tell us what information to enter or what checkbox or radio button to select. 
 
-![Example of labeled login fields]({{ "/content-images/example-form-field-names.png" | relative_url }}){:.normal}
+![Example of labeled login fields]({{ "/content-images/example-form-field-names.png" | relative_url }}){:.largish}
 
 ## Who depends on Form Field Labels?
 
