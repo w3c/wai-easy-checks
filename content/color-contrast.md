@@ -35,7 +35,7 @@ Color contrast refers to the contrast between:
 * interactive elements such as [focus indicators](/test-evaluate/easy-checks/keyboard-focus/) and their background
 * elements in a graph, chart of map that need to be understood
 
-The following images show an example of part of a webpage with poor contrast and the same one with good contrast.
+The following images show an example of the same part of a webpage. The first example has poor contrast and the second one has good contrast.
 
 ![Example of webpage with poor contrast]({{ "/content-images/example-contrast-poor.png" | relative_url }}){:.normal}
 ![Example of webpage with good contrast]({{ "/content-images/example-contrast-good.png" | relative_url }}){:.normal}
