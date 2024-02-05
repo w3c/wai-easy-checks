@@ -27,7 +27,7 @@ footer: >
 
 ## What are Captions?
 
-<img src="https://www.w3.org/WAI/content-images/wai-media-guide/captions.png" alt="" class="right">
+![Screenshot of video player with captions switched on](https://www.w3.org/WAI/content-images/wai-media-guide/captions.png){:.normal .right}
 
 Captions are called “subtitles” in some locations.
 
