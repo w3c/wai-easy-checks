@@ -52,7 +52,7 @@ Headings should be succinct and describe the section or text of the page that fo
 
 Screen reader users often use page headings to navigate a web page. They can move from heading to heading in the page with the heading text and the heading level being announced. Many screen readers also provide a list of headings in a dialog as an overview of the page structure.
 
-![Example of screen reader generated list of headings]({{ "/content-images/headings-example.png" | relative_url }}){:.normal}
+![Screenshot of screen reader generated list of headings]({{ "/content-images/headings-example.png" | relative_url }}){:.normal}
 
 Other low vision and sighted people rely on the visual headings to understand the topics and subtopics on a web page. They can quickly move to the section of interest.
 
