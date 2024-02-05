@@ -7,6 +7,8 @@ nav_title: "Form Field Labels"
 lang: en
 layout: default
 
+doc-note-type: draft
+
 github:
   repository: w3c/wai-easy-checks
   path: content/form-field-labels.md

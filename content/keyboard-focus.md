@@ -7,6 +7,8 @@ nav_title: "Visible Keyboard Focus"
 lang: en
 layout: default
 
+doc-note-type: draft
+
 github:
   repository: w3c/wai-easy-checks
   path: content/keyboard-focus.md

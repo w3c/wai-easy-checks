@@ -7,6 +7,8 @@ nav_title: "Image Alternative Text"
 lang: en
 layout: default
 
+doc-note-type: draft
+
 github:
   repository: w3c/wai-easy-checks
   path: content/image-alt.md

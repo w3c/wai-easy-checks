@@ -7,6 +7,8 @@ nav_title: "Audio Description"
 lang: en
 layout: default
 
+doc-note-type: draft
+
 github:
   repository: w3c/wai-easy-checks
   path: content/description.md
