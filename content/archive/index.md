@@ -1,7 +1,7 @@
 ---
 title: "Easy Checks – A First Review of Web Accessibility"
-permalink: /test-evaluate/easy-checks/archive/
-ref: /test-evaluate/easy-checks/archive/
+permalink: /test-evaluate/preliminary/
+ref: /test-evaluate/preliminary/
 
 lang: en
 layout: default
