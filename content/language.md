@@ -35,7 +35,7 @@ Web pages should identify the primary language of the page.
 
 The following images show an examples of webpages in English, Japanese and German.
 
-![Example of Japanese webpage with JP declared]({{ "/content-images/example-language-jp.png" | relative_url }}){:.medium} ![Example of German webpage with DE declared]({{ "/content-images/example-language-de.png" | relative_url }}){:.medium}
+![Example of Japanese webpage with JP declared]({{ "/content-images/wai-easy-checks/example-language-jp.png" | relative_url }}){:.medium} ![Example of German webpage with DE declared]({{ "/content-images/wai-easy-checks/example-language-de.png" | relative_url }}){:.medium}
 
 ## Who depends on Language being identified?
 

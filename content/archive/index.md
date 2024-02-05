@@ -21,7 +21,7 @@ footer: >
 <h2 class="no-display" id="introduction">Introduction</h2>
 <p><strong>This page helps you start to assess the accessibility of a web page. With these simple steps, you can get an idea whether or not accessibility is addressed in even the most basic way.</strong></p>
 
-[<img src="{{ "/content-images/archive/" | relative_url }}video-thumb-easy-checks.png" alt="" class="video tiny"> Video: Easy Checks Overview](#video)
+[<img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}video-thumb-easy-checks.png" alt="" class="video tiny"> Video: Easy Checks Overview](#video)
 
 {::nomarkdown}
 {% include box.html type="start" title="Scope" h="3" class="example" %}
@@ -72,13 +72,13 @@ footer: >
 
 {% include excol.html type="start" id="video-intro" %}
 
-## <img src="{{ "/content-images/archive/" | relative_url }}video-thumb-easy-checks.png" alt="" class="video tiny"> Video: Easy Checks Overview {#video}
+## <img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}video-thumb-easy-checks.png" alt="" class="video tiny"> Video: Easy Checks Overview {#video}
 
 {% include excol.html type="middle" %}
 
 {% include video-player.html
     yt-id="IZp8eUAu450"
-    captions="/content-images/wai-easy-checks/easy-checks-accessibility-cc.vtt|en|Captions"
+    captions="/content-images/wai-easy-checks/archive/easy-checks-accessibility-cc.vtt|en|Captions"
 %}
 
 _This video is also available on a W3C server: [Video: Easy Checks Overview (file format: MP4, file size: 29MB)](https://media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4)._
@@ -243,7 +243,7 @@ Text Transcript with Description of Visuals
 </ul>
 <p>(In the web page <a href="#markup" class="termref">markup</a> they are the &lt;title&gt; within the &lt;head&gt;.)</p>
 <p>The image below shows the page title &quot;Easy Checks - A First Review of Web Accessibility&quot; in the title bar, and the titles of 4 pages in the tabs. Note that in the tabs,  only the first part of the page title is shown.</p>
-<figure class="shrink-wrap"> <img src="{{ "/content-images/archive/" | relative_url }}page-title.png" alt="" width="674" height="100"/>
+<figure class="shrink-wrap"> <img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}page-title.png" alt="" width="674" height="100"/>
   <figcaption class="figcaption">Figure: Firefox browser with full title  in the title bar and partial titles in the tabs.</figcaption>
 </figure>
 <p>Good page titles are particularly important for  orientation — to help people know where they are and move between pages open in their browser. The first thing screen readers say when the user goes to a different web page is the page title.</p>
@@ -299,7 +299,7 @@ Text Transcript with Description of Visuals
       <ul>
         <li>With your mouse, hover over the browser tab to see the full page title, like this:<br />
           <figure class="shrink-wrap">
-            <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}page-title-tab-popup.png" alt="" width="674" height="110" /></div>
+            <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}page-title-tab-popup.png" alt="" width="674" height="110" /></div>
             <figcaption class="figcaption">Figure: Page title in popup, displayed with mouse hover over tab.</figcaption>
           </figure>
         </li>
@@ -330,7 +330,7 @@ Text Transcript with Description of Visuals
 
 <h2 id="images">Image text alternatives (&quot;alt text&quot;)</h2>
 <p>Text alternatives (&quot;alt text&quot;) convey the purpose of an image, including pictures, illustrations, charts, etc. Text alternatives are used by people who do not see the image. (For example, people who are blind and use screen readers can hear the alt text read out; and people who have turned off images to speed download or save bandwidth can see the alt text.)</p>
-<p>The text should be functional and provide an equivalent user experience, not necessarily describe the image. (For example,  appropriate text alternative for a search button <img src="{{ "/content-images/archive/" | relative_url }}search-button.png" alt="" width="36" height="24" /> would be &quot;search&quot;, not &quot;magnifying glass&quot;.)</p>
+<p>The text should be functional and provide an equivalent user experience, not necessarily describe the image. (For example,  appropriate text alternative for a search button <img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}search-button.png" alt="" width="36" height="24" /> would be &quot;search&quot;, not &quot;magnifying glass&quot;.)</p>
 <p class="listintro">You don&#39;t usually see the alt text on a web page, it is in the web page <a href="#markup" class="termref">markup</a> (like this:<br />
   <code>&lt;img src=&quot;pointer_to_image.png&quot; alt=&quot;here's where the alternative text goes&quot;&gt;</code>).<br />
   Every image should include <code>alt</code> in the markup.</p>
@@ -379,7 +379,7 @@ Text Transcript with Description of Visuals
     <li>Open the web page you are checking.</li>
     <li>In the toolbar, select &quot;Images&quot;, then &quot;Show Images&quot;. Or, with the keyboard: Ctrl/cmd+Alt+4, then arrow down to &quot;Show Images&quot;<br />
       <figure class="shrink-wrap">
-        <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}alt-ie.png" alt="" width="674" height="223" /></div>
+        <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}alt-ie.png" alt="" width="674" height="223" /></div>
         <figcaption class="figcaption">Figure:  IE WAT toolbar with 'Images' drop down and 'Show Images' highlighted.</figcaption>
       </figure>
       <em>If there are any images missing alt, a dialog box appears with the number of images without alt attributes.<br/>
@@ -397,7 +397,7 @@ Text Transcript with Description of Visuals
     <li>In the toolbar, select &quot;Images&quot;, then &quot;Outline Images&quot;, then &quot;Outline Images Without Alt Attributes&quot;. Or, with the keyboard: Alt+T, W (to Web Developer Extension), I, O, A<br />
       <em>Red boxes appear around any images missing alt.</em><br>
       <figure class="shrink-wrap">
-        <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}alt-ff-missing.png" width="676" height="278" alt=""/></div>
+        <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}alt-ff-missing.png" width="676" height="278" alt=""/></div>
         <figcaption class="figcaption">Figure:  WebDev toolbar menu, and red boxes around images.</figcaption>
       </figure>
     </li>
@@ -405,7 +405,7 @@ Text Transcript with Description of Visuals
     <li>In the toolbar, select &quot;Images&quot;, then &quot;Display Alt Attributes&quot;. Or, with the keyboard: Alt+T, W (to Web Developer Extension), I, A <br />
       <em>The alt text will be displayed before the images as white letters on a red background.</em><br>
       <figure class="shrink-wrap">
-        <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}ff-toolbar-display-alt.png" alt="" width="674" height="175" /></div>
+        <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}ff-toolbar-display-alt.png" alt="" width="674" height="175" /></div>
         <figcaption class="figcaption">Figure:  WebDev toolbar menu, and alt text displayed.</figcaption>
       </figure>
     </li>
@@ -420,11 +420,11 @@ Text Transcript with Description of Visuals
     <li>Type the website address in the box after &quot;Enter the URL of the web site you want to evaluate:&quot;</li>
     <li>Click the &quot;WAVE this page!&quot; button.<br/>
       <em>Your web page will show up in the browser with lots of little icons on it.</em></li>
-    <li>To check for missing alt: Look for the red alt icon (<img src="{{ "/content-images/archive/" | relative_url }}alt_missing.png" alt="Red Alt Missing WAVE Tool Icon" />), or search for the alt text &quot;ERROR: Missing alt text&quot;. If you find it, that means the following image is missing alt.</li>
+    <li>To check for missing alt: Look for the red alt icon (<img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}alt_missing.png" alt="Red Alt Missing WAVE Tool Icon" />), or search for the alt text &quot;ERROR: Missing alt text&quot;. If you find it, that means the following image is missing alt.</li>
     <li>To check if alt text is appropriate: <br/>
-      Look for the green alt icon (<img src="{{ "/content-images/archive/" | relative_url }}alt.png" alt="Green Alt Exists WAVE Tool Icon" />). Next to it is text on a light blue background; the alt text is in between the asterisks (*). See if that text adequately conveys the information in the image it is next to, per the Tips above.
+      Look for the green alt icon (<img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}alt.png" alt="Green Alt Exists WAVE Tool Icon" />). Next to it is text on a light blue background; the alt text is in between the asterisks (*). See if that text adequately conveys the information in the image it is next to, per the Tips above.
       <figure class="shrink-wrap">
-        <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}alt-wave5.png" alt="" width="676" height="314"/></div>
+        <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}alt-wave5.png" alt="" width="676" height="314"/></div>
         <figcaption class="figcaption">Figure: WAVE showing alt text.</figcaption>
       </figure>
     </li>
@@ -502,12 +502,12 @@ Text Transcript with Description of Visuals
 <p class="listintro">The checks below provide instructions with different browsers for how to get an outline from headings or headings markup in a page.</p>
 <p>Headings outline: an outline of the headings that are marked up on page, for example:</p>
 <figure class="shrink-wrap">
-  <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}headings-outline.png" alt="" width="674" height="263" /></div>
+  <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}headings-outline.png" alt="" width="674" height="263" /></div>
   <figcaption class="figcaption">Figure: Outline of headings.</figcaption>
 </figure>
 <p>Headings markup in page: a view of the page with the heading markup shown, for example:</p>
 <figure class="shrink-wrap">
-  <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}headings-in-page.png" alt="" width="674" height="230" /></div>
+  <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}headings-in-page.png" alt="" width="674" height="230" /></div>
   <figcaption class="figcaption">Figure: Heading markup in page.</figcaption>
 </figure>
 {% include excol.html type="start" id="" %}
@@ -603,7 +603,7 @@ Text Transcript with Description of Visuals
     <li>Type the website address in the box after &quot;Enter the URL of the web site you want to evaluate:&quot;</li>
     <li>Click the &quot;WAVE this page!&quot; button.<br/>
       <em>Your web page will show up in the browser with lots of little icons on it.</em> </li>
-    <li>Anything that is a functional heading should have a heading icon (<img src="{{ "/content-images/archive/" | relative_url }}h1.png" alt="H1 WAVE Tool Icon" />, <img src="{{ "/content-images/archive/" | relative_url }}h2.png" alt="H2 WAVE Tool Icon" />, <img src="{{ "/content-images/archive/" | relative_url }}h3.png" alt="H3 WAVE Tool Icon" />, etc.) before it.</li>
+    <li>Anything that is a functional heading should have a heading icon (<img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}h1.png" alt="H1 WAVE Tool Icon" />, <img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}h2.png" alt="H2 WAVE Tool Icon" />, <img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}h3.png" alt="H3 WAVE Tool Icon" />, etc.) before it.</li>
     <li>Anything that is a <b>not</b> functional heading should <b>not</b> have a heading icon before it.</li>
   </ol>
 {% include excol.html type="end" %}
@@ -635,18 +635,18 @@ Text Transcript with Description of Visuals
 <h2 id="contrast"> Contrast ratio (&quot;color contrast&quot;)</h2>
 <p>Some people cannot read text if there is not sufficient contrast between the text and background, for example,  light gray text on a light background.</p>
 <figure class="shrink-wrap">
-  <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}contrast-gray-white.png" alt="" width="301" height="127" /></div>
+  <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}contrast-gray-white.png" alt="" width="301" height="127" /></div>
   <figcaption class="figcaption">Figure: Gray text on light background. </figcaption>
 </figure>
 <p>High contrast (for example, dark text on light background or bright text on dark background) is required by some people with visual impairments, including many older people who lose contrast sensitivity from ageing.</p>
 <figure class="shrink-wrap">
-  <div class="figcontent"> <img src="{{ "/content-images/archive/" | relative_url }}contrast-b-on-w.png" alt="" width="301" height="127" /> <img class="last-of-type" src="{{ "/content-images/archive/" | relative_url }}contrast-yellow.png" alt="" width="301" height="127"/> </div>
+  <div class="figcontent"> <img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}contrast-b-on-w.png" alt="" width="301" height="127" /> <img class="last-of-type" src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}contrast-yellow.png" alt="" width="301" height="127"/> </div>
   <figcaption>Figure: Dark text on light background, and yellow text on black background.</figcaption>
 </figure>
 <!--figure-->
 <p>While some people need high contrast, for others &mdash; including some people with  reading disabilities such as dyslexia &mdash;  bright colors (high luminance) are not readable. They need low luminance.</p>
 <figure class="shrink-wrap">
-  <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}contrast-lowlum1.png" alt="" width="301" height="127" /><img class="last-of-type" src="{{ "/content-images/archive/" | relative_url }}contrast-lowlum2.png" alt="" width="301" height="127" /></div>
+  <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}contrast-lowlum1.png" alt="" width="301" height="127" /><img class="last-of-type" src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}contrast-lowlum2.png" alt="" width="301" height="127" /></div>
   <figcaption>Figure: Brown text on dark background, and dark text on medium brown background.</figcaption>
 </figure>
 <!--figure-->
@@ -687,7 +687,7 @@ Text Transcript with Description of Visuals
         <li>In the toolbar, select  Color &gt; Juicy Studio Luminosity Analyser.
           Or, with the
           keyboard: Ctrl/cmd+Alt+5, then down arrow to &quot;Juicy Studio   Luminosity Analyser&quot;.<br />
-          <img src="{{ "/content-images/archive/" | relative_url }}color-wat-table.png" alt="" width="700" height="72" class="imgbreathe" /><br />
+          <img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}color-wat-table.png" alt="" width="700" height="72" class="imgbreathe" /><br />
           <em>A  new window  opens titled Colour Contrast Analyser with the table of results. The last column is Luminosity Contrast Ratio.</em></li>
       </ul>
     </li>
@@ -746,7 +746,7 @@ Text Transcript with Description of Visuals
 </ul>
 <p>When pages are not designed properly, they  can be unusable when the text size is changed, especially when it is changed through  text-only zoom or text settings. Sometimes columns and sections overlap, the space between lines disappears,  lines of text become too long, or text disappears.</p>
 <figure class="shrink-wrap">
-  <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}zoom-100.png" alt="" width="305" height="224" /><img src="{{ "/content-images/archive/" | relative_url }}zoom-overlap.png" alt="" width="305" height="224" /></div>
+  <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}zoom-100.png" alt="" width="305" height="224" /><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}zoom-overlap.png" alt="" width="305" height="224" /></div>
   <figcaption>Figure: Two screen captures show that when text size is increased, the heading overlaps the main text, the main text overlaps the sidebar text; and the sidebar text is cut off at the bottom.</figcaption>
 </figure>
 <!--figure-->
@@ -844,11 +844,11 @@ Text Transcript with Description of Visuals
 <p>Keyboard focus should be visible and should follow a logical order through the page elements. Visible keyboard focus could be a  border or highlight, as shown below, that moves as  you tab through the web page.</p>
 <div class="multifigs">
   <figure class="shrink-wrap">
-    <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}focus-highlight-border.png" alt="" width="348" height="126" /></div>
+    <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}focus-highlight-border.png" alt="" width="348" height="126" /></div>
     <figcaption class="figcaption">Figure: Dotted border on middle link.</figcaption>
   </figure>
   <figure class="shrink-wrap">
-    <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}focus-highlight-field.jpg" alt="" width="412" height="150" /></div>
+    <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}focus-highlight-field.jpg" alt="" width="412" height="150" /></div>
     <figcaption class="figcaption">Figure: Name field is highlighted red.</figcaption>
   </figure>
 </div>
@@ -915,7 +915,7 @@ Text Transcript with Description of Visuals
 <p><em>Note: This section is more complex than the others. If it's too complicated, consider skipping it for now and proceeding through the remaining checks</em>.</p>
 <p>Labels, keyboard access, clear instructions, and effective error handling are  important for forms accessibility.</p>
 <p>Form fields and other form controls usually have visible labels, such as &quot;E-mail Address:&quot; as the label for a text field.<br />
-  <img src="{{ "/content-images/archive/" | relative_url }}form-label-text.png" width="242" height="29" alt="" class="imgbreathe"/><br />
+  <img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}form-label-text.png" width="242" height="29" alt="" class="imgbreathe"/><br />
   When these labels are <a href="#markup" class="termref">marked up</a> correctly,  people can interact with them using  only the keyboard, using voice input, and using screen readers. Also, the label itself becomes clickable, increasing the target area and making it easier to select small radio buttons or checkboxes.</p>
 <h3 class="whathead">What to do:</h3>
 <p class="whathead">Find  any forms on the page. A form could be a single text box, such as Search, or could be a complex form with text  fields, radio buttons, checkboxes, drop-down lists, and  buttons.</p>
@@ -930,9 +930,9 @@ Text Transcript with Description of Visuals
   <li>Check that the labels are positioned correctly. For left-to-right languages, labels should usually be:
     <ul>
       <li>Left of text boxes and drop-down lists.<br />
-        <img src="{{ "/content-images/archive/" | relative_url }}form-label-text.png" width="242" height="29" alt="" class="imgbreathe"/></li>
+        <img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}form-label-text.png" width="242" height="29" alt="" class="imgbreathe"/></li>
       <li>Right of radio buttons and checkboxes. <br/>
-        <img src="{{ "/content-images/archive/" | relative_url }}form-label-radio.png" alt="" width="216" height="64" class="imgbreathe"/> </li>
+        <img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}form-label-radio.png" alt="" width="216" height="64" class="imgbreathe"/> </li>
     </ul>
   </li>
 </ul>
@@ -971,7 +971,7 @@ Text Transcript with Description of Visuals
         <li> <em>A dialog box appears with the number of errors and controls.</em> <!-- <span class="changed">[@@ shall we explain &quot;to check out&quot;?] </span> -->
           <br>
           <figure class="shrink-wrap">
-            <div class="figcontent"> <img src="{{ "/content-images/archive/" | relative_url }}forms-wat-dialog.png" alt="" width="449" height="209" /> </div>
+            <div class="figcontent"> <img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}forms-wat-dialog.png" alt="" width="449" height="209" /> </div>
             <figcaption class="figcaption">Figure: IE WAT dialog box.</figcaption>
           </figure>
           <p><strong>The dialog box tells you the number of  identified errors, the total number of form controls, and the number of controls that you need to check manually. For the rest of the steps you need to look at the text around the labels. If this is difficult, you could skip the next steps.</strong></p>
@@ -979,12 +979,12 @@ Text Transcript with Description of Visuals
         <li><em>The form elements (labels and controls) are outlined in a red box, the markup is shown, and potential errors are indicated.<br />
           Example with no errors:</em><br />
           <figure class="shrink-wrap">
-            <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}forms-wat-good.png" alt="" width="674" height="316" /></div>
+            <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}forms-wat-good.png" alt="" width="674" height="316" /></div>
             <figcaption class="figcaption">Figure: Form markup shown. Date label includes format.</figcaption>
           </figure>
           <em>Example with potential errors:</em><br />
           <figure class="shrink-wrap">
-            <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}forms-wat-bad.png" alt="" width="674" height="305" /></div>
+            <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}forms-wat-bad.png" alt="" width="674" height="305" /></div>
             <figcaption class="figcaption">Figure: Form markup shown. Date label does not include format. Fieldset missing legend.</figcaption>
           </figure>
         </li>
@@ -1109,10 +1109,10 @@ Text Transcript with Description of Visuals
 </ul>
 <h4>Captions</h4>
 <p>(Captions are known as &quot;subtitles&quot; in some areas.)</p>
-<p>Most video on the web that provides captions has &quot;closed captions&quot; that can be turned on and off. (&quot;Open captions&quot; are always shown.) For example, in YouTube, you turn on captions with the CC button <img src="{{ "/content-images/archive/" | relative_url }}cc-button.png" alt="" width="26" height="21" /> (no known keyboard access). If there is not a CC button, there are no captions available for that video.</p>
+<p>Most video on the web that provides captions has &quot;closed captions&quot; that can be turned on and off. (&quot;Open captions&quot; are always shown.) For example, in YouTube, you turn on captions with the CC button <img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}cc-button.png" alt="" width="26" height="21" /> (no known keyboard access). If there is not a CC button, there are no captions available for that video.</p>
 <p>Automatic captions are not sufficient for accessibility because they are not accurate enough. For example, in YouTube, if only &quot;automatic captions&quot; are listed<!-- TODO Low Priority Add Image (as in the image above) -->, there are no sufficient captions and the video is not accessible. Captions in the specific language need to be listed.<!-- [@@ say more ?] --></p>
 <figure class="shrink-wrap">
-  <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}captions-both.png" alt="" width="231" height="173" /></div>
+  <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}captions-both.png" alt="" width="231" height="173" /></div>
   <figcaption class="figcaption">Figure: Captions listed: French (automatic captions), Norwegian.</figcaption>
 </figure>
 <p class="listintro">If there are captions, you can check that:</p>
@@ -1152,28 +1152,28 @@ Text Transcript with Description of Visuals
   <p>The images below illustrate how a web page is displayed in 3 columns by default and how it can be changed.</p>
   <p class="listintro">Figure A shows the default display of three columns, with the navigation at the left.</p>
   <figure class="shrink-wrap">
-    <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}lin-start.png" alt="" width="363" height="150"/></div>
+    <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}lin-start.png" alt="" width="363" height="150"/></div>
     <figcaption class="figcaption">Figure A.</figcaption>
   </figure>
   <p>Figure B shows the page linearized into one column, with the navigation at the top. Figure C shows the page  linearized, with the navigation at the bottom. The order of the sections (e.g., navigation at top or bottom or elsewhere) depends on how the web page is developed &mdash; the user usually cannot control the order.</p>
   <div class="multifigs">
     <figure class="shrink-wrap">
-      <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}lin-lin.png" alt="" width="359" height="278"/></div>
+      <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}lin-lin.png" alt="" width="359" height="278"/></div>
       <figcaption class="figcaption">Figure B.</figcaption>
     </figure>
     <figure class="shrink-wrap">
-      <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}lin-awk.png" alt="" width="359" height="278"/></div>
+      <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}lin-awk.png" alt="" width="359" height="278"/></div>
       <figcaption class="figcaption">Figure C.</figcaption>
     </figure>
   </div>
   <p>Figure D shows the page linearized and with styles turned off. When you follow the <a href="#bschecks">Basic structure checks steps below</a>, your page will look like something like this:</p>
   <figure class="shrink-wrap">
-    <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}lin-plain.png" alt="" width="359" height="266" /></div>
+    <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}lin-plain.png" alt="" width="359" height="266" /></div>
     <figcaption class="figcaption">Figure D.</figcaption>
   </figure>
   <p>Figure E shows the page changed by a person with low vision to make it more readable, for example, the main text is big, the footer text is very small, and the headings are a different color.</p>
   <figure class="shrink-wrap">
-    <div class="figcontent"><img src="{{ "/content-images/archive/" | relative_url }}lin-lv.png" alt="" width="359" height="429" /></div>
+    <div class="figcontent"><img src="{{ "/content-images/wai-easy-checks/archive/" | relative_url }}lin-lv.png" alt="" width="359" height="429" /></div>
     <figcaption class="figcaption">Figure E.</figcaption>
   </figure>
   <hr />

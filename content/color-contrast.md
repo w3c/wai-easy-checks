@@ -39,8 +39,8 @@ Color contrast refers to the contrast between:
 
 The following images show an example of the same part of a webpage. The first example has poor contrast and the second one has good contrast.
 
-![Example of webpage with poor contrast]({{ "/content-images/example-contrast-poor.png" | relative_url }}){:.normal}
-![Example of webpage with good contrast]({{ "/content-images/example-contrast-good.png" | relative_url }}){:.normal}
+![Example of webpage with poor contrast]({{ "/content-images/wai-easy-checks/example-contrast-poor.png" | relative_url }}){:.normal}
+![Example of webpage with good contrast]({{ "/content-images/wai-easy-checks/example-contrast-good.png" | relative_url }}){:.normal}
 
 Technically, color contrast is the relative luminance of two or more colors to each other, particularly between text and its background. The tools we can use to measure this take care of the math and make checking that we have enough contrast easy. 
 

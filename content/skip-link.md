@@ -31,7 +31,7 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 ## What is a Skip Link? 
 
-![Screenshot of a skip link]({{ "/content-images/example-skip-link.png" | relative_url }}){:.normal .right}
+![Screenshot of a skip link]({{ "/content-images/wai-easy-checks/example-skip-link.png" | relative_url }}){:.normal .right}
 
 Skip links can help users quickly move past blocks of content they do not want to navigate through. The most important instance of them is a skip navigation link. This is a link at the start of a page that allows keyboard users to move straight to the main content on a page allowing them to bypass the common content at the start of the pages. They can skip past, for example, search, menu and other navigation options. 
 

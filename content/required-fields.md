@@ -31,9 +31,9 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 ## What is a Required Field?
 
-![Example of field with asterisk to mark required status]({{ "/content-images/example-required-asterisk.png" | relative_url }}){:.normal .right}
+![Example of field with asterisk to mark required status]({{ "/content-images/wai-easy-checks/example-required-asterisk.png" | relative_url }}){:.normal .right}
 
-![Example of field with text to mark required status]({{ "/content-images/example-required-label.png" | relative_url }}){:.normal .right}
+![Example of field with text to mark required status]({{ "/content-images/wai-easy-checks/example-required-label.png" | relative_url }}){:.normal .right}
 
 A required form field must be completed before you submit a form.
 

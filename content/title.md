@@ -31,7 +31,7 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 ## What are Page Titles?
 
-![Example of webpage with title highlighted]({{ "/content-images/example-page-title.png" | relative_url }}){:.normal .right}
+![Example of webpage with title highlighted]({{ "/content-images/wai-easy-checks/example-page-title.png" | relative_url }}){:.normal .right}
 
 Page titles are:
 *   shown in the window title bar in some browsers
