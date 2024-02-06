@@ -123,7 +123,7 @@ You will be able to perform any of the following checks on any web page. The res
 {::nomarkdown}
 {% include box.html type="start" id="common" class="sections" h="2" title="Common checks" %}
 <div>
-  <p><img src="{{ "/content-images/icon-alt-text.svg" | relative_url }}" alt="" class="splash" /></p>
+  <p><img src="{{ "/content-images/wai-easy-checks/icon-alt-text.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
 
@@ -135,7 +135,7 @@ Image alternative text ("alt text") is a short description that conveys the purp
   </div>
 </div>
 <div>
-  <p><img src="{{ "/content-images/icon-page-title.svg" | relative_url }}" alt="" class="splash" /></p>
+  <p><img src="{{ "/content-images/wai-easy-checks/icon-page-title.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
 
@@ -147,7 +147,7 @@ Page titles are shown in the window title bar or tab in browsers. They are the f
   </div>
 </div>
 <div>
-  <p><img src="{{ "/content-images/icon-heading-structure.svg" | relative_url }}" alt="" class="splash" /></p>
+  <p><img src="{{ "/content-images/wai-easy-checks/icon-heading-structure.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
 
@@ -159,7 +159,7 @@ Headings communicate the organization of the content on the page, like a table o
   </div>
 </div>
 <div>
-  <p><img src="{{ "/content-images/icon-color-contrast.svg" | relative_url }}" alt="" class="splash" /></p>
+  <p><img src="{{ "/content-images/wai-easy-checks/icon-color-contrast.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
 
@@ -171,7 +171,7 @@ Color contrast refers to the difference between adjacent colors. Typically this 
   </div>
 </div>
 <div>
-  <p><img src="{{ "/content-images/icon-skip-link.svg" | relative_url }}" alt="" class="splash" /></p>
+  <p><img src="{{ "/content-images/wai-easy-checks/icon-skip-link.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
 
@@ -183,7 +183,7 @@ A skip link is the first interactive element on a page. People using keyboards, 
   </div>
 </div>
 <div>
-  <p><img src="{{ "/content-images/icon-keyboard-focus.svg" | relative_url }}" alt="" class="splash" /></p>
+  <p><img src="{{ "/content-images/wai-easy-checks/icon-keyboard-focus.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
 
@@ -195,7 +195,7 @@ Keyboard focus is a visible indicator that identifies the element with focus and
   </div>
 </div>
 <div>
-  <p><img src="{{ "/content-images/icon-page-language.svg" | relative_url }}" alt="" class="splash" /></p>
+  <p><img src="{{ "/content-images/wai-easy-checks/icon-page-language.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
 
@@ -207,7 +207,7 @@ Web pages should identify the primary language of the page. Specifying the langu
   </div>
 </div>
 <div>
-  <p><img src="{{ "/content-images/icon-zoom-levels.svg" | relative_url }}" alt="" class="splash" /></p>
+  <p><img src="{{ "/content-images/wai-easy-checks/icon-zoom-levels.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
 
@@ -228,7 +228,7 @@ Zoom is used to enlarge the text and images on web pages to make them more reada
 {::nomarkdown}
 {% include box.html type="start" id="audio-visual" class="sections" h="2" title="Audio/Visual Checks" %}
 <div>
-  <p><img src="{{ "/content-images/icon-captions.svg" | relative_url }}" alt="" class="splash" /></p>
+  <p><img src="{{ "/content-images/wai-easy-checks/icon-captions.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
 
@@ -240,7 +240,7 @@ Captions are a text version of the speech and non-speech audio information neede
   </div>
 </div>
 <div>
-  <p><img src="{{ "/content-images/icon-transcripts.svg" | relative_url }}" alt="" class="splash" /></p>
+  <p><img src="{{ "/content-images/wai-easy-checks/icon-transcripts.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
 
@@ -252,7 +252,7 @@ Transcripts are a text version of the speech and non-speech information in audio
   </div>
 </div>
 <div>
-  <p><img src="{{ "/content-images/icon-description.svg" | relative_url }}" alt="" class="splash" /></p>
+  <p><img src="{{ "/content-images/wai-easy-checks/icon-description.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
 
@@ -273,7 +273,7 @@ Audio description describes visual information needed to understand the content,
 {::nomarkdown}
 {% include box.html type="start" id="forms" class="sections" h="2" title="Form Checks" %}
 <div>
-  <p><img src="{{ "/content-images/icon-form-labels.svg" | relative_url }}" alt="" class="splash" /></p>
+  <p><img src="{{ "/content-images/wai-easy-checks/icon-form-labels.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
 
@@ -285,7 +285,7 @@ Form field labels are the text beside form fields. They should tell us what info
   </div>
 </div>
 <div>
-  <p><img src="{{ "/content-images/icon-required.svg" | relative_url }}" alt="" class="splash" /></p>
+  <p><img src="{{ "/content-images/wai-easy-checks/icon-required.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
 

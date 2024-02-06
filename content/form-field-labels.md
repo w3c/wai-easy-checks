@@ -33,7 +33,7 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 Form field labels are the text beside or above form fields. They should tell us what information to enter or what checkbox or radio button to select. 
 
-![Example of labeled login fields]({{ "/content-images/example-form-field-names.png" | relative_url }}){:.medium}
+![Example of labeled login fields]({{ "/content-images/wai-easy-checks/example-form-field-names.png" | relative_url }}){:.medium}
 
 ## Who depends on Form Field Labels?
 
@@ -92,7 +92,7 @@ To check other pages you need to add the check link as a bookmark.
 
 There are many ways to provide a label. To support assistive technology users, including mouse users, form elements must have a programatically associated label. When using the 'Check field labels' link, this is shown by the form element being marked as 'Labelled' and the form label being marked with 'Label for field with ID=...'. For example,
 
-<img src="{{ "/content-images/example-correct-label.png" | relative_url }}" alt="Example of form field with correctly associated label">
+![Example of form field with correctly associated label]({{ "/content-images/wai-easy-checks/example-correct-label.png" | relative_url }})
 
 Other checks to make include:
 

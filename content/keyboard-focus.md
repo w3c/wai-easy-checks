@@ -31,7 +31,7 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 ## What is Keyboard Focus?
 
-![Example of navigation field showing visible keyboard focus]({{ "/content-images/example-keyboard-focus.png" | relative_url }}){:.normal .right}
+![Example of navigation field showing visible keyboard focus]({{ "/content-images/wai-easy-checks/example-keyboard-focus.png" | relative_url }}){:.normal .right}
 
 Visible keyboard focus indicates which interactive element - link, button, form field - you might have moved to using the tab key.
 
