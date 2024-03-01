@@ -35,15 +35,15 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 Visible keyboard focus indicates which interactive element - link, button, form field - you might have moved to using the tab key.
 
-## Who depends on Keyboard Focus?
+## Why is Keyboard Focus important?
 
-Many people cannot use a mouse and rely on the keyboard to interact with the Web and need to see where they are. 
+People navigating by keyboard or voice need an indication about which element they’ve moved to.
 
 Many sighted users with physical disabilities will use the keyboard to navigate a web page, including:
+
 * people with quadriplegia
 * people with limited dexterity
 * people with tremors such as Parkinson's Disease
-* people who have broken their hand or wrist
 
 People who are blind also navigate the web with the keyboard, but will use non-visual cues to determine where they are.
 

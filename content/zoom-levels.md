@@ -34,11 +34,15 @@ Zoom is used to enlarge the text and images on web pages to make them more reada
 
 ![Example of an unzoomed webpage]({{ "/content-images/wai-easy-checks/example-zoom-nozoom.png" | relative_url }}){:.normal}&nbsp;![Example of an zoomed webpage]({{ "/content-images/wai-easy-checks/example-zoom-zoomed.png" | relative_url }}){:.normal}
 
-## Who depends on Zoom Levels?
+## Why is Zoom important?
 
-Many people with low vision use zoom to magnify text to make it readable. Some people just need to enlarge the text a little if they forgot their reading glasses. Others need to enlarge it a lot, for example up to 200% or even larger.
+Zoom is used to magnify text and other elements so it becomes readable for people with low vision.
 
 ## Checking Zoom Levels
+Some people just need to enlarge the text a little if they forgot their reading glasses. Others need to enlarge it a lot, for example up to 200% or even larger.
+
+
+## Checking Zoom
 
 ### Checking this page
 

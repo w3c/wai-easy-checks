@@ -37,9 +37,9 @@ Skip links can help users quickly move past blocks of content they do not want t
 
 Ideally the skip navigation link should be visible as the first link on the page. However, some designers like to hide it from view until it receives keyboard focus. This is acceptable as long as it becomes highly visible on focus.
 
-## Who depends on a Skip Link?
+## Why are Skip Links important?
 
-Anyone who uses the tab key to navigate rather than using a regular or virtual mouse. This includes:
+A skip link at the start of a page enables people navigating by keyboard to move quickly to the start of the main content on the page, bypassing the top navigation options and menu. This includes:
 
 * screen reader users
 * people with poor dexterity

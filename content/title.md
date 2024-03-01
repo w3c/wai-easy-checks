@@ -40,12 +40,11 @@ Page titles are:
 *   used for browser bookmarks/favorites
 *   read by screen readers
 
-## Who depends on Page Titles?
+## Why are Page Titles important?
 
-Good page titles are particularly important for orientation. They help people know where they are and move between pages open in their browser.
+The page title is the first information said by screen readers when opening a page. They help screen reader users understand what page is loading.
 
-Screen reader users need good page titles. The first thing screen readers say when the user goes to a different web page is the page title.
-
+Page titles are also reflected in the browser tabs names and assist screen reader users navigate among open tabs.
 ## Checking Page Titles
 
 ### Checking this page

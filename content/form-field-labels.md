@@ -35,12 +35,11 @@ Form field labels are the text beside or above form fields. They should tell us 
 
 ![Example of labeled login fields]({{ "/content-images/wai-easy-checks/example-form-field-names.png" | relative_url }}){:.medium}
 
-## Who depends on Form Field Labels?
+## Why are Form Field Labels important?
 
-Everyone needs labels to understand how to interact with a form. Some users need the labels to be coded correctly to be able to interact with the form. In particular:
+Form field labels that are coded correctly are important for people listening to the page being read out by a screen reader in order to know how to complete a form.
 
-* screen reader users need correctly coded form labels in order to them read out with each form element
-* people with poor dexterity need the visual label to be associated with the form field in the code to create a larger clickable area, especially for radio buttons and check boxes
+People with low dexterity using a mouse need the visual label to be associated with the form field in the code to create a larger clickable area, especially for radio buttons and checkboxes.
 
 ## Checking Form Field Labels
 

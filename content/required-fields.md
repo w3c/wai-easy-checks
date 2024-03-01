@@ -43,9 +43,9 @@ Some forms don't mark required fields but state that all fields are required unl
 
 A required field should also be flagged as required in the HTML code. This needs to include some visible indicator as well. If it doesn't then everyone is likely to receive an error message that the required fields haven't been completed.
 
-## Who depends on Required Fields?
+## Why are Required Fields important?
 
-All of us need to know which form fields are required as we fill in a form on the web.
+Indicating required fields visually is important for everyone to know what parts of a form they are required to complete.
 
 ## Checking for Required Fields
 

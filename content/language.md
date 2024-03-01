@@ -37,9 +37,9 @@ The following images show an examples of webpages in English, Japanese and Germa
 
 ![Example of Japanese webpage with JP declared]({{ "/content-images/wai-easy-checks/example-language-jp.png" | relative_url }}){:.medium} ![Example of German webpage with DE declared]({{ "/content-images/wai-easy-checks/example-language-de.png" | relative_url }}){:.medium}
 
-## Who depends on Language being identified?
+## Why is Language being identified important?
 
-People who use screen readers or other technologies that convert text into synthetic speech depend on the language being identified. This could include people who are blind and people with certain cognitive, language, and learning disabilities. When the language is identified, then the synthetic speech can use the proper pronunciation.
+The language of a page needs to be declared so that screen readers and other technologies that convert text into synthetic speech know how to correctly pronounce text.
 
 ## Checking Language
 

@@ -33,12 +33,13 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 
 Image alternative text (“alt text”) is a short description that conveys the purpose of an image. 
 
-## Who depends on Image Alternative Text?
+## Why is Image Alternative Text important?
 
-The alternative text for an image is essential for many people to help them understand the information on a page including:
-* People who can't see the image, or see it clearly, due to blindness or low vision and use a screen reader to have the page read to them
-* People who use a screen reader to aid in comprehension due to a learning disability or low literacy
-* People who might have very slow internet connection speeds, or low download limits, and turn images off
+Alternative text for images provides information about the image for people who can’t see it or may have difficulty understanding it. These include:
+
+* People who are blind and use a screen reader to access the information on a page
+* People with low vision that magnify the screen and also use text-to-speech
+* Some people with with learning or reading disabilities who have information read aloud
 
 ## Checking Image Alternative Text
 

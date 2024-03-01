@@ -50,15 +50,16 @@ Headings can have 1 of 6 levels assigned and should be nested by that level and 
   
 Headings should be succinct and describe the section or text of the page that follows.
 
-## Who depends on Headings?
+## Why are Headings important?
 
-Screen reader users often use page headings to navigate a web page. They can move from heading to heading in the page with the heading text and the heading level being announced. Many screen readers also provide a list of headings in a dialog as an overview of the page structure.
+![Screenshot of screen reader generated list of headings]({{ "/content-images/wai-easy-checks/example-headings.png" | relative_url }}){:.normal .right}
 
-![Screenshot of screen reader generated list of headings]({{ "/content-images/wai-easy-checks/headings-example.png" | relative_url }}){:.medium}
+Headings act as page navigation for many people. For example:
 
-Other low vision and sighted people rely on the visual headings to understand the topics and subtopics on a web page. They can quickly move to the section of interest.
+* Screen reader users can jump from heading to heading with a single keystroke. They can also access the heading structure and text in a dialogue box for an overview of the page.
+* People with low vision often rely on larger visual headings to understand the topics and subtopics on a web page before zooming in to read the smaller paragraph text.
+* Headings also help people with cognitive and learning or reading disabilities by helping them understand and focus on the topics within a page.
 
-Headings also help people with cognitive and learning or reading disability. They can help them understand and focus on the topics within a page and move to the section of interest.
 
 ## Checking Headings
 

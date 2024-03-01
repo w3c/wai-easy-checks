@@ -37,13 +37,11 @@ Captions are a text version of the speech and other sounds needed to understand 
 
 Most are "closed captions" that can be hidden or shown by people watching the video. They can be "open captions" that are always displayed and cannot be turned off.
 
-## Who depends on Captions?
+## Why are Captions important?
 
-* People who are Deaf, hard-of-hearing, or otherwise have difficulty hearing, or cannot hear, the sound depend on captions to provide audio content
-* Some people who process written information better than audio information
-* Some people also like to use captions to be sure they're not missing the dialogue due to a speaker's accent or quiet or fast speech, or loud background sounds
-* People in noisy environments or who have to keep noise levels down
-* People watching videos in their non-native language or learning a new language
+Captions provide a text version on the screen of the dialogue and other sounds for people who can’t hear, or have difficulty hearing, the audio in a video. 
+
+Captions also assist some people with learning disabilities or with difficulty concentrating to follow the video.
 
 ## Checking Captions
 

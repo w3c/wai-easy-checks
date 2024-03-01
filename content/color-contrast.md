@@ -44,12 +44,9 @@ The following images show an example of the same part of a webpage. The first ex
 
 Technically, color contrast is the relative luminance of two or more colors to each other, particularly between text and its background. The tools we can use to measure this take care of the math and make checking that we have enough contrast easy. 
 
-## Who depends on Color Contrast?
+## Why is Color Contrast important?
 
-* Many people with low vision need good contrast
-* Many people with color deficient vision (color blind) need good contrast
-* Many others need high contrast when in bright situations such being outdoors
-* Many people use colored filters or overlays on their screens or devices so they need good color contrast
+Good contrast is important for many people with low vision who have reduced contrast acuity. People with color deficient vision (‘color blindness’) often need good contrast too.
 
 ## Checking Color Contrast
 
