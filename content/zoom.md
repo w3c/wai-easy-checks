@@ -1,8 +1,8 @@
 ---
 title: "Zoom Levels - Easy Checks"
-permalink: /test-evaluate/easy-checks/zoom-levels/
-ref: /test-evaluate/easy-checks/zoom-levels/
-nav_title: "Zoom Levels"
+permalink: /test-evaluate/easy-checks/zoom/
+ref: /test-evaluate/easy-checks/zoom/
+nav_title: "Zoom"
 
 lang: en
 layout: default
@@ -11,7 +11,7 @@ doc-note-type: draft
 
 github:
   repository: w3c/wai-easy-checks
-  path: content/zoom-levels.md
+  path: content/zoom.md
 
 navigation:
   previous: /test-evaluate/easy-checks/language/
@@ -28,7 +28,7 @@ footer: >
 ---
 
 
-## What is Zoom Level?
+## What is Zoom?
 
 Zoom is used to enlarge the text and images on web pages to make them more readable. In most browsers the 'Ctrl' or 'Cmd' with '+' will increase zoom. 'Ctrl' or 'Cmd' with '-' will reduce zoom and 'Ctrl' or 'Cmd' with '0' will reset it.
 
@@ -38,7 +38,6 @@ Zoom is used to enlarge the text and images on web pages to make them more reada
 
 Zoom is used to magnify text and other elements so it becomes readable for people with low vision.
 
-## Checking Zoom Levels
 Some people just need to enlarge the text a little if they forgot their reading glasses. Others need to enlarge it a lot, for example up to 200% or even larger.
 
 

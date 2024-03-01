@@ -207,11 +207,11 @@ Web pages should identify the primary language of the page. Specifying the langu
   </div>
 </div>
 <div>
-  <p><img src="{{ "/content-images/wai-easy-checks/icon-zoom-levels.svg" | relative_url }}" alt="" class="splash" /></p>
+  <p><img src="{{ "/content-images/wai-easy-checks/icon-zoom.svg" | relative_url }}" alt="" class="splash" /></p>
   <div>
 {:/}
 
-### [Zoom](/test-evaluate/easy-checks/zoom-levels/)
+### [Zoom](/test-evaluate/easy-checks/zoom/)
 
 Zoom is used to enlarge the text and images on web pages to make them more readable. Some people need to enlarge content in order to read it. When content is zoomed it still needs to legible and usable.
 

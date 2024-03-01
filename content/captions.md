@@ -14,7 +14,7 @@ github:
   path: content/captions.md
 
 navigation:
-  previous: /test-evaluate/easy-checks/zoom-levels/
+  previous: /test-evaluate/easy-checks/zoom/
   next: /test-evaluate/easy-checks/transcripts/
 
 acknowledgements: /test-evaluate/easy-checks/acknowledgements/

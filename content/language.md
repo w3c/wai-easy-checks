@@ -15,7 +15,7 @@ github:
 
 navigation:
   previous: /test-evaluate/easy-checks/keyboard-focus/
-  next: /test-evaluate/easy-checks/zoom-levels/
+  next: /test-evaluate/easy-checks/zoom/
 
 acknowledgements: /test-evaluate/easy-checks/acknowledgements/
 footer: >
