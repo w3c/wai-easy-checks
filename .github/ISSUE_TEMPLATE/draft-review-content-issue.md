@@ -1,14 +1,15 @@
 ---
 name: Draft review content issue
 about: 'Submit a content issue from a draft review '
-title: "(low/med/high) Content issue title"
+title: "(low/med/high) @@ ADD CONTENT ISSUE TITLE @@"
 labels: ''
 assignees: ''
 
 ---
+URL:
 
 Location: 
-*Example: "page: Image Maps. under Introduction heading, third paragraph" [link](https://www.url.com)*
+*Example: "Under Introduction heading, third paragraph"*
 
 Current wording:
 
