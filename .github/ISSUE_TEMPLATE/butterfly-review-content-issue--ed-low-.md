@@ -10,7 +10,7 @@ assignees: ''
 URL: 
 
 Location: 
-*Example: "page: Image Maps. under Introduction heading, third paragraph"*
+*Example: "Under Introduction heading, third paragraph"*
 
 Current wording:
 
