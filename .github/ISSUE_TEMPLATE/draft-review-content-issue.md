@@ -1,7 +1,7 @@
 ---
 name: Draft review content issue
 about: 'Submit a content issue from a draft review '
-title: "(low/med/high) @@ ADD CONTENT ISSUE TITLE @@"
+title: "(low/med/high) @@ Add title here @@"
 labels: ''
 assignees: ''
 
