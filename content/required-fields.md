@@ -69,7 +69,7 @@ Example form fields:
     <input id="name1" required="required">
   </p>
   <p>
-    <label for="name2">Surname *</label>
+    <label for="name2">Last name *</label>
     <input id="name2">
   </p>
   <p>
