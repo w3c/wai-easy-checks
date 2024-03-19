@@ -98,3 +98,16 @@ To check other pages you need to add the ‘Check images’ link as a bookmark.
 * Tip: [Write meaningful text alternatives for images](https://www.w3.org/WAI/tips/writing/#make-link-text-meaningful)
 * Tutorial: [Images](https://www.w3.org/WAI/tutorials/images/) in the W3C tutorials
 * [Understanding 1.1.1: Non-text Content](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html)
+
+<script>
+  function copyBookmarklet() {
+    navigator.clipboard.writeText("{{page.bookmarklet}}").then(
+      () => {
+        alert("Check copied");        
+      },
+      () => {
+        alert("Unable to copy the check");
+      },
+    );
+  }
+</script>

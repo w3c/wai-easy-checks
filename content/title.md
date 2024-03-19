@@ -105,3 +105,16 @@ For example:
 
 * Tip: [Provide informative, unique page titles](https://www.w3.org/WAI/tips/writing/#provide-informative-unique-page-titles)
 * [Understanding 2.4.2: Page Titled](https://www.w3.org/WAI/WCAG22/Understanding/page-titled.html)
+
+<script>
+  function copyBookmarklet() {
+    navigator.clipboard.writeText("{{page.bookmarklet}}").then(
+      () => {
+        alert("Check copied");        
+      },
+      () => {
+        alert("Unable to copy the check");
+      },
+    );
+  }
+</script>

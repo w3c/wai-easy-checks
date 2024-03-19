@@ -108,3 +108,16 @@ To check other pages you need to add the check link as a bookmark.
 
 * Tip: [Provide clear instructions](https://www.w3.org/WAI/tips/writing/#provide-clear-instructions)
 * [Understanding: 3.3.2: Labels or Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html)
+
+<script>
+  function copyBookmarklet() {
+    navigator.clipboard.writeText("{{page.bookmarklet}}").then(
+      () => {
+        alert("Check copied");        
+      },
+      () => {
+        alert("Unable to copy the check");
+      },
+    );
+  }
+</script>

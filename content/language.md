@@ -84,3 +84,16 @@ Note that this check does not identify language changes within a page.
 
 * [Understanding 3.1.1: Language of Page](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html)
 * [Understanding 3.1.2: Language of Parts](https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts)
+
+<script>
+  function copyBookmarklet() {
+    navigator.clipboard.writeText("{{page.bookmarklet}}").then(
+      () => {
+        alert("Check copied");        
+      },
+      () => {
+        alert("Unable to copy the check");
+      },
+    );
+  }
+</script>

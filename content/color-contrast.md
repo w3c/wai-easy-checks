@@ -102,3 +102,16 @@ Some tools allow you to sample the colors directly. For example, by using an eye
 * [Understanding 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum)
 * [Understanding 1.4.6: Contrast (Enhanced)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced)
 * [Understanding 1.4.11: Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html)
+
+<script>
+  function copyBookmarklet() {
+    navigator.clipboard.writeText("{{page.bookmarklet}}").then(
+      () => {
+        alert("Check copied");        
+      },
+      () => {
+        alert("Unable to copy the check");
+      },
+    );
+  }
+</script>
