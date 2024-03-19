@@ -35,7 +35,7 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 Color contrast refers to the contrast between:
 * text and the background color
 * interactive elements such as [focus indicators](/test-evaluate/easy-checks/keyboard-focus/) and their background
-* elements in a graph, chart of map that need to be understood
+* elements in a graph, chart or map that need to be understood
 
 The following images show an example of the same part of a webpage. The first example has poor contrast and the second one has good contrast.
 
