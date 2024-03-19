@@ -103,4 +103,5 @@ For example:
 
 ## Learn more
 
-* [Understanding: 2.4.2: Page Titled](https://www.w3.org/WAI/WCAG22/Understanding/page-titled.html)
+* Tip: [Provide informative, unique page titles](https://www.w3.org/WAI/tips/writing/#provide-informative-unique-page-titles)
+* [Understanding 2.4.2: Page Titled](https://www.w3.org/WAI/WCAG22/Understanding/page-titled.html)

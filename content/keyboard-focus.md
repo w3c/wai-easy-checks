@@ -88,5 +88,6 @@ To check other pages you need to add the check link as a bookmark.
 
 ## Learn more
 
+* Tip: [Ensure that interactive elements are easy to identify](https://www.w3.org/WAI/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
 * [Functionality is available from a keyboard](https://www.w3.org/WAI/fundamentals/accessibility-principles/#keyboard)
 * [Understanding 2.4.7: Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible)

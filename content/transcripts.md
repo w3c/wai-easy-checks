@@ -104,6 +104,6 @@ Transcripts are important for people who are deafblind to understand a video. Sc
 
 ## Learn more
 
-* [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](/media/av/users-orgs/)
-* [Transcripts, in Making Audio and Video Media Accessible](/media/av/transcripts/)
+* [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](https://www.w3.org/WAI/media/av/users-orgs/)
+* [Transcripts, in Making Audio and Video Media Accessible](https://www.w3.org/WAI/media/av/transcripts/)
 * [Understanding SC 1.2.8: Media Alternative (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded.html)

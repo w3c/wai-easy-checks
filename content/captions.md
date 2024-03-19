@@ -63,6 +63,6 @@ Find out why [automatically-generated captions do not meet user needs or accessi
 
 ## Learn more
 
-* [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](/WAI/media/av/users-orgs/)
-* [Captions/Subtitles, in Making Audio and Video Media Accessible](/WAI/media/av/captions/)
+* [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](https://www.w3.org/WAI/media/av/users-orgs/)
+* [Captions/Subtitles, in Making Audio and Video Media Accessible](https://www.w3.org/WAI/media/av/captions/)
 * [Understanding 1.2.2: Captions (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)?

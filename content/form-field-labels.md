@@ -101,6 +101,7 @@ Other checks to make include:
 
 ## Learn more
 
-* [Associate a label with every form control](https://www.w3.org/WAI/tips/developing/#associate-a-label-with-every-form-control) in the Tips for Developers page
-* [Labeling Controls](https://www.w3.org/WAI/tutorials/forms/labels/) in the Forms tutorial
+* Tip: [Ensure that form elements include clearly associated labels](https://www.w3.org/WAI/tips/designing/#ensure-that-form-elements-include-clearly-associated-labels)
+* Tip: [Associate a label with every form control](https://www.w3.org/WAI/tips/developing/#associate-a-label-with-every-form-control) in the Tips for Developers page
+* Tutorial: [Labeling Controls](https://www.w3.org/WAI/tutorials/forms/labels/)
 * [Understanding 3.3.2: Labels or Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html)

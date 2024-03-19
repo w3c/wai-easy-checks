@@ -107,5 +107,8 @@ To check other pages you need to add the check link as a bookmark.
 
 ## Learn more
 
-* [Headings tutorial](https://www.w3.org/WAI/tutorials/page-structure/headings/) in the W3C Page Structure tutorial
-* [Use headings to convey meaning and structure](https://www.w3.org/WAI/tips/writing/#use-headings-to-convey-meaning-and-structure) in the W3C Writing for Web Accessibility page
+* Story: [Someone who uses headings to navigate a page](https://www.w3.org/WAI/people-use-web/user-stories/#accountant)
+* Tip: [Use headings to convey meaning and structure](https://www.w3.org/WAI/tips/writing/#use-headings-to-convey-meaning-and-structure)
+* Tip: [Use headings and spacing to group related content](https://www.w3.org/WAI/tips/designing/#use-headings-and-spacing-to-group-related-content)
+* Tutorial: [Headings](https://www.w3.org/WAI/tutorials/page-structure/headings/)
+* [Understanding 2.4.6: Headings and Labels](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html)
