@@ -18,6 +18,16 @@ footer: >
   <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Video developed with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245). <a href="/WAI/test-evaluate/acknowledgements">Acknowledgments for video</a>.</p>
 ---
 
+{::nomarkdown}
+{% include box.html type="start" title="New version" icon="checkmark" %}
+{:/}
+
+The draft new version of this Easy Checks resource is available at [https://www.w3.org/WAI/test-evaluate/easy-checks/](https://www.w3.org/WAI/test-evaluate/easy-checks/).
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
 <h2 class="no-display" id="introduction">Introduction</h2>
 <p><strong>This page helps you start to assess the accessibility of a web page. With these simple steps, you can get an idea whether or not accessibility is addressed in even the most basic way.</strong></p>
 
