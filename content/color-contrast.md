@@ -26,7 +26,7 @@ footer: >
     Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Updated as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.
   </p>
  
-bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-styles,%23wai-info-box%22).forEach(a=%3E{a.remove()}),document.querySelector(%22body%22).insertAdjacentHTML(%22afterbegin%22,%22%3Cstyle%20id='wai-styles'%3E%23wai-info-box{z-index:1000;color:black;font-family:Noto%20Sans,Trebuchet%20MS,Helvetica%20Neue,Arial,sans-serif;border:solid%201px%20%23ddd;background-color:%23fff;box-shadow:0%204px%208px%200%20rgba(0,0,0,0.2),0%206px%2020px%200%20rgba(0,0,0,0.19);}%23wai-info-box%20header{font-weight:700;background-color:%23f2f2f2;color:%23005a6a;padding:8px%2016px;}%23wai-info-box%20header%20a{float:right;text-decoration:none}%23wai-info-box%20div{padding:8px%2016px;}.wai-more-info{position:sticky;width:25%25;margin-left:70%25;bottom:5em;}body{filter:grayscale(1)}%3C/style%3E%22),document.querySelector(%22body%22).insertAdjacentHTML(%22beforeend%22,%22%3Caside%20id=%27wai-info-box%27%20class=%27wai-more-info%27%3E%3Cheader%3EFind%20out%20more%3Ca%20href=javascript:document.querySelectorAll(%27%23wai-styles,%23wai-info-box%27).forEach(function(el){el.remove()});%20aria-label=dismiss%3EX%3C/a%3E%3C/header%3E%3Cdiv%3E%3Ca%20href=%27https://w3.org/wai/easy-checks/color-contrast/%27%3EChecking%20Color%20Contrast%3C/a%3E%3C/div%3E%3C/aside%3E%22)}();
+bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-styles,%23wai-info-box%22).forEach(a=%3E{a.remove()}),document.querySelector(%22body%22).insertAdjacentHTML(%22afterbegin%22,%22%3Cstyle%20id='wai-styles'%3E%23wai-info-box{z-index:1000;color:black;font-family:Noto%20Sans,Trebuchet%20MS,Helvetica%20Neue,Arial,sans-serif;border:solid%201px%20%23ddd;background-color:%23fff;box-shadow:0%204px%208px%200%20rgba(0,0,0,0.2),0%206px%2020px%200%20rgba(0,0,0,0.19);}%23wai-info-box%20header{font-weight:700;background-color:%23f2f2f2;color:%23005a6a;padding:8px%2016px;}%23wai-info-box%20header%20a{float:right;text-decoration:none}%23wai-info-box%20div{padding:8px%2016px;}.wai-more-info{position:sticky;width:25%25;margin-left:70%25;bottom:5em;}body{filter:grayscale(1)}%3C/style%3E%22),document.querySelector(%22body%22).insertAdjacentHTML(%22beforeend%22,%22%3Caside%20id=%27wai-info-box%27%20class=%27wai-more-info%27%3E%3Cheader%3EFind%20out%20more%3Ca%20href=javascript:document.querySelectorAll(%27%23wai-styles,%23wai-info-box%27).forEach(function(el){el.remove()});%20aria-label=dismiss%3EX%3C/a%3E%3C/header%3E%3Cdiv%3E%3Ca%20href=%27https://w3.org/wai/test-evaluate/easy-checks/color-contrast/%27%3EChecking%20Color%20Contrast%3C/a%3E%3C/div%3E%3C/aside%3E%22)}();
 ---
 
 ## What is Color Contrast?
@@ -35,7 +35,7 @@ bookmarklet: javascript:void%20function(){document.querySelectorAll(%22%23wai-st
 Color contrast refers to the contrast between:
 * text and the background color
 * interactive elements such as [focus indicators](/test-evaluate/easy-checks/keyboard-focus/) and their background
-* elements in a graph, chart of map that need to be understood
+* elements in a graph, chart or map that need to be understood
 
 The following images show an example of the same part of a webpage. The first example has poor contrast and the second one has good contrast.
 
@@ -44,12 +44,9 @@ The following images show an example of the same part of a webpage. The first ex
 
 Technically, color contrast is the relative luminance of two or more colors to each other, particularly between text and its background. The tools we can use to measure this take care of the math and make checking that we have enough contrast easy. 
 
-## Who depends on Color Contrast?
+## Why is Color Contrast important?
 
-* Many people with low vision need good contrast
-* Many people with color deficient vision (color blind) need good contrast
-* Many others need high contrast when in bright situations such being outdoors
-* Many people use colored filters or overlays on their screens or devices so they need good color contrast
+Good contrast is important for many people with low vision who have reduced contrast acuity. People with color deficient vision (‘color blindness’) often need good contrast too.
 
 ## Checking Color Contrast
 
@@ -100,11 +97,21 @@ Some tools allow you to sample the colors directly. For example, by using an eye
 
 ## Learn more
 
-* [How a user with “color blindness” experiences the Web](https://www.w3.org/WAI/people-use-web/user-stories/#shopper)
+* Story: [How a user with “color blindness” experiences the Web](https://www.w3.org/WAI/people-use-web/user-stories/#shopper)
+* Tip: [Provide sufficient contrast between foreground and background](https://www.w3.org/WAI/tips/designing/#provide-sufficient-contrast-between-foreground-and-background)
 * [Understanding 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum)
 * [Understanding 1.4.6: Contrast (Enhanced)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced)
 * [Understanding 1.4.11: Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html)
 
-## Acknowledgements
-
-* [Paul Adam bookmarklet to convert to greyscale](https://pauljadam.com/demos/svg-line-chart.html) - No jQuery
+<script>
+  function copyBookmarklet() {
+    navigator.clipboard.writeText("{{page.bookmarklet}}").then(
+      () => {
+        alert("Check copied");        
+      },
+      () => {
+        alert("Unable to copy the check");
+      },
+    );
+  }
+</script>

@@ -45,9 +45,9 @@ For example,
 
 These videos are also available from the W3C website: <a href="https://www.w3.org/2020/10/TPAC/w3cx-challenging-assumptions.html#talk" >training video (web page)</a>, <a href="http://media.w3.org/wai/perspective-videos/text-to-speech-ad.mp4">story video (MP4 file size 28MB)</a>.
 
-## Who depends on Audio Description?
+## Why is Audio Description important?
 
-People who are blind, some people with low vision, and others who cannot see the video adequately depend on description of visual information in videos.
+Audio description is important for people who cannot see the video adequately including people who are blind and some people with low vision.
 
 ## Checking Audio Description
 
@@ -69,6 +69,6 @@ The exact text does not have to be included. However, all of the information in 
 
 ## Learn more
 
-* [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](/media/av/users-orgs/)
-* [Description of Visual Information, in Making Audio and Video Media Accessible](/media/av/description/)
+* [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](https://www.w3.org/WAI/media/av/users-orgs/)
+* [Description of Visual Information, in Making Audio and Video Media Accessible](https://www.w3.org/WAI/media/av/description/)
 * [Understanding 1.2.5: Audio Description (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html)

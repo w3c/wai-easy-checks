@@ -13,6 +13,6 @@ if(pageLang) {
 } else {
   message += 'Page language is not specified';
 }
-document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" tabindex="-1"><header>Page Language<a href=javascript:document.querySelectorAll("#wai-styles,#wai-info-box").forEach(function(el){el.remove()}); aria-label=dismiss>X</a></header><div>' + message + '<p>Find out more about <a href="https://www.w3.org/wai/easy-checks/language/">Checking Page Language</a></div></aside>');
+document.querySelector('body').insertAdjacentHTML('beforeend', '<aside id="wai-info-box" tabindex="-1"><header>Page Language<a href=javascript:document.querySelectorAll("#wai-styles,#wai-info-box").forEach(function(el){el.remove()}); aria-label=dismiss>X</a></header><div>' + message + '<p>Find out more about <a href="https://www.w3.org/wai/test-evaluate/easy-checks/language/">Checking Page Language</a></div></aside>');
 
 document.getElementById("wai-info-box").focus();

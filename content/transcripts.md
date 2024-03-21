@@ -85,13 +85,9 @@ Example part of descriptive transcript
 {% include box.html type="end" %}
 {:/}
 
-## Who depends on Transcripts?
+## Why are Transcripts important?
 
-People who are Deaf, are hard of hearing, or have difficulty processing auditory information use basic transcripts.
-
-People who are deafblind (both deaf and blind) need descriptive transcripts to understand audio and video content. 
-
-People who process text information better than they process audio and video information also use descriptive transcripts.
+Transcripts are important for people who are deafblind to understand a video. Screen reader users may also prefer the transcript over listening to the audio of the video.
 
 ## Checking Transcripts
 
@@ -108,6 +104,6 @@ People who process text information better than they process audio and video inf
 
 ## Learn more
 
-* [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](/media/av/users-orgs/)
-* [Transcripts, in Making Audio and Video Media Accessible](/media/av/transcripts/)
+* [User Experiences and Benefits to Organizations, in Making Audio and Video Media Accessible](https://www.w3.org/WAI/media/av/users-orgs/)
+* [Transcripts, in Making Audio and Video Media Accessible](https://www.w3.org/WAI/media/av/transcripts/)
 * [Understanding SC 1.2.8: Media Alternative (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded.html)

@@ -1,8 +1,8 @@
 ---
 title: "Zoom Levels - Easy Checks"
-permalink: /test-evaluate/easy-checks/zoom-levels/
-ref: /test-evaluate/easy-checks/zoom-levels/
-nav_title: "Zoom Levels"
+permalink: /test-evaluate/easy-checks/zoom/
+ref: /test-evaluate/easy-checks/zoom/
+nav_title: "Zoom"
 
 lang: en
 layout: default
@@ -11,7 +11,7 @@ doc-note-type: draft
 
 github:
   repository: w3c/wai-easy-checks
-  path: content/zoom-levels.md
+  path: content/zoom.md
 
 navigation:
   previous: /test-evaluate/easy-checks/language/
@@ -28,17 +28,20 @@ footer: >
 ---
 
 
-## What is Zoom Level?
+## What is Zoom?
 
 Zoom is used to enlarge the text and images on web pages to make them more readable. In most browsers the 'Ctrl' or 'Cmd' with '+' will increase zoom. 'Ctrl' or 'Cmd' with '-' will reduce zoom and 'Ctrl' or 'Cmd' with '0' will reset it.
 
 ![Example of an unzoomed webpage]({{ "/content-images/wai-easy-checks/example-zoom-nozoom.png" | relative_url }}){:.normal}&nbsp;![Example of an zoomed webpage]({{ "/content-images/wai-easy-checks/example-zoom-zoomed.png" | relative_url }}){:.normal}
 
-## Who depends on Zoom Levels?
+## Why is Zoom important?
 
-Many people with low vision use zoom to magnify text to make it readable. Some people just need to enlarge the text a little if they forgot their reading glasses. Others need to enlarge it a lot, for example up to 200% or even larger.
+Zoom is used to magnify text and other elements so it becomes readable for people with low vision.
 
-## Checking Zoom Levels
+Some people just need to enlarge the text a little if they forgot their reading glasses. Others need to enlarge it a lot, for example up to 200% or even larger.
+
+
+## Checking Zoom
 
 ### Checking this page
 
@@ -61,4 +64,6 @@ The same process will work on other pages. However, if the page hasn't been code
 * Sometimes navigation menus change to an icon that can be clicked to access the menu. This is fine
 
 ## Learn more
+
+* Story: [Someone with low vision who zooms to enlarge text](https://www.w3.org/WAI/people-use-web/user-stories/#retiree)
 * [Understanding 1.4.4: Resize Text](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html)

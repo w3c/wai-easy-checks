@@ -10,6 +10,6 @@ if(document.title) {
 } else {
   message += 'Page title is missing'; 
 }
-document.querySelector('body').insertAdjacentHTML('afterbegin','<aside id="wai-info-box" tabindex="-1"><header>Page Title<a href=javascript:document.querySelectorAll("#wai-styles,#wai-info-box").forEach(function(el){el.remove()}); aria-label=dismiss>X</a></header><div>' + message + '<p>Find out more about <a href="https://www.w3.org/wai/easy-checks/title/">Checking Page Title</a></div></aside>');
+document.querySelector('body').insertAdjacentHTML('afterbegin','<aside id="wai-info-box" tabindex="-1"><header>Page Title<a href=javascript:document.querySelectorAll("#wai-styles,#wai-info-box").forEach(function(el){el.remove()}); aria-label=dismiss>X</a></header><div>' + message + '<p>Find out more about <a href="https://www.w3.org/wai/test-evaluate/easy-checks/title/">Checking Page Title</a></div></aside>');
 
 document.getElementById("wai-info-box").focus();
