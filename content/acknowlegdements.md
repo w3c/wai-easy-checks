@@ -35,7 +35,8 @@ EOWG leadership:
 * Kris Anne Kinny, Educational Testing Service &mdash; EOWG Co-Chair
 * Shawn Lawton Henry &mdash; W3C Staff Contact for EOWG
 
-**Bookmarklets were adapted from creations by**:
+**Bookmarklets:**
+Bookmarklets with were adapted by [Kevin White](https://www.w3.org/People/kevin) from creations by:
 * [Paul Adam](https://pauljadam.com/bookmarklets/)
 * [Hinderlink Volkart](https://github.com/hinderlingvolkart/h123/)
 * [Ian Lloyd](https://a11y-tools.com/bookmarklets/)
